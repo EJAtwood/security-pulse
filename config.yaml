@@ -1,0 +1,40 @@
+# Security Feed Configuration
+# Add or remove feeds as needed
+
+feeds:
+  cisa:
+    name: "CISA Vulnerabilities"
+    url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    enabled: true
+  
+  hackernews:
+    name: "The Hacker News"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    enabled: true
+  
+  wiz:
+    name: "Wiz Security Blog"
+    url: "https://www.wiz.io/blog/rss.xml"
+    enabled: true
+  
+  darkreading:
+    name: "Dark Reading"
+    url: "https://www.darkreading.com/rss.xml"
+    enabled: true
+  
+  synacktiv:
+    name: "Synacktiv Security Research"
+    url: "https://www.synacktiv.com/en/publications/feed.xml"
+    enabled: false
+
+# Output settings
+output:
+  file: "SECURITY_FEED.md"
+  max_entries_per_feed: 5
+  include_description: false
+  sort_by_date: true
+
+# Feed fetch settings
+fetch:
+  timeout: 10
+  retry_count: 2

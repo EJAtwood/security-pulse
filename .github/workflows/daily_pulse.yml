@@ -1,0 +1,33 @@
+name: Daily Security Pulse
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # Runs at 12:00 UTC (roughly morning in the US)
+  workflow_dispatch: # Allows you to run it manually to test
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push the updated Markdown file
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Run Pulse Script
+        run: python pulse.py
+        
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add SECURITY_FEED.md
+          git commit -m "Update Security Pulse for $(date +'%Y-%m-%d')" || exit 0
+          git push
