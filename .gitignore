@@ -35,6 +35,5 @@ env/
 .DS_Store
 
 # Project specific
-SECURITY_FEED.md
 *.log
 .env
