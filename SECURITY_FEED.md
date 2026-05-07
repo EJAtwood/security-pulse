@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-07 02:58 UTC
+**Generated:** 2026-05-07 13:50 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -13,19 +13,19 @@ Latest vulnerability and AI-related security news from multiple sources.
 - **[Johnson Controls CEM AC2000](https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-05)**
 
 ## The Hacker News
-- **[Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks](https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html)**
-- **[MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack](https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html)**
-- **[The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open](https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html)**
-- **[Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?](https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html)**
-- **[Google's Android Apps Get Public Verification to Stop Supply Chain Attacks](https://thehackernews.com/2026/05/android-apps-get-public-verification.html)**
+- **[PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage](https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html)**
+- **[ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories](https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html)**
+- **[Day Zero Readiness: The Operational Gaps That Break Incident Response](https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html)**
+- **[PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux](https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html)**
+- **[vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution](https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html)**
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+- **[World's First AI-Driven Cyberattack Couldn't Breach OT Systems](https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems)**
+- **['TrustFall' Convention Exposes Claude Code Execution Risk](https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk)**
 - **[Yet Another Way to Bypass Google Chrome's Encryption Protection](https://www.darkreading.com/endpoint-security/yet-another-way-bypass-google-chromes-encryption-protection)**
 - **[Instructure Breach Exposes Schools' Vendor Dependence](https://www.darkreading.com/cyberattacks-data-breaches/instructure-breach-exposes-schools-vendor-dependence)**
 - **[From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber](https://www.darkreading.com/threat-intelligence/stuxnet-chatgpt-20-news-events-cyber)**
-- **[Attacks Abuse Windows Phone Link to Steal Texts &amp; Bypass 2FA](https://www.darkreading.com/cyberattacks-data-breaches/attacks-abuse-windows-phone-link-texts-bypass-2fa)**
-- **[Middle East Cyber Battle Field Broadens — Especially in UAE](https://www.darkreading.com/cyberattacks-data-breaches/middle-east-cyber-battle-field-broadens-uae)**
 
