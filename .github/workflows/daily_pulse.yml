@@ -19,6 +19,9 @@ jobs:
       EMAIL_TO: ${{ secrets.EMAIL_TO }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,10 +34,12 @@ jobs:
       - name: Run Pulse Script
         run: python pulse.py
 
-      - name: Commit and Push
+      - name: Commit, Rebase, and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add SECURITY_FEED.md
-          git commit -m "Update Security Pulse for $(date +'%Y-%m-%d')" || exit 0
-          git push
+          git commit -m "Update Security Pulse for $(date +'%Y-%m-%d')" || true
+          git fetch origin main
+          git rebase origin/main
+          git push origin main
