@@ -76,7 +76,20 @@ feeds:
 5. Initialize with README: **No** (we have our own)
 6. Click **Create repository**
 
-### 2. Push Your Code
+### 2. Add Email Secrets for GitHub Actions (optional)
+
+If you want daily email delivery, add these repository secrets:
+
+- `EMAIL_SMTP_SERVER`
+- `EMAIL_SMTP_PORT`
+- `EMAIL_USERNAME`
+- `EMAIL_PASSWORD`
+- `EMAIL_FROM`
+- `EMAIL_TO`
+
+Then enable email in `config.yaml` by setting `email.enabled: true` and updating `email.to`.
+
+### 3. Push Your Code
 
 ```bash
 cd security-pulse

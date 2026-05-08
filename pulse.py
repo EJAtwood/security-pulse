@@ -7,6 +7,9 @@ Fetches RSS feeds and generates a markdown security briefing.
 import feedparser
 import yaml
 import logging
+import os
+import smtplib
+from email.message import EmailMessage
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -132,7 +135,51 @@ class SecurityPulse:
         except Exception as e:
             logger.error(f"✗ Failed to save feed: {e}")
             raise
-    
+
+    def _send_email(self, subject: str, body: str) -> None:
+        """Send the generated feed via email if configured."""
+        email_config = self.config.get("email", {})
+        if not email_config.get("enabled", False):
+            logger.info("Email delivery disabled in config")
+            return
+
+        smtp_server = os.getenv("EMAIL_SMTP_SERVER") or email_config.get("smtp_server")
+        smtp_port = int(os.getenv("EMAIL_SMTP_PORT") or email_config.get("smtp_port", 587))
+        smtp_username = os.getenv("EMAIL_USERNAME") or email_config.get("username")
+        smtp_password = os.getenv("EMAIL_PASSWORD")
+        email_from = os.getenv("EMAIL_FROM") or email_config.get("from")
+        email_to = os.getenv("EMAIL_TO") or email_config.get("to")
+        use_ssl = email_config.get("use_ssl", False)
+
+        if not smtp_server or not smtp_username or not smtp_password or not email_from or not email_to:
+            logger.warning("Email is enabled but SMTP configuration is incomplete. Skipping email send.")
+            return
+
+        recipients = [addr.strip() for addr in str(email_to).split(",") if addr.strip()]
+        if not recipients:
+            logger.warning("No email recipients configured. Skipping email send.")
+            return
+
+        message = EmailMessage()
+        message["Subject"] = subject
+        message["From"] = email_from
+        message["To"] = ", ".join(recipients)
+        message.set_content(body)
+
+        try:
+            logger.info(f"Sending email notification to: {recipients}")
+            if use_ssl:
+                smtp = smtplib.SMTP_SSL(smtp_server, smtp_port, timeout=30)
+            else:
+                smtp = smtplib.SMTP(smtp_server, smtp_port, timeout=30)
+                smtp.starttls()
+            smtp.login(smtp_username, smtp_password)
+            smtp.send_message(message)
+            smtp.quit()
+            logger.info("✓ Email sent successfully")
+        except Exception as e:
+            logger.error(f"✗ Failed to send email: {e}")
+
     def run(self) -> None:
         """Run the full pulse aggregation pipeline."""
         logger.info("=" * 60)
@@ -142,6 +189,8 @@ class SecurityPulse:
         try:
             content = self.fetch_pulse()
             self.save_feed(content)
+            email_subject = self.config.get("email", {}).get("subject", "Security Pulse Daily Digest")
+            self._send_email(email_subject, content)
             logger.info("=" * 60)
             logger.info("✓ Security Pulse completed successfully!")
             logger.info("=" * 60)
