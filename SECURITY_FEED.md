@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-10 13:11 UTC
+**Generated:** 2026-05-11 14:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -13,19 +13,19 @@ Latest vulnerability and AI-related security news from multiple sources.
 - **[ABB B&R Automation Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03)**
 
 ## The Hacker News
+- **[⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More](https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html)**
+- **[Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room](https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html)**
+- **[Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads](https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html)**
 - **[Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak](https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html)**
 - **[cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now](https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html)**
-- **[TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms](https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html)**
-- **[Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads](https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html)**
-- **[One Click, Total Shutdown: The "Patient Zero" Webinar on Killing Stealth Breaches](https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html)**
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+- **[Hackers Use AI for Exploit Development, Attack Automation](https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation)**
+- **[Cyber Espionage Group Targets Aviation Firms to Steal Map Data](https://www.darkreading.com/vulnerabilities-threats/cyber-espionage-group-aviation-firms-steal-map-data)**
 - **[ShinyHunters Claims Second Attack Against Instructure](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-second-attack-instructure)**
 - **[After Replacing TeamPCP Malware, 'PCPJack' Steals Cloud Secrets](https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets)**
 - **[Has CISA Finally Found Its New Leader in Tom Parker?](https://www.darkreading.com/cybersecurity-operations/cisa-new-leader-tom-parker)**
-- **['TrustFall' Convention Exposes Claude Code Execution Risk](https://www.darkreading.com/application-security/trustfall-exposes-claude-code-execution-risk)**
-- **[AI-Driven Cyberattack on Mexico Couldn't Breach OT Systems](https://www.darkreading.com/ics-ot-security/worlds-first-ai-driven-cyberattack-couldnt-breach-ot-systems)**
 
