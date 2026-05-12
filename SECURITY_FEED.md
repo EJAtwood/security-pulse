@@ -1,31 +1,31 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-11 14:43 UTC
+**Generated:** 2026-05-12 14:15 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+- **[Software Bill of Materials for AI - Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)**
 - **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog)**
 - **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog)**
 - **[MAXHUB Pivot Client Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01)**
 - **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog)**
-- **[ABB B&R Automation Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-125-03)**
 
 ## The Hacker News
-- **[⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More](https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html)**
-- **[Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room](https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html)**
-- **[Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads](https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html)**
-- **[Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak](https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html)**
-- **[cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now](https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html)**
+- **[New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots](https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html)**
+- **[Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help](https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html)**
+- **[Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages](https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html)**
+- **[Why Agentic AI Is Security's Next Blind Spot](https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html)**
+- **[Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak](https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html)**
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+- **[20 Leaders Who Built the CISO Era: 2 Decades of Change](https://www.darkreading.com/cybersecurity-operations/20-leaders-ciso-era-2-decades-change)**
+- **[FCC Softens Ban on Foreign-Made Routers](https://www.darkreading.com/endpoint-security/fcc-softens-foreign-router-ban)**
+- **[Tech Can't Stop These Threats — Your People Can](https://www.darkreading.com/cyberattacks-data-breaches/tech-cant-stop-these-threats-people-can)**
+- **['Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros](https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros)**
 - **[Hackers Use AI for Exploit Development, Attack Automation](https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation)**
-- **[Cyber Espionage Group Targets Aviation Firms to Steal Map Data](https://www.darkreading.com/vulnerabilities-threats/cyber-espionage-group-aviation-firms-steal-map-data)**
-- **[ShinyHunters Claims Second Attack Against Instructure](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-second-attack-instructure)**
-- **[After Replacing TeamPCP Malware, 'PCPJack' Steals Cloud Secrets](https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets)**
-- **[Has CISA Finally Found Its New Leader in Tom Parker?](https://www.darkreading.com/cybersecurity-operations/cisa-new-leader-tom-parker)**
 
