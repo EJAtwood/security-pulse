@@ -1,31 +1,31 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-12 14:15 UTC
+**Generated:** 2026-05-13 14:26 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+- **[ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05)**
+- **[Subnet Solutions PowerSYSTEM Center](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02)**
 - **[Software Bill of Materials for AI - Minimum Elements](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)**
-- **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog)**
-- **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/07/cisa-adds-one-known-exploited-vulnerability-catalog)**
-- **[MAXHUB Pivot Client Application](https://www.cisa.gov/news-events/ics-advisories/icsa-26-127-01)**
-- **[CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/05/06/cisa-adds-one-known-exploited-vulnerability-catalog)**
+- **[ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06)**
+- **[ABB AC500 V3 Multiple Vulnerabilities](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03)**
 
 ## The Hacker News
-- **[New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots](https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html)**
-- **[Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help](https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html)**
-- **[Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages](https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html)**
-- **[Why Agentic AI Is Security's Next Blind Spot](https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html)**
-- **[Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak](https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html)**
+- **[Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday](https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html)**
+- **[Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation](https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html)**
+- **[[Webinar] Why Your AppSec Tools Miss the "Lethal Path" (and How to Fix It)](https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html)**
+- **[Most Remediation Programs Never Confirm the Fix Actually Worked](https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html)**
+- **[Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws](https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html)**
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+- **[LatAm Vibe Hackers Generate Custom Hacking Tools on the Fly](https://www.darkreading.com/cloud-security/ai-agents-generate-custom-hacking-tools)**
+- **[China's 'FamousSparrow' APT Nests in South Caucasus Energy Firm](https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-apt-south-caucasus-energy-firm)**
+- **[It's Patch Tuesday for Microsoft &amp; Not a Zero-Day In Sight](https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight)**
+- **[Hugging Face Packages Weaponized With a Single File Tweak](https://www.darkreading.com/cloud-security/hugging-face-packages-weaponized-single-file-tweak)**
 - **[20 Leaders Who Built the CISO Era: 2 Decades of Change](https://www.darkreading.com/cybersecurity-operations/20-leaders-ciso-era-2-decades-change)**
-- **[FCC Softens Ban on Foreign-Made Routers](https://www.darkreading.com/endpoint-security/fcc-softens-foreign-router-ban)**
-- **[Tech Can't Stop These Threats — Your People Can](https://www.darkreading.com/cyberattacks-data-breaches/tech-cant-stop-these-threats-people-can)**
-- **['Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros](https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros)**
-- **[Hackers Use AI for Exploit Development, Attack Automation](https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation)**
 
