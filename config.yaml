@@ -31,7 +31,7 @@ feeds:
 output:
   file: "SECURITY_FEED.md"
   max_entries_per_feed: 5
-  include_description: false
+  include_description: true
   sort_by_date: true
 
 # Feed fetch settings

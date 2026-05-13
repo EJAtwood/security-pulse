@@ -8,6 +8,7 @@ import feedparser
 import yaml
 import logging
 import os
+import re
 import smtplib
 from email.message import EmailMessage
 from datetime import datetime
@@ -71,6 +72,16 @@ class SecurityPulse:
         except (TypeError, ValueError, AttributeError):
             pass
         return datetime.now()
+
+    def _clean_summary(self, text: str, max_len: int = 180) -> str:
+        """Remove HTML and normalize the entry summary text."""
+        if not text:
+            return "No summary available."
+        clean = re.sub(r"<[^>]+>", "", text)
+        clean = re.sub(r"\s+", " ", clean).strip()
+        if len(clean) > max_len:
+            return clean[:max_len].rstrip() + "..."
+        return clean
     
     def fetch_pulse(self) -> str:
         """Fetch all configured feeds and generate markdown content."""
@@ -113,11 +124,13 @@ class SecurityPulse:
                 total_entries += 1
                 title = entry.get("title", "Untitled")
                 link = entry.get("link", "#")
-                
-                # Include description if configured
+                summary_source = entry.get("summary") or entry.get("description") or ""
+                summary = self._clean_summary(summary_source)
+
                 if self.config.get("output", {}).get("include_description", False):
-                    summary = entry.get("summary", "").replace("<[^<]+>", "")[:200]
-                    content += f"- **[{title}]({link})**\n  > {summary}...\n"
+                    content += f"### {title}\n\n"
+                    content += f"{summary}\n\n"
+                    content += f"[Read the full article]({link})\n\n"
                 else:
                     content += f"- **[{title}]({link})**\n"
             
