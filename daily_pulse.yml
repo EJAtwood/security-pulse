@@ -2,7 +2,7 @@ name: Daily Security Pulse
 
 on:
   schedule:
-    - cron: '0 12 * * *' # Runs at 12:00 UTC (roughly morning in the US)
+    - cron: '12 12 * * *' # Runs at 12:00 UTC (roughly morning in the US)
   workflow_dispatch: # Allows you to run it manually to test
 
 jobs:
