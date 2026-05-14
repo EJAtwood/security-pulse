@@ -1,81 +1,87 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-14 14:02 UTC
+**Generated:** 2026-05-14 20:14 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### ABB AC500 V3 Stack Buffer Overflow in Cryptographic Message Syntax
+### Siemens Siemens ROS#
 
-View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves publicly reported vulnerabilit...
+View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-05)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08)
 
-### Subnet Solutions PowerSYSTEM Center
+### Siemens gWAP
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to expose sensitive information or cause a CRLF injection. The following ve...
+View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-02)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01)
 
-### Software Bill of Materials for AI - Minimum Elements
+### Siemens SIMATIC
 
-CISA and the Group of Seven (G7) international partners—Germany, Canada, France, Italy, Japan, the United Kingdom, and the European Union—have released joint guidance, Software Bil...
+View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has release...
 
-[Read the full article](https://www.cisa.gov/resources-tools/resources/software-bill-materials-ai-minimum-elements)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10)
 
-### ABB WebPro SNMP Card PowerValue Multiple Vulnerabilities
+### Siemens Ruggedcom Rox
 
-View CSAF Summary ABB became aware of multiple internally discovered vulnerabilities in the WebPro SNMP card PowerValue for the product versions listed as affected in the advisory....
+View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary com...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-06)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12)
 
-### ABB AC500 V3 Multiple Vulnerabilities
+### Siemens Ruggedcom Rox
 
-View CSAF Summary ABB became aware of severe vulnerability in the products versions listed as affected in the advisory. An update is available that resolves these vulnerabilities....
+View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vulnerabilities. Siemens has released new versions for the affected products and recommends to update to...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-132-03)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-16)
 
 
 ## The Hacker News
+### Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access
+
+Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerabil...
+
+[Read the full article](https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html)
+
+### Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets
+
+Cybersecurity researchers are sounding the alarm about what has been described as "malicious activity" in newly published versions of node-ipc. According to Socket and StepSecurity...
+
+[Read the full article](https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html)
+
+### ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories
+
+Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some c...
+
+[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html)
+
+### Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike
+
+The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Gho...
+
+[Read the full article](https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html)
+
 ### PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure
 
 Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hou...
 
 [Read the full article](https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html)
 
-### How AI Hallucinations Are Creating Real Security Risks
-
-AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When...
-
-[Read the full article](https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html)
-
-### Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation
-
-An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escal...
-
-[Read the full article](https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html)
-
-### New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption
-
-Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it th...
-
-[Read the full article](https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html)
-
-### 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE
-
-Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The...
-
-[Read the full article](https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html)
-
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### 'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine
+
+Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine)
+
 ### AI Drives Cybersecurity Investments, Widening 'Valley of Death'
 
-In a role reversal, investment dollars in AI security startups exceeded the value of AI acquisitions in 1Q26 by more than $1 billion, a rare occurrence.
+In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death)
 
@@ -85,7 +91,7 @@ A Nitrogen ransomware attack on Foxconn's North American facilities is one of 60
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis)
 
-### Checkbox Assessments Aren't Fit to Measure to Risk
+### Checkbox Assessments Aren't Fit to Measure Risk
 
 Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.
 
@@ -96,11 +102,5 @@ Security governance needs to be more than an annual compliance exercise. New com
 Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.
 
 [Read the full article](https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops)
-
-### Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak
-
-An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak)
 
 
