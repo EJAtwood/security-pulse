@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-13 22:03 UTC
+**Generated:** 2026-05-14 14:02 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,41 +38,53 @@ View CSAF Summary ABB became aware of severe vulnerability in the products versi
 
 
 ## The Hacker News
-### Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday
+### PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure
 
-Microsoft has unveiled a new multi-model artificial intelligence (AI)-driven system called MDASH to facilitate vulnerability discovery and remediation at scale, adding that it's be...
+Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hou...
 
-[Read the full article](https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html)
+[Read the full article](https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html)
 
-### Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation
+### How AI Hallucinations Are Creating Real Security Risks
 
-A threat actor with affiliations to China has been linked to a "multi-wave intrusion" targeting an unnamed Azerbaijani oil and gas company between late December 2025 and late Febru...
+AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When...
 
-[Read the full article](https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html)
+[Read the full article](https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html)
 
-### [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud
+### Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation
 
-TL;DR: Stop chasing thousands of "toast" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a "Lethal Chain" to your data—and how to break it. Register...
+An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escal...
 
-[Read the full article](https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html)
+[Read the full article](https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html)
 
-### Most Remediation Programs Never Confirm the Fix Actually Worked
+### New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption
 
-Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean...
+Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it th...
 
-[Read the full article](https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html)
+[Read the full article](https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html)
 
-### Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws
+### 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE
 
-Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active atta...
+Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The...
 
-[Read the full article](https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html)
+[Read the full article](https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### AI Drives Cybersecurity Investments, Widening 'Valley of Death'
+
+In a role reversal, investment dollars in AI security startups exceeded the value of AI acquisitions in 1Q26 by more than $1 billion, a rare occurrence.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death)
+
+### Foxconn Attack Highlights Manufacturing's Cyber Crisis
+
+A Nitrogen ransomware attack on Foxconn's North American facilities is one of 600 hits on manufacturers this year, as gangs increasingly target the sector for its low tolerance for...
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis)
+
 ### Checkbox Assessments Aren't Fit to Measure to Risk
 
 Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.
@@ -90,17 +102,5 @@ Threat actors are publishing RubyGems packages that include scrapers targeting p
 An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak)
-
-### Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape
-
-Informa TechTarget's flagship cybersecurity media brand launches a special content series to mark two decades as a trusted source for cybersecurity professionals.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape)
-
-### China's 'FamousSparrow' APT Nests in South Caucasus Energy Firm
-
-The cyberthreat group targets an Azerbaijani oil and gas firm with repeated attacks, as the China-linked actors extend targeting beyond hospitality, telecom, and government sectors...
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-apt-south-caucasus-energy-firm)
 
 
