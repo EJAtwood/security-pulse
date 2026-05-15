@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-14 20:14 UTC
+**Generated:** 2026-05-15 13:59 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,69 +38,69 @@ View CSAF Summary Ruggedcom Rox before v2.17.1 contain multiple third-party vuln
 
 
 ## The Hacker News
+### What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface
+
+In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an...
+
+[Read the full article](https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html)
+
+### TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates
+
+OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user dat...
+
+[Read the full article](https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html)
+
+### On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email
+
+Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability...
+
+[Read the full article](https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html)
+
+### CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits
+
+The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited...
+
+[Read the full article](https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html)
+
 ### Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access
 
 Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerabil...
 
 [Read the full article](https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html)
 
-### Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets
-
-Cybersecurity researchers are sounding the alarm about what has been described as "malicious activity" in newly published versions of node-ipc. According to Socket and StepSecurity...
-
-[Read the full article](https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html)
-
-### ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories
-
-Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some c...
-
-[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html)
-
-### Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike
-
-The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Gho...
-
-[Read the full article](https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html)
-
-### PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure
-
-Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hou...
-
-[Read the full article](https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html)
-
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Cyber Pioneers Ponder Past as Prologue
+
+Robert &quot;RSnake&quot; Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20...
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue)
+
+### Taiwan Incident Highlights Cybersecurity Gaps in Rail Systems
+
+A Taiwanese student experimenting with software-defined radio technology shut down three bullet trains for nearly an hour, leading to an anti-terrorism response.
+
+[Read the full article](https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps)
+
+### SecurityScorecard Snags Driftnet to Level Up Threat Intelligence
+
+The acquisition looks to boost visibility into third-party ecosystems, which are becoming a bigger concern as vectors for supply chain attacks.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence)
+
+### Maximum Severity Cisco SD-WAN Bug Exploited in the Wild
+
+This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited)
+
 ### 'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine
 
 Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine)
-
-### AI Drives Cybersecurity Investments, Widening 'Valley of Death'
-
-In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death)
-
-### Foxconn Attack Highlights Manufacturing's Cyber Crisis
-
-A Nitrogen ransomware attack on Foxconn's North American facilities is one of 600 hits on manufacturers this year, as gangs increasingly target the sector for its low tolerance for...
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis)
-
-### Checkbox Assessments Aren't Fit to Measure Risk
-
-Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/checkbox-assessments-aren-t-fit-to-measure-to-risk)
-
-### Attackers Weaponize RubyGems for Data Dead Drops
-
-Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.
-
-[Read the full article](https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops)
 
 
