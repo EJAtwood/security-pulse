@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-16 13:15 UTC
+**Generated:** 2026-05-17 13:13 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,6 +38,18 @@ View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in th
 
 
 ## The Hacker News
+### Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt
+
+Grafana has disclosed that an "unauthorized party" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. "Our investi...
+
+[Read the full article](https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html)
+
+### Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
+
+A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooComme...
+
+[Read the full article](https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html)
+
 ### Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access
 
 The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persi...
@@ -55,18 +67,6 @@ Cybersecurity researchers have disclosed a set of four security flaws in OpenCla
 In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an...
 
 [Read the full article](https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html)
-
-### TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates
-
-OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user dat...
-
-[Read the full article](https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html)
-
-### On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email
-
-Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability...
-
-[Read the full article](https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html)
 
 
 ## Wiz Security Blog
