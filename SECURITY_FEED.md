@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-17 13:13 UTC
+**Generated:** 2026-05-18 15:23 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,35 +38,35 @@ View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in th
 
 
 ## The Hacker News
-### Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt
+### How to Reduce Phishing Exposure Before It Turns into Business Disruption
 
-Grafana has disclosed that an "unauthorized party" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. "Our investi...
+What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggl...
 
-[Read the full article](https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html)
+[Read the full article](https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html)
 
-### Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming
+### Developer Workstations Are Now Part of the Software Supply Chain
 
-A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooComme...
+Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three s...
 
-[Read the full article](https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html)
+[Read the full article](https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html)
 
-### Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access
+### Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
 
-The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persi...
+Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary...
 
-[Read the full article](https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html)
+[Read the full article](https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html)
 
-### Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence
+### MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems
 
-Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabil...
+Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escal...
 
-[Read the full article](https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html)
+[Read the full article](https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html)
 
-### What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface
+### Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware
 
-In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an...
+Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The...
 
-[Read the full article](https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html)
+[Read the full article](https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html)
 
 
 ## Wiz Security Blog
@@ -79,6 +79,18 @@ AI agents capable of discovering and exploiting obscure vulnerabilities are emer
 
 [Read the full article](https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt)
 
+### Can Laws Stop Deepfakes? South Korea Aims to Find Out
+
+South Korea's local elections next month will be a test bed for how effective regulations might be to stymie the flow of deepfakes.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea)
+
+### Congress Puts Heat on Instructure After Canvas Outage
+
+The House Committee on Homeland Security sent a letter about the Canvas cyberattack, the same day that the edtech company said it reached an &quot;agreement&quot; with the ShinyHun...
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks)
+
 ### Cyber Pioneers Ponder Past as Prologue
 
 Robert &quot;RSnake&quot; Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20...
@@ -90,17 +102,5 @@ Robert &quot;RSnake&quot; Hansen, Katie Moussouris, Rich Mogull, Richard Stienno
 A Taiwanese student experimenting with software-defined radio technology shut down three bullet trains for nearly an hour, leading to an anti-terrorism response.
 
 [Read the full article](https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps)
-
-### SecurityScorecard Snags Driftnet to Level Up Threat Intelligence
-
-The acquisition looks to boost visibility into third-party ecosystems, which are becoming a bigger concern as vectors for supply chain attacks.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence)
-
-### Maximum Severity Cisco SD-WAN Bug Exploited in the Wild
-
-This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited)
 
 
