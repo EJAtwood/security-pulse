@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-18 15:23 UTC
+**Generated:** 2026-05-19 14:54 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,69 +38,69 @@ View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in th
 
 
 ## The Hacker News
-### How to Reduce Phishing Exposure Before It Turns into Business Disruption
+### The New Phishing Click: How OAuth Consent Bypasses MFA
 
-What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggl...
+In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five...
 
-[Read the full article](https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html)
+[Read the full article](https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html)
 
-### Developer Workstations Are Now Part of the Software Supply Chain
+### Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare
 
-Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three s...
+Drupal has issued an alert stating that it intends to release a "core security release" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. "The Drupal Security Team urg...
 
-[Read the full article](https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html)
+[Read the full article](https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html)
 
-### Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws
+### SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access
 
-Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary...
+Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code...
 
-[Read the full article](https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html)
+[Read the full article](https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html)
 
-### MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems
+### Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
 
-Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escal...
+Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension...
 
-[Read the full article](https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html)
+[Read the full article](https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html)
 
-### Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware
+### Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials
 
-Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The...
+In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sen...
 
-[Read the full article](https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html)
+[Read the full article](https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### The Boring Stuff is Dangerous Now
+### Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution
 
-AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing de...
+Dark Reading editors reflect on two decades of dramatic change — from perimeter defense to assume-breach strategies — and warn that while AI, cloud, and COVID-19 have transformed t...
 
-[Read the full article](https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution)
 
-### Can Laws Stop Deepfakes? South Korea Aims to Find Out
+### Is 2026 the Year AI Bills of Materials Get Real?
 
-South Korea's local elections next month will be a test bed for how effective regulations might be to stymie the flow of deepfakes.
+Understanding AI BOMs and where they fit into risk management for artificial intelligence.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea)
+[Read the full article](https://www.darkreading.com/cyber-risk/is-2026-year-ai-bills-of-materials-get-real)
 
-### Congress Puts Heat on Instructure After Canvas Outage
+### Microsoft Exchange Zero-Day Under Attack, No Patch Available
 
-The House Committee on Homeland Security sent a letter about the Canvas cyberattack, the same day that the edtech company said it reached an &quot;agreement&quot; with the ShinyHun...
+CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch)
 
-### Cyber Pioneers Ponder Past as Prologue
+### 'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments
 
-Robert &quot;RSnake&quot; Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20...
+The now-patched vulnerabilities in the rapidly growing AI agent framework allow attackers to steal credentials, escalate privileges, and maintain persistence.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue)
+[Read the full article](https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw)
 
-### Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems
+### Shai-Hulud Worm Clones Spread After Code Release
 
-A Taiwanese student experimenting with software-defined radio technology shut down three bullet trains for nearly an hour, leading to an anti-terrorism response.
+The release of Shai-Hulud source code spells trouble for software developers as researchers worry the self-replicating worm could scale.
 
-[Read the full article](https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps)
+[Read the full article](https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release)
 
 
