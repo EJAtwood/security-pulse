@@ -1,106 +1,106 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-19 14:54 UTC
+**Generated:** 2026-05-20 14:56 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### Kieback & Peter DDC Building Controllers
 
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42897 Microsoft Exchange Server Cross-...
+View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback &amp; Peter DDC B...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/15/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05)
 
-### Siemens Siemens ROS#
+### Siemens RUGGEDCOM APE1808 Devices
 
-View CSAF Summary ROS# contains a ROS service file_server, that before version 2.2.2 contains a path traversal vulnerability which could allow an attacker to access, i.e. read and...
+View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-08)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02)
 
-### Siemens gWAP
+### ABB CoreSense HM and CoreSense M10
 
-View CSAF Summary Siemens gPROMS Web Applications Publisher (gWAP) is affected by a remote code execution vulnerability introduced through a third-party component, namely the Axios...
+View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products c...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-01)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01)
 
-### Siemens SIMATIC
+### ScadaBR
 
-View CSAF Summary SIMATIC CN 4100 contains multiple vulnerabilities which could potentially lead to a compromise in availability, integrity and confidentiality. Siemens has release...
+View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to perform unauthenticated remote code execution. The following versions of ScadaBR are a...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-10)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-03)
 
-### Siemens Ruggedcom Rox
+### ZKTeco CCTV Cameras
 
-View CSAF Summary Ruggedcom Rox contains an input validation vulnerability in the Scheduler functionality that could allow an authenticated remote attacker to execute arbitrary com...
+View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of Z...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-134-12)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04)
 
 
 ## The Hacker News
-### The New Phishing Click: How OAuth Consent Bypasses MFA
+### Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks
 
-In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five...
+Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct...
 
-[Read the full article](https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html)
+[Read the full article](https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html)
 
-### Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare
+### Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API
 
-Drupal has issued an alert stating that it intends to release a "core security release" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. "The Drupal Security Team urg...
+Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph...
 
-[Read the full article](https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html)
+[Read the full article](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)
 
-### SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access
+### Agent AI is Coming. Are You Ready?
 
-Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code...
+New Industry Data Just Released Suggests Not. On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, "identity dark matter"...
 
-[Read the full article](https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html)
+[Read the full article](https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html)
 
-### Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer
+### GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos
 
-Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension...
+GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and i...
 
-[Read the full article](https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html)
+[Read the full article](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
 
-### Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials
+### Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem
 
-In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sen...
+AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actu...
 
-[Read the full article](https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html)
+[Read the full article](https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution
+### Infosecurity Europe
 
-Dark Reading editors reflect on two decades of dramatic change — from perimeter defense to assume-breach strategies — and warn that while AI, cloud, and COVID-19 have transformed t...
+No summary available.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution)
+[Read the full article](https://www.darkreading.com/events/infosecurity-europe)
 
-### Is 2026 the Year AI Bills of Materials Get Real?
+### Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East
 
-Understanding AI BOMs and where they fit into risk management for artificial intelligence.
+While the numbers are modest, the crackdown on cybercrime involved 13 countries in the MENA region, the largest law enforcement collaboration to date.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/is-2026-year-ai-bills-of-materials-get-real)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east)
 
-### Microsoft Exchange Zero-Day Under Attack, No Patch Available
+### What It'll Take to Make AI BOMs Usable in a Modern Security Program
 
-CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.
+Five ways CISOs can prepare for consuming AI Bill of Materials and influence the direction of how they're generated.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch)
+[Read the full article](https://www.darkreading.com/cyber-risk/make-ai-bom-usable-modern-security-program)
 
-### 'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments
+### What Will Make AI BOMs Real?
 
-The now-patched vulnerabilities in the rapidly growing AI agent framework allow attackers to steal credentials, escalate privileges, and maintain persistence.
+A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).
 
-[Read the full article](https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw)
+[Read the full article](https://www.darkreading.com/cybersecurity-analytics/what-make-ai-bom-real)
 
-### Shai-Hulud Worm Clones Spread After Code Release
+### Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut
 
-The release of Shai-Hulud source code spells trouble for software developers as researchers worry the self-replicating worm could scale.
+Verizon's 2026 Data Breach Investigations Report (DBIR) finds that exploits are now involved in 31% of initial access for breaches, while patching lags too far behind the bad guys.
 
-[Read the full article](https://www.darkreading.com/application-security/shai-hulud-worm-clones-spread-code-release)
+[Read the full article](https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut)
 
 
