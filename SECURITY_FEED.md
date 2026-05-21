@@ -1,16 +1,28 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-20 14:56 UTC
+**Generated:** 2026-05-21 14:59 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+
+CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2008-4250 Microsoft Windows Buffer Over...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog)
+
 ### Kieback & Peter DDC Building Controllers
 
 View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback &amp; Peter DDC B...
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05)
+
+### ZKTeco CCTV Cameras
+
+View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of Z...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04)
 
 ### Siemens RUGGEDCOM APE1808 Devices
 
@@ -24,83 +36,71 @@ View CSAF Summary An update is available that resolves vulnerability in the prod
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01)
 
-### ScadaBR
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to perform unauthenticated remote code execution. The following versions of ScadaBR are a...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-03)
-
-### ZKTeco CCTV Cameras
-
-View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of Z...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04)
-
 
 ## The Hacker News
-### Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks
+### Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor
 
-Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct...
+Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle...
 
-[Read the full article](https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html)
+[Read the full article](https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html)
 
-### Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API
+### ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories
 
-Cybersecurity researchers have flagged fresh activity from a China-aligned threat actor known as Webworm in 2025, deploying custom backdoors that employ Discord and Microsoft Graph...
+This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: at...
 
-[Read the full article](https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html)
+[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html)
 
-### Agent AI is Coming. Are You Ready?
+### Microsoft Warns of Two Actively Exploited Defender Vulnerabilities
 
-New Industry Data Just Released Suggests Not. On May 19th, 2026, Orchid Security released the results of our Identity Gap: Snapshot 2026. Among the findings, "identity dark matter"...
+Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091,...
 
-[Read the full article](https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html)
+[Read the full article](https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html)
 
-### GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos
+### When Identity is the Attack Path
 
-GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and i...
+Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS...
 
-[Read the full article](https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html)
+[Read the full article](https://thehackernews.com/2026/05/when-identity-is-attack-path.html)
 
-### Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem
+### 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros
 
-AI-generated lookalike domains are now embedded inside the third-party scripts running on your web properties. Here's why your current stack can't see them, and what detection actu...
+Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS...
 
-[Read the full article](https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html)
+[Read the full article](https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Infosecurity Europe
+### Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks
 
-No summary available.
+&quot;Showboat&quot; doesn't show off, but clearly it doesn't need to, as it's long helped China spy on small market communications providers.
 
-[Read the full article](https://www.darkreading.com/events/infosecurity-europe)
+[Read the full article](https://www.darkreading.com/threat-intelligence/chinese-apts-linux-backdoor-telco-attacks)
 
-### Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East
+### Content Delivery Exploit Opens Websites to Brand Hijacking
 
-While the numbers are modest, the crackdown on cybercrime involved 13 countries in the MENA region, the largest law enforcement collaboration to date.
+The Underminr domain-fronting attack allows threat actors to modify Web requests and leverage trusted websites to cloak malicious activity.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east)
+[Read the full article](https://www.darkreading.com/cyber-risk/content-delivery-exploit-websites-brand-hijacking)
 
-### What It'll Take to Make AI BOMs Usable in a Modern Security Program
+### Cyber Pros Can't Decide If AI Is a Good or a Bad Thing
 
-Five ways CISOs can prepare for consuming AI Bill of Materials and influence the direction of how they're generated.
+There is nothing cybersecurity professionals are more excited about, and nothing they fear more, than AI.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/make-ai-bom-usable-modern-security-program)
+[Read the full article](https://www.darkreading.com/cybersecurity-analytics/cyber-pros-ai)
 
-### What Will Make AI BOMs Real?
+### GitHub Confirms Breach, 4K Internal Repos Stolen
 
-A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).
+GitHub confirmed a data breach this week involving the theft of thousands of developer code repositories. One threat actor — TeamPCP — took credit.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/what-make-ai-bom-real)
+[Read the full article](https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen)
 
-### Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut
+### Fake Android Apps Commit Carrier Billing Fraud for Premium Services
 
-Verizon's 2026 Data Breach Investigations Report (DBIR) finds that exploits are now involved in 31% of initial access for breaches, while patching lags too far behind the bad guys.
+The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.
 
-[Read the full article](https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut)
+[Read the full article](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
 
 
