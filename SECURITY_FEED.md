@@ -1,106 +1,106 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-21 14:59 UTC
+**Generated:** 2026-05-22 14:33 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### CISA Adds Seven Known Exploited Vulnerabilities to Catalog
+### ABB Terra AC Wallbox
 
-CISA has added seven new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2008-4250 Microsoft Windows Buffer Over...
+View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/20/cisa-adds-seven-known-exploited-vulnerabilities-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05)
 
-### Kieback & Peter DDC Building Controllers
+### Hitachi Energy GMS600
 
-View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take control of the victim's browser. The following versions of Kieback &amp; Peter DDC B...
+View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker succ...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-05)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01)
 
-### ZKTeco CCTV Cameras
+### ABB B&R Automation Studio
 
-View CSAF Summary Successful exploitation of this vulnerability could result in information disclosure, including capture of camera account credentials. The following versions of Z...
+View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party compone...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-04)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03)
 
-### Siemens RUGGEDCOM APE1808 Devices
+### ABB B&R Automation Runtime
 
-View CSAF Summary A buffer overflow vulnerability in the User-ID™ Authentication Portal (aka Captive Portal) service of Palo Alto Networks PAN-OS software allows an unauthenticated...
+View CSAF Summary An update is available that resolves a vulnerability identified by B&amp;Rs internal security analysis in the product versions listed as affected in this advisory...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-02)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04)
 
-### ABB CoreSense HM and CoreSense M10
+### ABB B&R PCs
 
-View CSAF Summary An update is available that resolves vulnerability in the product versions listed as affected in this advisory. A path traversal vulnerability in these products c...
+View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnera...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-139-01)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02)
 
 
 ## The Hacker News
-### Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor
+### Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows
 
-Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle...
+Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour...
 
-[Read the full article](https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html)
+[Read the full article](https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html)
 
-### ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories
+### Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective
 
-This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: at...
+1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for...
 
-[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html)
+[Read the full article](https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html)
 
-### Microsoft Warns of Two Actively Exploited Defender Vulnerabilities
+### Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks
 
-Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091,...
+The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known a...
 
-[Read the full article](https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html)
+[Read the full article](https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html)
 
-### When Identity is the Attack Path
+### CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV
 
-Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabili...
 
-[Read the full article](https://thehackernews.com/2026/05/when-identity-is-attack-path.html)
+[Read the full article](https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html)
 
-### 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros
+### Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access
 
-Cybersecurity researchers have disclosed details of a vulnerability in the Linux kernel that remained undetected for nine years. The vulnerability, tracked as CVE-2026-46333 (CVSS...
+Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked a...
 
-[Read the full article](https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html)
+[Read the full article](https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks
+
+Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks)
+
+### China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments
+
+The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.
+
+[Read the full article](https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs)
+
+### Google API Keys Remain Active After Deletion
+
+A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.
+
+[Read the full article](https://www.darkreading.com/identity-access-management-security/google-api-keys-active-after-deletion)
+
+### AI Agents Are Shifting Identity Security Budget Dynamics
+
+AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent ide...
+
+[Read the full article](https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents)
+
 ### Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks
 
 &quot;Showboat&quot; doesn't show off, but clearly it doesn't need to, as it's long helped China spy on small market communications providers.
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/chinese-apts-linux-backdoor-telco-attacks)
-
-### Content Delivery Exploit Opens Websites to Brand Hijacking
-
-The Underminr domain-fronting attack allows threat actors to modify Web requests and leverage trusted websites to cloak malicious activity.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/content-delivery-exploit-websites-brand-hijacking)
-
-### Cyber Pros Can't Decide If AI Is a Good or a Bad Thing
-
-There is nothing cybersecurity professionals are more excited about, and nothing they fear more, than AI.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/cyber-pros-ai)
-
-### GitHub Confirms Breach, 4K Internal Repos Stolen
-
-GitHub confirmed a data breach this week involving the theft of thousands of developer code repositories. One threat actor — TeamPCP — took credit.
-
-[Read the full article](https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen)
-
-### Fake Android Apps Commit Carrier Billing Fraud for Premium Services
-
-The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.
-
-[Read the full article](https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud)
 
 
