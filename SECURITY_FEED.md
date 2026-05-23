@@ -1,22 +1,16 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-22 14:33 UTC
+**Generated:** 2026-05-23 13:18 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### ABB Terra AC Wallbox
+### CISA Adds One Known Exploited Vulnerability to Catalog
 
-View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause...
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-9082 Drupal Core SQL Injection Vulnera...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05)
-
-### Hitachi Energy GMS600
-
-View CSAF Summary Hitachi Energy is aware of the vulnerability, CVE-2022-4304 in the OSS component OpenSSL, that affects the GMS600 versions that are listed below. An attacker succ...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-01)
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog)
 
 ### ABB B&R Automation Studio
 
@@ -24,11 +18,11 @@ View CSAF Summary ABB became aware of vulnerability in the product versions list
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03)
 
-### ABB B&R Automation Runtime
+### ABB Terra AC Wallbox
 
-View CSAF Summary An update is available that resolves a vulnerability identified by B&amp;Rs internal security analysis in the product versions listed as affected in this advisory...
+View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-04)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05)
 
 ### ABB B&R PCs
 
@@ -36,46 +30,58 @@ View CSAF Summary ABB became aware of vulnerability in the product versions list
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02)
 
+### CISA Adds Two Known Exploited Vulnerabilities to Catalog
+
+CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-34291 Langflow Origin Validation Err...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog)
+
 
 ## The Hacker News
-### Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows
+### Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
 
-Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour...
+Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most "systemically" important...
 
-[Read the full article](https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html)
+[Read the full article](https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html)
 
-### Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective
+### Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
 
-1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for...
+Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive cr...
 
-[Read the full article](https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html)
+[Read the full article](https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html)
 
-### Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks
+### LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
 
-The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known a...
+A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score...
 
-[Read the full article](https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html)
+[Read the full article](https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html)
 
-### CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV
+### Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabili...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (K...
 
-[Read the full article](https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html)
+[Read the full article](https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html)
 
-### Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access
+### First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups
 
-Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked a...
+Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomw...
 
-[Read the full article](https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html)
+[Read the full article](https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers
+
+When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.
+
+[Read the full article](https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers)
+
 ### Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks
 
-Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.
+Ransomware and vendor breaches persist. The &quot;2026 Data Breach Investigations Report&quot; (DBIR) highlights how evolving social engineering tactics make the sector more vulner...
 
 [Read the full article](https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks)
 
@@ -96,11 +102,5 @@ A security researcher discovered the API keys can still be used for up to 23 min
 AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent ide...
 
 [Read the full article](https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents)
-
-### Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks
-
-&quot;Showboat&quot; doesn't show off, but clearly it doesn't need to, as it's long helped China spy on small market communications providers.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/chinese-apts-linux-backdoor-telco-attacks)
 
 
