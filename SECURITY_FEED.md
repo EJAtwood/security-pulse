@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-23 13:18 UTC
+**Generated:** 2026-05-24 13:19 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,6 +38,18 @@ CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (K
 
 
 ## The Hacker News
+### npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
+
+GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the package...
+
+[Read the full article](https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html)
+
+### Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
+
+A new "coordinated" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases U...
+
+[Read the full article](https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html)
+
 ### Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
 
 Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most "systemically" important...
@@ -55,18 +67,6 @@ Cybersecurity researchers have flagged a fresh software supply chain attack camp
 A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score...
 
 [Read the full article](https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html)
-
-### Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (K...
-
-[Read the full article](https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html)
-
-### First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups
-
-Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomw...
-
-[Read the full article](https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html)
 
 
 ## Wiz Security Blog
