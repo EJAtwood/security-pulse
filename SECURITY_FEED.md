@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-24 13:19 UTC
+**Generated:** 2026-05-25 14:47 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,35 +38,35 @@ CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (K
 
 
 ## The Hacker News
+### Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
+
+Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin...
+
+[Read the full article](https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html)
+
+### The Alert Firehose Finally Meets Its Match
+
+Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear "Noisy," "Too much data." But ask the teams running NDR that includes agentic AI capabil...
+
+[Read the full article](https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html)
+
+### Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms
+
+Cybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financia...
+
+[Read the full article](https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html)
+
+### TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO
+
+A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed Tra...
+
+[Read the full article](https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html)
+
 ### npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
 
 GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the package...
 
 [Read the full article](https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html)
-
-### Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware
-
-A new "coordinated" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases U...
-
-[Read the full article](https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html)
-
-### Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software
-
-Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most "systemically" important...
-
-[Read the full article](https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html)
-
-### Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer
-
-Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive cr...
-
-[Read the full article](https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html)
-
-### LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root
-
-A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score...
-
-[Read the full article](https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html)
 
 
 ## Wiz Security Blog
