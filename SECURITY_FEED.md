@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-25 14:47 UTC
+**Generated:** 2026-05-26 15:17 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,41 +38,47 @@ CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (K
 
 
 ## The Hacker News
-### Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks
+### [THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back
 
-Threat actors are exploiting a recently disclosed critical security flaw in Ghost CMS to inject malicious JavaScript code with an aim to fuel ClickFix attacks. According to QiAnXin...
+Every single day, hackers are finding new ways to crash websites and steal data. But right now, something has changed. Hackers are no longer working alone. They are now using power...
 
-[Read the full article](https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html)
+[Read the full article](https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html)
 
-### The Alert Firehose Finally Meets Its Match
+### Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions
 
-Ask a cybersecurity pro about Network Detection and Response (NDR) and you might still hear "Noisy," "Too much data." But ask the teams running NDR that includes agentic AI capabil...
+Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialize...
 
-[Read the full article](https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html)
+[Read the full article](https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html)
 
-### Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms
+### MFA Prompt Bombing: Why Your Second Factor Isn't Saving You
 
-Cybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financia...
+Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log...
 
-[Read the full article](https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html)
+[Read the full article](https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html)
 
-### TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO
+### CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks
 
-A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed Tra...
+The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in internet-exposed systems withi...
 
-[Read the full article](https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html)
+[Read the full article](https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html)
 
-### npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks
+### Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning
 
-GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the package...
+The Iranian state-sponsored threat actor known as Nimbus Manticore (aka Screening Serpens and UNC1549) has been attributed to a fresh campaign using lures impersonating organizatio...
 
-[Read the full article](https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html)
+[Read the full article](https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Remembering Tim Wilson, Whose Legacy Lives on at Dark Reading
+
+The co-founder and former editor-in-chief passed away five years ago in November. As Dark Reading enters is third decade, we pause to celebrate and honor Wilson's instrumental role...
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/remembering-tim-wilson-legacy-dark-reading)
+
 ### Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers
 
 When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.
@@ -96,11 +102,5 @@ The advanced persistent threat group also relied on SOCKS proxies like SoftEther
 A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.
 
 [Read the full article](https://www.darkreading.com/identity-access-management-security/google-api-keys-active-after-deletion)
-
-### AI Agents Are Shifting Identity Security Budget Dynamics
-
-AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent ide...
-
-[Read the full article](https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents)
 
 
