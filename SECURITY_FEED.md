@@ -1,106 +1,106 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-26 15:17 UTC
+**Generated:** 2026-05-27 15:33 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### Eppendorf BioFlo 320
+
+View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01)
+
+### ABB Ability Camera Connect
+
+View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation packa...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05)
+
+### ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)
+
+View CSAF Summary An update is available that resolves a vulnerability identified by B&amp;Rs internal security analysis in the product versions listed as affected in this advisory...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04)
+
+### ABB LVS MConfig
+
+View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local ne...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06)
+
 ### CISA Adds One Known Exploited Vulnerability to Catalog
 
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-9082 Drupal Core SQL Injection Vulnera...
+CISA has added&nbsp;one&nbsp;new vulnerability&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2026-48172&nbsp;L...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/22/cisa-adds-one-known-exploited-vulnerability-catalog)
-
-### ABB B&R Automation Studio
-
-View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is available that replaces an outdated third-party compone...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-03)
-
-### ABB Terra AC Wallbox
-
-View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could cause...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-05)
-
-### ABB B&R PCs
-
-View CSAF Summary ABB became aware of vulnerability in the product versions listed as affected in the advisory. An update is now available that addresses and remediates the vulnera...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-141-02)
-
-### CISA Adds Two Known Exploited Vulnerabilities to Catalog
-
-CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-34291 Langflow Origin Validation Err...
-
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog)
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog)
 
 
 ## The Hacker News
-### [THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back
+### 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
 
-Every single day, hackers are finding new ways to crash websites and steal data. But right now, something has changed. Hackers are no longer working alone. They are now using power...
+When an employee installs an AI writing assistant, connects a coding copilot to their IDE, or starts summarizing meetings with a new browser tool, they are doing exactly what a pro...
 
-[Read the full article](https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html)
+[Read the full article](https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html)
 
-### Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions
+### GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure
 
-Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialize...
+CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWor...
 
-[Read the full article](https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html)
+[Read the full article](https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html)
 
-### MFA Prompt Bombing: Why Your Second Factor Isn't Saving You
+### 3 SOC Steps that Shut Down Incident Risks Early
 
-Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log...
+Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through...
 
-[Read the full article](https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html)
+[Read the full article](https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html)
 
-### CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks
+### Gitea Vulnerability Exposes Private Container Images without Authentication
 
-The Indian Computer Emergency Response Team (CERT-In) has issued new guidelines requiring organizations to patch critical security vulnerabilities in internet-exposed systems withi...
+Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull pr...
 
-[Read the full article](https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html)
+[Read the full article](https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html)
 
-### Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning
+### AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites
 
-The Iranian state-sponsored threat actor known as Nimbus Manticore (aka Screening Serpens and UNC1549) has been attributed to a fresh campaign using lures impersonating organizatio...
+Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions as a mechanism for surfacing malicious download sites....
 
-[Read the full article](https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html)
+[Read the full article](https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Remembering Tim Wilson, Whose Legacy Lives on at Dark Reading
+### Cybersecurity Evolution: How We Went From Perimeter Defense to AI-Native Security
 
-The co-founder and former editor-in-chief passed away five years ago in November. As Dark Reading enters is third decade, we pause to celebrate and honor Wilson's instrumental role...
+The cybersecurity industry of 2006 barely resembled today's billion-dollar behemoth. As part of Dark Reading's 20th anniversary celebration, we trace the industry's evolution throu...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/remembering-tim-wilson-legacy-dark-reading)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/cybersecurity-evolution-perimeter-defense-to-ai-native-security)
 
-### Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers
+### Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos
 
-When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.
+In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.
 
-[Read the full article](https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers)
+[Read the full article](https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos)
 
-### Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks
+### State Cyber Leaders Beg Congress for More Funding, Support
 
-Ransomware and vendor breaches persist. The &quot;2026 Data Breach Investigations Report&quot; (DBIR) highlights how evolving social engineering tactics make the sector more vulner...
+A recent congressional hearing highlighted how states are reeling from federal cutbacks to important cyber grants and information sharing initiatives amid damaging attacks to criti...
 
-[Read the full article](https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks)
+[Read the full article](https://www.darkreading.com/threat-intelligence/state-leaders-beg-congress-resume-cyber-funding)
 
-### China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments
+### Shai-Hulud Hackers TeamPCP: Lucky or Skilled?
 
-The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.
+TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.
 
-[Read the full article](https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs)
+[Read the full article](https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled)
 
-### Google API Keys Remain Active After Deletion
+### For Enterprises, Security Remains Agentic AI's Biggest Challenge
 
-A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.
+Every company needs an agentic AI strategy, but the tools to allow agentic AI frameworks to be safely and securely adopted are just starting to appear.
 
-[Read the full article](https://www.darkreading.com/identity-access-management-security/google-api-keys-active-after-deletion)
+[Read the full article](https://www.darkreading.com/application-security/enterprises-agentic-ai-security-biggest-challenge)
 
 
