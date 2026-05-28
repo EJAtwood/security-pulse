@@ -1,11 +1,17 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-27 15:33 UTC
+**Generated:** 2026-05-28 15:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds Three Known Exploited Vulnerabilities to Catalog
+
+CISA has added&nbsp;three&nbsp;new vulnerabilities&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-8398&nbsp;Daem...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+
 ### Eppendorf BioFlo 320
 
 View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of...
@@ -30,77 +36,71 @@ View CSAF Summary ABB became aware of an internally discovered vulnerability in 
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06)
 
-### CISA Adds One Known Exploited Vulnerability to Catalog
-
-CISA has added&nbsp;one&nbsp;new vulnerability&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2026-48172&nbsp;L...
-
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/26/cisa-adds-one-known-exploited-vulnerability-catalog)
-
 
 ## The Hacker News
-### 5 Steps to Managing Shadow AI Tools Without Slowing Down Employees
+### Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal
 
-When an employee installs an AI writing assistant, connects a coding copilot to their IDE, or starts summarizing meetings with a new browser tool, they are doing exactly what a pro...
+Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportuni...
 
-[Read the full article](https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html)
+[Read the full article](https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html)
 
-### GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure
+### ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More
 
-CrowdStrike, in partnership with Google and the Shadowserver Foundation, has announced the simultaneous disruption of all command-and-control (C2) channels associated with GlassWor...
+Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-...
 
-[Read the full article](https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html)
+[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html)
 
-### 3 SOC Steps that Shut Down Incident Risks Early
+### New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI "Power users"
 
-Most organizations still picture cyber defense as a fortress problem: build stronger walls, add more guards, buy another detection engine. But modern incidents rarely crash through...
+State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where t...
 
-[Read the full article](https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html)
+[Read the full article](https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html)
 
-### Gitea Vulnerability Exposes Private Container Images without Authentication
+### JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware
 
-Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull pr...
+A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-them...
 
-[Read the full article](https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html)
+[Read the full article](https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html)
 
-### AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites
+### Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users
 
-Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions as a mechanism for surfacing malicious download sites....
+Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively....
 
-[Read the full article](https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html)
+[Read the full article](https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Cybersecurity Evolution: How We Went From Perimeter Defense to AI-Native Security
+### Focus on Cyber Insurance: How Quantifying Risk Is Reshaping Security
 
-The cybersecurity industry of 2006 barely resembled today's billion-dollar behemoth. As part of Dark Reading's 20th anniversary celebration, we trace the industry's evolution throu...
+In this latest installment of the Reporters' Notebook video series, we discuss how cyber insurance is forcing organizations to quantify risk, what's covered (and what's not), and w...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/cybersecurity-evolution-perimeter-defense-to-ai-native-security)
+[Read the full article](https://www.darkreading.com/cyber-risk/focus-cyber-insurance-quantifying-risk-reshape-security)
 
-### Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos
+### BTMOB RAT Spreads Across Brazil, LatAm via MaaS Model
 
-In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.
+An advanced remote access Trojan is propagating online. Notably, it's delivered via an operator licensing model and features a no-code malware-development interface.
 
-[Read the full article](https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/btmob-rat-brazil-latam-maas-model)
 
-### State Cyber Leaders Beg Congress for More Funding, Support
+### Nordic CISOs Handle Rising Cyber Threats Remarkably Well
 
-A recent congressional hearing highlighted how states are reeling from federal cutbacks to important cyber grants and information sharing initiatives amid damaging attacks to criti...
+Artificial intelligence notwithstanding, the vast majority of CISOs in northern Europe say they're facing no more serious cyberattacks than they did two years ago.
 
-[Read the full article](https://www.darkreading.com/threat-intelligence/state-leaders-beg-congress-resume-cyber-funding)
+[Read the full article](https://www.darkreading.com/cybersecurity-analytics/nordic-cisos-rising-cyber-threats)
 
-### Shai-Hulud Hackers TeamPCP: Lucky or Skilled?
+### Ransomware Actors Show Up In Person to Steal Law Firm Data
 
-TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.
+The FBI warned that the extortion gang Silent Ransom Group is targeting law firms and social-engineering its way into servers and databases.
 
-[Read the full article](https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-actors-steal-law-firm-data)
 
-### For Enterprises, Security Remains Agentic AI's Biggest Challenge
+### Latin American Cybercriminals Hoover Up Government Data
 
-Every company needs an agentic AI strategy, but the tools to allow agentic AI frameworks to be safely and securely adopted are just starting to appear.
+A purported leak exposing 5.8 million records of Uruguayan citizens is the latest incident where cybercriminals targeted government agencies to monetize citizen data.
 
-[Read the full article](https://www.darkreading.com/application-security/enterprises-agentic-ai-security-biggest-challenge)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data)
 
 
