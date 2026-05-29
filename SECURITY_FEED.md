@@ -1,106 +1,106 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-28 15:43 UTC
+**Generated:** 2026-05-29 14:56 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### CISA Adds Three Known Exploited Vulnerabilities to Catalog
+### ABB EIBPORT
 
-CISA has added&nbsp;three&nbsp;new vulnerabilities&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-8398&nbsp;Daem...
+View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03)
 
-### Eppendorf BioFlo 320
+### Schnieider Electric EcoStruxure Machine Expert HVAC
 
-View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full access to functionality and data with the bioreactor. The following versions of...
+View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-146-01)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07)
 
-### ABB Ability Camera Connect
+### Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter
 
-View CSAF Summary ABB is aware of public reports of vulnerabilities in a 3rd party component VLC media player Version 2.2.4 which was delivered together with the installation packa...
+View CSAF Summary Successful exploitation of this vulnerability could result in an attacker gaining administrator access to the device. The following versions of Jinan USR IOT Tech...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-05)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02)
 
-### ABB B&R Automation Runtime DoS Vulnerability in System Diagnostics Manager (SDM)
+### ABB Busch-Welcome 2 Wire Door Opener Actuator
 
-View CSAF Summary An update is available that resolves a vulnerability identified by B&amp;Rs internal security analysis in the product versions listed as affected in this advisory...
+View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain p...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-04)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04)
 
-### ABB LVS MConfig
+### Fourth Frontier Frontier X Mobile Application, Frontier X2
 
-View CSAF Summary ABB became aware of an internally discovered vulnerability in the MConfig product versions listed as affected in the advisory. An attacker with access to local ne...
+View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result i...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-146-06)
+[Read the full article](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01)
 
 
 ## The Hacker News
-### Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal
+### New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
 
-Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportuni...
+A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 20...
 
-[Read the full article](https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html)
+[Read the full article](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)
 
-### ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More
+### What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks
 
-Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-...
+Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into productio...
 
-[Read the full article](https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html)
+[Read the full article](https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html)
 
-### New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI "Power users"
+### Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets
 
-State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where t...
+Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial syst...
 
-[Read the full article](https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html)
+[Read the full article](https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html)
 
-### JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware
+### Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels
 
-A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-them...
+The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corpora...
 
-[Read the full article](https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html)
+[Read the full article](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)
 
-### Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users
+### Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code
 
-Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively....
+A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certa...
 
-[Read the full article](https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html)
+[Read the full article](https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Focus on Cyber Insurance: How Quantifying Risk Is Reshaping Security
+### Name That Toon Contest
 
-In this latest installment of the Reporters' Notebook video series, we discuss how cyber insurance is forcing organizations to quantify risk, what's covered (and what's not), and w...
+No summary available.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/focus-cyber-insurance-quantifying-risk-reshape-security)
+[Read the full article](https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest)
 
-### BTMOB RAT Spreads Across Brazil, LatAm via MaaS Model
+### Asia's Cyber Insurance Market Shows Signs of Life
 
-An advanced remote access Trojan is propagating online. Notably, it's delivered via an operator licensing model and features a no-code malware-development interface.
+The cyber insurance industry has made relatively weak inroads into Asia due to a a variety of factors, but that could be changing.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/btmob-rat-brazil-latam-maas-model)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/asias-cyber-insurance-market-signs-of-life)
 
-### Nordic CISOs Handle Rising Cyber Threats Remarkably Well
+### With Complex Cloud Integrations, Small Errors Lead to Major Compromises
 
-Artificial intelligence notwithstanding, the vast majority of CISOs in northern Europe say they're facing no more serious cyberattacks than they did two years ago.
+Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/nordic-cisos-rising-cyber-threats)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises)
 
-### Ransomware Actors Show Up In Person to Steal Law Firm Data
+### 'The Com' Cyberattacks Support Violence &amp; Sexploitation
 
-The FBI warned that the extortion gang Silent Ransom Group is targeting law firms and social-engineering its way into servers and databases.
+Your organization's security failures have consequences for everyone else too, since this neo-Nazi-infested criminal gang uses its cyber winnings to support more violent and widesp...
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-actors-steal-law-firm-data)
+[Read the full article](https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation)
 
-### Latin American Cybercriminals Hoover Up Government Data
+### Dutch Raid Fails to Dent Russian Bulletproof Host
 
-A purported leak exposing 5.8 million records of Uruguayan citizens is the latest incident where cybercriminals targeted government agencies to monetize citizen data.
+Dutch law enforcement seized 800 servers and arrested two operators of THE.Hosting but left the hosting provider's core IP address space intact.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data)
+[Read the full article](https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host)
 
 
