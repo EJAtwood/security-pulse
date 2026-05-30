@@ -1,22 +1,22 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-29 14:56 UTC
+**Generated:** 2026-05-30 13:22 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds One Known Exploited Vulnerability to Catalog
+
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-0257 Palo Alto Networks PAN-OS Authent...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog)
+
 ### ABB EIBPORT
 
 View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. A firmware update is available that resolves these privately reported...
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-03)
-
-### Schnieider Electric EcoStruxure Machine Expert HVAC
-
-View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07)
 
 ### Jinan USR IOT Technology Limited (PUSR) USR-W610 RS232/485 to Wi-Fi/Ethernet Converter
 
@@ -38,7 +38,25 @@ View CSAF Summary Successful exploitation of this vulnerability could allow an a
 
 
 ## The Hacker News
-### New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
+### PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+
+Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnera...
+
+[Read the full article](https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html)
+
+### ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+
+Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links a...
+
+[Read the full article](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
+
+### Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+
+An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a...
+
+[Read the full article](https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html)
+
+### New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
 
 A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 20...
 
@@ -50,34 +68,16 @@ Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It 
 
 [Read the full article](https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html)
 
-### Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets
-
-Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial syst...
-
-[Read the full article](https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html)
-
-### Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels
-
-The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corpora...
-
-[Read the full article](https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html)
-
-### Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code
-
-A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certa...
-
-[Read the full article](https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html)
-
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Name That Toon Contest
+### Name That Toon: Mark of (Cybersecurity) Progress
 
-No summary available.
+As part of Dark Reading's 20th anniversary package, we asked readers for a cybersecurity-related caption that captures their thoughts about the industry's last two decades.
 
-[Read the full article](https://www.darkreading.com/events/celebrate-20-years-of-dark-reading-name-that-toon-contest)
+[Read the full article](https://www.darkreading.com/cloud-security/name-that-toon-mark-of-cybersecurity-progress)
 
 ### Asia's Cyber Insurance Market Shows Signs of Life
 
@@ -97,10 +97,10 @@ Your organization's security failures have consequences for everyone else too, s
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation)
 
-### Dutch Raid Fails to Dent Russian Bulletproof Host
+### As Global Powers Explore Humanoid Robots, Cyber-Risk Looms
 
-Dutch law enforcement seized 800 servers and arrested two operators of THE.Hosting but left the hosting provider's core IP address space intact.
+The future of cybersecurity is germinating, as nation states vie for dominance in the embodied AI market and its supply chain.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host)
+[Read the full article](https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk)
 
 
