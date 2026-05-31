@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-30 13:22 UTC
+**Generated:** 2026-05-31 13:29 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,6 +38,12 @@ View CSAF Summary Successful exploitation of this vulnerability could allow an a
 
 
 ## The Hacker News
+### Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices
+
+Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malic...
+
+[Read the full article](https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html)
+
 ### PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
 
 Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnera...
@@ -61,12 +67,6 @@ An unknown threat actor has been observed using a large language model (LLM) age
 A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 20...
 
 [Read the full article](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)
-
-### What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks
-
-Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into productio...
-
-[Read the full article](https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html)
 
 
 ## Wiz Security Blog
