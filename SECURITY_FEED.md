@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-05-31 13:29 UTC
+**Generated:** 2026-06-01 17:32 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,50 +38,62 @@ View CSAF Summary Successful exploitation of this vulnerability could allow an a
 
 
 ## The Hacker News
-### Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices
+### ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More
 
-Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malic...
+Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usu...
 
-[Read the full article](https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html)
+[Read the full article](https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html)
 
-### PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation
+### China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan
 
-Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnera...
+A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. A...
 
-[Read the full article](https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html)
+[Read the full article](https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html)
 
-### ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface
+### The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools
 
-Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links a...
+Three years ago, the practical question for an MSP building a cybersecurity practice was which "vCISO platform" to buy. The term was good shorthand for the work at the time: assess...
 
-[Read the full article](https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html)
+[Read the full article](https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html)
 
-### Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit
+### OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack
 
-An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a...
+Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI....
 
-[Read the full article](https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html)
+[Read the full article](https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html)
 
-### New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks
+### Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts
 
-A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 20...
+Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create m...
 
-[Read the full article](https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html)
+[Read the full article](https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit
+
+Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.
+
+[Read the full article](https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit)
+
 ### Name That Toon: Mark of (Cybersecurity) Progress
 
 As part of Dark Reading's 20th anniversary package, we asked readers for a cybersecurity-related caption that captures their thoughts about the industry's last two decades.
 
 [Read the full article](https://www.darkreading.com/cloud-security/name-that-toon-mark-of-cybersecurity-progress)
 
+### As Global Powers Explore Humanoid Robots, Cyber-Risk Looms
+
+The future of cybersecurity is germinating, as nation-states vie for dominance in the embodied AI market and its supply chain.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk)
+
 ### Asia's Cyber Insurance Market Shows Signs of Life
 
-The cyber insurance industry has made relatively weak inroads into Asia due to a a variety of factors, but that could be changing.
+The cyber insurance industry has made relatively weak inroads into Asia due to a variety of factors, but that could be changing.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/asias-cyber-insurance-market-signs-of-life)
 
@@ -90,17 +102,5 @@ The cyber insurance industry has made relatively weak inroads into Asia due to a
 Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.
 
 [Read the full article](https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises)
-
-### 'The Com' Cyberattacks Support Violence &amp; Sexploitation
-
-Your organization's security failures have consequences for everyone else too, since this neo-Nazi-infested criminal gang uses its cyber winnings to support more violent and widesp...
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation)
-
-### As Global Powers Explore Humanoid Robots, Cyber-Risk Looms
-
-The future of cybersecurity is germinating, as nation states vie for dominance in the embodied AI market and its supply chain.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk)
 
 
