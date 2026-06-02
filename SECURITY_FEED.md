@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-01 17:32 UTC
+**Generated:** 2026-06-02 16:17 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -8,9 +8,21 @@ Latest vulnerability and AI-related security news from multiple sources.
 ## CISA Vulnerabilities
 ### CISA Adds One Known Exploited Vulnerability to Catalog
 
+CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unsp...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+### CISA Adds One Known Exploited Vulnerability to Catalog
+
 CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-0257 Palo Alto Networks PAN-OS Authent...
 
 [Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog)
+
+### MacGregor Voyage Data Recorder (VDR) G4e
+
+View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyag...
+
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01)
 
 ### ABB EIBPORT
 
@@ -24,55 +36,61 @@ View CSAF Summary Successful exploitation of this vulnerability could result in 
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-02)
 
-### ABB Busch-Welcome 2 Wire Door Opener Actuator
-
-View CSAF Summary ABB is aware of vulnerabilities in the product versions listed as affected in the advisory. An attacker who successfully exploited this vulnerability could gain p...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-04)
-
-### Fourth Frontier Frontier X Mobile Application, Frontier X2
-
-View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read and write arbitrary handle values and change clinical readings, which could result i...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-148-01)
-
 
 ## The Hacker News
-### ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More
+### AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.
 
-Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some "patched-ish" thing already getting chewed on in the wild, and then the usu...
+AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever...
 
-[Read the full article](https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html)
+[Read the full article](https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html)
 
-### China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan
+### How Leading Organizations Are Turning EDR Into Operational Resilience
 
-A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. A...
+Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in rec...
 
-[Read the full article](https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html)
+[Read the full article](https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html)
 
-### The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools
+### Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT
 
-Three years ago, the practical question for an MSP building a cybersecurity practice was which "vCISO platform" to buy. The term was good shorthand for the work at the time: assess...
+Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance w...
 
-[Read the full article](https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html)
+[Read the full article](https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html)
 
-### OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack
+### Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded
 
-Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI....
+Password manager Dashlane has disclosed that "fewer than" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched b...
 
-[Read the full article](https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html)
+[Read the full article](https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html)
 
-### Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts
+### Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm
 
-Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create m...
+A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and d...
 
-[Read the full article](https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html)
+[Read the full article](https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Beyond Assume-Breach: How AI-Native Security Will Reshape Enterprise Defense
+
+Twenty years after Dark Reading launched, we're looking ahead at what's next for enterprise security. Spoiler: It's hyper-segmented, AI-orchestrated, and way more sophisticated tha...
+
+[Read the full article](https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense)
+
+### Anthropic to Open Mythos AI to EU's ENISA
+
+The European security agency's entry to Project Glasswing is the result of &quot;strong bilateral cooperation&quot; between the European Commission and Anthropic.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa)
+
+### Microsoft's Zero-Day Legal Threats Spark Backlash
+
+After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.
+
+[Read the full article](https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash)
+
 ### Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit
 
 Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.
@@ -84,23 +102,5 @@ Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain condition
 As part of Dark Reading's 20th anniversary package, we asked readers for a cybersecurity-related caption that captures their thoughts about the industry's last two decades.
 
 [Read the full article](https://www.darkreading.com/cloud-security/name-that-toon-mark-of-cybersecurity-progress)
-
-### As Global Powers Explore Humanoid Robots, Cyber-Risk Looms
-
-The future of cybersecurity is germinating, as nation-states vie for dominance in the embodied AI market and its supply chain.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/global-powers-explore-humanoids-cyber-risk)
-
-### Asia's Cyber Insurance Market Shows Signs of Life
-
-The cyber insurance industry has made relatively weak inroads into Asia due to a variety of factors, but that could be changing.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/asias-cyber-insurance-market-signs-of-life)
-
-### With Complex Cloud Integrations, Small Errors Lead to Major Compromises
-
-Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises)
 
 
