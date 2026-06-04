@@ -1,11 +1,17 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-03 16:42 UTC
+**Generated:** 2026-06-04 14:52 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds One Known Exploited Vulnerability to Catalog
+
+CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-45247&nbsp;Mirasvit Full Page Cac...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog)
+
 ### CISA and Partners Urge Hardening Automatic Tank Gauge Systems
 
 CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the N...
@@ -30,77 +36,71 @@ CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV
 
 [Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog)
 
-### KMW CCTV Security Cameras
-
-View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06)
-
 
 ## The Hacker News
-### One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens
+### ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories
 
-Cybersecurity researchers have disclosed a one-click attack via Microsoft Visual Studio Code (VS Code) that makes it possible to steal a user's GitHub token. "Just by clicking a li...
+It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird...
 
-[Read the full article](https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html)
+[Read the full article](https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html)
 
-### Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)
+### China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa
 
-The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands...
+A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts h...
 
-[Read the full article](https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html)
+[Read the full article](https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html)
 
-### Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore
+### FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads
 
-Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and "patch everything in time" stopped working years ago. Stop betting the org on win...
+Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto...
 
-[Read the full article](https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html)
+[Read the full article](https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html)
 
-### Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes
+### Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
 
-Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829,...
+Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution Syste...
 
-[Read the full article](https://thehackernews.com/2026/06/unpatched-windows-search-uri.html)
+[Read the full article](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
 
-### New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
+### Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
 
-Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pin...
+Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and...
 
-[Read the full article](https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html)
+[Read the full article](https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Malicious Notifications Could Trick Google Gemini Users
+### Pakistan Spies on Afghan Finance Ministry With Xeno RAT
 
-A prompt injection flaw in Google Gemini's voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.
+Despite broadly connected digital infrastructure, standard fare TTPs are enough to cause trouble for Afghanistan's porous cybersecurity.
 
-[Read the full article](https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat)
 
-### Global Stock Exchange Hit by Monthslong Email Campaign
+### Attackers Use AI to Automate EDR Evasion Testing
 
-A threat actor got a near-continuous view into an influential finance executive's email inbox, thanks to clever use of legitimate, native Windows tools.
+Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/global-stock-exchange-hit-monthslong-email-campaign)
+[Read the full article](https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing)
 
-### Zoom CISO: AI as a Security Enabler, Not Role-Replacer
+### Tropical Blend: Cyber &amp; Politics Ramp Up Across Latin America
 
-Zoom CISO Sandra McLeod discusses the challenges of securing a global communication platform, the promise of AI-driven security workflows, and her advice for aspiring cybersecurity...
+China-linked espionage groups have attacked at least a dozen nations in the region, gathering information on maritime shipping, oil production, and other geopolitical interests.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/zoom-ciso-ai-security-enabler-role-replacer)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/nation-state-cyber-activity-latin-america)
 
-### FBI-Flagged Phishing Kit Kali365 Expands Its Reach
+### Cyber Insurance Rates Are Dropping, but Exclusions Widen
 
-Once targeting just Microsoft 365, the phishing-as-a-service platform now aims at AWS, Okta, and Russian platforms, while relying on device code phishing.
+Cyber insurance coverage is slowly changing, and some policies may not provide coverage for social engineering attacks like ClickFix.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach)
+[Read the full article](https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen)
 
-### DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks
+### Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover
 
-A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.
+A disabled security setting meant to protect authentication across Android versions of key apps like Word, PowerPoint, and Excel paved the way for attackers to steal logins and dat...
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks)
+[Read the full article](https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover)
 
 
