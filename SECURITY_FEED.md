@@ -1,106 +1,106 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-04 14:52 UTC
+**Generated:** 2026-06-05 14:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### NAVTOR NavBox
 
-CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-45247&nbsp;Mirasvit Full Page Cac...
+View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to gain unauthorized access to SOAP methods, resulting in a disruption of operations. T...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/03/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-01)
 
-### CISA and Partners Urge Hardening Automatic Tank Gauge Systems
+### Hitachi Energy MACH HiDraw
 
-CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the N...
+View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability that affects MACH HiDraw product versions listed in this document. Successful exploitation of this vuln...
 
-[Read the full article](https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05)
 
-### CISA Adds Two Known Exploited Vulnerabilities to Catalog
+### Hitachi Energy ITT600 Explorer
 
-CISA has added two new vulnerabilities to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2022-0492 Linux Kernel Improper Auth...
+View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry o...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02)
 
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### B&R PPT30 Operating System
 
-CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unsp...
+View CSAF Summary B&amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could mak...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03)
 
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### Hitachi Energy RTU500
 
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-0257 Palo Alto Networks PAN-OS Authent...
+View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact produ...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04)
 
 
 ## The Hacker News
-### ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories
+### New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework
 
-It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird...
+Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 that has been observed targeting Microsoft Internet Information Services (IIS) server...
 
-[Read the full article](https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html)
+[Read the full article](https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html)
 
-### China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa
+### Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver
 
-A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts h...
+Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing i...
 
-[Read the full article](https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html)
+[Read the full article](https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html)
 
-### FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads
+### Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
 
-Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto...
+Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to...
 
-[Read the full article](https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html)
+[Read the full article](https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html)
 
-### Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS
+### FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins
 
-Cybersecurity researchers have flagged a large-scale operation that impersonates open-source and freeware projects to funnel unsuspecting users through a Traffic Distribution Syste...
+Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thous...
 
-[Read the full article](https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html)
+[Read the full article](https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html)
 
-### Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months
+### PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network
 
-Unknown attackers spent at least five months inside the Outlook mailbox of a senior executive at a major global stock exchange, copying the inbox out in small, repeated batches and...
+The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay networ...
 
-[Read the full article](https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html)
+[Read the full article](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
-### Pakistan Spies on Afghan Finance Ministry With Xeno RAT
+### Trump AI Order Seeks Voluntary Frontier Model Testing
 
-Despite broadly connected digital infrastructure, standard fare TTPs are enough to cause trouble for Afghanistan's porous cybersecurity.
+The White House's executive order establishes voluntary framework for early government access to frontier models while investing in federal security.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/pakistan-spies-afghan-finance-ministry-xeno-rat)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing)
 
-### Attackers Use AI to Automate EDR Evasion Testing
+### Rust-Written IronWorm Hits NPM Supply Chain
 
-Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.
+Like Shai-Hulud, the campaign targets developers to steal credentials and reuses them to propagate across the software supply channel.
 
-[Read the full article](https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain)
 
-### Tropical Blend: Cyber &amp; Politics Ramp Up Across Latin America
+### China's TA4922 Expands Cybercrime Attacks Globally
 
-China-linked espionage groups have attacked at least a dozen nations in the region, gathering information on maritime shipping, oil production, and other geopolitical interests.
+One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/nation-state-cyber-activity-latin-america)
+[Read the full article](https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally)
 
-### Cyber Insurance Rates Are Dropping, but Exclusions Widen
+### 4 Critical Threats Where Attackers Have the Advantage
 
-Cyber insurance coverage is slowly changing, and some policies may not provide coverage for social engineering attacks like ClickFix.
+Gartner analysts issued a call to action to bolster defenses against several emerging critical threats, such as deepfakes and prompt injections.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/4-critical-threats-attackers-advantage)
 
-### Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover
+### Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs
 
-A disabled security setting meant to protect authentication across Android versions of key apps like Word, PowerPoint, and Excel paved the way for attackers to steal logins and dat...
+Organizations are growing serious about what nation’s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.
 
-[Read the full article](https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover)
+[Read the full article](https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs)
 
 
