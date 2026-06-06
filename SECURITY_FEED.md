@@ -1,11 +1,17 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-05 14:43 UTC
+**Generated:** 2026-06-06 13:25 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds One Known Exploited Vulnerability to Catalog
+
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-28318 SolarWinds Serv-U Uncontrolled R...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/05/cisa-adds-one-known-exploited-vulnerability-catalog)
+
 ### NAVTOR NavBox
 
 View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker to gain unauthorized access to SOAP methods, resulting in a disruption of operations. T...
@@ -18,11 +24,11 @@ View CSAF Summary Hitachi Energy is aware of a buffer overflow vulnerability tha
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-05)
 
-### Hitachi Energy ITT600 Explorer
+### Hitachi Energy RTU500
 
-View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect ITT600 Explorer product versions listed in this document. These vulnerabilities can be exploited to carry o...
+View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact produ...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-02)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04)
 
 ### B&R PPT30 Operating System
 
@@ -30,49 +36,55 @@ View CSAF Summary B&amp;R is aware of a vulnerability in the product versions li
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03)
 
-### Hitachi Energy RTU500
-
-View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. If exploited, these vulnerabilities primarily impact produ...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04)
-
 
 ## The Hacker News
-### New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework
+### Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
 
-Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 that has been observed targeting Microsoft Internet Information Services (IIS) server...
+A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that re...
 
-[Read the full article](https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html)
+[Read the full article](https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html)
 
-### Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver
+### CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
 
-Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing i...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Know...
 
-[Read the full article](https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html)
+[Read the full article](https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html)
 
-### Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
+### AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs
 
-Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to...
+Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that...
 
-[Read the full article](https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html)
+[Read the full article](https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html)
 
-### FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins
+### Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack
 
-Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thous...
+Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft reposi...
 
-[Read the full article](https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html)
+[Read the full article](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
 
-### PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network
+### Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available
 
-The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay networ...
+Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CV...
 
-[Read the full article](https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html)
+[Read the full article](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Exposed Fuel Tank Gauges Under Attack in the US
+
+Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us)
+
+### Adaptive, Agentic AI Worms Loom as Next Enterprise Threat
+
+AI worms, or &quot;viruses with wings and brains,&quot; adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat)
+
 ### Trump AI Order Seeks Voluntary Frontier Model Testing
 
 The White House's executive order establishes voluntary framework for early government access to frontier models while investing in federal security.
@@ -90,17 +102,5 @@ Like Shai-Hulud, the campaign targets developers to steal credentials and reuses
 One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally)
-
-### 4 Critical Threats Where Attackers Have the Advantage
-
-Gartner analysts issued a call to action to bolster defenses against several emerging critical threats, such as deepfakes and prompt injections.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/4-critical-threats-attackers-advantage)
-
-### Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs
-
-Organizations are growing serious about what nation’s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs)
 
 
