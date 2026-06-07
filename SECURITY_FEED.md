@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-06 13:25 UTC
+**Generated:** 2026-06-07 13:46 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,6 +38,12 @@ View CSAF Summary B&amp;R is aware of a vulnerability in the product versions li
 
 
 ## The Hacker News
+### New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+
+OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The featur...
+
+[Read the full article](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
+
 ### Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
 
 A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that re...
@@ -61,12 +67,6 @@ Two things landed within days of each other this week. A security startup report
 Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft reposi...
 
 [Read the full article](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
-
-### Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available
-
-Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CV...
-
-[Read the full article](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html)
 
 
 ## Wiz Security Blog
