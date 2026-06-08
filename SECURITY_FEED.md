@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-07 13:46 UTC
+**Generated:** 2026-06-08 15:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,35 +38,35 @@ View CSAF Summary B&amp;R is aware of a vulnerability in the product versions li
 
 
 ## The Hacker News
-### New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+### Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups
 
-OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The featur...
+Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1...
 
-[Read the full article](https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html)
+[Read the full article](https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html)
 
-### Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI
+### AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload
 
-A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that re...
+Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every...
 
-[Read the full article](https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html)
+[Read the full article](https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html)
 
-### CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+### ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Know...
+Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still...
 
-[Read the full article](https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html)
+[Read the full article](https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html)
 
-### AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs
+### The Hardest Fork
 
-Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that...
+Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't "whoops, this l...
 
-[Read the full article](https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html)
+[Read the full article](https://thehackernews.com/2026/06/the-hardest-fork.html)
 
-### Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack
+### VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances
 
-Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft reposi...
+A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRI...
 
-[Read the full article](https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html)
+[Read the full article](https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html)
 
 
 ## Wiz Security Blog
