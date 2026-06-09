@@ -1,11 +1,17 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-08 15:43 UTC
+**Generated:** 2026-06-09 14:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds Two Known Exploited Vulnerabilities to Catalog
+
+CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42271 BerriAI LiteLLM Command Inject...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog)
+
 ### CISA Adds One Known Exploited Vulnerability to Catalog
 
 CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-28318 SolarWinds Serv-U Uncontrolled R...
@@ -30,77 +36,71 @@ View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-04)
 
-### B&R PPT30 Operating System
-
-View CSAF Summary B&amp;R is aware of a vulnerability in the product versions listed as affected in the advisory. An attacker who successfully exploits this vulnerability could mak...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-155-03)
-
 
 ## The Hacker News
-### Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups
+### WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine
 
-Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1...
+Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability w...
 
-[Read the full article](https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html)
+[Read the full article](https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html)
 
-### AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload
+### Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models
 
-Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every...
+University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way thr...
 
-[Read the full article](https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html)
+[Read the full article](https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html)
 
-### ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More
+### Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now
 
-Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still...
+Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as C...
 
-[Read the full article](https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html)
+[Read the full article](https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html)
 
-### The Hardest Fork
+### The Hidden Security Risk in Modern Networks: The Work Between Tools
 
-Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't "whoops, this l...
+Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with rout...
 
-[Read the full article](https://thehackernews.com/2026/06/the-hardest-fork.html)
+[Read the full article](https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html)
 
-### VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances
+### New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing
 
-A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRI...
+A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native c...
 
-[Read the full article](https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html)
+[Read the full article](https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html)
 
 
 ## Wiz Security Blog
 *No entries available*
 
 ## Dark Reading
+### Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks
+
+The financially motivated group is combining vishing, IT impersonation, and in-person office intrusions to steal data and extort victims.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks)
+
+### Check Point VPN Flaw Exploited Since Early May
+
+A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may)
+
+### Iran Signed a Ceasefire — Its Hackers Didn't
+
+An extension of the Geneva Conventions could impose restrictions on cyberwarfare under ceasefire conditions and close a major loophole in international conflict.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers)
+
+### 'Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud
+
+The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat.
+
+[Read the full article](https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud)
+
 ### Exposed Fuel Tank Gauges Under Attack in the US
 
 Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us)
-
-### Adaptive, Agentic AI Worms Loom as Next Enterprise Threat
-
-AI worms, or &quot;viruses with wings and brains,&quot; adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat)
-
-### Trump AI Order Seeks Voluntary Frontier Model Testing
-
-The White House's executive order establishes voluntary framework for early government access to frontier models while investing in federal security.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing)
-
-### Rust-Written IronWorm Hits NPM Supply Chain
-
-Like Shai-Hulud, the campaign targets developers to steal credentials and reuses them to propagate across the software supply channel.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain)
-
-### China's TA4922 Expands Cybercrime Attacks Globally
-
-One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally)
 
 
