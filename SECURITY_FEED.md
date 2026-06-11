@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-10 15:26 UTC
+**Generated:** 2026-06-11 15:54 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,69 +38,98 @@ CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (K
 
 
 ## The Hacker News
-### Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar
+### Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories
 
-Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues app...
+Most good security work is invisible by design. Today is the exception. The 2026 Cybersecurity Stars Awards winners are announced across 95 subcategories in four main award categor...
 
-[Read the full article](https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html)
+[Read the full article](https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html)
 
-### Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs
+### ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Action Patch + 28 New Stories
 
-Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time...
+It's been one of those weeks. You expect the usual noise: recycled malware, sloppy attacks, another easy target getting hit. Instead, there's a supply chain attack kit in a public...
 
-[Read the full article](https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html)
+[Read the full article](https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html)
 
-### Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards
+### AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.
 
-On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, spl...
+For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution wa...
 
-[Read the full article](https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html)
+[Read the full article](https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html)
 
-### ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances
+### OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack
 
-ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances. "On June 5, 2026, Ser...
+The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPEC...
 
-[Read the full article](https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html)
+[Read the full article](https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html)
 
-### Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows
+### GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks
 
-The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-da...
+GitHub has announced what it said are "breaking changes" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The ch...
 
-[Read the full article](https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html)
+[Read the full article](https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html)
 
 
 ## Wiz Security Blog
-*No entries available*
+### AI Threat Readiness Pillar 2: Accelerate Patching and Response
+
+Your guide to operationalizing ownership, remediation, and response with Wiz to keep pace with the AI threat landscape.
+
+[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-2)
+
+### Introducing Wiz Cloud Cost: Powering Cost Management and Optimization with Context
+
+Wiz unifies cloud and AI cost visibility to help teams eliminate waste and improve spend efficiency across their AWS, Azure, and GCP environments.
+
+[Read the full article](https://www.wiz.io/blog/introducing-wiz-cloud-cost)
+
+### AI Threat Readiness Pillar 1: Reduce Critical Exposures & Scan with AI
+
+Diving into the first pillar of the AI Threat Readiness Framework and how Wiz helps
+
+[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-1)
+
+### Eliminate Critical API Attack Paths with Wiz API SPM
+
+Wiz API SPM is now GA, enabling customers to discover APIs, assess APIs for exploitability, and prioritize remediation to mitigate the risk of an API-related breach.
+
+[Read the full article](https://www.wiz.io/blog/introducing-wiz-api-spm)
+
+### Miasma: Supply Chain Attack Targeting RedHat npm Packages
+
+Detect and mitigate malicious npm packages linked to the latest npm supply chain attack, based on the open sourced Mini Shai-Hulud malware.
+
+[Read the full article](https://www.wiz.io/blog/miasma-supply-chain-attack-targeting-redhat-npm-packages)
+
 
 ## Dark Reading
-### The Invisible Battlefield: How Cyber War Is Reshaping Everyday Life
+### Chinese, N. Korean Threat Groups Build on Asia-Pacific Success
 
-Former National Cyber Director Chris Inglis warns that cyber attacks threaten hospitals, utilities and essential services.
+North Korea's gross domestic product (GDP) has grown, in part because of the nation's state-sponsored cybercrime groups, which target financial firms and other businesses.
 
-[Read the full article](https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success)
 
-### Blame AI: Patch Tuesday Hits Record 206 CVEs
+### CISA Rewrites Federal Patching Requirements for AI Threat Era
 
-Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.
+The new directive gives federal agencies three days to fix the most dangerous flaws, while less severe issues can be deferred.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves)
+[Read the full article](https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era)
 
-### Microsoft Exchange Flaw Lets Attackers Spoof Any Email Address
+### Bug Bounty Research Triggers ServiceNow Security Alert
 
-“Ghost-Sender&quot; is the result of a widespread misconfiguration, according to researchers, and evidence indicates it's being actively abused in the wild.
+Security research inadvertently led organizations to believe they were being breached through their ServiceNow instances.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert)
 
-### Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories
+### AI Risk Worries Insurers and Businesses Alike
 
-The attacks stemmed from a GitHub account that was also compromised in a previous Miasmi attack on Microsoft last month.
+As companies adopt AI, many insurance firms are explicitly excluding AI risks, while others are forging ahead to create the right framework. What risks can firms reasonably manage?
 
-[Read the full article](https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories)
+[Read the full article](https://www.darkreading.com/cyber-risk/ai-risk-worries-insurers-businesses-alike)
 
-### Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs
+### Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet
 
-Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.
+The disgruntled researcher released yet another PoC for a Windows Defender bug that allows for system takeover, showing no signs of abandoning their ongoing feud with Microsoft.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet)
 
 
