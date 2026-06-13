@@ -1,11 +1,17 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-12 14:51 UTC
+**Generated:** 2026-06-13 13:52 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
+### CISA Adds One Known Exploited Vulnerability to Catalog
+
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-35273 Oracle PeopleSoft Enterprise Peo...
+
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog)
+
 ### Yarbo Android/iOS Mobile Application and Cloud Infrastructure
 
 View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send ope...
@@ -30,43 +36,37 @@ CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV
 
 [Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog)
 
-### CISA Adds Three Known Exploited Vulnerabilities to Catalog
-
-CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-7473 Arista Extensible Operating S...
-
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog)
-
 
 ## The Hacker News
-### Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code
+### Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
 
-Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer m...
+Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote cod...
 
-[Read the full article](https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html)
+[Read the full article](https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html)
 
-### Rethinking MDR as Attackers and Defenders Embrace AI
+### U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals
 
-For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and nee...
+Anthropic said on Friday it will "abruptly disable" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government orde...
 
-[Read the full article](https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html)
+[Read the full article](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)
 
-### LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution
+### Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
 
-Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code...
+Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built the...
 
-[Read the full article](https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html)
+[Read the full article](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
 
-### INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator
+### Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
 
-An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Op...
+Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text mess...
 
-[Read the full article](https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html)
+[Read the full article](https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html)
 
-### Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs
+### China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade
 
-Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said...
+Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tr...
 
-[Read the full article](https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html)
+[Read the full article](https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html)
 
 
 ## Wiz Security Blog
@@ -102,6 +102,12 @@ Diving into the first pillar of the AI Threat Readiness Framework and how Wiz he
 
 
 ## Dark Reading
+### ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed
+
+A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed)
+
 ### Claude Fable 5 Doesn't Change the Mythos Security Story
 
 Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos &quot;made safe for general use,&quot; Anthropic explained.
@@ -125,11 +131,5 @@ Initial methods suggest attackers had likely mapped out Ivanti's asset landscape
 Even the best segmentation strategy will fall apart without constant oversight and disciplined operations.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/segmentation-works-for-ot-if-operators-are-paying-attention)
-
-### Chinese, N. Korean Threat Groups Build on Asia-Pacific Success
-
-North Korea's gross domestic product (GDP) has grown, in part because of the nation's state-sponsored cybercrime groups, which target financial firms and other businesses.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success)
 
 
