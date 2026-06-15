@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-14 13:55 UTC
+**Generated:** 2026-06-15 17:10 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,35 +38,35 @@ CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV
 
 
 ## The Hacker News
-### Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
+### LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
 
-Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote cod...
+A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed...
 
-[Read the full article](https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html)
+[Read the full article](https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html)
 
-### U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals
+### One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes
 
-Anthropic said on Friday it will "abruptly disable" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government orde...
+A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers a...
 
-[Read the full article](https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html)
+[Read the full article](https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html)
 
-### Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit
+### ⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More
 
-Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built the...
+Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod. This week is the same lesson i...
 
-[Read the full article](https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html)
+[Read the full article](https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html)
 
-### Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing
+### The Onboarding Password Mistake That Creates Unnecessary Risk
 
-Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text mess...
+Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means...
 
-[Read the full article](https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html)
+[Read the full article](https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html)
 
-### China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade
+### 152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic
 
-Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tr...
+Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) fa...
 
-[Read the full article](https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html)
+[Read the full article](https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html)
 
 
 ## Wiz Security Blog
@@ -102,6 +102,24 @@ Diving into the first pillar of the AI Threat Readiness Framework and how Wiz he
 
 
 ## Dark Reading
+### China-Nexus Actor Spy on US Researchers Undetected for a Year
+
+Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to target numerous institutions and exfiltrate sensitive data.
+
+[Read the full article](https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected)
+
+### The Beginning of the End of Social Engineering
+
+AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering)
+
+### US Cracks Down on Anthropic AI Models Amid Abuse Concerns
+
+Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns)
+
 ### ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed
 
 A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.
@@ -110,26 +128,8 @@ A major bug in Oracle's ERP software disproportionately affected American univer
 
 ### Claude Fable 5 Doesn't Change the Mythos Security Story
 
-Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos &quot;made safe for general use,&quot; Anthropic explained.
+Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos &quot;made safe for general use,&quot; Anthropic explains.
 
 [Read the full article](https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story)
-
-### Phishing Attack Volume Down 20%, But Risk Still Rising
-
-Hackers are valuing quality over quantity, using AI to upgrade their phishing attacks rather than multiply them.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising)
-
-### Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure
-
-Initial methods suggest attackers had likely mapped out Ivanti's asset landscape upfront and acted quickly once the exploit became public.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours)
-
-### Segmentation Works for OT If Operators Are Paying Attention
-
-Even the best segmentation strategy will fall apart without constant oversight and disciplined operations.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/segmentation-works-for-ot-if-operators-are-paying-attention)
 
 
