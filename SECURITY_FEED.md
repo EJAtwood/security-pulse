@@ -1,75 +1,81 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-15 17:10 UTC
+**Generated:** 2026-06-16 16:45 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP
 
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-35273 Oracle PeopleSoft Enterprise Peo...
+View CSAF Summary Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following vers...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/12/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03)
 
-### Yarbo Android/iOS Mobile Application and Cloud Infrastructure
+### Rockwell Automation RSLinx
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain hard-coded credentials, gain access to telemetry data, and potentially send ope...
+View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-01)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02)
 
-### Naxclow IoT Platform
+### Rockwell Automation FLEX I/O EtherNet/IP Adapters
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to impersonate devices, intercept or manipulate communications, harvest sensitive credent...
+View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The follow...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-02)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05)
 
-### Brickcom Cameras
+### Rockwell Automation FactoryTalk Analytics PavilionX
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow a remote unauthenticated attacker to gain unauthorized access to live video feeds, retrieve sensitive...
+View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTa...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-162-03)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01)
 
-### CISA Adds One Known Exploited Vulnerability to Catalog
+### Rockwell Automation CompactLogix
 
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-10520 Ivanti Sentry OS Command Injecti...
+View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation Com...
 
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/11/cisa-adds-one-known-exploited-vulnerability-catalog)
+[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04)
 
 
 ## The Hacker News
-### LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
+### New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds
 
-A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed...
+Security researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote c...
 
-[Read the full article](https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html)
+[Read the full article](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
 
-### One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes
+### Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive
 
-A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers a...
+Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence f...
 
-[Read the full article](https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html)
+[Read the full article](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
 
-### ⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More
+### Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week
 
-Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod. This week is the same lesson i...
+Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber. In a post shared on X, the company said i...
 
-[Read the full article](https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html)
+[Read the full article](https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html)
 
-### The Onboarding Password Mistake That Creates Unnecessary Risk
+### China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth
 
-Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means...
+Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS. "The Windows variants discove...
 
-[Read the full article](https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html)
+[Read the full article](https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html)
 
-### 152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic
+### Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware
 
-Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) fa...
+The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications...
 
-[Read the full article](https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html)
+[Read the full article](https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html)
 
 
 ## Wiz Security Blog
+### Wiz Exposure Management Dashboard: Your CTEM Command Center
+
+New exposure management dashboard helps organizations align with CTEM to stay ahead in an era of AI exploiting vulnerabilities faster than ever
+
+[Read the full article](https://www.wiz.io/blog/exposure-management-dashboard)
+
 ### Navigating the New Federal Logging Mandate | OMB Memorandum M-26-14
 
 The White House Memorandum puts in place an “adaptive framework,” where agencies make risk-based, prioritized logging decisions.
@@ -94,42 +100,36 @@ Wiz unifies cloud and AI cost visibility to help teams eliminate waste and impro
 
 [Read the full article](https://www.wiz.io/blog/introducing-wiz-cloud-cost)
 
-### AI Threat Readiness Pillar 1: Reduce Critical Exposures & Scan with AI
-
-Diving into the first pillar of the AI Threat Readiness Framework and how Wiz helps
-
-[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-1)
-
 
 ## Dark Reading
-### China-Nexus Actor Spy on US Researchers Undetected for a Year
+### 'Lorem Ipsum' Malware Pivots to ClickFix Delivery
 
-Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to target numerous institutions and exfiltrate sensitive data.
+New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery)
+
+### Copilot 'SearchLeak' Attack Allows 1-Click Data Theft
+
+The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.
+
+[Read the full article](https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft)
+
+### China-Nexus Actor Spies on US Researchers Undetected for a Year
+
+Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to breach numerous institutions and exfiltrate sensitive data.
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected)
+
+### Most CISOs Report Pressure to Bury Bad Security News
+
+Executive leaders may not be saying it aloud, but business objectives and priorities don't always promote timely disclosures.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/most-cisos-report-pressure-to-bury-bad-security-news)
 
 ### The Beginning of the End of Social Engineering
 
 AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering)
-
-### US Cracks Down on Anthropic AI Models Amid Abuse Concerns
-
-Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns)
-
-### ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed
-
-A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed)
-
-### Claude Fable 5 Doesn't Change the Mythos Security Story
-
-Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos &quot;made safe for general use,&quot; Anthropic explains.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story)
 
 
