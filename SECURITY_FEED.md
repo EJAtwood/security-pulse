@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-16 16:45 UTC
+**Generated:** 2026-06-17 15:18 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -30,43 +30,43 @@ View CSAF Summary Successful exploitation of this vulnerability could result in 
 
 [Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01)
 
-### Rockwell Automation CompactLogix
+### CISA Adds One Known Exploited Vulnerability to Catalog
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation Com...
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48907 Widget Factory Joomla Content Ed...
 
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-04)
+[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog)
 
 
 ## The Hacker News
-### New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds
+### Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats
 
-Security researchers at&nbsp;Zimperium's zLabs&nbsp;have documented a new Android banking trojan, Rokarolla, that targets 217 banking and cryptocurrency apps and packs 137 remote c...
+Cybersecurity researchers have flagged a "coordinated malware campaign" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating ar...
 
-[Read the full article](https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html)
+[Read the full article](https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html)
 
-### Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive
+### Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization
 
-Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence f...
+For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Secur...
 
-[Read the full article](https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html)
+[Read the full article](https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html)
 
-### Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week
+### The Top 10 Attack Surface Exposures in 2026
 
-Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber. In a post shared on X, the company said i...
+Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like Mo...
 
-[Read the full article](https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html)
+[Read the full article](https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html)
 
-### China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth
+### 144 Mastra npm Packages Compromised via Hijacked Contributor Account
 
-Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS. "The Windows variants discove...
+As many as 144 npm packages associated with the Mastra namespace ("@mastra/*"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI)...
 
-[Read the full article](https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html)
+[Read the full article](https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html)
 
-### Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware
+### CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
 
-The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known...
 
-[Read the full article](https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html)
+[Read the full article](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
 
 
 ## Wiz Security Blog
@@ -102,34 +102,34 @@ Wiz unifies cloud and AI cost visibility to help teams eliminate waste and impro
 
 
 ## Dark Reading
-### 'Lorem Ipsum' Malware Pivots to ClickFix Delivery
+### Sweeping Credential-Harvesting Heist Compromises +30K Fortinet Devices
 
-New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.
+Attackers actively are targeting various sectors across nearly 200 countries and have already compiled a list of working credentials for tens of thousands of compromised devices.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices)
 
-### Copilot 'SearchLeak' Attack Allows 1-Click Data Theft
+### UK Social Media Ban for Minors Has Privacy Experts Worried
 
-The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.
+The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.
 
-[Read the full article](https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft)
+[Read the full article](https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried)
 
-### China-Nexus Actor Spies on US Researchers Undetected for a Year
+### Fileless Phantom Stealer Targets Browser Credentials
 
-Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to breach numerous institutions and exfiltrate sensitive data.
+In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.
 
-[Read the full article](https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials)
 
-### Most CISOs Report Pressure to Bury Bad Security News
+### Security Community Slams US Ban on Exporting Mythos, Fable
 
-Executive leaders may not be saying it aloud, but business objectives and priorities don't always promote timely disclosures.
+An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/most-cisos-report-pressure-to-bury-bad-security-news)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable)
 
-### The Beginning of the End of Social Engineering
+### SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection
 
-AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.
+FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering)
+[Read the full article](https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers)
 
 
