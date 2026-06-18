@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-17 15:18 UTC
+**Generated:** 2026-06-18 14:59 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -38,38 +38,56 @@ CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV
 
 
 ## The Hacker News
-### Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats
+### Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2
 
-Cybersecurity researchers have flagged a "coordinated malware campaign" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating ar...
+Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026. "The clipper in this campaign relies on Windows Scri...
 
-[Read the full article](https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html)
+[Read the full article](https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html)
 
-### Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization
+### INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023
 
-For security teams, the findings never stop, but confidence in knowing which ones matter is becoming harder to maintain. The problem is no longer visibility. It's validation. Secur...
+Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming...
 
-[Read the full article](https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html)
+[Read the full article](https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html)
 
-### The Top 10 Attack Surface Exposures in 2026
+### The Scripts on Your Checkout Page Are Now a PCI DSS Problem
 
-Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like Mo...
+An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into you...
 
-[Read the full article](https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html)
+[Read the full article](https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html)
 
-### 144 Mastra npm Packages Compromised via Hijacked Contributor Account
+### DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic
 
-As many as 144 npm packages associated with the Mastra namespace ("@mastra/*"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI)...
+Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (...
 
-[Read the full article](https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html)
+[Read the full article](https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html)
 
-### CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
+### Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known...
+If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises,...
 
-[Read the full article](https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html)
+[Read the full article](https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html)
 
 
 ## Wiz Security Blog
+### The President’s Executive Actions on AI Have a Lot to Say on Cybersecurity
+
+The spotlight has been on frontier models, but the goals are more far reaching -- including supercharging cyber defense and remediating risk at machine speed
+
+[Read the full article](https://www.wiz.io/blog/ai-executive-order-cybersecurity)
+
+### The Red Agent POV: How it Reasoned its Way to SSRF
+
+Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on GCP Cloud Run
+
+[Read the full article](https://www.wiz.io/blog/red-agent-pov-ssrf)
+
+### Introducing the Red Agent POV Series
+
+An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild
+
+[Read the full article](https://www.wiz.io/blog/red-agent-pov-series)
+
 ### Wiz Exposure Management Dashboard: Your CTEM Command Center
 
 New exposure management dashboard helps organizations align with CTEM to stay ahead in an era of AI exploiting vulnerabilities faster than ever
@@ -82,29 +100,29 @@ The White House Memorandum puts in place an “adaptive framework,” where agen
 
 [Read the full article](https://www.wiz.io/blog/navigating-the-new-federal-logging-mandate-or-omb-memorandum-m-26-14)
 
-### AI Threat Readiness Pillar 3: Perform AI Code Analysis Natively in Wiz
-
-Your guide to operationalizing AI-powered code analysis with Wiz to stay ahead of AI driven development and adversaries
-
-[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-3)
-
-### AI Threat Readiness Pillar 2: Accelerate Patching and Response
-
-Your guide to operationalizing ownership, remediation, and response with Wiz to keep pace with the AI threat landscape.
-
-[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-2)
-
-### Introducing Wiz Cloud Cost: Powering Cost Management and Optimization with Context
-
-Wiz unifies cloud and AI cost visibility to help teams eliminate waste and improve spend efficiency across their AWS, Azure, and GCP environments.
-
-[Read the full article](https://www.wiz.io/blog/introducing-wiz-cloud-cost)
-
 
 ## Dark Reading
-### Sweeping Credential-Harvesting Heist Compromises +30K Fortinet Devices
+### Get Out of Security Debt by Tackling the Exposure Problem
 
-Attackers actively are targeting various sectors across nearly 200 countries and have already compiled a list of working credentials for tens of thousands of compromised devices.
+Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?
+
+[Read the full article](https://www.darkreading.com/cyber-risk/security-debt-tackle-exposure-problem)
+
+### EU Gets a Head Start in Developing 6G Network Security
+
+&quot;Shield-6G&quot; will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security)
+
+### INC Ransomware Thrives by Mastering the Basics
+
+And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics)
+
+### Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices
+
+Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices)
 
@@ -113,23 +131,5 @@ Attackers actively are targeting various sectors across nearly 200 countries and
 The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.
 
 [Read the full article](https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried)
-
-### Fileless Phantom Stealer Targets Browser Credentials
-
-In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials)
-
-### Security Community Slams US Ban on Exporting Mythos, Fable
-
-An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable)
-
-### SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection
-
-FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers)
 
 
