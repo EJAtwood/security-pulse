@@ -1,72 +1,43 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-18 14:59 UTC
+**Generated:** 2026-06-19 14:58 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
 ---
 
 ## CISA Vulnerabilities
-### Rockwell Automation Logix 5370 & 5570 Controllers Vulnerable To Denial of Service Via CIP
-
-View CSAF Summary Successful exploitation of this vulnerability could cause a denial-of-service condition that may result in a major nonrecoverable fault (MNRF). The following vers...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-03)
-
-### Rockwell Automation RSLinx
-
-View CSAF Summary Successful exploitation of this vulnerability can lead to a denial of service, where the application will become unresponsive and will not recover on its own. The...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-02)
-
-### Rockwell Automation FLEX I/O EtherNet/IP Adapters
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access, account takeover, and cause loss of availability. The follow...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-05)
-
-### Rockwell Automation FactoryTalk Analytics PavilionX
-
-View CSAF Summary Successful exploitation of this vulnerability could result in an attacker executing privileged operations. The following versions of Rockwell Automation FactoryTa...
-
-[Read the full article](https://www.cisa.gov/news-events/ics-advisories/icsa-26-167-01)
-
-### CISA Adds One Known Exploited Vulnerability to Catalog
-
-CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-48907 Widget Factory Joomla Content Ed...
-
-[Read the full article](https://www.cisa.gov/news-events/alerts/2026/06/16/cisa-adds-one-known-exploited-vulnerability-catalog)
-
+*No entries available*
 
 ## The Hacker News
-### Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2
+### CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices
 
-Microsoft has disclosed details of a Windows-based cryptocurrency clipper campaign that has targeted users since February 2026. "The clipper in this campaign relies on Windows Scri...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious ac...
 
-[Read the full article](https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html)
+[Read the full article](https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html)
 
-### INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023
+### From Assistive to Agentic: The AI Shift That's Redefining Threat Management
 
-Cybersecurity researchers have charted the evolution of INC from an nascent ransomware-as-a-service (RaaS) operation to one of the most prolific cybercrime groups in 2026, claiming...
+Introduction The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are worki...
 
-[Read the full article](https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html)
+[Read the full article](https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html)
 
-### The Scripts on Your Checkout Page Are Now a PCI DSS Problem
+### Forget Data Leakage: Shadow AI's Real Threat Is Access Control
 
-An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into you...
+The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, doma...
 
-[Read the full article](https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html)
+[Read the full article](https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html)
 
-### DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic
+### Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
 
-Threat actors associated with the DragonForce ransomware have been observed using a custom Go-based remote access trojan (RAT) called Backdoor.Turn to conceal command-and-control (...
+Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company...
 
-[Read the full article](https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html)
+[Read the full article](https://thehackernews.com/2026/06/salesforce-disables-klue-app.html)
 
-### Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network
+### Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone
 
-If an autonomous AI agent interacts with your company's core intellectual property today, can your security team instantly name the person who authorized it? For most enterprises,...
+Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users. The vulnerability,...
 
-[Read the full article](https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html)
+[Read the full article](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
 
 
 ## Wiz Security Blog
@@ -78,7 +49,7 @@ The spotlight has been on frontier models, but the goals are more far reaching -
 
 ### The Red Agent POV: How it Reasoned its Way to SSRF
 
-Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on GCP Cloud Run
+Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API
 
 [Read the full article](https://www.wiz.io/blog/red-agent-pov-ssrf)
 
@@ -102,34 +73,34 @@ The White House Memorandum puts in place an “adaptive framework,” where agen
 
 
 ## Dark Reading
-### Get Out of Security Debt by Tackling the Exposure Problem
+### Stressors, AI Forcing Changes to Cybersecurity Teams
 
-Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?
+As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/security-debt-tackle-exposure-problem)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams)
 
-### EU Gets a Head Start in Developing 6G Network Security
+### Novo Nordisk Breach Exposes Software Development Pipeline Risk
 
-&quot;Shield-6G&quot; will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.
+A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security)
+[Read the full article](https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk)
 
-### INC Ransomware Thrives by Mastering the Basics
+### Operation Escaneo Signals Shift in LatAm Threat Landscape
 
-And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.
+The threat group's curious business model may combine opportunistic monetization alongside intel collection, without much coordination between the two.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape)
 
-### Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices
+### FIFA Bug Exposes World Cup Streams to Remote Takeover
 
-Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.
+A hacker could have &quot;Rickrolled&quot; the World Cup — or worse — thanks to FIFA's unenforced Entra access controls.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices)
+[Read the full article](https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover)
 
-### UK Social Media Ban for Minors Has Privacy Experts Worried
+### Salesforce Data Thefts Continue via Klue App Compromise
 
-The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.
+Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise)
 
 
