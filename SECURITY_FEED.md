@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-19 14:58 UTC
+**Generated:** 2026-06-20 13:54 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices
+### Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious ac...
+Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-...
 
-[Read the full article](https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html)
+[Read the full article](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
 
-### From Assistive to Agentic: The AI Shift That's Redefining Threat Management
+### Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
 
-Introduction The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are worki...
+Security researchers at&nbsp;Paradigm Shift&nbsp;have published a working exploit, dubbed&nbsp;usbliter8, that achieves arbitrary code execution inside the SecureROM of Apple's A12...
 
-[Read the full article](https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html)
+[Read the full article](https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html)
 
-### Forget Data Leakage: Shadow AI's Real Threat Is Access Control
+### The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
 
-The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, doma...
+The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliat...
 
-[Read the full article](https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html)
+[Read the full article](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
 
-### Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
+### AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
 
-Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company...
+Microsoft researchers have detailed an exploit chain, named&nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to loa...
 
-[Read the full article](https://thehackernews.com/2026/06/salesforce-disables-klue-app.html)
+[Read the full article](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
 
-### Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone
+### Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
 
-Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users. The vulnerability,...
+Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up ne...
 
-[Read the full article](https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html)
+[Read the full article](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
 
 
 ## Wiz Security Blog
