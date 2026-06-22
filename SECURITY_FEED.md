@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-21 14:02 UTC
+**Generated:** 2026-06-22 16:49 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+### 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
 
-Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-...
+A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send tr...
 
-[Read the full article](https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html)
+[Read the full article](https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html)
 
-### Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain
+### New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer
 
-Security researchers at&nbsp;Paradigm Shift&nbsp;have published a working exploit, dubbed&nbsp;usbliter8, that achieves arbitrary code execution inside the SecureROM of Apple's A12...
+Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elas...
 
-[Read the full article](https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html)
+[Read the full article](https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html)
 
-### The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes
+### Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries
 
-The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliat...
+Google has set September 30, 2026, as the day it begins enforcing&nbsp;Android developer verification&nbsp;in the first four countries, and the major device-maker app stores are in...
 
-[Read the full article](https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html)
+[Read the full article](https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html)
 
-### AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution
+### Stop Your Legacy Infrastructure from Hijacking Your AI Agents
 
-Microsoft researchers have detailed an exploit chain, named&nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to loa...
+Earlier this month, I spoke at the Gartner Security &amp; Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumve...
 
-[Read the full article](https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html)
+[Read the full article](https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html)
 
-### Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
+### ⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More
 
-Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up ne...
+It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mo...
 
-[Read the full article](https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html)
+[Read the full article](https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html)
 
 
 ## Wiz Security Blog
+### Cloud-native Security for your Windows environment: Announcing the Wiz Runtime Sensor for Windows
+
+Secure your Windows fleet without sacrificing performance. Wiz pairs real-time threat detection with a memory-safe architecture that scales efficiently to protect your essential cl...
+
+[Read the full article](https://www.wiz.io/blog/wiz-runtime-sensor-for-your-windows-environment)
+
 ### The President’s Executive Actions on AI Have a Lot to Say on Cybersecurity
 
 The spotlight has been on frontier models, but the goals are more far reaching -- including supercharging cyber defense and remediating risk at machine speed
@@ -65,21 +71,21 @@ New exposure management dashboard helps organizations align with CTEM to stay ah
 
 [Read the full article](https://www.wiz.io/blog/exposure-management-dashboard)
 
-### Navigating the New Federal Logging Mandate | OMB Memorandum M-26-14
-
-The White House Memorandum puts in place an “adaptive framework,” where agencies make risk-based, prioritized logging decisions.
-
-[Read the full article](https://www.wiz.io/blog/navigating-the-new-federal-logging-mandate-or-omb-memorandum-m-26-14)
-
 
 ## Dark Reading
+### Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign
+
+Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign)
+
 ### Stressors, AI Forcing Changes to Cybersecurity Teams
 
 As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams)
 
-### Novo Nordisk Breach Exposes Software Development Pipeline Risk
+### Novo Nordisk Breach Highlights Software Development Pipeline Risk
 
 A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.
 
@@ -96,11 +102,5 @@ The threat group's curious business model may combine opportunistic monetization
 A hacker could have &quot;Rickrolled&quot; the World Cup — or worse — thanks to FIFA's unenforced Entra access controls.
 
 [Read the full article](https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover)
-
-### Salesforce Data Thefts Continue via Klue App Compromise
-
-Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise)
 
 
