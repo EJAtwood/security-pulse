@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-22 16:49 UTC
+**Generated:** 2026-06-23 14:41 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+### GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns
 
-A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send tr...
+GitHub is moving to strengthen software supply chain security by updating "actions/checkout" to block pwn request attacks that exploit the risky use of the "pull_request_target wor...
 
-[Read the full article](https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html)
+[Read the full article](https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html)
 
-### New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer
+### Agentic AI: The Weapon That No Longer Needs a Warrior
 
-Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elas...
+Every weapon begins as an extension of the hand that holds it. The spear lengthened the reach of the arm. The bow sent the point flying without the throw. The rifle placed a man's...
 
-[Read the full article](https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html)
+[Read the full article](https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html)
 
-### Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries
+### Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT
 
-Google has set September 30, 2026, as the day it begins enforcing&nbsp;Android developer verification&nbsp;in the first four countries, and the major device-maker app stores are in...
+Cybersecurity researchers have discovered a set of malicious npm packages that are designed to deliver a Windows-based remote access trojan (RAT). The list of identified packages,...
 
-[Read the full article](https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html)
+[Read the full article](https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html)
 
-### Stop Your Legacy Infrastructure from Hijacking Your AI Agents
+### WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool
 
-Earlier this month, I spoke at the Gartner Security &amp; Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumve...
+Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Mana...
 
-[Read the full article](https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html)
+[Read the full article](https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html)
 
-### ⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More
+### OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
 
-It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mo...
+OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative&nbsp;the artificial intelligence (AI) co...
 
-[Read the full article](https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html)
+[Read the full article](https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html)
 
 
 ## Wiz Security Blog
+### AI Threat Readiness Pillar 4: Detect and contain threats in real-time
+
+Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.
+
+[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-4)
+
 ### Cloud-native Security for your Windows environment: Announcing the Wiz Runtime Sensor for Windows
 
 Secure your Windows fleet without sacrificing performance. Wiz pairs real-time threat detection with a memory-safe architecture that scales efficiently to protect your essential cl...
@@ -65,42 +71,36 @@ An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, 
 
 [Read the full article](https://www.wiz.io/blog/red-agent-pov-series)
 
-### Wiz Exposure Management Dashboard: Your CTEM Command Center
-
-New exposure management dashboard helps organizations align with CTEM to stay ahead in an era of AI exploiting vulnerabilities faster than ever
-
-[Read the full article](https://www.wiz.io/blog/exposure-management-dashboard)
-
 
 ## Dark Reading
+### SocGholish Takedown Highlights Malicious TDS Threats
+
+SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats)
+
+### FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist
+
+The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers)
+
+### DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories
+
+Four vulnerabilities allow attackers to exploit Dify, a platform for AI application building and management, to silently access and exfiltrate sensitive data.
+
+[Read the full article](https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories)
+
 ### Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign
 
 Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign)
 
-### Stressors, AI Forcing Changes to Cybersecurity Teams
+### He Thought He Was Secure; His Phone Number Got Stolen Anyway
 
-As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.
+Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measur...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams)
-
-### Novo Nordisk Breach Highlights Software Development Pipeline Risk
-
-A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk)
-
-### Operation Escaneo Signals Shift in LatAm Threat Landscape
-
-The threat group's curious business model may combine opportunistic monetization alongside intel collection, without much coordination between the two.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape)
-
-### FIFA Bug Exposes World Cup Streams to Remote Takeover
-
-A hacker could have &quot;Rickrolled&quot; the World Cup — or worse — thanks to FIFA's unenforced Entra access controls.
-
-[Read the full article](https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover)
+[Read the full article](https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover)
 
 
