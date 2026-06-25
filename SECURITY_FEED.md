@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-24 14:26 UTC
+**Generated:** 2026-06-25 14:24 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks
+### ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories
 
-Cybersecurity researchers have flagged a new class of CI/CD workflow weakness that allows attackers to hijack workflows and compromise open-source supply chains. The "critical expl...
+It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy cr...
 
-[Read the full article](https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html)
+[Read the full article](https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html)
 
-### Dawn of the Apex Agentic Adversary
+### Surviving the Mythos Era: Richard Bejtlich on the Case for NDR
 
-We are standing at the end of an era we never thought to mourn: the era of human-speed threats. For years, cybersecurity moved to a rhythm organizations could follow. A researcher...
+Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What...
 
-[Read the full article](https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html)
+[Read the full article](https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html)
 
-### DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering
+### New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis
 
-The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a cloud computing account put to use by subsidiaries of Cambodia-based corporate conglomerate HuiOne Group,...
+A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intel...
 
-[Read the full article](https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html)
+[Read the full article](https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html)
 
-### Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root
+### New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns
 
-Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Sessi...
+A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and pr...
 
-[Read the full article](https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html)
+[Read the full article](https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html)
 
-### FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation
+### Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access
 
-A Russian-speaking initial access broker (IAB) driven by financial gain is assessed to be behind a large-scale credential-harvesting operation known as FortiBleed that has targeted...
+An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclose...
 
-[Read the full article](https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html)
+[Read the full article](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
 
 
 ## Wiz Security Blog
+### Uncovering Hidden Attack Paths in Cloud Environments Using Runtime Signals
+
+Wiz now layers runtime signals into the Security Graph, exposing hidden attack paths to give security teams a complete picture of risk.
+
+[Read the full article](https://www.wiz.io/blog/runtime-signals-in-security-graph)
+
 ### How AI Is Rewriting the SecOps Playbook
 
 The threat landscape has changed. Adversaries operate at machine speed, shrinking attacks from days to minutes. Defenders can no longer investigate and respond before damage occurs...
@@ -65,42 +71,36 @@ The spotlight has been on frontier models, but the goals are more far reaching -
 
 [Read the full article](https://www.wiz.io/blog/ai-executive-order-cybersecurity)
 
-### The Red Agent POV: How it Reasoned its Way to SSRF
-
-Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API
-
-[Read the full article](https://www.wiz.io/blog/red-agent-pov-ssrf)
-
 
 ## Dark Reading
-### Apple's MacOS Gap Lets Users Disable Security Tools
+### Europe Evolves Into Ransomware's Favorite Region
 
-Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.
+After a global lull, ransomware gangs are setting sights on a rich new arena: attacking EU organizations and their suppliers.
 
-[Read the full article](https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools)
+[Read the full article](https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region)
 
-### Scope of Salesforce Attacks Expands as Icarus Leaks Data
+### Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure
 
-More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.
+Researchers believe rogue peering was used to connect to the victim's SD-WAN devices to gain admin privileges and root-level access.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure)
 
-### 'Cordyceps': Mushrooming Malicious Pull Requests Threaten Developer Workflows
+### 2026 FIFA World Cup Faces Surge in Cyber Threats
 
-The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers SDK, and Python Software...
+Persistent cybercrime, social engineering, and infrastructure threats continue to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.
 
-[Read the full article](https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats)
 
-### SocGholish Takedown Highlights Malicious TDS Threats
+### Do CISOs Need a Code of Ethics?
 
-SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.
+Dark Reading Confidential Episode 19: Kickbacks, no-show jobs, &quot;dirty&quot; VCs, and shelf ware — industry expert Robert &quot;RSnake&quot; Hansen explains why he thinks its t...
 
-[Read the full article](https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics)
 
-### FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist
+### More Malicious OpenClaw Skills Threaten AI Supply Chain
 
-The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.
+OpenClaw removed five packages from its ClawHub skills marketplace that bypassed security checks even though they included infostealers and other threats.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers)
+[Read the full article](https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain)
 
 
