@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-25 14:24 UTC
+**Generated:** 2026-06-26 14:16 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories
+### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
 
-It’s dumb out there again. This week has the usual smell of prod on fire and nobody wanting to admit who left the door open — old creds still working, trusted apps doing sketchy cr...
+A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed "pedit COW," is an out-of-bounds w...
 
-[Read the full article](https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html)
+[Read the full article](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
 
-### Surviving the Mythos Era: Richard Bejtlich on the Case for NDR
+### CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
 
-Despite the abundance of telemetry at analysts’ disposal, many security operations teams struggle to answer a few basic questions during incident investigation: What happened? What...
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM en...
 
-[Read the full article](https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html)
+[Read the full article](https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html)
 
-### New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis
+### New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets
 
-A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intel...
+DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, th...
 
-[Read the full article](https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html)
+[Read the full article](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)
 
-### New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns
+### Guardian Agents: The Next Layer of Identity Governance
 
-A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and pr...
+AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infr...
 
-[Read the full article](https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html)
+[Read the full article](https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html)
 
-### Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access
+### Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
 
-An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclose...
+Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new s...
 
-[Read the full article](https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html)
+[Read the full article](https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html)
 
 
 ## Wiz Security Blog
+### MCP Auto-Execution: From Git Clone to Cloud Compromise in Amazon Q VS Code Extension
+
+By automatically loading MCP servers from workspace files, Amazon Q enabled attackers to execute code and access sensitive cloud environments.
+
+[Read the full article](https://www.wiz.io/blog/amazon-q-vulnerability)
+
 ### Uncovering Hidden Attack Paths in Cloud Environments Using Runtime Signals
 
 Wiz now layers runtime signals into the Security Graph, exposing hidden attack paths to give security teams a complete picture of risk.
@@ -65,42 +71,36 @@ Secure your Windows fleet without sacrificing performance. Wiz pairs real-time t
 
 [Read the full article](https://www.wiz.io/blog/wiz-runtime-sensor-for-your-windows-environment)
 
-### The President’s Executive Actions on AI Have a Lot to Say on Cybersecurity
-
-The spotlight has been on frontier models, but the goals are more far reaching -- including supercharging cyber defense and remediating risk at machine speed
-
-[Read the full article](https://www.wiz.io/blog/ai-executive-order-cybersecurity)
-
 
 ## Dark Reading
-### Europe Evolves Into Ransomware's Favorite Region
+### Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex
 
-After a global lull, ransomware gangs are setting sights on a rich new arena: attacking EU organizations and their suppliers.
+Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex)
 
-### Attackers Hit Cisco SD-WAN Flaw 2 Months Before Disclosure
+### Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up
 
-Researchers believe rogue peering was used to connect to the victim's SD-WAN devices to gain admin privileges and root-level access.
+It might be taking a bit longer than usual to respond to your submissions — here's why.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/attackers-hit-cisco-sd-wan-flaw-2-months-before-disclosure)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder)
 
-### 2026 FIFA World Cup Faces Surge in Cyber Threats
+### Robinhood Cuts Access Approval Time to Support High-Velocity Development
 
-Persistent cybercrime, social engineering, and infrastructure threats continue to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.
+The fintech company's engineering-first application security team re-engineered the process for granting system access, making it easier and more secure for developers working on t...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats)
+[Read the full article](https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development)
 
-### Do CISOs Need a Code of Ethics?
+### In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw
 
-Dark Reading Confidential Episode 19: Kickbacks, no-show jobs, &quot;dirty&quot; VCs, and shelf ware — industry expert Robert &quot;RSnake&quot; Hansen explains why he thinks its t...
+The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw)
 
-### More Malicious OpenClaw Skills Threaten AI Supply Chain
+### Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
 
-OpenClaw removed five packages from its ClawHub skills marketplace that bypassed security checks even though they included infostealers and other threats.
+The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain)
+[Read the full article](https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense)
 
 
