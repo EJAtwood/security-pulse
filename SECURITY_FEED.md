@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-26 14:16 UTC
+**Generated:** 2026-06-27 13:25 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
+### OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
+
+OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S....
+
+[Read the full article](https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html)
+
+### FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+
+The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into han...
+
+[Read the full article](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
+
+### New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+
+A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike...
+
+[Read the full article](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+
+### Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+
+A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical...
+
+[Read the full article](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
+
 ### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
 
 A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed "pedit COW," is an out-of-bounds w...
 
 [Read the full article](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
-
-### CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM en...
-
-[Read the full article](https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html)
-
-### New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets
-
-DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family.&nbsp;JFrog Security Research published a working exploit walkthrough&nbsp;for the flaw on June 25, th...
-
-[Read the full article](https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html)
-
-### Guardian Agents: The Next Layer of Identity Governance
-
-AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infr...
-
-[Read the full article](https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html)
-
-### Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
-
-Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new s...
-
-[Read the full article](https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,34 @@ Secure your Windows fleet without sacrificing performance. Wiz pairs real-time t
 
 
 ## Dark Reading
+### AI Decline? Confidence in Autonomous Penetration Testing Falls
+
+Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing)
+
+### Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions
+
+Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.
+
+[Read the full article](https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield)
+
+### New Initiative Tackles Security for End-of-Life Open Source Software
+
+The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.
+
+[Read the full article](https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source)
+
+### AI Won't Wipe-Out Entry-Level Cybersecurity Jobs
+
+Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs)
+
 ### Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex
 
 Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex)
-
-### Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up
-
-It might be taking a bit longer than usual to respond to your submissions — here's why.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder)
-
-### Robinhood Cuts Access Approval Time to Support High-Velocity Development
-
-The fintech company's engineering-first application security team re-engineered the process for granting system access, making it easier and more secure for developers working on t...
-
-[Read the full article](https://www.darkreading.com/application-security/robinhood-reengineered-access-approvals-for-high-velocity-development)
-
-### In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw
-
-The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw)
-
-### Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
-
-The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense)
 
 
