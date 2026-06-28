@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-27 13:25 UTC
+**Generated:** 2026-06-28 13:39 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,6 +9,12 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
+### Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials
+
+The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence...
+
+[Read the full article](https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html)
+
 ### OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
 
 OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S....
@@ -32,12 +38,6 @@ A newly discovered cyber attack campaign has been observed delivering a previous
 A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical...
 
 [Read the full article](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
-
-### New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries
-
-A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed "pedit COW," is an out-of-bounds w...
-
-[Read the full article](https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html)
 
 
 ## Wiz Security Blog
@@ -73,6 +73,12 @@ Secure your Windows fleet without sacrificing performance. Wiz pairs real-time t
 
 
 ## Dark Reading
+### Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk
+
+Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk)
+
 ### AI Decline? Confidence in Autonomous Penetration Testing Falls
 
 Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.
@@ -96,11 +102,5 @@ The Open Source Sustainability Initiative's goal is to help enterprises manage a
 Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs)
-
-### Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex
-
-Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex)
 
 
