@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-28 13:39 UTC
+**Generated:** 2026-06-29 15:40 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,50 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials
+### ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More
 
-The Security Service of Ukraine (SSU) said it, together with the U.S. Federal Bureau of Investigation (FBI), uncovered a long-running campaign orchestrated by Russian intelligence...
+This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all...
 
-[Read the full article](https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html)
+[Read the full article](https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html)
 
-### OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards
+### 236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers
 
-OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S....
+New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application...
 
-[Read the full article](https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html)
+[Read the full article](https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html)
 
-### FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys
+### Why Post-Quantum Cryptography Starts With Credentials
 
-The FBI and CISA have updated&nbsp;their March warning&nbsp;about Russian intelligence phishing Signal accounts, and the operators have added a step: they now coax targets into han...
+Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum comput...
 
-[Read the full article](https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html)
+[Read the full article](https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html)
 
-### New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks
+### Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse
 
-A newly discovered cyber attack campaign has been observed delivering a previously undocumented malware family called SharkLoader that acts as a loader for deploying Cobalt Strike...
+A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slov...
 
-[Read the full article](https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html)
+[Read the full article](https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html)
 
-### Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign
+### Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts
 
-A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical...
+Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after i...
 
-[Read the full article](https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html)
+[Read the full article](https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html)
 
 
 ## Wiz Security Blog
+### The Borderless Attack Surface: Securing Public Sector Hybrid Environments
+
+Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency efficiency through cross-team collaboration
+
+[Read the full article](https://www.wiz.io/blog/wiz-xm-securing-public-sector-hybrid-environments)
+
+### The Red Agent POV: Exploiting Broken Object-Level Authorization in an Airline GraphQL API
+
+Part 2: How the Red Agent bypassed backend resolvers to expose an entire airline booking database in fifteen minutes
+
+[Read the full article](https://www.wiz.io/blog/red-agent-pov-bola)
+
 ### MCP Auto-Execution: From Git Clone to Cloud Compromise in Amazon Q VS Code Extension
 
 By automatically loading MCP servers from workspace files, Amazon Q enabled attackers to execute code and access sensitive cloud environments.
@@ -58,18 +70,6 @@ Wiz now layers runtime signals into the Security Graph, exposing hidden attack p
 The threat landscape has changed. Adversaries operate at machine speed, shrinking attacks from days to minutes. Defenders can no longer investigate and respond before damage occurs...
 
 [Read the full article](https://www.wiz.io/blog/ai-rewriting-secops-playbook)
-
-### AI Threat Readiness Pillar 4: Detect and contain threats in real-time
-
-Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.
-
-[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-pillar-4)
-
-### Cloud-native Security for your Windows environment: Announcing the Wiz Runtime Sensor for Windows
-
-Secure your Windows fleet without sacrificing performance. Wiz pairs real-time threat detection with a memory-safe architecture that scales efficiently to protect your essential cl...
-
-[Read the full article](https://www.wiz.io/blog/wiz-runtime-sensor-for-your-windows-environment)
 
 
 ## Dark Reading
