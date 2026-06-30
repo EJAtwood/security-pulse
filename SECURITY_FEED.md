@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-29 15:40 UTC
+**Generated:** 2026-06-30 14:11 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More
+### What the Numbers Say About FIFA 2026 Cyber Risk
 
-This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all...
+The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially depl...
 
-[Read the full article](https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html)
+[Read the full article](https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html)
 
-### 236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers
+### Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer
 
-New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application...
+An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWe...
 
-[Read the full article](https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html)
+[Read the full article](https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html)
 
-### Why Post-Quantum Cryptography Starts With Credentials
+### AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks
 
-Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum comput...
+Two researchers have found six security flaws in AirDrop and Quick Share, the wireless features that beam files between nearby devices with no cables or shared network. An attacker...
 
-[Read the full article](https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html)
+[Read the full article](https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html)
 
-### Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse
+### New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
 
-A Russian advanced persistent threat (APT) group has continued to evolve and expand its malware arsenal as part of its ongoing cyber onslaught against Ukraine throughout 2025. Slov...
+Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that t...
 
-[Read the full article](https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html)
+[Read the full article](https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html)
 
-### Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts
+### Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth
 
-Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after i...
+A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API...
 
-[Read the full article](https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html)
+[Read the full article](https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html)
 
 
 ## Wiz Security Blog
+### Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams
+
+Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Sensor Workload Scanner is now GA and extends our risk prioritization engine to on-premise environments t...
+
+[Read the full article](https://www.wiz.io/blog/sensor-wls-for-on-prem)
+
 ### The Borderless Attack Surface: Securing Public Sector Hybrid Environments
 
 Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency efficiency through cross-team collaboration
@@ -65,42 +71,36 @@ Wiz now layers runtime signals into the Security Graph, exposing hidden attack p
 
 [Read the full article](https://www.wiz.io/blog/runtime-signals-in-security-graph)
 
-### How AI Is Rewriting the SecOps Playbook
-
-The threat landscape has changed. Adversaries operate at machine speed, shrinking attacks from days to minutes. Defenders can no longer investigate and respond before damage occurs...
-
-[Read the full article](https://www.wiz.io/blog/ai-rewriting-secops-playbook)
-
 
 ## Dark Reading
-### Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk
+### 'Djinn' Stealer Targets Cloud, AI Credentials
 
-Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.
+The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to...
 
-[Read the full article](https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials)
 
-### AI Decline? Confidence in Autonomous Penetration Testing Falls
+### Vulnerabilities Expose Private Data in Indian Government Systems
 
-Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.
+One critical vulnerability, among many discovered by a researcher, could have allowed anyone to walk in and take over a national government portal.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems)
 
-### Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions
+### Can Clothes Make You Invisible to Facial Recognition?
 
-Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.
+Does life feel Orwellian sometimes? One researcher has a solution for you: graphic tees that confuse the neural networks in surveillance cameras.
 
-[Read the full article](https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield)
+[Read the full article](https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition)
 
-### New Initiative Tackles Security for End-of-Life Open Source Software
+### Iran, Russia, China Target Water Systems for Sabotage
 
-The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.
+Nation-state attackers breach water systems through weak passwords, exposed PLCs, and poor segmentation — not sophisticated malware.
 
-[Read the full article](https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source)
+[Read the full article](https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage)
 
-### AI Won't Wipe-Out Entry-Level Cybersecurity Jobs
+### Amazon Q VS Extension Flaw Leads to Cloud Credential Theft
 
-Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.
+Adversaries could plant a malicious repository that can execute arbitrary code and steal cloud credentials by exploiting the vulnerability, which showcases growing MCP risk.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs)
+[Read the full article](https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft)
 
 
