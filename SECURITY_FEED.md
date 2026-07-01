@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-06-30 14:11 UTC
+**Generated:** 2026-07-01 14:27 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### What the Numbers Say About FIFA 2026 Cyber Risk
+### Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts
 
-The FIFA World Cup 2026 opened on June 11. By that date, according to Check Point Research, the fraud infrastructure targeting it had already been built, staged, and partially depl...
+A recently disclosed critical security flaw impacting Progress Kemp LoadMaster is seeing active exploitation attempts, according to an advisory from eSentire's Threat Response Unit...
 
-[Read the full article](https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html)
+[Read the full article](https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html)
 
-### Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer
+### AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android
 
-An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWe...
+Cybersecurity researchers have flagged a new malware artifact generated using DeepSeek that constructed a novel attack path combining "unrealistic browser-malware concepts with a r...
 
-[Read the full article](https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html)
+[Read the full article](https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html)
 
-### AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks
+### 2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience
 
-Two researchers have found six security flaws in AirDrop and Quick Share, the wireless features that beam files between nearby devices with no cables or shared network. An attacker...
+Organizations have never had greater awareness of cyber risk. Yet turning that awareness into operational resilience has never been more challenging. The 2026 Bitdefender Cybersecu...
 
-[Read the full article](https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html)
+[Read the full article](https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html)
 
-### New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
+### Microsoft Accelerates Post-Quantum Cryptography Shift to 2029
 
-Convince an AI browser that it is playing a game, and it can hand over your login details. That is the finding behind&nbsp;BioShocking, a technique from security firm LayerX that t...
+Microsoft on Tuesday said it's accelerating its quantum safe security roadmap, stating technology advances in quantum computing are making it essential to replace existing encrypti...
 
-[Read the full article](https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html)
+[Read the full article](https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html)
 
-### Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth
+### Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
 
-A critical vulnerability in Progress Kemp LoadMaster can let an unauthenticated attacker execute arbitrary commands as root on the appliance by sending a crafted request to its API...
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on the...
 
-[Read the full article](https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html)
+[Read the full article](https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html)
 
 
 ## Wiz Security Blog
+### Start Secure in the AI Era: Accelerating AI Threat Readiness with WizOS
+
+As the time from vulnerability discovery to exploitation shrinks, building with minimal, secured components is more important than ever. Here is how WizOS helps.
+
+[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-with-wizos)
+
 ### Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams
 
 Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Sensor Workload Scanner is now GA and extends our risk prioritization engine to on-premise environments t...
@@ -65,42 +71,36 @@ By automatically loading MCP servers from workspace files, Amazon Q enabled atta
 
 [Read the full article](https://www.wiz.io/blog/amazon-q-vulnerability)
 
-### Uncovering Hidden Attack Paths in Cloud Environments Using Runtime Signals
-
-Wiz now layers runtime signals into the Security Graph, exposing hidden attack paths to give security teams a complete picture of risk.
-
-[Read the full article](https://www.wiz.io/blog/runtime-signals-in-security-graph)
-
 
 ## Dark Reading
-### 'Djinn' Stealer Targets Cloud, AI Credentials
+### Safe Events Start With Threat Intel and Digital Security
 
-The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to...
+Planning ahead to defend against cyber threats is the work that keeps events uneventful.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials)
+[Read the full article](https://www.darkreading.com/threat-intelligence/safe-events-threat-intel-digital-security)
 
-### Vulnerabilities Expose Private Data in Indian Government Systems
+### China-Linked Group Targets Southeast Asia Critical Systems
 
-One critical vulnerability, among many discovered by a researcher, could have allowed anyone to walk in and take over a national government portal.
+The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems)
+[Read the full article](https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems)
 
-### Can Clothes Make You Invisible to Facial Recognition?
+### Fake Bug Report Hijacks AI Coding Agents at Scale
 
-Does life feel Orwellian sometimes? One researcher has a solution for you: graphic tees that confuse the neural networks in surveillance cameras.
+&quot;Agentjacking&quot; is the latest demonstration of how easily attackers can exploit an AI agent's inability to differentiate between content and instructions.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/clothes-invisible-facial-recognition)
+[Read the full article](https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents)
 
-### Iran, Russia, China Target Water Systems for Sabotage
+### Attackers Seize Exposed AI Endpoints to Power Offensive Ops
 
-Nation-state attackers breach water systems through weak passwords, exposed PLCs, and poor segmentation — not sophisticated malware.
+Threat actors don't need any special authentication to reach a target endpoint — they just need to know where it is.
 
-[Read the full article](https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage)
+[Read the full article](https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops)
 
-### Amazon Q VS Extension Flaw Leads to Cloud Credential Theft
+### Why Identity Security Is Your Cyber Career Entry Point
 
-Adversaries could plant a malicious repository that can execute arbitrary code and steal cloud credentials by exploiting the vulnerability, which showcases growing MCP risk.
+As AI reshapes cybersecurity workflows, John Paul Cunningham, CISO at SIlverfort, says the technology is creating opportunities rather than eliminating jobs — and there are more wa...
 
-[Read the full article](https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/identity-security-cyber-career-entry-point)
 
 
