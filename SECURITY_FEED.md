@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-02 13:51 UTC
+**Generated:** 2026-07-03 13:55 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API
+### Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer
 
-The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google...
+A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil...
 
-[Read the full article](https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html)
+[Read the full article](https://thehackernews.com/2026/07/armored-likho-targets-government.html)
 
-### Identity Lifecycle Management Wasn't Built for AI Agents
+### European Parliament Member Investigating Spyware Was Hacked With Pegasus
 
-Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals pro...
+A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus sp...
 
-[Read the full article](https://thehackernews.com/2026/07/identity-lifecycle-management.html)
+[Read the full article](https://thehackernews.com/2026/07/european-parliament-member.html)
 
-### AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack
+### PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords
 
-Security firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operato...
+Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The ste...
 
-[Read the full article](https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html)
+[Read the full article](https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html)
 
-### FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
+### Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices
 
-The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were i...
+Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others...
 
-[Read the full article](https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html)
+[Read the full article](https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html)
 
-### New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos
+### Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
 
-Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concep...
+Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. "Although tac...
 
-[Read the full article](https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html)
+[Read the full article](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,34 @@ Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency 
 
 
 ## Dark Reading
-### Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.
+### Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders
 
-IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service as Anthropic's Mythos findings ignite debate over how to secure the open-source software supply chain.
+Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-)
+[Read the full article](https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders)
 
-### Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS
+### Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs
 
-Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.
+Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.
 
-[Read the full article](https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os)
+[Read the full article](https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs)
 
-### And the Winner in Dominant Malware Delivery? ClickFix
+### Apple Reverses Age-Old Patch Policy to Keep Up With AI
 
-Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.
+Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai)
 
-### When Too Much Security Data Became the Risk
+### FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
 
-Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.
+After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/too-much-security-data-risk)
+[Read the full article](https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs)
 
-### 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat
+### Ransomware Thugs Masquerade as Interpol to Entice Small Biz
 
-LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.
+The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.
 
-[Read the full article](https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses)
 
 
