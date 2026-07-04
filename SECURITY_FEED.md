@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-03 13:55 UTC
+**Generated:** 2026-07-04 13:17 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer
+### North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
 
-A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil...
+The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go,...
 
-[Read the full article](https://thehackernews.com/2026/07/armored-likho-targets-government.html)
+[Read the full article](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html)
 
-### European Parliament Member Investigating Spyware Was Hacked With Pegasus
+### Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
 
-A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus sp...
+Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on US...
 
-[Read the full article](https://thehackernews.com/2026/07/european-parliament-member.html)
+[Read the full article](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html)
 
-### PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords
+### New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
 
-Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The ste...
+A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops...
 
-[Read the full article](https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html)
+[Read the full article](https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html)
 
-### Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices
+### New Avalon Malware Framework Packs CrownX Ransomware Capabilities
 
-Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others...
+Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable o...
 
-[Read the full article](https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html)
+[Read the full article](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
 
-### Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials
+### North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets
 
-Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. "Although tac...
+Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data the...
 
-[Read the full article](https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html)
+[Read the full article](https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html)
 
 
 ## Wiz Security Blog
