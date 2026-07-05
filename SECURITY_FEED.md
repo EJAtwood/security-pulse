@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-04 13:17 UTC
+**Generated:** 2026-07-05 13:23 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,6 +9,12 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
+### U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+
+A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked nego...
+
+[Read the full article](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
+
 ### North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
 
 The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go,...
@@ -32,12 +38,6 @@ A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an or
 Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable o...
 
 [Read the full article](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
-
-### North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets
-
-Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data the...
-
-[Read the full article](https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html)
 
 
 ## Wiz Security Blog
