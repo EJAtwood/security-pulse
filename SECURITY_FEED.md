@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-05 13:23 UTC
+**Generated:** 2026-07-06 15:23 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case
+### ⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More
 
-A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked nego...
+A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: t...
 
-[Read the full article](https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html)
+[Read the full article](https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html)
 
-### North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign
+### How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions
 
-The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go,...
+Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different...
 
-[Read the full article](https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html)
+[Read the full article](https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html)
 
-### Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+### Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT
 
-Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on US...
+A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan desig...
 
-[Read the full article](https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html)
+[Read the full article](https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html)
 
-### New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+### New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
 
-A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops...
+Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on...
 
-[Read the full article](https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html)
+[Read the full article](https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html)
 
-### New Avalon Malware Framework Packs CrownX Ransomware Capabilities
+### New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
 
-Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable o...
+Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According t...
 
-[Read the full article](https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html)
+[Read the full article](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html)
 
 
 ## Wiz Security Blog
