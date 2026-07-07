@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-06 15:23 UTC
+**Generated:** 2026-07-07 14:24 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### ⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More
+### Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
 
-A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: t...
+U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal co...
 
-[Read the full article](https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html)
+[Read the full article](https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html)
 
-### How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions
+### Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants
 
-Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different...
+Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform...
 
-[Read the full article](https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html)
+[Read the full article](https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html)
 
-### Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT
+### What Changes When Your Software Supply Chain Includes AI Writing Your Code?
 
-A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan desig...
+Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, "software supply chain security" meant one question: what's in your code? Which o...
 
-[Read the full article](https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html)
+[Read the full article](https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html)
 
-### New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions
+### Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
 
-Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on...
+A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian univ...
 
-[Read the full article](https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html)
+[Read the full article](https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html)
 
-### New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS
+### CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
 
-Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According t...
+Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative acce...
 
-[Read the full article](https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html)
+[Read the full article](https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,5 @@ Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency 
 
 
 ## Dark Reading
-### Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders
-
-Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?
-
-[Read the full article](https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders)
-
-### Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs
-
-Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs)
-
-### Apple Reverses Age-Old Patch Policy to Keep Up With AI
-
-Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai)
-
-### FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
-
-After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs)
-
-### Ransomware Thugs Masquerade as Interpol to Entice Small Biz
-
-The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses)
-
+*No entries available*
 
