@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-07 14:24 UTC
+**Generated:** 2026-07-08 13:55 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker
+### GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures
 
-U.S. prosecutors linked an alleged Scattered Spider hacker to a break-in at a luxury jewelry retailer using a persistent Windows device ID, according to a newly unsealed federal co...
+New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the sign...
 
-[Read the full article](https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html)
+[Read the full article](https://thehackernews.com/2026/07/github-verified-commits-can-be.html)
 
-### Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants
+### The Verification Step Is the New ATO Battleground in 2026
 
-Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform...
+For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential s...
 
-[Read the full article](https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html)
+[Read the full article](https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html)
 
-### What Changes When Your Software Supply Chain Includes AI Writing Your Code?
+### GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code
 
-Software supply chain security was hard enough. Then AI joined the build pipeline. For five years, "software supply chain security" meant one question: what's in your code? Which o...
+An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a cod...
 
-[Read the full article](https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html)
+[Read the full article](https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html)
 
-### Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities
+### China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware
 
-A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian univ...
+A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking de...
 
-[Read the full article](https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html)
+[Read the full article](https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html)
 
-### CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware
+### 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
 
-Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative acce...
+Researchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control of...
 
-[Read the full article](https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html)
+[Read the full article](https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html)
 
 
 ## Wiz Security Blog
+### Wiz ASM for any environment, any risk, everywhere
+
+Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
+
+[Read the full article](https://www.wiz.io/blog/wiz-asm-auto-recon)
+
 ### Build AI Security Agents with Wiz MCP
 
 Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.
@@ -65,13 +71,36 @@ Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Senso
 
 [Read the full article](https://www.wiz.io/blog/sensor-wls-for-on-prem)
 
-### The Borderless Attack Surface: Securing Public Sector Hybrid Environments
-
-Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency efficiency through cross-team collaboration
-
-[Read the full article](https://www.wiz.io/blog/wiz-xm-securing-public-sector-hybrid-environments)
-
 
 ## Dark Reading
-*No entries available*
+### State IDs for AI Agents: Will Estonia Set a Precedent?
+
+The world's digital testing ground plans to help people use AI agents for government purposes.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia)
+
+### Big Brand Jobs Scam Targets Marketing Pros' Google Accounts
+
+The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts)
+
+### Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data Theft
+
+Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.
+
+[Read the full article](https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft)
+
+### 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+
+The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows)
+
+### 'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks
+
+A threat group researchers call &quot;Armored Likho&quot; has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks)
+
 
