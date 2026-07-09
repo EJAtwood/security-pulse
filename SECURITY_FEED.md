@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-08 13:55 UTC
+**Generated:** 2026-07-09 14:50 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures
+### AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up
 
-New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the sign...
+AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands...
 
-[Read the full article](https://thehackernews.com/2026/07/github-verified-commits-can-be.html)
+[Read the full article](https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html)
 
-### The Verification Step Is the New ATO Battleground in 2026
+### Summer of Clearinghouses
 
-For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential s...
+Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and r...
 
-[Read the full article](https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html)
+[Read the full article](https://thehackernews.com/2026/07/summer-of-clearinghouses.html)
 
-### GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code
+### GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses
 
-An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a cod...
+Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion...
 
-[Read the full article](https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html)
+[Read the full article](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
 
-### China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware
+### Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
 
-A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking de...
+Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE...
 
-[Read the full article](https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html)
+[Read the full article](https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html)
 
-### 15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros
+### Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images
 
-Researchers at&nbsp;Nebula Security&nbsp;have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full&nbsp;root&nbsp;control of...
+Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default....
 
-[Read the full article](https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html)
+[Read the full article](https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html)
 
 
 ## Wiz Security Blog
+### GhostApproval: A Trust Boundary Gap in AI Coding Assistants
+
+Uncovering a category-level blind spot in modern AI coding assistants, and why the Human-in-the-Loop safety model fails against this classic threat
+
+[Read the full article](https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants)
+
 ### Wiz ASM for any environment, any risk, everywhere
 
 Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
@@ -65,42 +71,36 @@ As the time from vulnerability discovery to exploitation shrinks, building with 
 
 [Read the full article](https://www.wiz.io/blog/ai-threat-readiness-with-wizos)
 
-### Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams
-
-Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Sensor Workload Scanner is now GA and extends our risk prioritization engine to on-premise environments t...
-
-[Read the full article](https://www.wiz.io/blog/sensor-wls-for-on-prem)
-
 
 ## Dark Reading
-### State IDs for AI Agents: Will Estonia Set a Precedent?
+### As Global Conflicts Go Digital, Businesses Need Wartime Gameplans
 
-The world's digital testing ground plans to help people use AI agents for government purposes.
+The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protec...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/state-ids-ai-agents-estonia)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans)
 
-### Big Brand Jobs Scam Targets Marketing Pros' Google Accounts
+### AI Gateways Offer Attackers the Keys to the Kingdom
 
-The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.
+A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts)
+[Read the full article](https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom)
 
-### Dialogflow CX 'Rogue Agent' Flaw Enabled AI Chatbot Data Theft
+### 'GodDamn' Ransomware Uses BYOVD to Smite US Companies
 
-Varonis reported the flaw to Google in late 2025 and it has been addressed, but it reminds defenders to take a fresh look at their AI Infrastructure security.
+Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.
 
-[Read the full article](https://www.darkreading.com/application-security/dialogflow-cx-rogue-agent-flaw-enabled-ai-chatbot-data-theft)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies)
 
-### 'GitLost' Flaw Leaks Private Data From GitHub's Agentic Workflows
+### European Organizations Have a Collaboration Security Confidence Gap
 
-The flaw allows an unauthenticated attacker to craft a GitHub Issue in an org's public repository and then silently pull data from its private repos, too.
+A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/gitlost-leaks-private-data-github-agentic-workflows)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap)
 
-### 'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks
+### Mexico's New Cyber Plan Faces Its First Real Test
 
-A threat group researchers call &quot;Armored Likho&quot; has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.
+The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks)
+[Read the full article](https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test)
 
 
