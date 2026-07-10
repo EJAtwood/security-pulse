@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-09 14:50 UTC
+**Generated:** 2026-07-10 14:15 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,50 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up
+### New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
 
-AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands...
+The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin sai...
 
-[Read the full article](https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html)
+[Read the full article](https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html)
 
-### Summer of Clearinghouses
+### Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
 
-Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and r...
+A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no...
 
-[Read the full article](https://thehackernews.com/2026/07/summer-of-clearinghouses.html)
+[Read the full article](https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html)
 
-### GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses
+### From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale
 
-Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion...
+Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius A...
 
-[Read the full article](https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html)
+[Read the full article](https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html)
 
-### Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges
+### Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites
 
-Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE...
+A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and ta...
 
-[Read the full article](https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html)
+[Read the full article](https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html)
 
-### Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images
+### Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking
 
-Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default....
+Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., k...
 
-[Read the full article](https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html)
+[Read the full article](https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html)
 
 
 ## Wiz Security Blog
+### How ProdSec uses Wiz
+
+Automation, resilience, and security for the modern age
+
+[Read the full article](https://www.wiz.io/blog/how-prodsec-uses-wiz)
+
+### Wiz in the Verizon DBIR: How AI Acceleration and Cloud Sprawl Impact Modern Defense
+
+Verizon's latest DBIR highlights how attackers are exploiting familiar weaknesses at increasing speed and scale. Here's what Wiz research reveals about vulnerabilities, trust relat...
+
+[Read the full article](https://www.wiz.io/blog/verizon-dbir-2026-ai-cloud-security)
+
 ### GhostApproval: A Trust Boundary Gap in AI Coding Assistants
 
 Uncovering a category-level blind spot in modern AI coding assistants, and why the Human-in-the-Loop safety model fails against this classic threat
@@ -59,48 +71,36 @@ Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz A
 
 [Read the full article](https://www.wiz.io/blog/introducing-wiz-mcp)
 
-### Breaking Down the White House’s Actions on Post-Quantum Cryptography Readiness
-
-The U.S. Federal Migration to PQC Just Got Real
-
-[Read the full article](https://www.wiz.io/blog/white-house-post-quantum-cryptography-executive-order)
-
-### Start Secure in the AI Era: Accelerating AI Threat Readiness with WizOS
-
-As the time from vulnerability discovery to exploitation shrinks, building with minimal, secured components is more important than ever. Here is how WizOS helps.
-
-[Read the full article](https://www.wiz.io/blog/ai-threat-readiness-with-wizos)
-
 
 ## Dark Reading
-### As Global Conflicts Go Digital, Businesses Need Wartime Gameplans
+### Fresh ATM Crypto Software Bugs: Jackpot or Bust?
 
-The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protec...
+Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust)
 
-### AI Gateways Offer Attackers the Keys to the Kingdom
+### AI Coding: Do Security Risks Outweigh Productivity Gains?
 
-A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.
+AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?
 
-[Read the full article](https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom)
+[Read the full article](https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains)
 
-### 'GodDamn' Ransomware Uses BYOVD to Smite US Companies
+### Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
 
-Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.
+Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies)
+[Read the full article](https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure)
 
-### European Organizations Have a Collaboration Security Confidence Gap
+### Microsoft Reins in RoguePlanet Zero-Day Threat
 
-A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.
+The researcher known as &quot;Nightmare-Eclipse&quot; published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other M...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap)
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat)
 
-### Mexico's New Cyber Plan Faces Its First Real Test
+### AI Agents Are a New Kind of Identity &amp; Most Organizations Aren't Ready
 
-The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.
+If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test)
+[Read the full article](https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready)
 
 
