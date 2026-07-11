@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-10 14:15 UTC
+**Generated:** 2026-07-11 13:10 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic
+### Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
 
-The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin sai...
+Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnera...
 
-[Read the full article](https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html)
+[Read the full article](https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html)
 
-### Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers
+### URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat
 
-A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no...
+Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a "cr...
 
-[Read the full article](https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html)
+[Read the full article](https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html)
 
-### From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale
+### Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
 
-Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius A...
+Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wal...
 
-[Read the full article](https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html)
+[Read the full article](https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html)
 
-### Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites
+### Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot
 
-A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and ta...
+Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and...
 
-[Read the full article](https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html)
+[Read the full article](https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html)
 
-### Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking
+### Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched
 
-Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., k...
+Researchers at Ledger's&nbsp;Donjon security team&nbsp;have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's pas...
 
-[Read the full article](https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html)
+[Read the full article](https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,34 @@ Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz A
 
 
 ## Dark Reading
+### Jen Ellis: Connecting Cyber Community With Political Machinery
+
+Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on beha...
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery)
+
+### Cybercriminals Flock to Healthcare Businesses as Attacks Surge
+
+While cyberattacks against hospitals and clinics grew modestly in the first half of 2026, attacks on service providers and other healthcare businesses more than doubled.
+
+[Read the full article](https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge)
+
 ### Fresh ATM Crypto Software Bugs: Jackpot or Bust?
 
 Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.
 
 [Read the full article](https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust)
 
+### More Countries Jump on the Social Media 'Ban Wagon'
+
+Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon)
+
 ### AI Coding: Do Security Risks Outweigh Productivity Gains?
 
 AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?
 
 [Read the full article](https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains)
-
-### Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure
-
-Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure)
-
-### Microsoft Reins in RoguePlanet Zero-Day Threat
-
-The researcher known as &quot;Nightmare-Eclipse&quot; published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other M...
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat)
-
-### AI Agents Are a New Kind of Identity &amp; Most Organizations Aren't Ready
-
-If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.
-
-[Read the full article](https://www.darkreading.com/identity-access-management-security/ai-agents-new-kind-identity-most-organizations-not-ready)
 
 
