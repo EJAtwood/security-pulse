@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-11 13:10 UTC
+**Generated:** 2026-07-12 13:12 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,6 +9,18 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
+### Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+
+The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious versio...
+
+[Read the full article](https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html)
+
+### Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+
+Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and In...
+
+[Read the full article](https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html)
+
 ### Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
 
 Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnera...
@@ -26,18 +38,6 @@ Progress Software has told ShareFile customers to shut down the Windows servers 
 Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wal...
 
 [Read the full article](https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html)
-
-### Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot
-
-Researchers at firmware security firm&nbsp;Binarly&nbsp;have found six new flaws in U-Boot, the small program that starts up hardware as varied as home routers, smart cameras, and...
-
-[Read the full article](https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html)
-
-### Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched
-
-Researchers at Ledger's&nbsp;Donjon security team&nbsp;have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's pas...
-
-[Read the full article](https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html)
 
 
 ## Wiz Security Blog
