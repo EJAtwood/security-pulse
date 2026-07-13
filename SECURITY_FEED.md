@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-12 13:12 UTC
+**Generated:** 2026-07-13 14:27 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install
+### Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft
 
-The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious versio...
+A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial int...
 
-[Read the full article](https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html)
+[Read the full article](https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html)
 
-### Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns
+### Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling
 
-Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and In...
+Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped...
 
-[Read the full article](https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html)
+[Read the full article](https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html)
 
-### Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions
+### Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots
 
-Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnera...
+A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. The...
 
-[Read the full article](https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html)
+[Read the full article](https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html)
 
-### URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat
+### Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory
 
-Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a "cr...
+Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. "The script loo...
 
-[Read the full article](https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html)
+[Read the full article](https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html)
 
-### Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages
+### Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365
 
-Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wal...
+An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;py...
 
-[Read the full article](https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html)
+[Read the full article](https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html)
 
 
 ## Wiz Security Blog
@@ -73,6 +73,12 @@ Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz A
 
 
 ## Dark Reading
+### Turning the Tables on Email Scammers With 'ScamBuster'
+
+An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal opera...
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster)
+
 ### Jen Ellis: Connecting Cyber Community With Political Machinery
 
 Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on beha...
@@ -96,11 +102,5 @@ Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in 
 Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.
 
 [Read the full article](https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon)
-
-### AI Coding: Do Security Risks Outweigh Productivity Gains?
-
-AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?
-
-[Read the full article](https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains)
 
 
