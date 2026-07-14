@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-13 14:27 UTC
+**Generated:** 2026-07-14 13:26 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,50 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft
+### 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot
 
-A new phishing-as-a-service (PhaaS) operation called Forg365 is using a combination of device code phishing, adversary-in-the-middle (AitM) tactics, antibot evasion, artificial int...
+Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most sys...
 
-[Read the full article](https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html)
+[Read the full article](https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html)
 
-### Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling
+### Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks
 
-Meta has filed a patent application for an AI that listens to your voice throughout the day, works out how it thinks you are feeling from the way you sound, and keeps a timestamped...
+Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people...
 
-[Read the full article](https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html)
+[Read the full article](https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html)
 
-### Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots
+### How Pentera Turns AI Security Workflows into Validation Engines
 
-A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. The...
+AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most st...
 
-[Read the full article](https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html)
+[Read the full article](https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html)
 
-### Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory
+### OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
 
-Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. "The script loo...
+At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows...
 
-[Read the full article](https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html)
+[Read the full article](https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html)
 
-### Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365
+### Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read
 
-An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it:&nbsp;py...
+xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed...
 
-[Read the full article](https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html)
+[Read the full article](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html)
 
 
 ## Wiz Security Blog
+### M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
+
+Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
+
+[Read the full article](https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions)
+
+### Why IaC Coverage Belongs on Your Security Dashboard
+
+Rethinking IaC coverage as a funnel that shows how much of your infrastructure is governed, traceable, and ready for remediation at speed
+
+[Read the full article](https://www.wiz.io/blog/iac-coverage-security-dashboard)
+
 ### How ProdSec uses Wiz
 
 Automation, resilience, and security for the modern age
@@ -59,48 +71,7 @@ Uncovering a category-level blind spot in modern AI coding assistants, and why t
 
 [Read the full article](https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants)
 
-### Wiz ASM for any environment, any risk, everywhere
-
-Protect the modern attack surface with new auto-reconnaissance capabilities, deep internal context, and the Red Agent to find any risk, anywhere.
-
-[Read the full article](https://www.wiz.io/blog/wiz-asm-auto-recon)
-
-### Build AI Security Agents with Wiz MCP
-
-Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.
-
-[Read the full article](https://www.wiz.io/blog/introducing-wiz-mcp)
-
 
 ## Dark Reading
-### Turning the Tables on Email Scammers With 'ScamBuster'
-
-An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal opera...
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster)
-
-### Jen Ellis: Connecting Cyber Community With Political Machinery
-
-Security Pro File: On the heels of her recent honors as a Member of the Order of the British Empire (MBE), we take a look back at the events that shaped Jen Ellis' advocacy on beha...
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery)
-
-### Cybercriminals Flock to Healthcare Businesses as Attacks Surge
-
-While cyberattacks against hospitals and clinics grew modestly in the first half of 2026, attacks on service providers and other healthcare businesses more than doubled.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge)
-
-### Fresh ATM Crypto Software Bugs: Jackpot or Bust?
-
-Organizations, and possibly ATMs, are at risk of compromise, thanks to holes in a Microsoft BitLocker security wrapper.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust)
-
-### More Countries Jump on the Social Media 'Ban Wagon'
-
-Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon)
-
+*No entries available*
 
