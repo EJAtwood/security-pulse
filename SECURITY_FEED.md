@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-14 13:26 UTC
+**Generated:** 2026-07-15 13:29 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### 11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot
+### SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.
 
-Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most sys...
+For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise w...
 
-[Read the full article](https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html)
+[Read the full article](https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html)
 
-### Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks
+### Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
 
-Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people...
+Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Ser...
 
-[Read the full article](https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html)
+[Read the full article](https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html)
 
-### How Pentera Turns AI Security Workflows into Validation Engines
+### New Webinar: Closing the Approval Gap in AI-Era Ad Tech
 
-AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most st...
+A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on...
 
-[Read the full article](https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html)
+[Read the full article](https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html)
 
-### OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials
+### Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution
 
-At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows...
+Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that any...
 
-[Read the full article](https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html)
+[Read the full article](https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html)
 
-### Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read
+### Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
 
-xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed...
+Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and S...
 
-[Read the full article](https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html)
+[Read the full article](https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html)
 
 
 ## Wiz Security Blog
@@ -73,5 +73,34 @@ Uncovering a category-level blind spot in modern AI coding assistants, and why t
 
 
 ## Dark Reading
-*No entries available*
+### 2-Click Cursor Exploit Enables Dev Environment Takeover
+
+Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.
+
+[Read the full article](https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover)
+
+### Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits
+
+The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits)
+
+### Cribl Adds Agentic Detection Engineering &amp; Boosts SecOps With CardinalOps Deal
+
+CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&amp;CK framework. SecOps teams can identify coverage gaps and operat...
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal)
+
+### Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes
+
+Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes)
+
+### 6 GHz Wi-Fi Flaws Could Disrupt Critical Systems
+
+Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.
+
+[Read the full article](https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems)
+
 
