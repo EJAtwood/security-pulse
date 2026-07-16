@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-15 13:29 UTC
+**Generated:** 2026-07-16 13:42 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.
+### New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands
 
-For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise w...
+Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. "The...
 
-[Read the full article](https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html)
+[Read the full article](https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html)
 
-### Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday
+### New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
 
-Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Ser...
+ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into...
 
-[Read the full article](https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html)
+[Read the full article](https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html)
 
-### New Webinar: Closing the Approval Gap in AI-Era Ad Tech
+### 20+ Hijacked Government Websites Became an Attack Channel
 
-A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on...
+More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of i...
 
-[Read the full article](https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html)
+[Read the full article](https://thehackernews.com/2026/07/20-hijacked-government-websites.html)
 
-### Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution
+### New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands
 
-Open a repository in Cursor&nbsp;on Windows and, if a file named&nbsp;git.exe&nbsp;is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that any...
+Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click "Buy Now" instead. Ask a coding assistant to apply a maintainer's fix from...
 
-[Read the full article](https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html)
+[Read the full article](https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html)
 
-### Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware
+### Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor
 
-Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and S...
+An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unrep...
 
-[Read the full article](https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html)
+[Read the full article](https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html)
 
 
 ## Wiz Security Blog
+### The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System
+
+Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.
+
+[Read the full article](https://www.wiz.io/blog/red-agent-pov-business-logic)
+
 ### M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
 
 Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
@@ -65,42 +71,36 @@ Verizon's latest DBIR highlights how attackers are exploiting familiar weaknesse
 
 [Read the full article](https://www.wiz.io/blog/verizon-dbir-2026-ai-cloud-security)
 
-### GhostApproval: A Trust Boundary Gap in AI Coding Assistants
-
-Uncovering a category-level blind spot in modern AI coding assistants, and why the Human-in-the-Loop safety model fails against this classic threat
-
-[Read the full article](https://www.wiz.io/blog/ghostapproval-a-trust-boundary-gap-in-ai-coding-assistants)
-
 
 ## Dark Reading
-### 2-Click Cursor Exploit Enables Dev Environment Takeover
+### Police Disrupt a €140M Cyber Fraud Ring in Spain
 
-Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.
+Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.
 
-[Read the full article](https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover)
+[Read the full article](https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain)
 
-### Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits
+### Forgotten Bootloaders Expose Secure Boot Blind Spot
 
-The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.
+Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits)
+[Read the full article](https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot)
 
-### Cribl Adds Agentic Detection Engineering &amp; Boosts SecOps With CardinalOps Deal
+### Identity Attacks Overtake Exploits as Top Ransomware Cause
 
-CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&amp;CK framework. SecOps teams can identify coverage gaps and operat...
+Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent c...
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/cribl-adds-agentic-detection-engineering-boosts-secops-with-cardinalops-deal)
+[Read the full article](https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause)
 
-### Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes
+### Guten Tag, Bonjour, Hola to Our European Cyber Defenders!
 
-Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.
+We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes)
+[Read the full article](https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders)
 
-### 6 GHz Wi-Fi Flaws Could Disrupt Critical Systems
+### Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife
 
-Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.
+The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with si...
 
-[Read the full article](https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife)
 
 
