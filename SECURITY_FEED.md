@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-16 13:42 UTC
+**Generated:** 2026-07-17 13:20 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands
+### E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants
 
-Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. "The...
+The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on scree...
 
-[Read the full article](https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html)
+[Read the full article](https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html)
 
-### New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password
+### The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?
 
-ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into...
+Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies,...
 
-[Read the full article](https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html)
+[Read the full article](https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html)
 
-### 20+ Hijacked Government Websites Became an Attack Channel
+### Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man
 
-More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of i...
+Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov...
 
-[Read the full article](https://thehackernews.com/2026/07/20-hijacked-government-websites.html)
+[Read the full article](https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html)
 
-### New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands
+### ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files
 
-Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click "Buy Now" instead. Ask a coding assistant to apply a maintainer's fix from...
+ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and f...
 
-[Read the full article](https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html)
+[Read the full article](https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html)
 
-### Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor
+### New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage
 
-An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unrep...
+Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since la...
 
-[Read the full article](https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html)
+[Read the full article](https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,34 @@ Verizon's latest DBIR highlights how attackers are exploiting familiar weaknesse
 
 
 ## Dark Reading
+### Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear
+
+The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap)
+
+### Google Bets 'Agentic Defense' Strategy Can Outpace Attackers
+
+Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.
+
+[Read the full article](https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers)
+
+### Agentic AI: Taming the Unpredictable
+
+Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions)
+
+### 1M+ Emails Use Hidden Text to Dupe AI Security Filters
+
+Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.
+
+[Read the full article](https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters)
+
 ### Police Disrupt a €140M Cyber Fraud Ring in Spain
 
 Iberian hackers carried out a variety of cyberattacks and laundered the winnings through complex financial networks.
 
 [Read the full article](https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain)
-
-### Forgotten Bootloaders Expose Secure Boot Blind Spot
-
-Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot)
-
-### Identity Attacks Overtake Exploits as Top Ransomware Cause
-
-Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent c...
-
-[Read the full article](https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause)
-
-### Guten Tag, Bonjour, Hola to Our European Cyber Defenders!
-
-We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.
-
-[Read the full article](https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders)
-
-### Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife
-
-The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with si...
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife)
 
 
