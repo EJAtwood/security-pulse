@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-19 13:09 UTC
+**Generated:** 2026-07-20 13:58 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code
+### ⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More
 
-Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is p...
+A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often...
 
-[Read the full article](https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html)
+[Read the full article](https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html)
 
-### OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests
+### Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine
 
-Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until th...
+At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport rou...
 
-[Read the full article](https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html)
+[Read the full article](https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html)
 
-### Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT
+### Mythos Didn't Break Your Security Program. Your Exposure Window Could.
 
-Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The mal...
+The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly w...
 
-[Read the full article](https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html)
+[Read the full article](https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html)
 
-### New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens
+### New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction
 
-A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan que...
+Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chun...
 
-[Read the full article](https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html)
+[Read the full article](https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html)
 
-### GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft
+### Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs
 
-Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of...
+A solo Russian-speaking threat actor known as "bandcampro" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a...
 
-[Read the full article](https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html)
+[Read the full article](https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html)
 
 
 ## Wiz Security Blog
