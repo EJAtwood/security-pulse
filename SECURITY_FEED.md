@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-21 13:40 UTC
+**Generated:** 2026-07-22 13:43 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs
+### Why Modern SOCs Need Multi-Layered Detections
 
-An Android app that can draw over other windows and write to shared storage can slip instructions to the AI agent driving that phone, in text no human eye will ever see. Two more s...
+The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are si...
 
-[Read the full article](https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html)
+[Read the full article](https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html)
 
-### N-day is Becoming N-Hour. Patching Faster Won't Save You.
+### Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA
 
-Every patch is a confession. The moment a vendor ships a security fix, the diff between the old code and the new code tells anyone watching exactly what was broken and where. Turn...
+German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, an...
 
-[Read the full article](https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html)
+[Read the full article](https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html)
 
-### New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit
+### Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
 
-A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. T...
+Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's des...
 
-[Read the full article](https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html)
+[Read the full article](https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html)
 
-### WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning
+### Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents
 
-Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise o...
+A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and...
 
-[Read the full article](https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html)
+[Read the full article](https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html)
 
-### New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack
+### OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark
 
-Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator...
+OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an "even more capable pre-release model," was behind the security inciden...
 
-[Read the full article](https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html)
+[Read the full article](https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html)
 
 
 ## Wiz Security Blog
+### Agentless Threat Detection: Illuminating Cloud Blind Spots
+
+How Agentless Workload Detection exposes hidden threats in virtual appliances and modern cloud networks.
+
+[Read the full article](https://www.wiz.io/blog/agentless-visibility-uncovering-cloud-blind-spots)
+
 ### 300 WINtegrations Strong: An Open Security Ecosystem Built for the Speed of AI
 
 As AI accelerates how organizations build and how attackers operate, a deeply connected security ecosystem is how defenders keep up.
@@ -65,42 +71,36 @@ Detect and mitigate malicious @asyncapi npm packages linked to the latest npm su
 
 [Read the full article](https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions)
 
-### Why IaC Coverage Belongs on Your Security Dashboard
-
-Rethinking IaC coverage as a funnel that shows how much of your infrastructure is governed, traceable, and ready for remediation at speed
-
-[Read the full article](https://www.wiz.io/blog/iac-coverage-security-dashboard)
-
 
 ## Dark Reading
-### Choose Wisely: AI-Generated Coding Risk Varies, A Lot
+### EU Financial Institutions Leak Data Through Cookie Trackers
+
+European banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.
+
+[Read the full article](https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers)
+
+### Ransomware Is Accelerating, But It's Not Because of AI
+
+Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai)
+
+### Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task
+
+The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.
+
+[Read the full article](https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task)
+
+### Hacker Turns AI Jailbreaks Into Offensive Attack Platform
+
+A Russian-speaking actor, &quot;Trim,&quot; dismantled publicly available frontier models and integrated them with offensive security tools.
+
+[Read the full article](https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform)
+
+### Choose Wisely: AI-Generated Coding Risk Varies, a Lot
 
 AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.
 
 [Read the full article](https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies)
-
-### 'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover
-
-Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on t...
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover)
-
-### Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push
-
-Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation)
-
-### 25 Years After Code Red: What the Worm Era Can Teach Us About AI Security
-
-Marc Maiffret reflects on Code Red's legacy and the security lessons helping organizations navigate AI risk today.
-
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2)
-
-### CISOs Feel the Heat Over AI Risk
-
-Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.
-
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk)
 
 
