@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-22 13:43 UTC
+**Generated:** 2026-07-23 13:48 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,44 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Why Modern SOCs Need Multi-Layered Detections
+### How Synthetic Identity Fraud is Coming for Machine Identities
 
-The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are si...
+Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instea...
 
-[Read the full article](https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html)
+[Read the full article](https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html)
 
-### Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA
+### Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers
 
-German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, an...
+Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel...
 
-[Read the full article](https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html)
+[Read the full article](https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html)
 
-### Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library
+### Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts
 
-Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's des...
+Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video. The selfie for sign-in, per the tech giant, is another option on...
 
-[Read the full article](https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html)
+[Read the full article](https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html)
 
-### Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents
+### Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs
 
-A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and...
+RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persi...
 
-[Read the full article](https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html)
+[Read the full article](https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html)
 
-### OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark
+### Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access
 
-OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an "even more capable pre-release model," was behind the security inciden...
+Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw t...
 
-[Read the full article](https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html)
+[Read the full article](https://thehackernews.com/2026/07/check-point-patches-exploited.html)
 
 
 ## Wiz Security Blog
+### Opening the Black Box: Agentless Threat Detection for Virtual Appliances
+
+Mapping appliances event logs to real-world campaigns: A step-by-step researcher’s guide to continuous agentless monitoring.
+
+[Read the full article](https://www.wiz.io/blog/agentless-threat-hunting-fortigate)
+
 ### Agentless Threat Detection: Illuminating Cloud Blind Spots
 
 How Agentless Workload Detection exposes hidden threats in virtual appliances and modern cloud networks.
@@ -65,42 +71,36 @@ Part 3: How the Red Agent bypassed a credit and paywall system by changing a sin
 
 [Read the full article](https://www.wiz.io/blog/red-agent-pov-business-logic)
 
-### M-Red-Team: AsyncAPI Supply Chain Compromise via GitHub Actions
-
-Detect and mitigate malicious @asyncapi npm packages linked to the latest npm supply chain attack.
-
-[Read the full article](https://www.wiz.io/blog/m-red-team-asyncapi-supply-chain-compromise-via-github-actions)
-
 
 ## Dark Reading
-### EU Financial Institutions Leak Data Through Cookie Trackers
+### Agentic AI Challenges Progress in Confidential Computing
 
-European banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.
+Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.
 
-[Read the full article](https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers)
+[Read the full article](https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing)
 
-### Ransomware Is Accelerating, But It's Not Because of AI
+### Brazilian Banking Trojan Actively Spreading in Portugal
 
-Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.
+Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.
 
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal)
 
-### Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task
+### Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain
 
-The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.
+A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.
 
-[Read the full article](https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
 
-### Hacker Turns AI Jailbreaks Into Offensive Attack Platform
+### Flaws in Passkey Implementation Show Old Attacks Still Work
 
-A Russian-speaking actor, &quot;Trim,&quot; dismantled publicly available frontier models and integrated them with offensive security tools.
+Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.
 
-[Read the full article](https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform)
+[Read the full article](https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work)
 
-### Choose Wisely: AI-Generated Coding Risk Varies, a Lot
+### Attackers Are Learning to Live Off the AI Toolchain
 
-AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.
+Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.
 
-[Read the full article](https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies)
+[Read the full article](https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain)
 
 
