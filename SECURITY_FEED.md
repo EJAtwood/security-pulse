@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-23 13:48 UTC
+**Generated:** 2026-07-24 13:28 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### How Synthetic Identity Fraud is Coming for Machine Identities
+### ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
 
-Most people understand identity theft as an attacker stealing a real person's sensitive information and impersonating them. Synthetic identity fraud is much harder to catch. Instea...
+Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize...
 
-[Read the full article](https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html)
+[Read the full article](https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html)
 
-### Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers
+### Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
 
-Cybersecurity researchers have shed light on a large-scale campaign that has turned compromised GitHub repositories into distributed attack infrastructure designed to target cPanel...
+A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same...
 
-[Read the full article](https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html)
+[Read the full article](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
 
-### Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts
+### Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do
 
-Google on Thursday announced a new way for users to sign-in to their accounts by letting them take a selfie video. The selfie for sign-in, per the tech giant, is another option on...
+AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privi...
 
-[Read the full article](https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html)
+[Read the full article](https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html)
 
-### Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs
+### Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry
 
-RefluXFS, a new Linux kernel flaw disclosed on July 22 and tracked as CVE-2026-64600, lets an unprivileged local user overwrite root-owned files on an XFS filesystem and gain persi...
+Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Minis...
 
-[Read the full article](https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html)
+[Read the full article](https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html)
 
-### Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access
+### Golden Chickens Resurfaces With Four New Malware Families and Modular Implants
 
-Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw t...
+The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no sign...
 
-[Read the full article](https://thehackernews.com/2026/07/check-point-patches-exploited.html)
+[Read the full article](https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html)
 
 
 ## Wiz Security Blog
@@ -73,6 +73,24 @@ Part 3: How the Red Agent bypassed a credit and paywall system by changing a sin
 
 
 ## Dark Reading
+### Vatican's Official Prayer App Leaks 700K+ Global Users' PII
+
+A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.
+
+[Read the full article](https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii)
+
+### Europe's Multilingual Reality Exposes AI Security Gaps
+
+The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps)
+
+### Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets
+
+A state-sponsored threat group, dubbed &quot;Laundry Bear,&quot; sends &quot;half-click&quot; phishing emails that require a victim only to open or preview the message.
+
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
+
 ### Agentic AI Challenges Progress in Confidential Computing
 
 Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.
@@ -84,23 +102,5 @@ Core issues that slowed down adoption of secure data vaults are being resolved b
 Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.
 
 [Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal)
-
-### Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain
-
-A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain)
-
-### Flaws in Passkey Implementation Show Old Attacks Still Work
-
-Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.
-
-[Read the full article](https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work)
-
-### Attackers Are Learning to Live Off the AI Toolchain
-
-Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.
-
-[Read the full article](https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain)
 
 
