@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-24 13:28 UTC
+**Generated:** 2026-07-25 13:17 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link
+### Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
 
-Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize...
+Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on an...
 
-[Read the full article](https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html)
+[Read the full article](https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html)
 
-### Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers
+### CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
 
-A crafted SVG submitted to Bing's image search ran commands as NT AUTHORITY\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same...
+For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the crede...
 
-[Read the full article](https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html)
+[Read the full article](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
 
-### Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do
+### Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
 
-AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privi...
+Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexP...
 
-[Read the full article](https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html)
+[Read the full article](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
 
-### Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry
+### DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
 
-Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Minis...
+The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, a...
 
-[Read the full article](https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html)
+[Read the full article](https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html)
 
-### Golden Chickens Resurfaces With Four New Malware Families and Modular Implants
+### BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
 
-The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no sign...
+The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to im...
 
-[Read the full article](https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html)
+[Read the full article](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
 
 
 ## Wiz Security Blog
@@ -73,34 +73,34 @@ Part 3: How the Red Agent bypassed a credit and paywall system by changing a sin
 
 
 ## Dark Reading
+### CISOs vs. Boards: Myth or Misunderstanding?
+
+Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-)
+
+### Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation
+
+The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.
+
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation)
+
 ### Vatican's Official Prayer App Leaks 700K+ Global Users' PII
 
-A porous API endpoint exposes, names, email addresses, location, and site status, all of which can be easily gleaned by anyone with a browser.
+A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.
 
 [Read the full article](https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii)
+
+### Default Azure Automation Setting Enables Cross-Tenant Identity Takeover
+
+Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' d...
+
+[Read the full article](https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover)
 
 ### Europe's Multilingual Reality Exposes AI Security Gaps
 
 The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.
 
 [Read the full article](https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps)
-
-### Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets
-
-A state-sponsored threat group, dubbed &quot;Laundry Bear,&quot; sends &quot;half-click&quot; phishing emails that require a victim only to open or preview the message.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets)
-
-### Agentic AI Challenges Progress in Confidential Computing
-
-Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.
-
-[Read the full article](https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing)
-
-### Brazilian Banking Trojan Actively Spreading in Portugal
-
-Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.
-
-[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal)
 
 
