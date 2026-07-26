@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-25 13:17 UTC
+**Generated:** 2026-07-26 13:12 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,6 +9,18 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
+### Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+
+A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving o...
+
+[Read the full article](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
+
+### Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+
+Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JS...
+
+[Read the full article](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
+
 ### Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
 
 Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on an...
@@ -26,18 +38,6 @@ For years, phishing campaigns targeting financial institutions followed the same
 Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexP...
 
 [Read the full article](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
-
-### DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts
-
-The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, a...
-
-[Read the full article](https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html)
-
-### BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery
-
-The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to im...
-
-[Read the full article](https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html)
 
 
 ## Wiz Security Blog
