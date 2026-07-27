@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-26 13:12 UTC
+**Generated:** 2026-07-27 14:25 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,35 +9,35 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable
+### n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
 
-A malvertising operation dubbed SourTrade is making victims' browsers build the final Windows executable themselves, using a legitimate Bun runtime as its base instead of serving o...
+n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation pla...
 
-[Read the full article](https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html)
+[Read the full article](https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html)
 
-### Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available
+### Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update
 
-Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JS...
+Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs "secure document" lures to deliver legitimate remote monitoring and management (RMM)...
 
-[Read the full article](https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html)
+[Read the full article](https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html)
 
-### Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git
+### Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware
 
-Security researchers at&nbsp;depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on an...
+The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed u...
 
-[Read the full article](https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html)
+[Read the full article](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html)
 
-### CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking
+### TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments
 
-For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the crede...
+Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have...
 
-[Read the full article](https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html)
+[Read the full article](https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html)
 
-### Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE
+### GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption
 
-Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexP...
+GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. "The cooldown...
 
-[Read the full article](https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html)
+[Read the full article](https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html)
 
 
 ## Wiz Security Blog
