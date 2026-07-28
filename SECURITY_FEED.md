@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-28 17:49 UTC
+**Generated:** 2026-07-28 18:03 UTC
 
 Daily vulnerability, threat, and AI-model news from multiple sources.
 
