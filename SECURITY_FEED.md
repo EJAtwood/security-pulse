@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-27 14:25 UTC
+**Generated:** 2026-07-28 13:57 UTC
 
 Latest vulnerability and AI-related security news from multiple sources.
 
@@ -9,38 +9,50 @@ Latest vulnerability and AI-related security news from multiple sources.
 *No entries available*
 
 ## The Hacker News
-### n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process
+### JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach
 
-n8n has patched a high-severity expression-sandbox escape that could let an authenticated workflow editor execute operating-system commands on the server running the automation pla...
+JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is...
 
-[Read the full article](https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html)
+[Read the full article](https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html)
 
-### Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update
+### Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root
 
-Cybersecurity researchers have flagged a Microsoft Teams-themed phishing campaign that employs "secure document" lures to deliver legitimate remote monitoring and management (RMM)...
+OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical iss...
 
-[Read the full article](https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html)
+[Read the full article](https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html)
 
-### Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware
+### Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays
 
-The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed u...
+The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of...
 
-[Read the full article](https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html)
+[Read the full article](https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html)
 
-### TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments
+### Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In
 
-Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have...
+JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary...
 
-[Read the full article](https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html)
+[Read the full article](https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html)
 
-### GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption
+### Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit
 
-GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. "The cooldown...
+STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score...
 
-[Read the full article](https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html)
+[Read the full article](https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html)
 
 
 ## Wiz Security Blog
+### Accelerating CISA BOD 26-04 Vulnerability and Triage Activities through Wiz
+
+Wiz enables organizations to continuously assess environments against the CISA KEV catalog, automating risk prioritization, rapid remediation, and forensic triage workflows.
+
+[Read the full article](https://www.wiz.io/blog/cisa-bod-26-04-alignment-with-wiz)
+
+### Atlas: Wiz's autonomous AI Agent for vulnerability research, ranked #1 on CyberGym
+
+See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.
+
+[Read the full article](https://www.wiz.io/blog/atlas-ai-vulnerability-researcher)
+
 ### Opening the Black Box: Agentless Threat Detection for Virtual Appliances
 
 Mapping appliances event logs to real-world campaigns: A step-by-step researcher’s guide to continuous agentless monitoring.
@@ -59,48 +71,36 @@ As AI accelerates how organizations build and how attackers operate, a deeply co
 
 [Read the full article](https://www.wiz.io/blog/wiz-integration-network-reaches-300)
 
-### Exploitation in the Wild of wp2shell
-
-Wiz Research has identified exploitation of "wp2shell", a critical pre-auth RCE vulnerability chain impacting WordPress Core (CVE-2026-63030 & CVE-2026-60137). Attackers are deploy...
-
-[Read the full article](https://www.wiz.io/blog/wp2shell-cve-2026-63030-cve-2026-60137)
-
-### The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System
-
-Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.
-
-[Read the full article](https://www.wiz.io/blog/red-agent-pov-business-logic)
-
 
 ## Dark Reading
-### CISOs vs. Boards: Myth or Misunderstanding?
+### Former Citigroup CISO Blauner on What Makes A Great Security Leader
 
-Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.
+The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader)
 
-### Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation
+### AI Agent Drives Espionage Attack on Thai Ministry of Finance
 
-The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.
+Attackers used Hermes, an autonomous open source tool, in unrestricted &quot;YOLO mode&quot; to conduct espionage against Thailand's Ministry of Finance.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation)
+[Read the full article](https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance)
 
-### Vatican's Official Prayer App Leaks 700K+ Global Users' PII
+### Agentic Browsers Rewind Web Security by 20 years
 
-A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.
+PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.
 
-[Read the full article](https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii)
+[Read the full article](https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years)
 
-### Default Azure Automation Setting Enables Cross-Tenant Identity Takeover
+### 'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure
 
-Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' d...
+This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.
 
-[Read the full article](https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover)
+[Read the full article](https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure)
 
-### Europe's Multilingual Reality Exposes AI Security Gaps
+### FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown
 
-The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.
+An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.
 
-[Read the full article](https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps)
+[Read the full article](https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown)
 
 
