@@ -1,31 +1,73 @@
-# Security Feed Configuration
-# Add or remove feeds as needed
+# Security Pulse Configuration
+# Feeds are grouped into sections by the "category" field:
+#   security -> "Vulnerabilities & Threats"
+#   ai       -> "AI News & Model Releases"
 
 feeds:
   cisa:
-    name: "CISA Vulnerabilities"
+    name: "CISA Advisories"
     url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    category: security
     enabled: true
-  
+
   hackernews:
     name: "The Hacker News"
     url: "https://feeds.feedburner.com/TheHackersNews"
+    category: security
     enabled: true
-  
+
   wiz:
     name: "Wiz Security Blog"
     url: "https://www.wiz.io/blog/rss.xml"
+    category: security
     enabled: true
-  
+
   darkreading:
     name: "Dark Reading"
     url: "https://www.darkreading.com/rss.xml"
+    category: security
     enabled: true
-  
+
   synacktiv:
     name: "Synacktiv Security Research"
     url: "https://www.synacktiv.com/en/publications/feed.xml"
+    category: security
     enabled: false
+
+  # --- AI news & model releases ---
+  techcrunch_ai:
+    name: "TechCrunch AI"
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: ai
+    enabled: true
+
+  verge_ai:
+    name: "The Verge AI"
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    category: ai
+    enabled: true
+
+  simonwillison:
+    name: "Simon Willison (LLMs)"
+    url: "https://simonwillison.net/atom/everything/"
+    category: ai
+    enabled: true
+
+# CISA Known Exploited Vulnerabilities catalog (highest-signal vuln data).
+# Rendered as its own top section with severity/ransomware badges.
+kev:
+  enabled: true
+  url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+  max_entries: 8
+
+# Section grouping / display order for the digest
+sections:
+  - key: security
+    title: "Vulnerabilities & Threats"
+    emoji: "🛡️"
+  - key: ai
+    title: "AI News & Model Releases"
+    emoji: "🤖"
 
 # Output settings
 output:
@@ -33,11 +75,12 @@ output:
   max_entries_per_feed: 5
   include_description: true
   sort_by_date: true
+  summary_length: 220
 
 # Feed fetch settings
 fetch:
-  timeout: 10
-  retry_count: 2
+  timeout: 20
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
 
 email:
   enabled: true
@@ -47,7 +90,6 @@ email:
   username: ""
   from: "security-pulse@example.com"
   to: "your-email@example.com"
-  subject: "Security Pulse Daily Digest"
-  body_prefix: "Here is today's Security Pulse report."
+  subject: "🛡️ Security Pulse — Daily Digest"
 
 # The email password should be stored in a secret and passed through EMAIL_PASSWORD.
