@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-28 18:03 UTC
+**Generated:** 2026-07-29 14:01 UTC
 
 Daily vulnerability, threat, and AI-model news from multiple sources.
 
@@ -51,6 +51,56 @@ DD-WRT contains a stack-based buffer overflow vulnerability that could allow an 
 
 ## 🛡️ Vulnerabilities & Threats
 
+### [The Wiz Red Agent is Now Generally Available](https://www.wiz.io/blog/wiz-red-agent-is-ga)
+*Wiz Security Blog*
+
+Continuously uncover complex, exploitable risks to stay ahead in the AI Threat Era with the Red Agent
+
+### [Mythos Asks the Right Question. It Doesn't Answer It.](https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html)
+*The Hacker News*
+
+AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in securi…
+
+### [Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser](https://thehackernews.com/2026/07/researchers-show-single-malicious.html)
+*The Hacker News*
+
+Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702, the bug provides arbitrary code execution…
+
+### [73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack](https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html)
+*The Hacker News*
+
+Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a se…
+
+### [Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity](https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html)
+*The Hacker News*
+
+The Federal Security Service of the Russian Federation (FSB) on Wednesday said it charged Telegram founder Pavel Durov for allegedly facilitating terrorist activities and for failing to remove prohibited information in v…
+
+### [Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass](https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html)
+*The Hacker News*
+
+Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that h…
+
+### [Ghost Credentials Expose Cloud Systems to Hidden Identity Risks](https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path)
+*Dark Reading*
+
+Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.
+
+### [Thousands of Data Center Controllers Open to Takeover](https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover)
+*Dark Reading*
+
+A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks — and adversaries have taken note.
+
+### [When AI Agents Escape Sandboxes, Old Security Rules Apply](https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply)
+*Dark Reading*
+
+OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.
+
+### [Stronger AI Safety Requires Peeking Inside the 'Black Box'](https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box)
+*Dark Reading*
+
+Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.
+
 ### ['Certighost' Flaw Haunts Microsoft Active Directory Certificates](https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates)
 *Dark Reading*
 
@@ -60,31 +110,6 @@ Microsoft patched a high-severity vulnerability earlier this month that allows a
 *Wiz Security Blog*
 
 How unauthenticated Model Context Protocol (MCP) servers are opening doors to sensitive cloud data, IAM, and command execution.
-
-### [Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process](https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html)
-*The Hacker News*
-
-A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another c…
-
-### [24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login](https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html)
-*The Hacker News*
-
-Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public…
-
-### [JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach](https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html)
-*The Hacker News*
-
-JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. Ope…
-
-### [Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root](https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html)
-*The Hacker News*
-
-OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated…
-
-### [Former Citigroup CISO Blauner on What Makes A Great Security Leader](https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader)
-*Dark Reading*
-
-The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.
 
 ### [Siemens Mendix Runtime](https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02)
 *CISA Advisories*
@@ -111,30 +136,10 @@ View CSAF Summary SIMATIC S7-PLCSIM Advanced contains a vulnerability that could
 
 View CSAF Summary OpenSSL has published a stack based buffer overflow vulnerability that allows a remote attacker to cause a denial of service (DoS) or potentially allow for remote code execution. Siemens has released ne…
 
-### [Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays](https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html)
-*The Hacker News*
-
-The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the M…
-
 ### [Accelerating CISA BOD 26-04 Vulnerability and Triage Activities through Wiz](https://www.wiz.io/blog/cisa-bod-26-04-alignment-with-wiz)
 *Wiz Security Blog*
 
 Wiz enables organizations to continuously assess environments against the CISA KEV catalog, automating risk prioritization, rapid remediation, and forensic triage workflows.
-
-### [AI Agent Drives Espionage Attack on Thai Ministry of Finance](https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance)
-*Dark Reading*
-
-Attackers used Hermes, an autonomous open source tool, in unrestricted "YOLO mode" to conduct espionage against Thailand's Ministry of Finance.
-
-### [Agentic Browsers Rewind Web Security by 20 years](https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years)
-*Dark Reading*
-
-PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.
-
-### ['Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure](https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure)
-*Dark Reading*
-
-This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.
 
 ### [Atlas: Wiz's autonomous AI Agent for vulnerability research, ranked #1 on CyberGym](https://www.wiz.io/blog/atlas-ai-vulnerability-researcher)
 *Wiz Security Blog*
@@ -146,88 +151,83 @@ See how Wiz built Atlas, an autonomous AI system for vulnerability research that
 
 Mapping appliances event logs to real-world campaigns: A step-by-step researcher’s guide to continuous agentless monitoring.
 
-### [Agentless Threat Detection: Illuminating Cloud Blind Spots](https://www.wiz.io/blog/agentless-visibility-uncovering-cloud-blind-spots)
-*Wiz Security Blog*
-
-How Agentless Workload Detection exposes hidden threats in virtual appliances and modern cloud networks.
-
 ---
 
 ## 🤖 AI News & Model Releases
 
-### [Data centers may face temporary power cuts to prevent blackouts on largest US grid](https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/)
-*TechCrunch AI*
-
-The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.
-
-### [Fish Audio raises $52M seed to build AI voice models for creators and enterprises](https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/)
-*TechCrunch AI*
-
-Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.
-
-### [Recursive Superintelligence signs $410M compute deal with Amazon](https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/)
-*TechCrunch AI*
-
-Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product develo…
-
-### [Perplexity’s Personal Computer turns Windows PCs into AI agents](https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents)
+### [Artists are lawyering up against AI slop, and some are even winning](https://www.theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic)
 *The Verge AI*
 
-Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April,…
+When The Atlantic published a searchable dataset of works used to train AI, Kirk Wallace Johnson, like a lot of artists, looked for his name out of curiosity. And, like a lot of artists, he found it. Essentially, his boo…
 
-### [Smart rings are looking like my kind of AI gadget](https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index)
+### [OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face](https://www.theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face)
 *The Verge AI*
 
-Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models…
+The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident,…
 
-### [Hugging Face is being used to easily undress women and children](https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children)
+### [As AI content floods the internet, Pangram raises $9M to detect it](https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/)
+*TechCrunch AI*
+
+Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.
+
+### [We’re running out of reasons to ignore AI safety](https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning)
 *The Verge AI*
 
-Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Fore…
+Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set…
 
-### [Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing](https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/)
+### [Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/)
 *TechCrunch AI*
 
-Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.
+The deal is Cyera's third acquisition this year.
 
-### [Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/)
+### [Discovering cryptographic weaknesses with Claude](https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything)
+*Simon Willison (LLMs)*
+
+Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES ("ne…
+
+### [Quoting Akshat Bubna](https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything)
+*Simon Willison (LLMs)*
+
+We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were…
+
+### [uv 0.12.0](https://simonwillison.net/2026/Jul/28/uv/#atom-everything)
+*Simon Willison (LLMs)*
+
+uv 0.12.0 Some interesting breaking changes in this release of uv, in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv,…
+
+### [Bot-detection startup Spur nabs $200M from Insight](https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/)
 *TechCrunch AI*
 
-Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.
+Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.
+
+### [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything)
+*Simon Willison (LLMs)*
+
+Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their i…
+
+### [MCP startup Runlayer accuses Rippling of stealing its product idea](https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/)
+*TechCrunch AI*
+
+Runlayer is suing Rippling after Rippling evaluated the startup's MCP gateway product and then opted to build one itself.
+
+### [Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)
+*TechCrunch AI*
+
+His change of position comes after "the first security incident that I have felt very viscerally."
+
+### [AI leaders sign a statement asking the government to do something about automated AI](https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta)
+*The Verge AI*
+
+Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for fro…
+
+### [AI’s finally expensive enough to make Wall Street nervous](https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex)
+*The Verge AI*
+
+It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end…
 
 ### [moonshotai/Kimi-K3](https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything)
 *Simon Willison (LLMs)*
 
 moonshotai/Kimi-K3 As promised earlier this month, Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified v…
-
-### [An opinionated guide to which AI to use to do stuff](https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything)
-*Simon Willison (LLMs)*
-
-An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, a…
-
-### [Why China is giving away its best AI models](https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies)
-*The Verge AI*
-
-Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the…
-
-### [Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic](https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity)
-*The Verge AI*
-
-Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effective…
-
-### [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything)
-*Simon Willison (LLMs)*
-
-An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various…
-
-### [Ruff v0.16.0](https://simonwillison.net/2026/Jul/25/ruff/#atom-everything)
-*Simon Willison (LLMs)*
-
-Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my…
-
-### [Quoting Boris Cherny](https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything)
-*Simon Willison (LLMs)*
-
-More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is ve…
 
 ---
