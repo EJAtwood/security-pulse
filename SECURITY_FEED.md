@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-30 13:50 UTC
+**Generated:** 2026-07-30 14:18 UTC
 
 Daily vulnerability, threat, and AI-model news from multiple sources.
 
@@ -155,6 +155,11 @@ Wiz enables organizations to continuously assess environments against the CISA K
 
 ## 🤖 AI News & Model Releases
 
+### [TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come](https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/)
+*TechCrunch AI*
+
+The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.
+
 ### [Dili raises $21.7M to bring AI compliance to the infrastructure boom](https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/)
 *TechCrunch AI*
 
@@ -174,11 +179,6 @@ As Meta pours billions into AI infrastructure and agents, Zuckerberg is working 
 *TechCrunch AI*
 
 When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are do…
-
-### [Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents](https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/)
-*TechCrunch AI*
-
-On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.
 
 ### [Microsoft confirms Copilot ‘super app’ coming this year](https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed)
 *The Verge AI*
