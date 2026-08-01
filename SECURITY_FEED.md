@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-07-31 13:56 UTC
+**Generated:** 2026-08-01 13:11 UTC
 
 Daily vulnerability, threat, and AI-model news from multiple sources.
 
@@ -51,60 +51,60 @@ Langflow contains an inclusion of functionality from untrusted control sphere vu
 
 ## 🛡️ Vulnerabilities & Threats
 
+### [Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
+*The Hacker News*
+
+Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, remo…
+
+### [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
+*The Hacker News*
+
+Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerab…
+
+### [Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware](https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html)
+*The Hacker News*
+
+A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest repor…
+
+### [Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
+*The Hacker News*
+
+A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakh…
+
+### [CISA Issues Fresh SBOM Guidance. Did They Get It Right?](https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance)
+*Dark Reading*
+
+A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.
+
+### [HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm](https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html)
+*The Hacker News*
+
+Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequ…
+
+### [The Morning After We Pull a Root of Trust, Nobody Owns It](https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it)
+*Dark Reading*
+
+The most valuable move any security team can make is building a certificate and key inventory.
+
 ### [Interpol Leverages Global System to Curtail Fraud Payments](https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments)
 *Dark Reading*
 
 When a fraudulent transaction occurs, law enforcement agencies must work quickly to halt payments before cybercriminals cash out.
+
+### [DROP Platform Lets Californians Reduce Digital Footprint](https://www.darkreading.com/data-privacy/drop-platform-lets-californians-ditch-their-data)
+*Dark Reading*
+
+Hundreds of thousands of California residents have already registered for the Delete Request and Opt-out Platform (DROP), which launches Aug. 1. Other states could follow if the process goes smoothly.
 
 ### [USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports](https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports)
 *Dark Reading*
 
 The organization behind Team USA's Olympic/Paralympic fencing teams has automated identity verification to handle growing membership, cutting manual review time while ensuring athletes compete in the correct categories.
 
-### [6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026](https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html)
-*The Hacker News*
-
-Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months. Designed for input-cons…
-
-### [Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks](https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html)
-*The Hacker News*
-
-Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction, the agent found interne…
-
-### [Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations](https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html)
-*The Hacker News*
-
-Anthropic on Thursday became the latest artificial intelligence (AI) company to reveal that three of its models, including Claude Opus 4.7, Mythos 5, and an unnamed research model, had breached three unnamed organization…
-
-### [Minnesota Water Utility Attacks Expose Sector's Cyber-Risks](https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks)
-*Dark Reading*
-
-A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.
-
-### [AI Harnesses Burst With Potential Exploit Opps](https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps)
-*Dark Reading*
-
-A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.
-
-### [DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware](https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html)
-*The Hacker News*
-
-Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent update sequence to delive…
-
 ### [Rethinking Scanning for the AI Era: Wiz’s Agentic Code Security System](https://www.wiz.io/blog/agentic-code-security)
 *Wiz Security Blog*
 
 Enterprise AI AppSec requires more than powerful models. It requires a system that balances speed, depth, and cost across the software lifecycle.
-
-### [Claude Mythos — Hype vs. Reality: What Security Teams Need to Know](https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality)
-*Dark Reading*
-
-In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?
-
-### [ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories](https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html)
-*The Hacker News*
-
-A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong. Behind it: reused credenti…
 
 ### [CosmosEscape: Taking Over Every Database in Azure Cosmos DB](https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db)
 *Wiz Security Blog*
@@ -155,79 +155,79 @@ How unauthenticated Model Context Protocol (MCP) servers are opening doors to se
 
 ## 🤖 AI News & Model Releases
 
+### [deepseek-ai/DeepSeek-V4-Flash-0731](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything)
+*Simon Willison (LLMs)*
+
+deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, "with substantially enhanced agentic capabilities". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above…
+
+### [Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)](https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything)
+*Simon Willison (LLMs)*
+
+Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it…
+
+### [llm-mcp-client 0.1a0](https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything)
+*Simon Willison (LLMs)*
+
+Release: llm-mcp-client 0.1a0 See this blog entry. Tags: llm, model-context-protocol
+
+### [OpenAI reportedly finds evidence that more of its agents ran amok](https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/)
+*TechCrunch AI*
+
+OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.
+
+### [Oxide and Friends: The Open Weight Revolution with Simon Willison](https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything)
+*Simon Willison (LLMs)*
+
+Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight mode…
+
+### [smevals - a small eval suite for evaluating models, prompts, and harnesses](https://simonwillison.net/2026/Jul/31/smevals/#atom-everything)
+*Simon Willison (LLMs)*
+
+smevals - a small eval suite for evaluating models, prompts, and harnesses I've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about the…
+
+### [India is starting to pay for apps, not just download them](https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/)
+*TechCrunch AI*
+
+India's app market generated a record $345 million in Q2.
+
+### [Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/)
+*TechCrunch AI*
+
+A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.
+
+### [Google Earth&#8217;s AI deepfake tool only lasted one day](https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool)
+*The Verge AI*
+
+Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text promp…
+
+### [Sam Altman isn’t the only one who wants to pump the brakes on AI](https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/)
+*TechCrunch AI*
+
+After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environme…
+
+### [Here’s the problem with putting an AI image generator in Google Earth](https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images)
+*The Verge AI*
+
+A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess tha…
+
+### [Snapchat no longer rewards fully AI-generated Spotlight content](https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/)
+*TechCrunch AI*
+
+Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.
+
+### [The major labels propose rules to keep AI slop off the charts](https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts)
+*The Verge AI*
+
+Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes qui…
+
+### [It’s time to panic about AI safety](https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast)
+*The Verge AI*
+
+When the phrase "OpenAI hacked Hugging Face" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomousl…
+
 ### [Anthropic says Claude accidentally hacked real companies too](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)
 *The Verge AI*
 
 Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival…
-
-### [Anthropic says its own AI models breached three companies during security tests](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
-*TechCrunch AI*
-
-After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents
-
-### [Advancing the price-performance frontier with GPT‑5.6](https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything)
-*Simon Willison (LLMs)*
-
-Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.…
-
-### [Investigating three real-world incidents in our cybersecurity evaluations](https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything)
-*Simon Willison (LLMs)*
-
-Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier mo…
-
-### [AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares](https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/)
-*TechCrunch AI*
-
-The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.
-
-### [Reddit reports a solid quarter but shows signs of AI’s impact](https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact/)
-*TechCrunch AI*
-
-Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.
-
-### [llm 0.32rc2](https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything)
-*Simon Willison (LLMs)*
-
-Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-4…
-
-### [Investors love AI, as long as you’re a cloud host](https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/)
-*TechCrunch AI*
-
-Amazon isn't slowing down on data center spending — but investors don't seem to mind.
-
-### [Tim Cook hints at iCloud Plus tier for AI power users](https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai)
-*The Verge AI*
-
-Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI "a lot," a…
-
-### [The loss of Situational Awareness](https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks)
-*The Verge AI*
-
-I am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like "Long-Term Capital Ma…
-
-### [Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label](https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/)
-*TechCrunch AI*
-
-A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.
-
-### [LinkedIn actually adds a ‘seems like AI slop’ button](https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button)
-*The Verge AI*
-
-A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual butto…
-
-### [Quoting Bruce Schneier](https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything)
-*Simon Willison (LLMs)*
-
-The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thin…
-
-### [Google DeepMind’s new AI model can control a robot’s entire body](https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body)
-*The Verge AI*
-
-Google DeepMind says the latest version of its Gemini Robotics AI model can "control entire humanoid robots." While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports…
-
-### [llm-chat-completions-server 0.1a0](https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything)
-*Simon Willison (LLMs)*
-
-Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous co…
 
 ---
