@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-08-02 13:12 UTC
+**Generated:** 2026-08-03 14:30 UTC
 
 Daily vulnerability, threat, and AI-model news from multiple sources.
 
@@ -51,35 +51,40 @@ Langflow contains an inclusion of functionality from untrusted control sphere vu
 
 ## 🛡️ Vulnerabilities & Threats
 
-### [Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes](https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html)
+### [⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks](https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html)
 *The Hacker News*
 
-An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in Coldcard, the Bitcoin-on…
+This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more th…
 
-### [Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites](https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html)
+### [Is There Really a Fix for CISO Fatigue?](https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue)
+*Dark Reading*
+
+Accountability without any real authority is driving CISO burnout, and organizations need to take notice.
+
+### [FOMO in the SOC: Where AI Platforms like Claude Actually Fit](https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html)
 *The Hacker News*
 
-Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, remo…
+AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate alerts, summarize in…
 
-### [Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction](https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html)
+### [Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS](https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html)
 *The Hacker News*
 
-Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerab…
+An unknown Chinese-threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface management platform Censys said it ide…
 
-### [Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware](https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html)
+### [PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web](https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html)
 *The Hacker News*
 
-A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest repor…
+The Police National Legal Database (PNLD) has confirmed that police, government and customer contact information was compromised and published on the dark web. The data included names, organisations and work email addres…
 
-### [Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk](https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html)
+### [Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable](https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html)
 *The Hacker News*
 
-A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan, Tajikistan, Uzbekistan, Kazakh…
+Thermo Fisher Scientific has patched a flaw in select Applied Biosystems human identification software that could allow data files to be altered before analysis software loads them. The vendor's July 31 security bulletin…
 
 ### [CISA Issues Fresh SBOM Guidance. Did They Get It Right?](https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance)
 *Dark Reading*
 
-A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.
+A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.
 
 ### [The Morning After We Pull a Root of Trust, Nobody Owns It](https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it)
 *Dark Reading*
@@ -100,11 +105,6 @@ When a fraudulent transaction occurs, law enforcement agencies must work quickly
 *Dark Reading*
 
 Hundreds of thousands of California residents have already registered for the Delete Request and Opt-out Platform (DROP), which launches Aug. 1. Other states could follow if the process goes smoothly.
-
-### [USA Fencing Lunges Into the Hidden Identity Challenge in Amateur Sports](https://www.darkreading.com/identity-access-management-security/usa-fencing-hidden-identity-challenge-amateur-sports)
-*Dark Reading*
-
-The organization behind Team USA's Olympic/Paralympic fencing teams has automated identity verification to handle growing membership, cutting manual review time while ensuring athletes compete in the correct categories.
 
 ### [Rethinking Scanning for the AI Era: Wiz’s Agentic Code Security System](https://www.wiz.io/blog/agentic-code-security)
 *Wiz Security Blog*
@@ -155,6 +155,31 @@ Continuously uncover complex, exploitable risks to stay ahead in the AI Threat E
 
 ## 🤖 AI News & Model Releases
 
+### [China&#8217;s Alibaba takes another swipe at America’s AI supremacy](https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai)
+*The Verge AI*
+
+Chinese tech giant Alibaba released what it says is its largest and "most capable AI model to date," claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals l…
+
+### [A Marc Benioff-backed startup thinks AI can solve the AI deployment problem](https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/)
+*TechCrunch AI*
+
+June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.
+
+### [condense-json 1.0](https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything)
+*Simon Willison (LLMs)*
+
+Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here's…
+
+### [Sam Altman and AI’s decel debate](https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/)
+*TechCrunch AI*
+
+On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to "pace the rate of AI development."
+
+### [Fender’s CEO seems to think your bandmates are just analog AI](https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music)
+*The Verge AI*
+
+Fender CEO Edward "Bud" Cole gave an interview to T3 in May celebrating the 75th anniversary of the Telecaster with comments on AI and music that initially flew under the radar. But it has started making the rounds recen…
+
 ### [Is paying artists enough to convince them to embrace AI?](https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties)
 *The Verge AI*
 
@@ -180,11 +205,6 @@ at openai, many people hook their chatgpt up to slack. people really don't like 
 
 Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent: New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_li…
 
-### [Ten advances in mathematics and theoretical computer science](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything)
-*Simon Willison (LLMs)*
-
-Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that includ…
-
 ### [Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/)
 *TechCrunch AI*
 
@@ -205,29 +225,9 @@ Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los An
 
 OpenAI's CEO seemed excited to share a "cool use case" for parents.
 
-### [This $9 key physically locks your most addictive apps](https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/)
-*TechCrunch AI*
-
-This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.
-
-### [OpenAI reportedly finds evidence that more of its agents ran amok](https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/)
-*TechCrunch AI*
-
-OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.
-
 ### [Google Earth&#8217;s AI deepfake tool only lasted one day](https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool)
 *The Verge AI*
 
 Google has shut down Google Earth feature it launched Thursday that allowed users to edit satellite images with text prompts using AI. The tool essentially let users create AI deepfakes of the real world using text promp…
-
-### [Here’s the problem with putting an AI image generator in Google Earth](https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images)
-*The Verge AI*
-
-A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess tha…
-
-### [The major labels propose rules to keep AI slop off the charts](https://www.theverge.com/ai-artificial-intelligence/973741/ai-music-major-record-labels-charts)
-*The Verge AI*
-
-Several record labels, including the big three - Universal Music Group, Sony Music, and Warner Music Group - have proposed rules regarding chart eligibility for AI songs. In short, they wouldn't be. The proposal goes qui…
 
 ---
