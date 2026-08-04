@@ -1,6 +1,22 @@
 # 🛡️ Security Pulse
 
-A daily security & AI intelligence digest. Security Pulse aggregates the CISA Known Exploited Vulnerabilities (KEV) catalog plus a curated set of security and AI-news RSS/Atom feeds, then delivers a clean, card-based **HTML email** to your inbox every morning — fully automated via GitHub Actions.
+A daily security & AI intelligence digest. Security Pulse aggregates the CISA Known Exploited Vulnerabilities (KEV) catalog plus a curated set of security, AI and financial-sector RSS/Atom feeds, then delivers a clean, card-based **HTML email** to your inbox every morning — fully automated via GitHub Actions.
+
+## What the digest looks like
+
+<img src="docs/sample-digest.svg" alt="Sample Security Pulse digest showing the KEV, Vulnerabilities &amp; Threats, AI News and Financial Sector Watch sections" width="720">
+
+Every item is **new since the last digest** — nothing repeats. The layout is:
+
+| Section | Contents |
+| --- | --- |
+| 🔴 **Known Exploited Vulnerabilities** | CISA KEV CVEs with `EXPLOITED`, `RANSOMWARE` and `FINANCIAL` badges, NVD links, and remediation due dates |
+| 🛡️ **Vulnerabilities & Threats** | Security reporting from CISA, The Hacker News, Wiz, Dark Reading, BleepingComputer |
+| 🤖 **AI News & Model Releases** | Model releases and AI developments — always above the financial section so it is never crowded out |
+| 🏦 **Financial Sector Watch** | Banking/payments/fintech cyber & AI, plus a cross-reference index of finance-relevant items from the sections above |
+| 📚 **Earlier articles** | Collapsed recap of the previous 48 hours, one click away |
+
+Badges: `NEW` (first appearance) · `EXPLOITED` (in CISA KEV) · `RANSOMWARE` (known campaign use) · `FINANCIAL` / `FINANCE` (bank-relevant).
 
 ## Features
 
@@ -209,11 +225,15 @@ security-pulse/
    ↓
 3. Fetch CISA KEV catalog + all enabled RSS/Atom feeds (browser headers)
    ↓
-4. Clean, sort, and group entries into sections
+4. Drop anything already sent (seen_items.json) or outside the 26h window
    ↓
-5. Render a Markdown archive (SECURITY_FEED.md) and a card-based HTML email
+5. Apply keyword tagging: financial relevance + per-feed content filters
    ↓
-6. Send the HTML email via SMTP, then commit & push SECURITY_FEED.md
+6. Clean, sort, and group entries into sections
+   ↓
+7. Render a Markdown archive (SECURITY_FEED.md) and a card-based HTML email
+   ↓
+8. Send the HTML email via SMTP, then commit & push SECURITY_FEED.md + seen_items.json
 ```
 
 ## Roadmap
@@ -221,7 +241,9 @@ security-pulse/
 - [x] Email digest delivery
 - [x] CISA KEV integration with severity/ransomware badges
 - [x] AI news & model-release section
-- [ ] Custom filtering by keywords
+- [x] Custom filtering by keywords
+- [x] Freshness policy — no repeated items, with a collapsed 48h recap
+- [x] Financial Sector Watch section with relevance tagging
 - [ ] Slack/Discord webhook integration
 - [ ] Web dashboard to view feeds
 - [ ] Database storage of articles

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1010" viewBox="0 0 720 1010" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <rect width="720" height="1010" fill="#f4f5f7"/>
+
+  <!-- Header -->
+  <rect x="20" y="20" width="680" height="104" rx="10" fill="#1a2233"/>
+  <text x="44" y="56" font-size="21" font-weight="800" fill="#ffffff">🛡️ Security Pulse</text>
+  <text x="44" y="78" font-size="12.5" fill="#aeb6c6">Tuesday, August 04, 2026 · 12:00 UTC</text>
+  <text x="44" y="104" font-size="12.5" fill="#dfe4ee">46 new today · 5 exploited CVEs · 22 threat stories · 16 AI updates · 3 finance items</text>
+
+  <!-- KEV section header -->
+  <text x="24" y="156" font-size="17" font-weight="800" fill="#b3261e">🔴 Known Exploited Vulnerabilities</text>
+  <text x="24" y="174" font-size="11.5" fill="#5b6472">CISA KEV catalog — actively exploited in the wild</text>
+
+  <!-- KEV card -->
+  <rect x="20" y="186" width="680" height="116" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="186" width="4" height="116" rx="2" fill="#b3261e"/>
+  <text x="40" y="209" font-size="11.5" font-weight="700" fill="#b3261e">CVE-2026-20316</text>
+  <rect x="132" y="199" width="38" height="15" rx="7.5" fill="#1a7f37"/>
+  <text x="151" y="210" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">NEW</text>
+  <rect x="176" y="199" width="72" height="15" rx="7.5" fill="#b3261e"/>
+  <text x="212" y="210" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">EXPLOITED</text>
+  <rect x="254" y="199" width="70" height="15" rx="7.5" fill="#0f766e"/>
+  <text x="289" y="210" font-size="9.5" font-weight="700" fill="#ffffff" text-anchor="middle">FINANCIAL</text>
+  <text x="40" y="234" font-size="15" font-weight="700" fill="#1a2233">Cisco Secure Firewall Management Center Use of Hard-coded Credentials</text>
+  <text x="40" y="252" font-size="11.5" fill="#5b6472">Cisco Secure Firewall Management Center (FMC) · Added 2026-07-29 · Due 2026-08-12</text>
+  <text x="40" y="273" font-size="12" fill="#5b6472">Contains a hard-coded credentials vulnerability that could allow an unauthenticated</text>
+  <text x="40" y="289" font-size="12" fill="#1b56d3" font-weight="600">View on NVD →</text>
+
+  <!-- Threats section -->
+  <text x="24" y="336" font-size="17" font-weight="800" fill="#d64545">🛡️ Vulnerabilities &amp; Threats</text>
+
+  <rect x="20" y="350" width="680" height="104" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="350" width="4" height="104" rx="2" fill="#d64545"/>
+  <text x="40" y="371" font-size="10" font-weight="700" fill="#d64545" letter-spacing="0.5">BLEEPINGCOMPUTER · AUG 04</text>
+  <rect x="216" y="361" width="38" height="14" rx="7" fill="#1a7f37"/>
+  <text x="235" y="371.5" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">NEW</text>
+  <text x="40" y="394" font-size="15" font-weight="700" fill="#1a2233">Keyv-linked npm worm poisons hundreds of packages</text>
+  <text x="40" y="415" font-size="12" fill="#5b6472">A self-replicating worm has compromised hundreds of npm packages, stealing</text>
+  <text x="40" y="431" font-size="12" fill="#5b6472">developer credentials and cloud tokens from build pipelines.</text>
+  <text x="40" y="447" font-size="12" fill="#1b56d3" font-weight="600">Read article →</text>
+
+  <rect x="20" y="464" width="680" height="86" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="464" width="4" height="86" rx="2" fill="#d64545"/>
+  <text x="40" y="485" font-size="10" font-weight="700" fill="#d64545" letter-spacing="0.5">WIZ SECURITY BLOG · AUG 04</text>
+  <rect x="222" y="475" width="38" height="14" rx="7" fill="#1a7f37"/>
+  <text x="241" y="485.5" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">NEW</text>
+  <rect x="264" y="475" width="62" height="14" rx="7" fill="#0f766e"/>
+  <text x="295" y="485.5" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">FINANCE</text>
+  <text x="40" y="508" font-size="15" font-weight="700" fill="#1a2233">DORA: Safeguarding Europe's financial sector</text>
+  <text x="40" y="529" font-size="12" fill="#5b6472">What the Digital Operational Resilience Act means for banks and their cloud stack.</text>
+  <text x="40" y="545" font-size="12" fill="#1b56d3" font-weight="600">Read article →</text>
+
+  <!-- AI section -->
+  <text x="24" y="592" font-size="17" font-weight="800" fill="#6d5bd0">🤖 AI News &amp; Model Releases</text>
+
+  <rect x="20" y="606" width="680" height="86" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="606" width="4" height="86" rx="2" fill="#6d5bd0"/>
+  <text x="40" y="627" font-size="10" font-weight="700" fill="#6d5bd0" letter-spacing="0.5">HUGGING FACE BLOG · AUG 04</text>
+  <rect x="232" y="617" width="38" height="14" rx="7" fill="#1a7f37"/>
+  <text x="251" y="627.5" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">NEW</text>
+  <text x="40" y="650" font-size="15" font-weight="700" fill="#1a2233">Deploy local agents everywhere with LFM2.5-2.6B</text>
+  <text x="40" y="671" font-size="12" fill="#5b6472">A compact model release aimed at on-device agentic workloads.</text>
+  <text x="40" y="687" font-size="12" fill="#1b56d3" font-weight="600">Read article →</text>
+
+  <!-- Financial section -->
+  <text x="24" y="734" font-size="17" font-weight="800" fill="#0f766e">🏦 Financial Sector Watch</text>
+  <text x="24" y="752" font-size="11.5" fill="#5b6472">Banking, payments &amp; fintech — cyber and AI · 1 of today's 5 KEV CVEs affect financial-sector software</text>
+
+  <rect x="20" y="764" width="680" height="86" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="764" width="4" height="86" rx="2" fill="#0f766e"/>
+  <text x="40" y="785" font-size="10" font-weight="700" fill="#0f766e" letter-spacing="0.5">PYMNTS · AUG 04</text>
+  <rect x="140" y="775" width="38" height="14" rx="7" fill="#1a7f37"/>
+  <text x="159" y="785.5" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">NEW</text>
+  <text x="40" y="808" font-size="15" font-weight="700" fill="#1a2233">Agentic Payments Turn Proof Into Competitive Advantage</text>
+  <text x="40" y="829" font-size="12" fill="#5b6472">Banks weigh how autonomous payment agents change fraud and authorization risk.</text>
+  <text x="40" y="845" font-size="12" fill="#1b56d3" font-weight="600">Read article →</text>
+
+  <!-- Cross-reference card -->
+  <rect x="20" y="862" width="680" height="74" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <rect x="20" y="862" width="4" height="74" rx="2" fill="#0f766e"/>
+  <text x="40" y="883" font-size="10" font-weight="700" fill="#0f766e" letter-spacing="0.5">ALSO RELEVANT FROM TODAY'S FEEDS</text>
+  <text x="40" y="906" font-size="12.5" font-weight="600" fill="#1a2233">CVE-2026-20316 — Cisco Secure Firewall Management Center<tspan fill="#5b6472" font-weight="400"> — CISA KEV</tspan></text>
+  <line x1="40" y1="914" x2="680" y2="914" stroke="#e3e7ee"/>
+  <text x="40" y="930" font-size="12.5" font-weight="600" fill="#1a2233">DORA: Safeguarding Europe's financial sector<tspan fill="#5b6472" font-weight="400"> — Wiz Security Blog</tspan></text>
+
+  <!-- Earlier articles -->
+  <rect x="20" y="948" width="680" height="42" rx="8" fill="#ffffff" stroke="#e3e7ee"/>
+  <text x="40" y="974" font-size="13" font-weight="700" fill="#5b6472">▸ 📚 Earlier articles — last 48h (11)</text>
+</svg>
