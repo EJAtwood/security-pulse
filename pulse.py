@@ -219,9 +219,11 @@ class SecurityPulse:
                 if date.year > 1970 and date.timestamp() < cutoff:
                     skipped_old += 1
                     continue
-                is_new = link not in self.seen
-                if is_new:
-                    new_count += 1
+                # Freshness policy: never repeat an item that was already sent.
+                if link in self.seen:
+                    continue
+                is_new = True
+                new_count += 1
                 items.append(
                     {
                         "source": name,
@@ -279,9 +281,11 @@ class SecurityPulse:
                     break  # sorted desc by dateAdded, so everything after is older
             except ValueError:
                 continue
-            v["_is_new"] = f"kev:{cve}" not in self.seen
-            if v["_is_new"]:
-                new_count += 1
+            # Freshness policy: each CVE appears in exactly one digest.
+            if f"kev:{cve}" in self.seen:
+                continue
+            v["_is_new"] = True
+            new_count += 1
             top.append(v)
             self._mark_seen(f"kev:{cve}")
         logger.info(f"🔴 CISA KEV: {len(top)} recent ({new_count} new) of {len(vulns)} total")
