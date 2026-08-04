@@ -129,7 +129,7 @@ class SecurityPulse:
                 continue
             recap.append(
                 {
-                    "link": item_id,
+                    "link": self._safe_link(item_id),
                     "title": meta["title"],
                     "source": meta.get("source", ""),
                     "seen": seen_iso,
@@ -208,6 +208,20 @@ class SecurityPulse:
         except (TypeError, ValueError, AttributeError):
             pass
         return datetime(1970, 1, 1)
+
+    @staticmethod
+    def _safe_link(url: str) -> str:
+        """Allow only http(s) links through to the rendered output.
+
+        Feed content is untrusted: a compromised or hostile feed could serve a
+        `javascript:` or `data:` URL that would land in an href. Anything that
+        is not plain http/https is dropped rather than rendered.
+        """
+        if not url:
+            return "#"
+        if re.match(r"^https?://", url.strip(), re.I):
+            return url.strip()
+        return "#"
 
     def _clean_summary(self, text: str, max_len: Optional[int] = None) -> str:
         max_len = max_len or self.summary_length
@@ -394,7 +408,9 @@ class SecurityPulse:
                     {
                         "source": name,
                         "title": title,
-                        "link": link,
+                        # Raw `link` stays the dedupe key; only the rendered
+                        # value is scheme-restricted.
+                        "link": self._safe_link(link),
                         "summary": summary,
                         "date": date,
                         "is_new": is_new,

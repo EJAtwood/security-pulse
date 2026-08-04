@@ -138,3 +138,51 @@ def test_no_filter_keeps_everything(pulse):
 def test_exclusion_vetoes_score(pulse):
     """An excluded vendor scores 0 even with strong finance terms present."""
     assert pulse._fin_score("Siemens financial institution banking breach") == 0
+
+
+# --- link sanitisation (feed content is untrusted) ---
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "javascript:alert(document.cookie)",
+        "JavaScript:alert(1)",
+        "  javascript:alert(1)  ",
+        "data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==",
+        "file:///etc/passwd",
+        "vbscript:msgbox(1)",
+        "",
+        None,
+    ],
+)
+def test_unsafe_links_dropped(pulse, url):
+    assert pulse._safe_link(url) == "#"
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://thehackernews.com/2026/08/story.html",
+        "http://example.com/feed/item?id=1&x=2",
+        "HTTPS://UPPER.EXAMPLE.COM/x",
+    ],
+)
+def test_safe_links_preserved(pulse, url):
+    assert pulse._safe_link(url) == url.strip()
+
+
+def test_no_unsafe_scheme_reaches_html(pulse):
+    """End-to-end: a hostile feed link must not land in an href."""
+    import datetime
+
+    item = {
+        "source": "Evil Feed",
+        "title": "Click me",
+        "link": pulse._safe_link("javascript:alert(document.cookie)"),
+        "summary": "x",
+        "date": datetime.datetime(2026, 8, 4),
+        "is_new": True,
+        "financial": False,
+    }
+    html = pulse.build_html({"security": [item]}, [], [], [])
+    assert "javascript:" not in html
