@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This is a learning project and we w
 
 ### 🔗 Suggest a New Feed
 
-1. Open an [Issue](https://github.com/yourusername/security-pulse/issues) with the title "Add Feed: [Feed Name]"
+1. Open an [Issue](https://github.com/EJAtwood/security-pulse/issues) with the title "Add Feed: [Feed Name]"
 2. Include:
    - Feed name
    - RSS feed URL
