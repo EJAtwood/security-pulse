@@ -28,6 +28,12 @@ feeds:
     category: security
     enabled: true
 
+  bleepingcomputer:
+    name: "BleepingComputer"
+    url: "https://www.bleepingcomputer.com/feed/"
+    category: security
+    enabled: true
+
   synacktiv:
     name: "Synacktiv Security Research"
     url: "https://www.synacktiv.com/en/publications/feed.xml"
@@ -53,6 +59,12 @@ feeds:
     category: ai
     enabled: true
 
+  huggingface:
+    name: "Hugging Face Blog"
+    url: "https://huggingface.co/blog/feed.xml"
+    category: ai
+    enabled: true
+
 # CISA Known Exploited Vulnerabilities catalog (highest-signal vuln data).
 # Rendered as its own top section with severity/ransomware badges.
 kev:
@@ -75,6 +87,7 @@ state:
   file: "seen_items.json"     # committed by the workflow alongside SECURITY_FEED.md
   lookback_hours: 26          # daily cadence + 2h overlap so nothing slips between runs
   retention_days: 30          # how long to remember sent items
+  recap_hours: 48             # collapsed "Earlier articles" covers this window
 
 # Output settings
 output:

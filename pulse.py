@@ -66,16 +66,24 @@ class SecurityPulse:
         self.state_file = state.get("file", "seen_items.json")
         self.lookback_hours = state.get("lookback_hours", 48)
         self.retention_days = state.get("retention_days", 30)
-        self.seen: Dict[str, str] = self._load_seen()
+        self.recap_hours = state.get("recap_hours", 48)
+        self.seen: Dict[str, Dict] = self._load_seen()
 
     # ------------------------------------------------------------------- state
-    def _load_seen(self) -> Dict[str, str]:
-        """Load {item_id: first_seen_iso_date} from the state file."""
+    def _load_seen(self) -> Dict[str, Dict]:
+        """Load {item_id: {seen, title, source, category}} from the state file."""
         try:
             with open(self.state_file, "r", encoding="utf-8") as f:
                 seen = json.load(f)
+            if not isinstance(seen, dict):
+                return {}
+            # Migrate legacy format where values were bare iso strings.
+            seen = {
+                k: (v if isinstance(v, dict) else {"seen": v})
+                for k, v in seen.items()
+            }
             logger.info(f"✓ Loaded {len(seen)} seen items from {self.state_file}")
-            return seen if isinstance(seen, dict) else {}
+            return seen
         except FileNotFoundError:
             logger.info(f"No state file yet ({self.state_file}); starting fresh")
             return {}
@@ -87,19 +95,46 @@ class SecurityPulse:
         """Prune old entries and persist the seen-items state."""
         cutoff = self.generated_at.timestamp() - self.retention_days * 86400
         pruned = {}
-        for item_id, iso in self.seen.items():
+        for item_id, meta in self.seen.items():
             try:
-                ts = datetime.fromisoformat(iso).timestamp()
+                ts = datetime.fromisoformat(meta.get("seen", "")).timestamp()
             except ValueError:
                 continue
             if ts >= cutoff:
-                pruned[item_id] = iso
+                pruned[item_id] = meta
         with open(self.state_file, "w", encoding="utf-8") as f:
             json.dump(pruned, f, indent=1, sort_keys=True)
         logger.info(f"✓ Saved {len(pruned)} seen items to {self.state_file}")
 
-    def _mark_seen(self, item_id: str) -> None:
-        self.seen[item_id] = self.generated_at.isoformat()
+    def _mark_seen(self, item_id: str, **meta) -> None:
+        self.seen[item_id] = {"seen": self.generated_at.isoformat(), **meta}
+
+    def _collect_recap(self) -> List[Dict]:
+        """Articles sent in PREVIOUS digests within the recap window."""
+        cutoff = self.generated_at.timestamp() - self.recap_hours * 3600
+        run_start = self.generated_at.isoformat()
+        recap = []
+        for item_id, meta in self.seen.items():
+            if item_id.startswith("kev:") or not meta.get("title"):
+                continue
+            seen_iso = meta.get("seen", "")
+            if seen_iso == run_start:
+                continue  # sent in this run — already in the main sections
+            try:
+                if datetime.fromisoformat(seen_iso).timestamp() < cutoff:
+                    continue
+            except ValueError:
+                continue
+            recap.append(
+                {
+                    "link": item_id,
+                    "title": meta["title"],
+                    "source": meta.get("source", ""),
+                    "seen": seen_iso,
+                }
+            )
+        recap.sort(key=lambda x: x["seen"], reverse=True)
+        return recap
 
     # ------------------------------------------------------------------ config
     def _load_config(self, config_file: str) -> Dict:
@@ -236,7 +271,12 @@ class SecurityPulse:
                         "is_new": is_new,
                     }
                 )
-                self._mark_seen(link)
+                self._mark_seen(
+                    link,
+                    title=items[-1]["title"],
+                    source=name,
+                    category=category,
+                )
             results.setdefault(category, []).extend(items)
             logger.info(
                 f"  ✓ {len(items)} items ({new_count} new, "
@@ -318,7 +358,12 @@ class SecurityPulse:
             ],
         )
 
-    def build_markdown(self, feed_items: Dict[str, List[Dict]], kev: List[Dict]) -> str:
+    def build_markdown(
+        self,
+        feed_items: Dict[str, List[Dict]],
+        kev: List[Dict],
+        recap: Optional[List[Dict]] = None,
+    ) -> str:
         ts = self.generated_at.strftime("%Y-%m-%d %H:%M UTC")
         md = ["# 🛡️ Security Pulse", f"**Generated:** {ts}", ""]
         md.append("Daily vulnerability, threat, and AI-model news from multiple sources.")
@@ -353,6 +398,13 @@ class SecurityPulse:
                 if it["summary"]:
                     md.append(f"{it['summary']}\n")
             md.append("---\n")
+
+        if recap:
+            md.append(f"## 📚 Earlier Articles (last {self.recap_hours}h)\n")
+            for r in recap:
+                src = f" — *{r['source']}*" if r["source"] else ""
+                md.append(f"- [{r['title']}]({r['link']}){src}")
+            md.append("")
         return "\n".join(md).rstrip() + "\n"
 
     def _card(self, inner: str, accent: str) -> str:
@@ -371,7 +423,12 @@ class SecurityPulse:
             f'border-radius:10px;margin-left:6px;vertical-align:middle;">{text}</span>'
         )
 
-    def build_html(self, feed_items: Dict[str, List[Dict]], kev: List[Dict]) -> str:
+    def build_html(
+        self,
+        feed_items: Dict[str, List[Dict]],
+        kev: List[Dict],
+        recap: Optional[List[Dict]] = None,
+    ) -> str:
         e = html_lib.escape
         ts = self.generated_at.strftime("%A, %B %d, %Y · %H:%M UTC")
 
@@ -438,6 +495,14 @@ class SecurityPulse:
                 )
                 rows.append(self._card(inner, accent))
 
+        enabled_names = ["CISA KEV"] if self.config.get("kev", {}).get("enabled") else []
+        enabled_names += [
+            f.get("name", k)
+            for k, f in self.config.get("feeds", {}).items()
+            if f.get("enabled", True)
+        ]
+        source_names = ", ".join(enabled_names)
+
         new_total = sum(
             1 for items in feed_items.values() for it in items if it.get("is_new")
         ) + sum(1 for k in kev if k.get("is_new"))
@@ -451,6 +516,31 @@ class SecurityPulse:
                 f'<tr><td style="padding:20px 4px;">'
                 f'<div style="font-size:14px;color:{C_MUTED};text-align:center;">'
                 f'Quiet day — no items in the current window.</div></td></tr>'
+            )
+
+        # Collapsed recap of articles from previous digests (Gmail supports
+        # <details>; clients that don't simply render it expanded).
+        if recap:
+            recap_rows = ""
+            for r in recap:
+                src = (
+                    f'<span style="color:{C_MUTED};font-size:12px;"> — {e(r["source"])}</span>'
+                    if r["source"] else ""
+                )
+                recap_rows += (
+                    f'<div style="padding:6px 0;border-bottom:1px solid {C_BORDER};">'
+                    f'<a href="{e(r["link"])}" style="font-size:13px;color:{C_TEXT};'
+                    f'text-decoration:none;font-weight:600;">{e(r["title"])}</a>{src}</div>'
+                )
+            rows.append(
+                f'<tr><td style="padding:14px 0 0 0;">'
+                f'<details style="background:{C_CARD};border:1px solid {C_BORDER};'
+                f'border-radius:8px;padding:14px 18px;">'
+                f'<summary style="font-size:14px;font-weight:700;color:{C_MUTED};'
+                f'cursor:pointer;">📚 Earlier articles — last {self.recap_hours}h '
+                f'({len(recap)})</summary>'
+                f'<div style="margin-top:10px;">{recap_rows}</div>'
+                f'</details></td></tr>'
             )
 
         return f"""<!DOCTYPE html>
@@ -471,8 +561,7 @@ class SecurityPulse:
   {''.join(rows)}
   <tr><td style="padding:12px 4px 0;">
     <div style="font-size:11px;color:{C_MUTED};line-height:1.6;">
-      Security Pulse aggregates {total} items daily from CISA KEV, The Hacker News, Wiz,
-      Dark Reading, TechCrunch AI, The Verge, and Simon Willison.<br>
+      Security Pulse aggregates {total} items daily from {source_names}.<br>
       Generated automatically via GitHub Actions.
     </div>
   </td></tr>
@@ -551,9 +640,10 @@ class SecurityPulse:
         try:
             feed_items = self._collect_feed_items()
             kev = self._collect_kev()
+            recap = self._collect_recap()
 
-            markdown = self.build_markdown(feed_items, kev)
-            html = self.build_html(feed_items, kev)
+            markdown = self.build_markdown(feed_items, kev, recap)
+            html = self.build_html(feed_items, kev, recap)
             self.save_feed(markdown)
 
             subject = self.config.get("email", {}).get("subject", "Security Pulse Daily Digest")
