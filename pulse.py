@@ -40,6 +40,7 @@ C_AI = "#6d5bd0"
 C_KEV = "#b3261e"
 C_BADGE_RANSOM = "#b3261e"
 C_BADGE_NEW = "#1a7f37"
+C_FINANCE = "#0f766e"
 
 
 class SecurityPulse:
@@ -68,6 +69,7 @@ class SecurityPulse:
         self.retention_days = state.get("retention_days", 30)
         self.recap_hours = state.get("recap_hours", 48)
         self.seen: Dict[str, Dict] = self._load_seen()
+        self._compile_tagging()
 
     # ------------------------------------------------------------------- state
     def _load_seen(self) -> Dict[str, Dict]:
@@ -218,6 +220,122 @@ class SecurityPulse:
             return clean[:max_len].rstrip() + "…"
         return clean
 
+    # ----------------------------------------------------------------- tagging
+    @staticmethod
+    def _compile_terms(terms: List[str]) -> List:
+        """Compile terms as whole-word, case-insensitive patterns.
+
+        Entries containing a backslash are treated as raw regex so config can
+        express things like "\\bABB\\b" when a bare word would be too greedy.
+        """
+        compiled = []
+        for term in terms or []:
+            if "\\" in term:
+                pattern = term
+            else:
+                pattern = r"(?<!\w)" + re.escape(term) + r"(?!\w)"
+            try:
+                compiled.append(re.compile(pattern, re.I))
+            except re.error as e:
+                logger.warning(f"⚠ Skipping bad tagging pattern {term!r}: {e}")
+        return compiled
+
+    def _compile_tagging(self) -> None:
+        """Precompile the financial tagging rules once per run."""
+        cfg = self.config.get("tagging", {}).get("financial", {})
+        self.tagging_enabled = bool(cfg.get("enabled", False))
+        self.fin_min_score = cfg.get("min_score", 2)
+        self.max_crossref = cfg.get("max_crossref", 6)
+        self._fin_strong = self._compile_terms(cfg.get("finance_strong", []))
+        self._fin_weak = self._compile_terms(cfg.get("finance_weak", []))
+        self._cyber = self._compile_terms(cfg.get("cyber_terms", []))
+        self._fin_exclude = self._compile_terms(cfg.get("exclude_patterns", []))
+        self._kev_vendors = self._compile_terms(cfg.get("kev_vendors", []))
+        if self.tagging_enabled:
+            logger.info(
+                f"✓ Financial tagging on "
+                f"({len(self._fin_strong)} strong / {len(self._fin_weak)} weak terms, "
+                f"min_score={self.fin_min_score})"
+            )
+
+    def _fin_score(self, text: str) -> int:
+        """Weighted financial relevance score; 0 if any exclusion matches."""
+        if not text:
+            return 0
+        if any(rx.search(text) for rx in self._fin_exclude):
+            return 0
+        score = 2 * sum(1 for rx in self._fin_strong if rx.search(text))
+        score += sum(1 for rx in self._fin_weak if rx.search(text))
+        return score
+
+    def _has_cyber(self, text: str) -> bool:
+        return bool(text) and any(rx.search(text) for rx in self._cyber)
+
+    def _is_financial_item(self, title: str, summary: str) -> bool:
+        """Cross-tag gate: needs finance signal AND cyber signal."""
+        if not self.tagging_enabled:
+            return False
+        text = f"{title} {summary}"
+        return self._fin_score(text) >= self.fin_min_score and self._has_cyber(text)
+
+    def _passes_feed_filter(self, title: str, summary: str, filter_name: str) -> bool:
+        """Per-feed content gate. No filter configured -> keep everything.
+
+        The `financial` filter is deliberately looser than `_is_financial_item`:
+        the feed is already a finance publication, so only a cyber/AI signal is
+        required to keep the item.
+        """
+        if not filter_name:
+            return True
+        if filter_name == "financial":
+            if not self.tagging_enabled:
+                return True
+            text = f"{title} {summary}"
+            if any(rx.search(text) for rx in self._fin_exclude):
+                return False
+            return self._has_cyber(text)
+        logger.warning(f"⚠ Unknown feed filter {filter_name!r}; keeping item")
+        return True
+
+    def _is_financial_kev(self, vendor: str, product: str) -> bool:
+        """Does this KEV entry hit software common in financial-sector stacks?"""
+        if not self.tagging_enabled:
+            return False
+        text = f"{vendor} {product}"
+        return any(rx.search(text) for rx in self._kev_vendors)
+
+    def _financial_crossrefs(
+        self, feed_items: Dict[str, List[Dict]], kev: List[Dict]
+    ) -> List[Dict]:
+        """Finance-relevant items living in OTHER sections, as one-liners.
+
+        These stay in their home section; this is an index, not a relocation.
+        """
+        if not self.tagging_enabled:
+            return []
+        refs = [
+            {
+                "title": f'{k["cve"]} — {k["name"] or k["vendor"]}',
+                "link": k["link"],
+                "source": "CISA KEV",
+            }
+            for k in kev
+            if k.get("financial")
+        ]
+        others = [
+            it
+            for key, items in feed_items.items()
+            if key != "financial"
+            for it in items
+            if it.get("financial")
+        ]
+        others.sort(key=lambda x: x["date"], reverse=True)
+        refs += [
+            {"title": it["title"], "link": it["link"], "source": it["source"]}
+            for it in others
+        ]
+        return refs[: self.max_crossref]
+
     # ------------------------------------------------------------------- data
     def _collect_feed_items(self) -> Dict[str, List[Dict]]:
         """Return {category_key: [item, ...]} for all enabled feeds."""
@@ -230,6 +348,8 @@ class SecurityPulse:
             name = feed_info.get("name", feed_key)
             url = feed_info.get("url")
             category = feed_info.get("category", "security")
+            feed_filter = feed_info.get("filter")
+            feed_max = feed_info.get("max_entries", self.max_entries)
             if not url:
                 logger.warning(f"⚠ No URL for feed: {name}")
                 continue
@@ -244,9 +364,9 @@ class SecurityPulse:
 
             cutoff = self.generated_at.timestamp() - self.lookback_hours * 3600
             items = []
-            new_count = skipped_old = 0
+            new_count = skipped_old = skipped_filter = 0
             for entry in entries:
-                if len(items) >= self.max_entries:
+                if len(items) >= feed_max:
                     break
                 link = entry.get("link", "#")
                 date = self._get_entry_date(entry)
@@ -257,30 +377,46 @@ class SecurityPulse:
                 # Freshness policy: never repeat an item that was already sent.
                 if link in self.seen:
                     continue
+
+                title = entry.get("title", "Untitled").strip()
+                summary = self._clean_summary(
+                    entry.get("summary") or entry.get("description") or ""
+                )
+                # Content gate runs BEFORE _mark_seen: an item rejected today
+                # must stay eligible if it becomes relevant later.
+                if not self._passes_feed_filter(title, summary, feed_filter):
+                    skipped_filter += 1
+                    continue
+
                 is_new = True
                 new_count += 1
                 items.append(
                     {
                         "source": name,
-                        "title": entry.get("title", "Untitled").strip(),
+                        "title": title,
                         "link": link,
-                        "summary": self._clean_summary(
-                            entry.get("summary") or entry.get("description") or ""
-                        ),
+                        "summary": summary,
                         "date": date,
                         "is_new": is_new,
+                        # Cross-tag flag; redundant inside the financial section.
+                        "financial": (
+                            False
+                            if category == "financial"
+                            else self._is_financial_item(title, summary)
+                        ),
                     }
                 )
                 self._mark_seen(
                     link,
-                    title=items[-1]["title"],
+                    title=title,
                     source=name,
                     category=category,
                 )
             results.setdefault(category, []).extend(items)
+            filtered_note = f", {skipped_filter} filtered out" if skipped_filter else ""
             logger.info(
                 f"  ✓ {len(items)} items ({new_count} new, "
-                f"{skipped_old} outside {self.lookback_hours}h window)"
+                f"{skipped_old} outside {self.lookback_hours}h window{filtered_note})"
             )
         return results
 
@@ -343,6 +479,9 @@ class SecurityPulse:
                     "due_date": v.get("dueDate", ""),
                     "ransomware": v.get("knownRansomwareCampaignUse", "Unknown") == "Known",
                     "is_new": v.get("_is_new", False),
+                    "financial": self._is_financial_kev(
+                        v.get("vendorProject", ""), v.get("product", "")
+                    ),
                     "link": f"https://nvd.nist.gov/vuln/detail/{v.get('cveID', '')}",
                 }
             )
@@ -363,10 +502,14 @@ class SecurityPulse:
         feed_items: Dict[str, List[Dict]],
         kev: List[Dict],
         recap: Optional[List[Dict]] = None,
+        crossrefs: Optional[List[Dict]] = None,
     ) -> str:
         ts = self.generated_at.strftime("%Y-%m-%d %H:%M UTC")
         md = ["# 🛡️ Security Pulse", f"**Generated:** {ts}", ""]
-        md.append("Daily vulnerability, threat, and AI-model news from multiple sources.")
+        md.append(
+            "Daily vulnerability, threat, AI-model, and financial-sector news "
+            "from multiple sources."
+        )
         md.append("\n---\n")
 
         if kev:
@@ -374,8 +517,9 @@ class SecurityPulse:
             for k in kev:
                 ransom = " · ⚠️ Ransomware" if k["ransomware"] else ""
                 new_tag = "🆕 " if k.get("is_new") else ""
+                fin_tag = "🏦 " if k.get("financial") else ""
                 title = k["name"] or f'{k["vendor"]} {k["product"]}'.strip()
-                md.append(f"### {new_tag}[{k['cve']}]({k['link']}) — {title}{ransom}")
+                md.append(f"### {new_tag}{fin_tag}[{k['cve']}]({k['link']}) — {title}{ransom}")
                 meta = " · ".join(
                     p for p in [f"{k['vendor']} {k['product']}".strip(),
                                 f"Added {k['date_added']}"] if p
@@ -387,16 +531,24 @@ class SecurityPulse:
 
         for sec in self._section_defs():
             items = feed_items.get(sec["key"], [])
-            if not items:
+            if not items and not (sec["key"] == "financial" and crossrefs):
                 continue
             items = sorted(items, key=lambda x: x["date"], reverse=True)
+            if sec.get("max_items"):
+                items = items[: sec["max_items"]]
             md.append(f"## {sec['emoji']} {sec['title']}\n")
             for it in items:
                 new_tag = "🆕 " if it.get("is_new") else ""
-                md.append(f"### {new_tag}[{it['title']}]({it['link']})")
+                fin_tag = "🏦 " if it.get("financial") else ""
+                md.append(f"### {new_tag}{fin_tag}[{it['title']}]({it['link']})")
                 md.append(f"*{it['source']}*\n")
                 if it["summary"]:
                     md.append(f"{it['summary']}\n")
+            if sec["key"] == "financial" and crossrefs:
+                md.append("**Also relevant from today's threat feeds:**\n")
+                for r in crossrefs:
+                    md.append(f"- [{r['title']}]({r['link']}) — *{r['source']}*")
+                md.append("")
             md.append("---\n")
 
         if recap:
@@ -428,11 +580,18 @@ class SecurityPulse:
         feed_items: Dict[str, List[Dict]],
         kev: List[Dict],
         recap: Optional[List[Dict]] = None,
+        crossrefs: Optional[List[Dict]] = None,
     ) -> str:
         e = html_lib.escape
         ts = self.generated_at.strftime("%A, %B %d, %Y · %H:%M UTC")
 
-        sec_counts = {s["key"]: len(feed_items.get(s["key"], [])) for s in self._section_defs()}
+        sec_counts = {
+            s["key"]: min(
+                len(feed_items.get(s["key"], [])),
+                s.get("max_items", len(feed_items.get(s["key"], []))),
+            )
+            for s in self._section_defs()
+        }
         total = sum(sec_counts.values()) + len(kev)
 
         rows: List[str] = []
@@ -447,6 +606,8 @@ class SecurityPulse:
                 if k.get("is_new"):
                     badges += self._badge("NEW", C_BADGE_NEW)
                 badges += self._badge("EXPLOITED", C_KEV)
+                if k.get("financial"):
+                    badges += self._badge("FINANCIAL", C_FINANCE)
                 if k["ransomware"]:
                     badges += self._badge("RANSOMWARE", C_BADGE_RANSOM)
                 meta_bits = [b for b in [e(f'{k["vendor"]} {k["product"]}'.strip()),
@@ -468,21 +629,38 @@ class SecurityPulse:
                 )
                 rows.append(self._card(inner, C_KEV))
 
-        # Feed sections
-        accents = {"security": C_SECURITY, "ai": C_AI}
+        # Feed sections. Accent comes from config so new sections need no code.
+        builtin_accents = {"security": C_SECURITY, "ai": C_AI, "financial": C_FINANCE}
         for sec in self._section_defs():
             items = sorted(feed_items.get(sec["key"], []), key=lambda x: x["date"], reverse=True)
-            if not items:
+            if sec.get("max_items"):
+                items = items[: sec["max_items"]]
+            is_financial = sec["key"] == "financial"
+            if not items and not (is_financial and crossrefs):
                 continue
-            accent = accents.get(sec["key"], C_SECURITY)
-            rows.append(self._section_header(sec["emoji"], sec["title"], accent, None))
+            accent = sec.get("accent") or builtin_accents.get(sec["key"], C_SECURITY)
+
+            subtitle = sec.get("subtitle")
+            if is_financial:
+                kev_fin = sum(1 for k in kev if k.get("financial"))
+                if kev_fin:
+                    plural = "s" if kev_fin != 1 else ""
+                    subtitle = (
+                        f'{subtitle} · {kev_fin} of today\'s {len(kev)} KEV CVE{plural} '
+                        f'affect financial-sector software'
+                    )
+            rows.append(self._section_header(sec["emoji"], sec["title"], accent, subtitle))
+
             for it in items:
                 date_str = it["date"].strftime("%b %d") if it["date"].year > 1970 else ""
                 meta = e(it["source"]) + (f' · {date_str}' if date_str else "")
                 new_badge = self._badge("NEW", C_BADGE_NEW) if it.get("is_new") else ""
+                fin_badge = (
+                    self._badge("FINANCE", C_FINANCE) if it.get("financial") else ""
+                )
                 inner = (
                     f'<div style="font-size:11px;color:{accent};font-weight:700;'
-                    f'text-transform:uppercase;letter-spacing:.5px;">{meta}{new_badge}</div>'
+                    f'text-transform:uppercase;letter-spacing:.5px;">{meta}{new_badge}{fin_badge}</div>'
                     f'<div style="font-size:16px;font-weight:700;line-height:1.35;margin:6px 0 6px;">'
                     f'<a href="{e(it["link"])}" style="color:{C_TEXT};text-decoration:none;">{e(it["title"])}</a></div>'
                 )
@@ -492,6 +670,25 @@ class SecurityPulse:
                     f'<div style="margin-top:10px;"><a href="{e(it["link"])}" '
                     f'style="font-size:13px;color:{C_LINK};text-decoration:none;font-weight:600;">'
                     f'Read article →</a></div>'
+                )
+                rows.append(self._card(inner, accent))
+
+            # Compact index of finance-relevant items that live in other
+            # sections — they are NOT moved, just linked from here.
+            if is_financial and crossrefs:
+                ref_rows = "".join(
+                    f'<div style="padding:6px 0;border-bottom:1px solid {C_BORDER};">'
+                    f'<a href="{e(r["link"])}" style="font-size:13px;color:{C_TEXT};'
+                    f'text-decoration:none;font-weight:600;">{e(r["title"])}</a>'
+                    f'<span style="color:{C_MUTED};font-size:12px;"> — {e(r["source"])}</span>'
+                    f'</div>'
+                    for r in crossrefs
+                )
+                inner = (
+                    f'<div style="font-size:11px;color:{accent};font-weight:700;'
+                    f'text-transform:uppercase;letter-spacing:.5px;">'
+                    f'Also relevant from today\'s feeds</div>'
+                    f'<div style="margin-top:8px;">{ref_rows}</div>'
                 )
                 rows.append(self._card(inner, accent))
 
@@ -506,11 +703,12 @@ class SecurityPulse:
         new_total = sum(
             1 for items in feed_items.values() for it in items if it.get("is_new")
         ) + sum(1 for k in kev if k.get("is_new"))
-        summary_line = (
-            f'{new_total} new today · {len(kev)} exploited CVEs · '
-            f'{sec_counts.get("security", 0)} threat stories · '
-            f'{sec_counts.get("ai", 0)} AI updates'
-        )
+        parts = [f"{new_total} new today", f"{len(kev)} exploited CVEs"]
+        parts += [
+            f'{sec_counts.get(s["key"], 0)} {s.get("count_label", s["key"])}'
+            for s in self._section_defs()
+        ]
+        summary_line = " · ".join(parts)
         if total == 0:
             rows.append(
                 f'<tr><td style="padding:20px 4px;">'
@@ -641,9 +839,10 @@ class SecurityPulse:
             feed_items = self._collect_feed_items()
             kev = self._collect_kev()
             recap = self._collect_recap()
+            crossrefs = self._financial_crossrefs(feed_items, kev)
 
-            markdown = self.build_markdown(feed_items, kev, recap)
-            html = self.build_html(feed_items, kev, recap)
+            markdown = self.build_markdown(feed_items, kev, recap, crossrefs)
+            html = self.build_html(feed_items, kev, recap, crossrefs)
             self.save_feed(markdown)
 
             subject = self.config.get("email", {}).get("subject", "Security Pulse Daily Digest")

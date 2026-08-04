@@ -6,7 +6,8 @@ A daily security & AI intelligence digest. Security Pulse aggregates the CISA Kn
 
 - ✅ **Card-based HTML email digest** — a polished, mobile-friendly email with section headers, clickable article titles, summaries, and per-item accent bars (plain-text fallback included)
 - ✅ **CISA KEV section** — the Known Exploited Vulnerabilities catalog as a top-priority section with `EXPLOITED` / `RANSOMWARE` badges, CVE links to NVD, date added, and remediation due dates
-- ✅ **Grouped sections** — feeds are organized into **Vulnerabilities & Threats** and **AI News & Model Releases**
+- ✅ **Grouped sections** — feeds are organized into **Vulnerabilities & Threats**, **AI News & Model Releases**, and **Financial Sector Watch**
+- ✅ **Financial relevance tagging** — deterministic keyword rules (no LLM/API) flag bank-relevant content: a `FINANCIAL` badge on KEV CVEs hitting financial-sector software, a `FINANCE` badge on relevant stories, and a cross-reference index in the financial section
 - ✅ **Bot-block-resistant fetching** — sends full browser headers so sources behind Akamai (e.g. CISA) don't return `403`/empty feeds
 - ✅ **Markdown archive** — also writes `SECURITY_FEED.md` to the repo as a committed daily record
 - ✅ **Automated daily** — GitHub Actions runs on a schedule with no servers to manage (free-tier friendly)
@@ -21,10 +22,17 @@ A daily security & AI intelligence digest. Security Pulse aggregates the CISA Kn
 - **Wiz Security Blog**
 - **Dark Reading**
 
+- **BleepingComputer**
+
 **AI News & Model Releases**
 - **TechCrunch AI**
 - **The Verge AI**
 - **Simon Willison** (LLM / model-release analysis)
+- **Hugging Face Blog** (model releases / open-source ML)
+
+**Financial Sector Watch**
+- **PYMNTS** — banking, payments and fintech, keyword-filtered to cyber/AI stories
+- Plus cross-references to financially-relevant items from the sections above and from CISA KEV
 
 All sources are defined in `config.yaml` and can be toggled, added, or removed freely.
 
@@ -69,15 +77,17 @@ All sources are defined in `config.yaml` and can be toggled, added, or removed f
 Everything is controlled by `config.yaml`.
 
 ### Feeds
-Each feed has a `category` (`security` or `ai`) that determines which section it appears in:
+Each feed has a `category` (`security`, `ai`, or `financial`) that determines which section it appears in:
 
 ```yaml
 feeds:
   my_custom_feed:
     name: "Custom Security Source"
     url: "https://example.com/feed.xml"
-    category: security   # or: ai
+    category: security   # or: ai | financial
     enabled: true
+    max_entries: 4       # optional: overrides output.max_entries_per_feed
+    filter: financial    # optional: only keep entries the tagger accepts
 ```
 
 ### CISA KEV
@@ -91,15 +101,44 @@ kev:
 ### Sections
 Controls section titles, emoji, and display order:
 
+The order here is the order in the email. `financial` is deliberately last so it is
+strictly additive and never displaces the AI section.
+
 ```yaml
 sections:
   - key: security
     title: "Vulnerabilities & Threats"
     emoji: "🛡️"
+    accent: "#d64545"
+    count_label: "threat stories"
   - key: ai
     title: "AI News & Model Releases"
     emoji: "🤖"
+    accent: "#6d5bd0"
+    count_label: "AI updates"
+  - key: financial
+    title: "Financial Sector Watch"
+    emoji: "🏦"
+    accent: "#0f766e"
+    count_label: "finance items"
+    max_items: 5          # hard cap on cards in this section
 ```
+
+### Financial tagging
+Deterministic keyword rules under `tagging.financial` — no LLM or API calls. Two gates
+keep false positives down (a naive match flagged CISA ICS advisories on stray
+`card` / `SEC` hits):
+
+- **Cross-tagged stories** must match a finance term **and** a cyber term, and clear a
+  weighted score (`finance_strong` = 2, `finance_weak` = 1, `min_score` = 2).
+- **`exclude_patterns`** hard-veto regardless of score (ICS advisories, OT vendors).
+- **`kev_vendors`** matches KEV `vendorProject`/`product` against the edge/enterprise
+  stack that defines the financial attack surface. Windows, Adobe and Apache are
+  deliberately excluded — every org runs them, so badging them would make the
+  `FINANCIAL` badge meaningless.
+
+Tag lists live entirely in config, so tuning them needs no code change. Run
+`python -m pytest tests/ -q` after edits — the suite pins the known false positives.
 
 ### Output & fetch
 ```yaml
