@@ -39,6 +39,7 @@ C_SECURITY = "#d64545"
 C_AI = "#6d5bd0"
 C_KEV = "#b3261e"
 C_BADGE_RANSOM = "#b3261e"
+C_BADGE_NEW = "#1a7f37"
 
 
 class SecurityPulse:
@@ -58,6 +59,47 @@ class SecurityPulse:
             "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
         )
         self.generated_at = datetime.now(timezone.utc)
+
+        # Dedupe state: remembers what was already sent so the digest only
+        # ever contains new items, even when feeds move slowly.
+        state = self.config.get("state", {})
+        self.state_file = state.get("file", "seen_items.json")
+        self.lookback_hours = state.get("lookback_hours", 48)
+        self.retention_days = state.get("retention_days", 30)
+        self.seen: Dict[str, str] = self._load_seen()
+
+    # ------------------------------------------------------------------- state
+    def _load_seen(self) -> Dict[str, str]:
+        """Load {item_id: first_seen_iso_date} from the state file."""
+        try:
+            with open(self.state_file, "r", encoding="utf-8") as f:
+                seen = json.load(f)
+            logger.info(f"✓ Loaded {len(seen)} seen items from {self.state_file}")
+            return seen if isinstance(seen, dict) else {}
+        except FileNotFoundError:
+            logger.info(f"No state file yet ({self.state_file}); starting fresh")
+            return {}
+        except (json.JSONDecodeError, ValueError) as e:
+            logger.warning(f"⚠ Corrupt state file, starting fresh: {e}")
+            return {}
+
+    def _save_seen(self) -> None:
+        """Prune old entries and persist the seen-items state."""
+        cutoff = self.generated_at.timestamp() - self.retention_days * 86400
+        pruned = {}
+        for item_id, iso in self.seen.items():
+            try:
+                ts = datetime.fromisoformat(iso).timestamp()
+            except ValueError:
+                continue
+            if ts >= cutoff:
+                pruned[item_id] = iso
+        with open(self.state_file, "w", encoding="utf-8") as f:
+            json.dump(pruned, f, indent=1, sort_keys=True)
+        logger.info(f"✓ Saved {len(pruned)} seen items to {self.state_file}")
+
+    def _mark_seen(self, item_id: str) -> None:
+        self.seen[item_id] = self.generated_at.isoformat()
 
     # ------------------------------------------------------------------ config
     def _load_config(self, config_file: str) -> Dict:
@@ -164,23 +206,40 @@ class SecurityPulse:
                 continue
 
             entries = sorted(feed.entries, key=self._get_entry_date, reverse=True)
-            entries = entries[: self.max_entries]
 
+            cutoff = self.generated_at.timestamp() - self.lookback_hours * 3600
             items = []
+            new_count = skipped_old = 0
             for entry in entries:
+                if len(items) >= self.max_entries:
+                    break
+                link = entry.get("link", "#")
+                date = self._get_entry_date(entry)
+                # Skip stale items (keep undated ones).
+                if date.year > 1970 and date.timestamp() < cutoff:
+                    skipped_old += 1
+                    continue
+                is_new = link not in self.seen
+                if is_new:
+                    new_count += 1
                 items.append(
                     {
                         "source": name,
                         "title": entry.get("title", "Untitled").strip(),
-                        "link": entry.get("link", "#"),
+                        "link": link,
                         "summary": self._clean_summary(
                             entry.get("summary") or entry.get("description") or ""
                         ),
-                        "date": self._get_entry_date(entry),
+                        "date": date,
+                        "is_new": is_new,
                     }
                 )
+                self._mark_seen(link)
             results.setdefault(category, []).extend(items)
-            logger.info(f"  ✓ {len(items)} items")
+            logger.info(
+                f"  ✓ {len(items)} items ({new_count} new, "
+                f"{skipped_old} outside {self.lookback_hours}h window)"
+            )
         return results
 
     def _collect_kev(self) -> List[Dict]:
@@ -199,8 +258,33 @@ class SecurityPulse:
 
         vulns = data.get("vulnerabilities", [])
         vulns = sorted(vulns, key=lambda v: v.get("dateAdded", ""), reverse=True)
-        top = vulns[: kev_cfg.get("max_entries", 8)]
-        logger.info(f"🔴 CISA KEV: {len(top)} recent of {len(vulns)} total")
+
+        max_entries = kev_cfg.get("max_entries", 8)
+        max_age_days = kev_cfg.get("max_age_days", 14)
+        age_cutoff = (
+            self.generated_at.timestamp() - max_age_days * 86400
+        )
+        top = []
+        new_count = 0
+        for v in vulns:
+            if len(top) >= max_entries:
+                break
+            cve = v.get("cveID", "")
+            if not cve:
+                continue
+            # Only report recently added CVEs — never backfill old catalog entries.
+            try:
+                added = datetime.strptime(v.get("dateAdded", ""), "%Y-%m-%d")
+                if added.replace(tzinfo=timezone.utc).timestamp() < age_cutoff:
+                    break  # sorted desc by dateAdded, so everything after is older
+            except ValueError:
+                continue
+            v["_is_new"] = f"kev:{cve}" not in self.seen
+            if v["_is_new"]:
+                new_count += 1
+            top.append(v)
+            self._mark_seen(f"kev:{cve}")
+        logger.info(f"🔴 CISA KEV: {len(top)} recent ({new_count} new) of {len(vulns)} total")
 
         items = []
         for v in top:
@@ -214,6 +298,7 @@ class SecurityPulse:
                     "date_added": v.get("dateAdded", ""),
                     "due_date": v.get("dueDate", ""),
                     "ransomware": v.get("knownRansomwareCampaignUse", "Unknown") == "Known",
+                    "is_new": v.get("_is_new", False),
                     "link": f"https://nvd.nist.gov/vuln/detail/{v.get('cveID', '')}",
                 }
             )
@@ -239,8 +324,9 @@ class SecurityPulse:
             md.append("## 🔴 Known Exploited Vulnerabilities (CISA KEV)\n")
             for k in kev:
                 ransom = " · ⚠️ Ransomware" if k["ransomware"] else ""
+                new_tag = "🆕 " if k.get("is_new") else ""
                 title = k["name"] or f'{k["vendor"]} {k["product"]}'.strip()
-                md.append(f"### [{k['cve']}]({k['link']}) — {title}{ransom}")
+                md.append(f"### {new_tag}[{k['cve']}]({k['link']}) — {title}{ransom}")
                 meta = " · ".join(
                     p for p in [f"{k['vendor']} {k['product']}".strip(),
                                 f"Added {k['date_added']}"] if p
@@ -257,7 +343,8 @@ class SecurityPulse:
             items = sorted(items, key=lambda x: x["date"], reverse=True)
             md.append(f"## {sec['emoji']} {sec['title']}\n")
             for it in items:
-                md.append(f"### [{it['title']}]({it['link']})")
+                new_tag = "🆕 " if it.get("is_new") else ""
+                md.append(f"### {new_tag}[{it['title']}]({it['link']})")
                 md.append(f"*{it['source']}*\n")
                 if it["summary"]:
                     md.append(f"{it['summary']}\n")
@@ -295,7 +382,10 @@ class SecurityPulse:
                                              "CISA KEV catalog — actively exploited in the wild"))
             for k in kev:
                 title = e(k["name"] or f'{k["vendor"]} {k["product"]}'.strip())
-                badges = self._badge("EXPLOITED", C_KEV)
+                badges = ""
+                if k.get("is_new"):
+                    badges += self._badge("NEW", C_BADGE_NEW)
+                badges += self._badge("EXPLOITED", C_KEV)
                 if k["ransomware"]:
                     badges += self._badge("RANSOMWARE", C_BADGE_RANSOM)
                 meta_bits = [b for b in [e(f'{k["vendor"]} {k["product"]}'.strip()),
@@ -328,9 +418,10 @@ class SecurityPulse:
             for it in items:
                 date_str = it["date"].strftime("%b %d") if it["date"].year > 1970 else ""
                 meta = e(it["source"]) + (f' · {date_str}' if date_str else "")
+                new_badge = self._badge("NEW", C_BADGE_NEW) if it.get("is_new") else ""
                 inner = (
                     f'<div style="font-size:11px;color:{accent};font-weight:700;'
-                    f'text-transform:uppercase;letter-spacing:.5px;">{meta}</div>'
+                    f'text-transform:uppercase;letter-spacing:.5px;">{meta}{new_badge}</div>'
                     f'<div style="font-size:16px;font-weight:700;line-height:1.35;margin:6px 0 6px;">'
                     f'<a href="{e(it["link"])}" style="color:{C_TEXT};text-decoration:none;">{e(it["title"])}</a></div>'
                 )
@@ -343,10 +434,20 @@ class SecurityPulse:
                 )
                 rows.append(self._card(inner, accent))
 
+        new_total = sum(
+            1 for items in feed_items.values() for it in items if it.get("is_new")
+        ) + sum(1 for k in kev if k.get("is_new"))
         summary_line = (
-            f'{len(kev)} exploited CVEs · {sec_counts.get("security", 0)} threat stories '
-            f'· {sec_counts.get("ai", 0)} AI updates'
+            f'{new_total} new today · {len(kev)} exploited CVEs · '
+            f'{sec_counts.get("security", 0)} threat stories · '
+            f'{sec_counts.get("ai", 0)} AI updates'
         )
+        if total == 0:
+            rows.append(
+                f'<tr><td style="padding:20px 4px;">'
+                f'<div style="font-size:14px;color:{C_MUTED};text-align:center;">'
+                f'Quiet day — no items in the current window.</div></td></tr>'
+            )
 
         return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -454,6 +555,7 @@ class SecurityPulse:
             subject = self.config.get("email", {}).get("subject", "Security Pulse Daily Digest")
             subject = f"{subject} — {self.generated_at.strftime('%b %d')}"
             self._send_email(subject, markdown, html)
+            self._save_seen()
 
             logger.info("=" * 60)
             logger.info("✓ Security Pulse completed successfully!")

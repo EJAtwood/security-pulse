@@ -59,6 +59,7 @@ kev:
   enabled: true
   url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
   max_entries: 8
+  max_age_days: 14            # never backfill CVEs added longer ago than this
 
 # Section grouping / display order for the digest
 sections:
@@ -68,6 +69,12 @@ sections:
   - key: ai
     title: "AI News & Model Releases"
     emoji: "🤖"
+
+# Seen-item state — items appearing for the first time get a NEW badge.
+state:
+  file: "seen_items.json"     # committed by the workflow alongside SECURITY_FEED.md
+  lookback_hours: 48          # ignore items published further back than this
+  retention_days: 30          # how long to remember sent items
 
 # Output settings
 output:

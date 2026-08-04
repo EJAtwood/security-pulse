@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add SECURITY_FEED.md
+          git add SECURITY_FEED.md seen_items.json
           git commit -m "Update Security Pulse for $(date +'%Y-%m-%d')" || true
           git fetch origin main
           git rebase origin/main
