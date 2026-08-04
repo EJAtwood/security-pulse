@@ -110,6 +110,12 @@
  "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/": {
+  "category": "security",
+  "seen": "2026-08-04T15:04:50.229887+00:00",
+  "source": "BleepingComputer",
+  "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff"
+ },
  "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/": {
   "category": "security",
   "seen": "2026-08-04T15:02:28.279418+00:00",
@@ -121,6 +127,18 @@
   "seen": "2026-08-04T15:02:28.279418+00:00",
   "source": "BleepingComputer",
   "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts"
+ },
+ "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/": {
+  "category": "security",
+  "seen": "2026-08-04T15:04:50.229887+00:00",
+  "source": "BleepingComputer",
+  "title": "Inside the Underground Business of the Android BTMOB RAT malware"
+ },
+ "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/": {
+  "category": "security",
+  "seen": "2026-08-04T15:04:50.229887+00:00",
+  "source": "BleepingComputer",
+  "title": "N-able warns of N-central auth bypass flaw exploited in attacks"
  },
  "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/": {
   "category": "security",
