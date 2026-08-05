@@ -17,6 +17,30 @@
  "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "llm-anthropic 0.26"
+ },
+ "https://simonwillison.net/2026/Aug/4/llm/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "llm 0.32"
+ },
+ "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "PipeNetwork/minimax-h3-mlx"
+ },
+ "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging"
+ },
  "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -41,6 +65,12 @@
  "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
+ "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "TechCrunch AI",
+  "title": "Anthropic signs $10B deal with AI cloud startup Volta"
+ },
  "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -49,6 +79,30 @@
  },
  "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "TechCrunch AI",
+  "title": "Open-weight AI models are catching up to the frontier. The safety gap remains."
+ },
+ "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "TechCrunch AI",
+  "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year"
+ },
+ "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "TechCrunch AI",
+  "title": "AI makes weather prediction better. Can WindBorne make it lucrative?"
+ },
+ "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "TechCrunch AI",
+  "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store"
  },
  "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -61,6 +115,12 @@
  },
  "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
+ },
+ "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Hacker News",
+  "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup"
  },
  "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -83,11 +143,35 @@
  "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
+ "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Hacker News",
+  "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk"
+ },
  "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Hacker News",
+  "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft"
+ },
  "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Hacker News",
+  "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch"
+ },
+ "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Hacker News",
+  "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data"
  },
  "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html": {
   "category": "security",
@@ -109,6 +193,12 @@
  },
  "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "BleepingComputer",
+  "title": "77 Open VSX extensions found harvesting developer info"
  },
  "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/": {
   "category": "security",
@@ -152,6 +242,30 @@
   "source": "BleepingComputer",
   "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys"
  },
+ "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "BleepingComputer",
+  "title": "New XCSSET variant targets macOS devs via compromised Xcode projects"
+ },
+ "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "BleepingComputer",
+  "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests"
+ },
+ "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "BleepingComputer",
+  "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts"
+ },
+ "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "BleepingComputer",
+  "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks"
+ },
  "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/": {
   "category": "security",
   "seen": "2026-08-04T15:02:28.279418+00:00",
@@ -160,6 +274,24 @@
  },
  "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://www.cisa.gov/news-events/alerts/2026/08/04/cisa-adds-three-known-exploited-vulnerabilities-catalog": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "CISA Advisories",
+  "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog"
+ },
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "CISA Advisories",
+  "title": "Acrisure KARR BT and DR-100"
+ },
+ "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "CISA Advisories",
+  "title": "Thermo Fisher Applied Biosystems Genetic Analyzers"
  },
  "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -170,8 +302,20 @@
  "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Dark Reading",
+  "title": "Angola's Largest Telco Breached Hours Before IPO"
+ },
  "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
+ },
+ "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook": {
+  "category": "security",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "Dark Reading",
+  "title": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook"
  },
  "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -181,6 +325,18 @@
  },
  "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://www.pymnts.com/consumer-insights/2026/payment-choice-now-defines-the-new-american-shopper/": {
+  "category": "financial",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "PYMNTS",
+  "title": "Payment Choice Now Defines The New American Shopper"
+ },
+ "https://www.pymnts.com/news/retail/2026/ai-finds-the-deal-shoppers-still-make-the-call/": {
+  "category": "financial",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "PYMNTS",
+  "title": "AI Finds the Deal, Shoppers Still Make the Call"
  },
  "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -196,6 +352,36 @@
  },
  "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Verge AI",
+  "title": "Trump\u2019s AI testing plan is limited and vague"
+ },
+ "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Verge AI",
+  "title": "SpaceX made more revenue as an AI company than a space company"
+ },
+ "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Verge AI",
+  "title": "How an OpenAI influencer trip backfired"
+ },
+ "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Verge AI",
+  "title": "AMD&#8217;s data center business is booming while gaming takes a backseat"
+ },
+ "https://www.theverge.com/tech/975516/google-assistant-android-phones-tablets-shutdown": {
+  "category": "ai",
+  "seen": "2026-08-05T13:59:37.815148+00:00",
+  "source": "The Verge AI",
+  "title": "Google Assistant will disappear from your phone next month"
  },
  "https://www.wiz.io/blog/introducing-the-wiz-sensor-for-developer-workstations": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -215,13 +401,22 @@
  "kev:CVE-2026-16812": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "kev:CVE-2026-18556": {
+  "seen": "2026-08-05T13:59:37.815148+00:00"
+ },
  "kev:CVE-2026-18577": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
  "kev:CVE-2026-20316": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "kev:CVE-2026-34486": {
+  "seen": "2026-08-05T13:59:37.815148+00:00"
+ },
  "kev:CVE-2026-50522": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "kev:CVE-2026-9198": {
+  "seen": "2026-08-05T13:59:37.815148+00:00"
  }
 }
