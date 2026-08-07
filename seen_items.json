@@ -74,6 +74,24 @@
   "source": "Simon Willison (LLMs)",
   "title": "An AI model from Meta also hacked another company during testing"
  },
+ "https://simonwillison.net/2026/Aug/6/datasette-2/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "datasette 0.65.3"
+ },
+ "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "datasette 1.0a38"
+ },
+ "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Simon Willison on Technical Blogging"
+ },
  "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
@@ -152,11 +170,23 @@
   "source": "TechCrunch AI",
   "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI"
  },
+ "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking/": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "TechCrunch AI",
+  "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking"
+ },
  "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/": {
   "category": "ai",
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "TechCrunch AI",
   "title": "Google Maps adds agentic features, including food ordering and hotel bookings"
+ },
+ "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "TechCrunch AI",
+  "title": "Na\u00efve raises $28.5M to automate the grunt work of setting up and running a company"
  },
  "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/": {
   "category": "ai",
@@ -164,8 +194,38 @@
   "source": "TechCrunch AI",
   "title": "Omilia raises $67M to scale its customer support platform"
  },
+ "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "TechCrunch AI",
+  "title": "ChatGPT brings unlimited text chats to free users"
+ },
+ "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "TechCrunch AI",
+  "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400"
+ },
+ "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "TechCrunch AI",
+  "title": "New Mexico court orders Meta to pay additional $567M in child safety case"
+ },
  "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
+ },
+ "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Hacker News",
+  "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers"
+ },
+ "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Hacker News",
+  "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day"
  },
  "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html": {
   "category": "security",
@@ -218,6 +278,12 @@
  "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
+ "https://thehackernews.com/2026/08/growing-up-hard-way.html": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Hacker News",
+  "title": "Growing Up The Hard Way"
+ },
  "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
@@ -236,8 +302,20 @@
   "source": "The Hacker News",
   "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft"
  },
+ "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Hacker News",
+  "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails"
+ },
  "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Hacker News",
+  "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables"
  },
  "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html": {
   "category": "security",
@@ -284,6 +362,12 @@
  "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "BleepingComputer",
+  "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don\u2019t pay for it"
+ },
  "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -301,6 +385,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "BleepingComputer",
   "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws"
+ },
+ "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "BleepingComputer",
+  "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks"
  },
  "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/": {
   "category": "security",
@@ -325,6 +415,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "BleepingComputer",
   "title": "Hackers run khunt post-exploitation toolkit from Oracle database"
+ },
+ "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "BleepingComputer",
+  "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group"
  },
  "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/": {
   "category": "security",
@@ -356,6 +452,12 @@
   "source": "BleepingComputer",
   "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys"
  },
+ "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "BleepingComputer",
+  "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes"
+ },
  "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -379,6 +481,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "BleepingComputer",
   "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison"
+ },
+ "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "BleepingComputer",
+  "title": "Swiss government SharePoint breach compromised 200 accounts"
  },
  "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/": {
   "category": "security",
@@ -413,11 +521,29 @@
   "source": "CISA Advisories",
   "title": "Acrisure KARR BT and DR-100"
  },
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-01": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "CISA Advisories",
+  "title": "ABB Ability Zenon"
+ },
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-218-02": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "CISA Advisories",
+  "title": "Johnson Controls Inc. TL280"
+ },
  "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
   "source": "CISA Advisories",
   "title": "Thermo Fisher Applied Biosystems Genetic Analyzers"
+ },
+ "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-218-01": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "CISA Advisories",
+  "title": "Medixant RadiAnt DICOM"
  },
  "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -427,6 +553,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "Dark Reading",
   "title": "No Perfect Fix for AI Browser Prompt Injection Flaws"
+ },
+ "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Dark Reading",
+  "title": "Researcher Claims Control of ChatGPT Secure Sandbox"
  },
  "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking": {
   "category": "security",
@@ -449,6 +581,12 @@
  "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
+ "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Dark Reading",
+  "title": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement"
+ },
  "https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox": {
   "category": "security",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -467,6 +605,12 @@
  "https://www.darkreading.com/cybersecurity-operations/fix-for-ciso-fatigue": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
+ "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Dark Reading",
+  "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture"
+ },
  "https://www.darkreading.com/endpoint-security/15-tp-link-bugs-risks-zero-trust-provisioning": {
   "category": "security",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -482,6 +626,12 @@
  "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
+ "https://www.pymnts.com/consumer-finance/2026/enova-ceo-says-better-data-not-ai-hype-will-decide-who-gets-credit/": {
+  "category": "financial",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "PYMNTS",
+  "title": "Enova CEO Says Better Data, Not AI Hype, Will Decide Who Gets Credit"
+ },
  "https://www.pymnts.com/consumer-insights/2026/payment-choice-now-defines-the-new-american-shopper/": {
   "category": "financial",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -493,6 +643,18 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "PYMNTS",
   "title": "AI Connects B2B Firms\u2019 3 Biggest Challenges: Goods, Contracts and Cash"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/financial-firms-put-ai-to-work-across-27-tasks-study-finds/": {
+  "category": "financial",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "PYMNTS",
+  "title": "Financial Firms Put AI to Work Across 27 Tasks, Study Finds"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/openai-aims-to-redefine-smart-speakers-with-first-ai-device/": {
+  "category": "financial",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "PYMNTS",
+  "title": "OpenAI Aims to Redefine Smart Speakers With First AI Device"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/square-and-google-let-restaurants-offer-conversational-ai-ordering/": {
   "category": "financial",
@@ -511,6 +673,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "PYMNTS",
   "title": "Item-Level Data Gives AI Agents Smarter Buying Power"
+ },
+ "https://www.pymnts.com/opinion/2026/splitit-ceo-says-card-linked-payments-can-save-ai-sales/": {
+  "category": "financial",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "PYMNTS",
+  "title": "Splitit CEO Says Card-Linked Payments Can Save AI Sales"
  },
  "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -544,6 +712,36 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "The Verge AI",
   "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Verge AI",
+  "title": "OpenAI is giving ChatGPT free users unlimited text chats"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Verge AI",
+  "title": "Suno shares plans to combat spammy AI music"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Verge AI",
+  "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker"
+ },
+ "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Verge AI",
+  "title": "The left and right agree on one thing: no data centers"
+ },
+ "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio": {
+  "category": "ai",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "The Verge AI",
+  "title": "SoftBank donated $50 million to Trump\u2019s library months before federal data center deal"
  },
  "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud": {
   "category": "ai",
@@ -586,6 +784,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "The Verge AI",
   "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019"
+ },
+ "https://www.wiz.io/blog/cloud-threat-highlights-h1-2026": {
+  "category": "security",
+  "seen": "2026-08-07T12:54:35.653274+00:00",
+  "source": "Wiz Security Blog",
+  "title": "Cloud Threat Highlights: H1 2026"
  },
  "https://www.wiz.io/blog/introducing-the-wiz-sensor-for-developer-workstations": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
