@@ -5,6 +5,12 @@
   "source": "Hugging Face Blog",
   "title": "Deploy local agents everywhere with LFM2.5-2.6B"
  },
+ "https://huggingface.co/blog/allenai/tutormoments": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Hugging Face Blog",
+  "title": "TutorMoments: Do AI tutors know when to help and when to hold back?"
+ },
  "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -91,6 +97,30 @@
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "Simon Willison (LLMs)",
   "title": "Simon Willison on Technical Blogging"
+ },
+ "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)"
+ },
+ "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face"
+ },
+ "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI"
+ },
+ "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Quoting John Gruber"
  },
  "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -206,11 +236,41 @@
   "source": "TechCrunch AI",
   "title": "OpenAI\u2019s new AI smart speaker will reportedly sell for between $300 and $400"
  },
+ "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "TechCrunch AI",
+  "title": "After Rippling blew millions on AI in months, it built an employee ROI tool"
+ },
+ "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "TechCrunch AI",
+  "title": "Airbnb says AI is helping it ship features faster as it tests a new search function"
+ },
+ "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "TechCrunch AI",
+  "title": "Cloudflare launches Kitesurf, a browser built for AI agents"
+ },
  "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/": {
   "category": "ai",
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "TechCrunch AI",
   "title": "New Mexico court orders Meta to pay additional $567M in child safety case"
+ },
+ "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "TechCrunch AI",
+  "title": "OpenAI says it slowed Astra model development over security concerns"
+ },
+ "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "TechCrunch AI",
+  "title": "Jill Lepore on the \u2018Artificial State\u2019 and why Silicon Valley\u2019s leaders are bad sci-fi readers"
  },
  "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -232,6 +292,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "The Hacker News",
   "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory"
+ },
+ "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Hacker News",
+  "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers"
  },
  "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html": {
   "category": "security",
@@ -302,14 +368,32 @@
   "source": "The Hacker News",
   "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft"
  },
+ "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Hacker News",
+  "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication"
+ },
  "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html": {
   "category": "security",
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "The Hacker News",
   "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails"
  },
+ "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Hacker News",
+  "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist"
+ },
  "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Hacker News",
+  "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens"
  },
  "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html": {
   "category": "security",
@@ -340,6 +424,12 @@
   "seen": "2026-08-04T15:02:28.279418+00:00",
   "source": "The Hacker News",
   "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web"
+ },
+ "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Hacker News",
+  "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts"
  },
  "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html": {
   "category": "security",
@@ -410,6 +500,12 @@
   "source": "BleepingComputer",
   "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware"
  },
+ "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "BleepingComputer",
+  "title": "Metabase SQLi zero-day exploited in customer data-theft attacks"
+ },
  "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/": {
   "category": "security",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -433,6 +529,12 @@
   "seen": "2026-08-04T15:04:50.229887+00:00",
   "source": "BleepingComputer",
   "title": "Inside the Underground Business of the Android BTMOB RAT malware"
+ },
+ "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "BleepingComputer",
+  "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack"
  },
  "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/": {
   "category": "security",
@@ -464,6 +566,12 @@
   "source": "BleepingComputer",
   "title": "New XCSSET variant targets macOS devs via compromised Xcode projects"
  },
+ "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "BleepingComputer",
+  "title": "North Carolina Ports confirms cyberattack disrupting operations"
+ },
  "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -482,6 +590,12 @@
   "source": "BleepingComputer",
   "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison"
  },
+ "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "BleepingComputer",
+  "title": "Real emails, hijacked payments: Two H1 2026 attack chains"
+ },
  "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/": {
   "category": "security",
   "seen": "2026-08-07T12:54:35.653274+00:00",
@@ -493,6 +607,12 @@
   "seen": "2026-08-05T13:59:37.815148+00:00",
   "source": "BleepingComputer",
   "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks"
+ },
+ "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "BleepingComputer",
+  "title": "Unlimited Technology Systems breach impacts 3.8 million people"
  },
  "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/": {
   "category": "security",
@@ -515,6 +635,12 @@
   "source": "CISA Advisories",
   "title": "CISA Adds One Known Exploited Vulnerability to Catalog"
  },
+ "https://www.cisa.gov/news-events/alerts/2026/08/07/cisa-adds-one-known-exploited-vulnerability-catalog": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "CISA Advisories",
+  "title": "CISA Adds One Known Exploited Vulnerability to Catalog"
+ },
  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-216-01": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -533,6 +659,12 @@
   "source": "CISA Advisories",
   "title": "Johnson Controls Inc. TL280"
  },
+ "https://www.cisa.gov/news-events/ics-advisories/icsa-26-219-01": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "CISA Advisories",
+  "title": "CPDLC over ATN-B1 Vulnerabilities"
+ },
  "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -544,6 +676,12 @@
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "CISA Advisories",
   "title": "Medixant RadiAnt DICOM"
+ },
+ "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time": {
+  "category": "security",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "Dark Reading",
+  "title": "AI-Generated Patches Fail Half the Time"
  },
  "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -638,11 +776,29 @@
   "source": "PYMNTS",
   "title": "Payment Choice Now Defines The New American Shopper"
  },
+ "https://www.pymnts.com/cybersecurity/2026/wall-streets-new-cybersecurity-threat-starts-with-a-phone-call/": {
+  "category": "financial",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "PYMNTS",
+  "title": "Wall Street\u2019s New Cybersecurity Threat Starts With a Phone Call"
+ },
+ "https://www.pymnts.com/earnings/2026/airbnb-says-ai-is-driving-faster-growth-higher-bookings-and-better-margins/": {
+  "category": "financial",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "PYMNTS",
+  "title": "Airbnb Says AI Is Driving Faster Growth, Higher Bookings and Better Margins"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/ai-connects-b2b-firms-3-biggest-challenges-goods-contracts-and-cash/": {
   "category": "financial",
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "PYMNTS",
   "title": "AI Connects B2B Firms\u2019 3 Biggest Challenges: Goods, Contracts and Cash"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/ai-is-bringing-retailers-their-best-customers-not-closing-sales/": {
+  "category": "financial",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "PYMNTS",
+  "title": "AI Is Bringing Retailers Their Best Customers but Not Closing the Sale"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/financial-firms-put-ai-to-work-across-27-tasks-study-finds/": {
   "category": "financial",
@@ -661,6 +817,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "PYMNTS",
   "title": "Square and Google Let Restaurants Offer Conversational AI Ordering"
+ },
+ "https://www.pymnts.com/news/investment-tracker/2026/harvey-targets-15-5-billion-valuation-as-revenue-surges-past-350-million/": {
+  "category": "financial",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "PYMNTS",
+  "title": "Harvey Targets $15.5 Billion Valuation as Revenue Surges Past $350 Million"
  },
  "https://www.pymnts.com/news/retail/2026/ai-finds-the-deal-shoppers-still-make-the-call/": {
   "category": "financial",
@@ -731,11 +893,35 @@
   "source": "The Verge AI",
   "title": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker"
  },
+ "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Verge AI",
+  "title": "Fenix Flexin isn\u2019t even denying using AI to make \u2018Rubberz\u2019 anymore"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Verge AI",
+  "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful"
+ },
+ "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Verge AI",
+  "title": "Watching Roku\u2019s AI channel is like eating from a trough"
+ },
  "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan": {
   "category": "ai",
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "The Verge AI",
   "title": "The left and right agree on one thing: no data centers"
+ },
+ "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast": {
+  "category": "ai",
+  "seen": "2026-08-08T12:39:20.228555+00:00",
+  "source": "The Verge AI",
+  "title": "What&#8217;s behind the Google AI shake-up"
  },
  "https://www.theverge.com/policy/976138/softbank-trump-library-data-center-ohio": {
   "category": "ai",
@@ -832,6 +1018,9 @@
  },
  "kev:CVE-2026-63077": {
   "seen": "2026-08-06T13:58:10.176721+00:00"
+ },
+ "kev:CVE-2026-8037": {
+  "seen": "2026-08-08T12:39:20.228555+00:00"
  },
  "kev:CVE-2026-9198": {
   "seen": "2026-08-05T13:59:37.815148+00:00"
