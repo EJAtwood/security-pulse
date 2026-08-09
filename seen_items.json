@@ -116,11 +116,23 @@
   "source": "Simon Willison (LLMs)",
   "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI"
  },
+ "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans"
+ },
  "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "Simon Willison (LLMs)",
   "title": "Quoting John Gruber"
+ },
+ "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face"
  },
  "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -265,6 +277,18 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "TechCrunch AI",
   "title": "OpenAI says it slowed Astra model development over security concerns"
+ },
+ "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "TechCrunch AI",
+  "title": "OpenAI acquires presentation startup NextSlide"
+ },
+ "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "TechCrunch AI",
+  "title": "Planned Amazon data center could become the biggest climate polluter in the U.S."
  },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
@@ -505,6 +529,12 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "BleepingComputer",
   "title": "Metabase SQLi zero-day exploited in customer data-theft attacks"
+ },
+ "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/": {
+  "category": "security",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "BleepingComputer",
+  "title": "Hackers breach TrueConf to trojanize client installers with backdoors"
  },
  "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/": {
   "category": "security",
@@ -904,6 +934,18 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "The Verge AI",
   "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "The Verge AI",
+  "title": "An Amazon data center could have the worst polluting power plant in the country"
+ },
+ "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion": {
+  "category": "ai",
+  "seen": "2026-08-09T12:41:19.879606+00:00",
+  "source": "The Verge AI",
+  "title": "AI detectors are creating a new era of distrust"
  },
  "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
   "category": "ai",
