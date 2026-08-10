@@ -5,11 +5,29 @@
   "source": "Hugging Face Blog",
   "title": "Deploy local agents everywhere with LFM2.5-2.6B"
  },
+ "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Hugging Face Blog",
+  "title": "Making Knowledge Distillation Cheap Enough to Run at Scale"
+ },
  "https://huggingface.co/blog/allenai/tutormoments": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "Hugging Face Blog",
   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?"
+ },
+ "https://huggingface.co/blog/muse-glimmer": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Hugging Face Blog",
+  "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source"
+ },
+ "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Quoting OpenClaw"
  },
  "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -133,6 +151,24 @@
   "seen": "2026-08-09T12:41:19.879606+00:00",
   "source": "Simon Willison (LLMs)",
   "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face"
+ },
+ "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Quoting Claude Opus 5 system prompt"
+ },
+ "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "GitHub Models is now retired"
+ },
+ "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "SQLite compressed text-history prototypes"
  },
  "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem/": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -290,6 +326,36 @@
   "source": "TechCrunch AI",
   "title": "Planned Amazon data center could become the biggest climate polluter in the U.S."
  },
+ "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "TechCrunch AI",
+  "title": "Anthropic is turning Claude Code\u2019s auto mode on by default"
+ },
+ "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "TechCrunch AI",
+  "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry"
+ },
+ "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "TechCrunch AI",
+  "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy"
+ },
+ "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "TechCrunch AI",
+  "title": "The AI safety test is becoming a safety risk"
+ },
+ "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "TechCrunch AI",
+  "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips"
+ },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -374,6 +440,12 @@
   "source": "The Hacker News",
   "title": "Growing Up The Hard Way"
  },
+ "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Hacker News",
+  "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore"
+ },
  "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
  },
@@ -431,11 +503,23 @@
   "source": "The Hacker News",
   "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch"
  },
+ "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Hacker News",
+  "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA"
+ },
  "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
   "source": "The Hacker News",
   "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data"
+ },
+ "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Hacker News",
+  "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause"
  },
  "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html": {
   "category": "security",
@@ -454,6 +538,18 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "The Hacker News",
   "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts"
+ },
+ "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Hacker News",
+  "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development"
+ },
+ "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Hacker News",
+  "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials"
  },
  "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html": {
   "category": "security",
@@ -493,6 +589,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "BleepingComputer",
   "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks"
+ },
+ "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "BleepingComputer",
+  "title": "Critical Progress LoadMaster flaw now actively exploited in attacks"
  },
  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/": {
   "category": "security",
@@ -565,6 +667,18 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "BleepingComputer",
   "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack"
+ },
+ "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "BleepingComputer",
+  "title": "LexisNexis shuts down services after suspicious activity on servers"
+ },
+ "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "BleepingComputer",
+  "title": "Member of The Com sent to prison for blackmail, sextortion"
  },
  "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/": {
   "category": "security",
@@ -643,6 +757,12 @@
   "seen": "2026-08-08T12:39:20.228555+00:00",
   "source": "BleepingComputer",
   "title": "Unlimited Technology Systems breach impacts 3.8 million people"
+ },
+ "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/": {
+  "category": "security",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "BleepingComputer",
+  "title": "Valve notifies Steam hardware customers of a data breach"
  },
  "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/": {
   "category": "security",
@@ -818,11 +938,23 @@
   "source": "PYMNTS",
   "title": "Airbnb Says AI Is Driving Faster Growth, Higher Bookings and Better Margins"
  },
+ "https://www.pymnts.com/facebook-meta/2026/meta-debuts-new-ai-model-as-ceo-shares-ai-for-everyone-vision/": {
+  "category": "financial",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "PYMNTS",
+  "title": "Meta Debuts New AI Model as CEO Shares \u2018AI for Everyone\u2019 Vision"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/ai-connects-b2b-firms-3-biggest-challenges-goods-contracts-and-cash/": {
   "category": "financial",
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "PYMNTS",
   "title": "AI Connects B2B Firms\u2019 3 Biggest Challenges: Goods, Contracts and Cash"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/ai-helped-british-airways-reach-its-best-on-time-performance/": {
+  "category": "financial",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "PYMNTS",
+  "title": "AI Helped British Airways Reach Its Best On-Time Performance"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/ai-is-bringing-retailers-their-best-customers-not-closing-sales/": {
   "category": "financial",
@@ -835,6 +967,12 @@
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "PYMNTS",
   "title": "Financial Firms Put AI to Work Across 27 Tasks, Study Finds"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/how-ai-agents-are-automating-expense-reports-and-saving-travelers-time/": {
+  "category": "financial",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "PYMNTS",
+  "title": "How AI Agents Are Automating Expense Reports and Saving Travelers Time"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/openai-aims-to-redefine-smart-speakers-with-first-ai-device/": {
   "category": "financial",
@@ -871,6 +1009,12 @@
   "seen": "2026-08-07T12:54:35.653274+00:00",
   "source": "PYMNTS",
   "title": "Splitit CEO Says Card-Linked Payments Can Save AI Sales"
+ },
+ "https://www.pymnts.com/opinion/2026/who-owns-the-customer-relationship-when-agents-make-payments/": {
+  "category": "financial",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "PYMNTS",
+  "title": "Who Owns the Customer Relationship When Agents Make Payments?"
  },
  "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -1012,6 +1156,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "The Verge AI",
   "title": "OpenAI says Apple\u2019s trade secrets lawsuit is \u2018rotten to its core\u2019"
+ },
+ "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app": {
+  "category": "ai",
+  "seen": "2026-08-10T12:59:02.114469+00:00",
+  "source": "The Verge AI",
+  "title": "Ford\u2019s new AI assistant can check your fuel levels and tire pressure"
  },
  "https://www.wiz.io/blog/cloud-threat-highlights-h1-2026": {
   "category": "security",
