@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-08-14 12:57 UTC
+**Generated:** 2026-08-15 12:29 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,176 +7,175 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Cyera's Oasis Security Buy is All About AI Agent Control](https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control)
+### 🆕 [How Anthropic plans to watermark Claude's AI-generated text](https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/)
+*BleepingComputer*
+
+It could soon become easier to identify AI-generated content, even if it's not the usual "It's Not X, it's Y" type of post you'd come across on LinkedIn and other socials. [...]
+
+### 🆕 🏦 [Mission-Driven Security: Inside a Global Bank's Defense](https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense)
 *Dark Reading*
 
-The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.
+In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both d…
 
-### 🆕 [Shell investigates 'potential incident' after Clop data theft claims](https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/)
+### 🆕 🏦 [Hackers arrested over €30M bank fraud exploiting service provider flaw](https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/)
 *BleepingComputer*
 
-Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]
+Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers'…
 
-### 🆕 [RingCentral data breach exposed info of 1.6 million accounts](https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/)
-*BleepingComputer*
-
-The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
-
-### 🆕 [Data analyst sent to prison for stealing data, extorting employer](https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/)
-*BleepingComputer*
-
-A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]
-
-### 🆕 [Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks](https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/)
-*BleepingComputer*
-
-You're not alone if you just received an "Apple Threat Notification" saying it detected a "mercenary spyware attack targeted at your iPhone." [...]
-
-### 🆕 [Ukraine shuts down 94 fraudulent call centers, seize millions in cash](https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/)
-*BleepingComputer*
-
-Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]
-
-### 🆕 [Global Threat Campaign Hits Critical VMware vCenter Flaw](https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw)
+### 🆕 [Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI](https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai)
 *Dark Reading*
 
-Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.
+Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.
 
-### 🆕 [How to Investigate GitHub PAT Compromise: Lessons From a Multi-Organization Campaign](https://www.wiz.io/blog/investigating-github-pat-compromise)
+### 🆕 [Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office](https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office)
+*Dark Reading*
+
+One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.
+
+### 🆕 [Hackers exploit macOS Screen Sharing flaw to deploy Monero miner](https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/)
+*BleepingComputer*
+
+The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]
+
+### 🆕 [Wiz on Wiz: How the Wiz FinOps Team Uses Wiz Cloud Cost](https://www.wiz.io/blog/how-wiz-finops-uses-wiz-cloud-cost)
 *Wiz Security Blog*
 
-A practical playbook for investigating GitHub token compromise, drawn from Wiz CIRT's response to a coordinated multi-organization campaign.
+Powering cost investigation and optimization with deep cloud context
 
-### 🆕 [Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain](https://www.wiz.io/blog/securing-personal-repositories)
+### 🆕 [The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI](https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/)
+*BleepingComputer*
+
+Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the…
+
+### 🆕 [What Boards Need to Know About Tech Risk](https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk)
+*Dark Reading*
+
+Why do so many boards underestimate technology risk until it becomes a crisis?
+
+### 🆕 [Max severity SAP Commerce Cloud flaw now targeted in attacks](https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/)
+*BleepingComputer*
+
+A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]
+
+### 🆕 [Securing Data in the AI era](https://www.wiz.io/blog/securing-data-in-the-ai-era)
 *Wiz Security Blog*
 
-Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.
-
-### 🆕 [Siemens Parasolid](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10)
-*CISA Advisories*
-
-View CSAF Summary Parasolid is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbi…
-
-### 🆕 [Siemens License Server (SLS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07)
-*CISA Advisories*
-
-View CSAF Summary Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siem…
-
-### 🆕 [Siemens Desigo DXR and PXC Controllers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08)
-*CISA Advisories*
-
-View CSAF Summary A vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recovery requires a device r…
-
-### 🆕 [Johnson Controls Inc. Airwall](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to decrypt sensitive data, bypass authentication controls, gaining unauthorized access to read arbitrary files on the system, or…
-
-### 🆕 [Johnson Controls Metasys](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' session…
+AI is changing the context around data risk, making it critical to understand what’s connected, what’s exposed, and why.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Apple trained its own AI model for China with help from Alibaba](https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba)
-*The Verge AI*
-
-Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focus…
-
-### 🆕 [sqlite-utils 4.2.1](https://simonwillison.net/2026/Aug/13/sqlite-utils-2/)
+### 🆕 [Northern Gannet](https://simonwillison.net/2026/Aug/15/sighting-391300422/)
 *Simon Willison (LLMs)*
 
-Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2. I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependenc…
+Northern Gannet, in Pillar Point Harbor, CA, USThis is Morris. Morris is a local celebrity: the only known Northern Gannet (Morus bassanus) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast…
 
-### 🆕 [Microsoft’s Clippy-like Mico character is no longer the face of Copilot](https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired)
-*The Verge AI*
-
-Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have…
-
-### 🆕 [Writer introduces new AI model and upgraded harness to contain token costs](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)
-*TechCrunch AI*
-
-Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.
-
-### 🆕 [Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/)
-*TechCrunch AI*
-
-AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.
-
-### 🆕 [sqlite-utils 4.2](https://simonwillison.net/2026/Aug/13/sqlite-utils/)
+### 🆕 [Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/)
 *Simon Willison (LLMs)*
 
-Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature, which adds support for complex alter table operations by creating a fresh table, copying across the data and then drop…
+Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say "which of these tags match…
 
-### 🆕 [llm-gemini 0.33](https://simonwillison.net/2026/Aug/13/llm-gemini/)
-*Simon Willison (LLMs)*
-
-Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two embedding m…
-
-### 🆕 [OpenAI is losing its second executive this week](https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure)
+### 🆕 [Mark Zuckerberg has an Instagzam](https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast)
 *The Verge AI*
 
-Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the "coming weeks" to "pursue other opportunities," she…
+Instagram's wordmark is iconic. Well, was iconic. Apparently Instagram thought it looked old, so the company rolled out a new one this week. It doesn't look like the old Instagram wordmark. It doesn't even look like it s…
 
-### 🆕 [OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)
-*TechCrunch AI*
-
-OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.
-
-### 🆕 [IBM partners with OpenAI to bolster enterprise AI push](https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/)
-*TechCrunch AI*
-
-IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.
-
-### 🆕 [Anthropic set AI agents loose on the same task. They started a turf war.](https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/)
-*TechCrunch AI*
-
-Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.
-
-### 🆕 [Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets](https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop)
-*Hugging Face Blog*
-
-### 🆕 [Suno is trying to look more like a real music production tool](https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects)
+### 🆕 [You can now turn off Google Gemini&#8217;s visible watermarks](https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal)
 *The Verge AI*
 
-Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubte…
+Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new "Media watermark" setting in Gemini and Google's AI video generator,…
 
-### 🆕 [I looked inside an AI generated movie, and the best parts were all human](https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list)
-*The Verge AI*
+### 🆕 [Google will now allow users to remove visible watermark from its AI generations](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/)
+*TechCrunch AI*
 
-Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up each other's idealized v…
+Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.
+
+### 🆕 [Does Mark Zuckerberg really believe AI is ‘for everyone’?](https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/)
+*TechCrunch AI*
+
+Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release…
+
+### 🆕 [Kog is going deeper to squeeze more inference out of GPUs](https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/)
+*TechCrunch AI*
+
+The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.
+
+### 🆕 [Hyperscalers might regret embracing natural gas if new forecast proves correct](https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/)
+*TechCrunch AI*
+
+Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.
+
+### 🆕 [Meta’s ‘open’ AI, and a $250M deal gone very wrong](https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/)
+*TechCrunch AI*
+
+Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [SoFi Teaches Its AI Coach to Read the Financial Room](https://www.pymnts.com/news/artificial-intelligence/2026/sofi-teaches-its-ai-coach-to-read-the-financial-room/)
+### 🆕 [Nvidia Uses $500 Billion Financing Initiative to Dispel AI Bubble Fears](https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-uses-500-billion-dollar-financing-initiative-dispel-ai-bubble-fears/)
 *PYMNTS*
 
-Watch more: Digital Shift With SoFi’s Brian Walsh Digital transformation in financial services has traditionally hung its hat on the promise of democratization and accessibility. Software could reach consumers who lacked…
+Nvidia’s $500 billion artificial intelligence financing initiative that was announced Monday (Aug. 10) aims to assure the company’s investors that there is plenty of financing available to the AI startups and other compa…
 
-### 🆕 [Nearly 4 in 10 CFOs See Gen AI Paying Off Within Two Years](https://www.pymnts.com/news/artificial-intelligence/2026/nearly-4-in-10-cfos-see-gen-ai-paying-off-within-two-years/)
+### 🆕 [Speed Becomes the Product as OpenAI and Google Sell Faster AI](https://www.pymnts.com/news/artificial-intelligence/2026/speed-becomes-product-openai-google-sell-faster-ai/)
 *PYMNTS*
 
-CFOs have stopped treating generative artificial intelligence returns as one date circled on the calendar. By December, 39.1% expected very positive returns within one to two years, even as 26.1% expected the payoff to t…
+OpenAI and Google both released faster artificial intelligence models this week. Both put speed at the center of the pitch, and both are starting to treat response time as something businesses will pay for on its own. Op…
 
-### 🆕 [Before AI Runs the Bank, It Can Replace the Card](https://www.pymnts.com/opinion/2026/before-ai-runs-the-bank-it-can-replace-the-card/)
+### 🆕 [Goldman Sachs Mobilizes Investors for Nvidia’s $500 Billion AI Infrastructure Push](https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-mobilizes-investors-for-nvidias-500-billion-ai-infrastructure-push/)
 *PYMNTS*
 
-Success with agentic AI will depend on how well banks redesign their operational foundations, Thales Head of AI-Driven Operations Platform Amélie Tournant Fourel writes in a new PYMNTS eBook, “Building the Agent-Ready Pa…
+Goldman Sachs is talking with potential investors about participating in Nvidia’s $500 billion artificial intelligence financing initiative that was announced Monday (Aug. 10), Reuters reported Friday (Aug. 13). Goldman…
 
-### 🆕 [AI Just Got Its First 24/7 TV Channel](https://www.pymnts.com/news/artificial-intelligence/2026/ai-just-got-its-first-24-7-tv-channel/)
+### 🆕 [Enterprise AI’s Hottest Job Just Found Its Biggest Skeptic](https://www.pymnts.com/news/artificial-intelligence/2026/enterprise-ais-hottest-job-just-found-its-biggest-skeptic/)
 *PYMNTS*
 
-Fairground AI Creator TV is a channel that runs entirely artificial intelligence (AI)-generated video 24 hours a day, seven days a week, interrupted only by AI-generated commercials. That makes it the first free ad-suppo…
+The fastest-growing job in enterprise AI is the forward-deployed engineer, the specialist companies hire to make the software actually work inside their walls. Decagon, a customer service artificial intelligence startup…
+
+**Also relevant from today's threat feeds:**
+
+- [Mission-Driven Security: Inside a Global Bank's Defense](https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense) — *Dark Reading*
+- [Hackers arrested over €30M bank fraud exploiting service provider flaw](https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/) — *BleepingComputer*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets](https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop) — *Hugging Face Blog*
+- [llm-gemini 0.33](https://simonwillison.net/2026/Aug/13/llm-gemini/) — *Simon Willison (LLMs)*
+- [sqlite-utils 4.2.1](https://simonwillison.net/2026/Aug/13/sqlite-utils-2/) — *Simon Willison (LLMs)*
+- [sqlite-utils 4.2](https://simonwillison.net/2026/Aug/13/sqlite-utils/) — *Simon Willison (LLMs)*
+- [Anthropic set AI agents loose on the same task. They started a turf war.](https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/) — *TechCrunch AI*
+- [Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/) — *TechCrunch AI*
+- [IBM partners with OpenAI to bolster enterprise AI push](https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/) — *TechCrunch AI*
+- [OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/) — *TechCrunch AI*
+- [Writer introduces new AI model and upgraded harness to contain token costs](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/) — *TechCrunch AI*
+- [Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks](https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/) — *BleepingComputer*
+- [Data analyst sent to prison for stealing data, extorting employer](https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/) — *BleepingComputer*
+- [RingCentral data breach exposed info of 1.6 million accounts](https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/) — *BleepingComputer*
+- [Shell investigates 'potential incident' after Clop data theft claims](https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/) — *BleepingComputer*
+- [Ukraine shuts down 94 fraudulent call centers, seize millions in cash](https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/) — *BleepingComputer*
+- [Johnson Controls Inc. Airwall](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-03) — *CISA Advisories*
+- [Siemens License Server (SLS)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07) — *CISA Advisories*
+- [Siemens Desigo DXR and PXC Controllers](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08) — *CISA Advisories*
+- [Siemens Parasolid](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-10) — *CISA Advisories*
+- [Johnson Controls Metasys](https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14) — *CISA Advisories*
+- [Cyera's Oasis Security Buy is All About AI Agent Control](https://www.darkreading.com/identity-access-management-security/cyera-oasis-security-acquisition-ai-agent-control) — *Dark Reading*
+- [Global Threat Campaign Hits Critical VMware vCenter Flaw](https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw) — *Dark Reading*
+- [AI Just Got Its First 24/7 TV Channel](https://www.pymnts.com/news/artificial-intelligence/2026/ai-just-got-its-first-24-7-tv-channel/) — *PYMNTS*
+- [Nearly 4 in 10 CFOs See Gen AI Paying Off Within Two Years](https://www.pymnts.com/news/artificial-intelligence/2026/nearly-4-in-10-cfos-see-gen-ai-paying-off-within-two-years/) — *PYMNTS*
+- [SoFi Teaches Its AI Coach to Read the Financial Room](https://www.pymnts.com/news/artificial-intelligence/2026/sofi-teaches-its-ai-coach-to-read-the-financial-room/) — *PYMNTS*
+- [Before AI Runs the Bank, It Can Replace the Card](https://www.pymnts.com/opinion/2026/before-ai-runs-the-bank-it-can-replace-the-card/) — *PYMNTS*
+- [Suno is trying to look more like a real music production tool](https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects) — *The Verge AI*
+- [OpenAI is losing its second executive this week](https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure) — *The Verge AI*
+- [Apple trained its own AI model for China with help from Alibaba](https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba) — *The Verge AI*
+- [I looked inside an AI generated movie, and the best parts were all human](https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list) — *The Verge AI*
+- [Microsoft’s Clippy-like Mico character is no longer the face of Copilot](https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired) — *The Verge AI*
+- [How to Investigate GitHub PAT Compromise: Lessons From a Multi-Organization Campaign](https://www.wiz.io/blog/investigating-github-pat-compromise) — *Wiz Security Blog*
+- [Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain](https://www.wiz.io/blog/securing-personal-repositories) — *Wiz Security Blog*
 - [LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge](https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b) — *Hugging Face Blog*
 - [Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis](https://huggingface.co/blog/allenai/olmoearth-embeddings) — *Hugging Face Blog*
 - [alchemy-utils 0.1a0](https://simonwillison.net/2026/Aug/12/alchemy-utils/) — *Simon Willison (LLMs)*
@@ -209,38 +208,3 @@ Fairground AI Creator TV is a channel that runs entirely artificial intelligence
 - [Guitar company D’Addario admits that AI music was used in a promotional video](https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno) — *The Verge AI*
 - [Google’s Pixel Watch 5 dives deeper into AI and health](https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch) — *The Verge AI*
 - [Twitch streamers can now opt out from training Amazon’s AI](https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai) — *The Verge AI*
-- [Thinking of ACE? We Can Do It with Fewer Tokens](https://huggingface.co/blog/ibm-research/altk-evolve-sldd) — *Hugging Face Blog*
-- [datasette-upload-dbs 0.5a0](https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything) — *Simon Willison (LLMs)*
-- [Stealing Reasoning Traces from Proprietary LLM APIs](https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything) — *Simon Willison (LLMs)*
-- [There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything) — *Simon Willison (LLMs)*
-- [Accel closes oversubscribed $550M India fund within weeks, 19 months after its last](https://techcrunch.com/2026/08/11/accel-closes-oversubscribed-550m-india-fund-within-weeks-19-months-after-its-last/) — *TechCrunch AI*
-- [Brad Lightcap, OpenAI’s longtime COO, is leaving to ‘start something new’](https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/) — *TechCrunch AI*
-- [Google’s Gemini app surges to 1 billion users](https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/) — *TechCrunch AI*
-- [OpenAI launches ChatGPT desktop app for Linux](https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/) — *TechCrunch AI*
-- [AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year](https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation/) — *TechCrunch AI*
-- [Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws](https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html) — *The Hacker News*
-- [Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access](https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html) — *The Hacker News*
-- [Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations](https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html) — *The Hacker News*
-- [SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code](https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html) — *The Hacker News*
-- [ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access](https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html) — *The Hacker News*
-- [Hackers leverage new Microsoft SharePoint exploit in attacks](https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/) — *BleepingComputer*
-- [DeadLock ransomware uses blockchain to resist infrastructure takedown](https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/) — *BleepingComputer*
-- [Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse](https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/) — *BleepingComputer*
-- [New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/) — *BleepingComputer*
-- [Signal adds new security feature to thwart man-in-the-middle attacks](https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/) — *BleepingComputer*
-- [CISA Adds Three Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/11/cisa-adds-three-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
-- [Johnson Controls C-CURE 9000 and Victor application server (Update A)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-01) — *CISA Advisories*
-- [Mira Hormone Monitor, Mira Android App](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-01) — *CISA Advisories*
-- [Pulsetto Vagus Nerve Stimulator](https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-223-02) — *CISA Advisories*
-- [Microsoft's Patch Tuesday Deluge Continues With August Updates](https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues) — *Dark Reading*
-- [Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA](https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa) — *Dark Reading*
-- [Walmart Leaders Transform Security Operations Without Going Bananas](https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas) — *Dark Reading*
-- [70% of Brazilians Expect to Shop With AI Agents by 2028](https://www.pymnts.com/consumer-insights/2026/70percent-of-brazilians-expect-to-shop-with-ai-agents-by-2028/) — *PYMNTS*
-- [Cognition AI Eyes $40 Billion Valuation From New Funding](https://www.pymnts.com/news/artificial-intelligence/2026/cognition-ai-eyes-40-billion-valuation-from-new-funding/) — *PYMNTS*
-- [Freight Brokers Want AI That Shows Up Already Working](https://www.pymnts.com/news/artificial-intelligence/2026/freight-brokers-want-ai-that-shows-up-already-working/) — *PYMNTS*
-- [WEX Turns a Three-Person Team Into an AI Blueprint](https://www.pymnts.com/opinion/2026/wex-turns-a-three-person-team-into-an-ai-blueprint/) — *PYMNTS*
-- [Another OpenAI executive takes off](https://www.theverge.com/ai-artificial-intelligence/978048/brad-lightcap-openai-executive-departure) — *The Verge AI*
-- [ChatGPT and Gemini both just passed 1 billion users](https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users) — *The Verge AI*
-- [Grok is now an AI ‘teammate’ you can assign work](https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch) — *The Verge AI*
-- [Of course the ChatGPT dog cancer vaccine spawned a startup](https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee) — *The Verge AI*
-- [Saber denies replacing Rideshare Stimulator&#8217;s writers with ChatGPT](https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive) — *The Verge AI*
