@@ -125,6 +125,12 @@
   "source": "Simon Willison (LLMs)",
   "title": "Don't classify. Hallucinate!"
  },
+ "https://simonwillison.net/2026/Aug/15/cors-chat/": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "CORS Chat"
+ },
  "https://simonwillison.net/2026/Aug/15/sighting-391300422/": {
   "category": "ai",
   "seen": "2026-08-15T12:29:33.192010+00:00",
@@ -595,6 +601,24 @@
   "seen": "2026-08-15T12:29:33.192010+00:00",
   "source": "TechCrunch AI",
   "title": "Kog is going deeper to squeeze more inference out of GPUs"
+ },
+ "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "TechCrunch AI",
+  "title": "Anthropic shares more details about how Claude\u2019s new watermarks will work"
+ },
+ "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "TechCrunch AI",
+  "title": "SpaceX officially closes its Cursor acquisition"
+ },
+ "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "TechCrunch AI",
+  "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery"
  },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
@@ -1135,6 +1159,12 @@
   "seen": "2026-08-04T15:02:28.279418+00:00",
   "source": "BleepingComputer",
   "title": "New DOUBLECUP ClickFix service hides malware in browser cache images"
+ },
+ "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/": {
+  "category": "security",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "BleepingComputer",
+  "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes"
  },
  "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/": {
   "category": "security",
@@ -1937,6 +1967,12 @@
   "source": "The Verge AI",
   "title": "AI detectors are creating a new era of distrust"
  },
+ "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "The Verge AI",
+  "title": "Rogue AI aren\u2019t science fiction anymore"
+ },
  "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -1948,6 +1984,12 @@
   "seen": "2026-08-14T12:57:14.995037+00:00",
   "source": "The Verge AI",
   "title": "I looked inside an AI generated movie, and the best parts were all human"
+ },
+ "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot": {
+  "category": "ai",
+  "seen": "2026-08-16T12:31:13.450342+00:00",
+  "source": "The Verge AI",
+  "title": "Have a laugh at AI\u2019s expense by roleplaying as a chatbot"
  },
  "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive": {
   "category": "ai",
