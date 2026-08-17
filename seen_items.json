@@ -137,6 +137,24 @@
   "source": "Simon Willison (LLMs)",
   "title": "Northern Gannet"
  },
+ "https://simonwillison.net/2026/Aug/16/dario-amodei/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Quoting Dario Amodei"
+ },
+ "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Markdown SVG upgrades"
+ },
+ "https://simonwillison.net/2026/Aug/16/qwen-38-27b/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things"
+ },
  "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -620,6 +638,24 @@
   "source": "TechCrunch AI",
   "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery"
  },
+ "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "TechCrunch AI",
+  "title": "Anthropic CEO says AI backlash is \u2018fundamentally a crisis of trust\u2019"
+ },
+ "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "TechCrunch AI",
+  "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+"
+ },
+ "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "TechCrunch AI",
+  "title": "Why people aren\u2019t buying Mark Zuckerberg\u2019s AI future"
+ },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -731,6 +767,12 @@
   "source": "The Hacker News",
   "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside"
  },
+ "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Hacker News",
+  "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies"
+ },
  "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -757,6 +799,12 @@
   "seen": "2026-08-10T12:59:02.114469+00:00",
   "source": "The Hacker News",
   "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore"
+ },
+ "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Hacker News",
+  "title": "How MCP Servers Can Expose Enterprise Secrets"
  },
  "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html": {
   "seen": "2026-08-04T14:33:20.707663+00:00"
@@ -917,11 +965,23 @@
   "source": "The Hacker News",
   "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials"
  },
+ "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Hacker News",
+  "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware"
+ },
  "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html": {
   "category": "security",
   "seen": "2026-08-04T15:02:28.279418+00:00",
   "source": "The Hacker News",
   "title": "Thermo Fisher Patches Flaw That Could Make DNA File Tampering Nearly Undetectable"
+ },
+ "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Hacker News",
+  "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access"
  },
  "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html": {
   "category": "security",
@@ -961,6 +1021,12 @@
   "seen": "2026-08-12T12:59:40.321533+00:00",
   "source": "BleepingComputer",
   "title": "Hackers leverage new Microsoft SharePoint exploit in attacks"
+ },
+ "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "BleepingComputer",
+  "title": "Windows Server 2022 reaches end of mainstream support in 60 days"
  },
  "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/": {
   "category": "security",
@@ -1058,6 +1124,12 @@
   "source": "BleepingComputer",
   "title": "Metabase SQLi zero-day exploited in customer data-theft attacks"
  },
+ "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "BleepingComputer",
+  "title": "French tax authority data breach affects 678,000 individuals"
+ },
  "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/": {
   "category": "security",
   "seen": "2026-08-12T12:59:40.321533+00:00",
@@ -1148,6 +1220,12 @@
   "source": "BleepingComputer",
   "title": "Member of The Com sent to prison for blackmail, sextortion"
  },
+ "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "BleepingComputer",
+  "title": "Microsoft working on Defender patch for ShieldBreak zero-day"
+ },
  "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/": {
   "category": "security",
   "seen": "2026-08-04T15:04:50.229887+00:00",
@@ -1202,6 +1280,12 @@
   "source": "BleepingComputer",
   "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests"
  },
+ "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "BleepingComputer",
+  "title": "Philips and GE investigating Clop ransomware data theft claims"
+ },
  "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/": {
   "category": "security",
   "seen": "2026-08-05T13:59:37.815148+00:00",
@@ -1225,6 +1309,12 @@
   "seen": "2026-08-14T12:57:14.995037+00:00",
   "source": "BleepingComputer",
   "title": "RingCentral data breach exposed info of 1.6 million accounts"
+ },
+ "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "BleepingComputer",
+  "title": "SafePal data breach impacts 39,798 customers, stolen info for sale"
  },
  "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/": {
   "category": "security",
@@ -1610,6 +1700,12 @@
   "source": "Dark Reading",
   "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius"
  },
+ "https://www.pymnts.com/checkout-conversion/2026/visa-says-payment-choice-keeps-high-value-shoppers-at-checkout/": {
+  "category": "financial",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "PYMNTS",
+  "title": "Visa Says Payment Choice Keeps High-Value Shoppers at Checkout"
+ },
  "https://www.pymnts.com/consumer-finance/2026/enova-ceo-says-better-data-not-ai-hype-will-decide-who-gets-credit/": {
   "category": "financial",
   "seen": "2026-08-07T12:54:35.653274+00:00",
@@ -1676,6 +1772,12 @@
   "source": "PYMNTS",
   "title": "AI Just Got Its First 24/7 TV Channel"
  },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-ceo-says-hes-not-an-ai-pessimist/": {
+  "category": "financial",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "PYMNTS",
+  "title": "Anthropic CEO Says He\u2019s Not an AI Pessimist"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-could-seek-2-trillion-valuation-in-record-ipo/": {
   "category": "financial",
   "seen": "2026-08-13T13:00:55.978358+00:00",
@@ -1723,6 +1825,12 @@
   "seen": "2026-08-10T12:59:02.114469+00:00",
   "source": "PYMNTS",
   "title": "How AI Agents Are Automating Expense Reports and Saving Travelers Time"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/legal-departments-move-from-testing-ai-to-governing-it/": {
+  "category": "financial",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "PYMNTS",
+  "title": "Legal Departments Move From Testing AI to Governing It"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/maverick-payments-integrates-findustry-ai-agent-to-automate-chargeback-rebuttals/": {
   "category": "financial",
@@ -1825,6 +1933,12 @@
   "seen": "2026-08-10T12:59:02.114469+00:00",
   "source": "PYMNTS",
   "title": "Who Owns the Customer Relationship When Agents Make Payments?"
+ },
+ "https://www.pymnts.com/transportation/travel-payments/2026/when-ai-becomes-the-travel-agent-who-owns-the-journey/": {
+  "category": "financial",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "PYMNTS",
+  "title": "When AI Becomes the Travel Agent, Who Owns the Journey?"
  },
  "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
@@ -1960,6 +2074,24 @@
   "seen": "2026-08-14T12:57:14.995037+00:00",
   "source": "The Verge AI",
   "title": "Apple trained its own AI model for China with help from Alibaba"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Verge AI",
+  "title": "ChatGPT\u2019s Computer History tracks your clicks and keystrokes"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Verge AI",
+  "title": "OpenAI reportedly disbanded its preparedness team"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system": {
+  "category": "ai",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "The Verge AI",
+  "title": "Anthropic explains how Claude&#8217;s invisible text watermarks will work"
  },
  "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion": {
   "category": "ai",
@@ -2155,6 +2287,12 @@
   "seen": "2026-08-06T13:58:10.176721+00:00",
   "source": "Wiz Security Blog",
   "title": "Wiz Brings Automated DISA STIG Assessment to Amazon Linux 2023 and Windows Server 2025"
+ },
+ "https://www.wiz.io/blog/wiz-remediation-playbook": {
+  "category": "security",
+  "seen": "2026-08-17T12:35:52.817815+00:00",
+  "source": "Wiz Security Blog",
+  "title": "The Closed Loop Remediation Playbook with Wiz"
  },
  "kev:CVE-2025-68686": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
