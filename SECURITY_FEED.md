@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-08-19 12:38 UTC
+**Generated:** 2026-08-20 12:39 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,231 +7,208 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 🏦 [CVE-2026-33824](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability
-*Microsoft Internet Key Exchange (IKE) Service Extensions · Added 2026-08-18*
+### 🆕 [CVE-2026-64849](https://nvd.nist.gov/vuln/detail/CVE-2026-64849) — MLflow Server-Side Request Forgery Vulnerability
+*MLflow MLflow · Added 2026-08-19*
 
-Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.
-
-### 🆕 🏦 [CVE-2026-59310](https://nvd.nist.gov/vuln/detail/CVE-2026-59310) — Broadcom VMware vCenter Path Traversal Vulnerability
-*Broadcom VMware vCenter · Added 2026-08-18*
-
-Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.
-
-### 🆕 🏦 [CVE-2026-55040](https://nvd.nist.gov/vuln/detail/CVE-2026-55040) — Microsoft SharePoint Weak Authentication Vulnerability
-*Microsoft SharePoint · Added 2026-08-18*
-
-Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.
-
-### 🆕 [CVE-2026-65400](https://nvd.nist.gov/vuln/detail/CVE-2026-65400) — Apple macOS Improper Authentication Vulnerability
-*Apple macOS · Added 2026-08-18*
-
-Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.
+MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data](https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html)
-*The Hacker News*
-
-Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screens…
-
-### 🆕 [Microsoft fixes known issue causing Windows Defender crashes](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/)
+### 🆕 [Citrix urges admins to patch new NetScaler flaws as soon as possible](https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/)
 *BleepingComputer*
 
-Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]
+Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]
 
-### 🆕 [Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation](https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html)
-*The Hacker News*
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shor…
-
-### 🆕 [Critical RCE flaw in Windows IKE Extension now actively exploited](https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/)
+### 🆕 [CISA warns of hackers exploiting critical MLflow vulnerability](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/)
 *BleepingComputer*
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions compo…
+The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]
 
-### 🆕 [Windows 11 24H2 Home and Pro reach end of support in 2 months](https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/)
-*BleepingComputer*
-
-Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]
-
-### 🆕 [CISA: Medusa ransomware hit over 500 critical infrastructure orgs](https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/)
-*BleepingComputer*
-
-The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]
-
-### 🆕 [Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure](https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html)
+### 🆕 [NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands](https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html)
 *The Hacker News*
 
-Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing…
+Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary…
 
-### 🆕 [Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data](https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html)
+### 🆕 [ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud](https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html)
 *The Hacker News*
 
-A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) softw…
+Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with "significant enhancements," including a set of 167 remote commands and expands its targeting footprint globally.…
 
-### 🆕 [China-Linked Hacker Shows AI Capabilities in APAC Attack](https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack)
+### 🆕 [New Manic Android malware can exfiltrate data through nearby devices](https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/)
+*BleepingComputer*
+
+A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]
+
+### 🆕 [Critical Zimbra RCE flaw now actively exploited in attacks](https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/)
+*BleepingComputer*
+
+CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]
+
+### 🆕 [40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets](https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html)
+*The Hacker News*
+
+A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the ex…
+
+### 🆕 [Microsoft says August Windows updates may cause gaming issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/)
+*BleepingComputer*
+
+Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]
+
+### 🆕 [Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code](https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html)
+*The Hacker News*
+
+Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475…
+
+### 🆕 [No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns](https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns)
 *Dark Reading*
 
-In the first purported "near-autonomous" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.
+The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.
 
-### 🆕 [Critical GitLab Zero-Click Flaw Poses Mitigation Challenges](https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges)
+### 🆕 [Agentic AI Presents New Insider Threat Model for Orgs](https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model)
 *Dark Reading*
 
-A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
+Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.
 
-### 🆕 ['CoSnitch' Attack Tricked Copilot into Mapping Out Architecture](https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture)
-*Dark Reading*
-
-Researchers discovered a "meta-hacking" technique that can manipulate the AI service into revealing its own security weaknesses.
-
-### 🆕 [Comcast turns your Xfinity WiFi into a home motion detector](https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/)
-*BleepingComputer*
-
-Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensor…
-
-### 🆕 [CISOs Break Their Silence in 'Declassified' Docuseries](https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries)
-*Dark Reading*
-
-Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.
-
-### 🆕 [Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html)
+### 🆕 [Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second](https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html)
 *The Hacker News*
 
-Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to…
+Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second…
 
-### 🆕 [How to Spot and Stop Rogue Device Joins](https://www.wiz.io/blog/detecting-entra-device-registration-abuse)
+### 🆕 [SilkParasite Threatens Central Asian Orgs With Flurry of RATs](https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats)
+*Dark Reading*
+
+A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.
+
+### 🆕 [Wiz Penetration Test Findings is now GA](https://www.wiz.io/blog/wiz-pen-test-findings-is-now-ga)
 *Wiz Security Blog*
 
-Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID…
+Transform point-in-time pen-tests into continuous exposure management with unified platform combining pen-test findings and real-time cloud context
 
-### 🆕 [Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud](https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud)
-*Dark Reading*
-
-The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.
-
-### 🆕 [Siemens Simcenter Nastran](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02)
+### 🆕 [CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog)
 *CISA Advisories*
 
-View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to run one of the impac…
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-64849 MLflow Server-Side Request Forgery Vulnerability This type of vulnerabil…
 
-### 🆕 [CISA Malcolm](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01)
+### 🆕 [Defending Against an Active Threat to Siemens S7 Series PLCs](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a)
 *CISA Advisories*
 
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm are affected: Malcolm <2…
-
-### 🆕 [CISA Adds Four Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog)
-*CISA Advisories*
-
-CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-33824 Microsoft Internet Key Exchange (IKE) Service Extensions Double Free…
+Executive summary Note: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All PLC owners and opera…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [AI isn’t close to curing cancer. This startup says it knows what it will take.](https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/)
+### 🆕 [Meta AI’s new Mac app wants you to talk to your apps](https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/)
 *TechCrunch AI*
 
-It's the data, stupid.
+Meta said its Muse Spark model is powering the dictation feature.
 
-### 🆕 [Nvidia’s new financial strategy does not compute](https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset)
+### 🆕 [Slack is launching collaborative vibe-coding channels](https://www.theverge.com/tech/982628/slack-code-vibe-coding-channels-launch)
 *The Verge AI*
 
-April - 1805 Napoleon is master of Europe Only the British fleet stands before him Compute is now an asset class I see it is once again time to talk financial innovation. Apollo, BlackRock, Blackstone, Brookfield, Goldma…
+Slack is introducing dedicated channels where teams can vibe-code together with AI agents instead of jumping between different tools and conversations. The Slack Code launch includes open, project-specific code channels…
 
-### 🆕 [Relativity Networks raises $22 million to bring a faster kind of fiber to data centers](https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/)
+### 🆕 [Binance now lets AI agents trade, but keeping them in check is largely up to users](https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/)
 *TechCrunch AI*
 
-Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.
+Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.
 
-### 🆕 [Cursor capitalizes on GitHub frustration, launches rival hosting platform](https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/)
+### 🆕 [Stripe didn’t really buy OpenRouter because of the ‘singularity’](https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/)
 *TechCrunch AI*
 
-Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.
+What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of "the singularity" but it's really for a far more real and powerful reason.
 
-### 🆕 [Mojo🔥 is now open source](https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/)
+### 🆕 [smolmachines / smolvm as a sandbox for untrusted Python & JavaScript](https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/)
 *Simon Willison (LLMs)*
 
-Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023. Last week they shipped their 1.0 and today they have followed through on that orig…
+Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a…
 
-### 🆕 [Robin Williams’ Instagram account brought back to fight ‘AI abuse’](https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai)
+### 🆕 [Quoting Jeremy Morrell](https://simonwillison.net/2026/Aug/19/jeremy-morrell/)
+*Simon Willison (LLMs)*
+
+My hypothesis is that there is a new opportunity for Extensible Software on the web. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good securit…
+
+### 🆕 [Conceptual integrity and counting lines of code](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/)
+*Simon Willison (LLMs)*
+
+Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of "How AI is changing software development". We had a really great conversation. Here are a couple of my highlights fro…
+
+### 🆕 [OpenAI seeks to one-up Anthropic with new customer privacy protections](https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/)
+*TechCrunch AI*
+
+A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.
+
+### 🆕 [Cognition CEO denies report that SpaceX tried to acquire the startup](https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/)
+*TechCrunch AI*
+
+SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.
+
+### 🆕 [Google Gemini is getting a dedicated student hub](https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub)
 *The Verge AI*
 
-Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Willi…
+As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice qui…
 
-### 🆕 [OpenAI lays out new security changes after its AI hacked Hugging Face](https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack)
+### 🆕 [OpenAI hit the brakes. Now what?](https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai)
 *The Verge AI*
 
-OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and al…
+With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had…
 
-### 🆕 [How Much Memory Does Your Agent Actually Need?](https://huggingface.co/blog/ibm-research/altk-evolve-hmm)
+### 🆕 [Meta AI is getting a Mac app](https://www.theverge.com/tech/982270/meta-ai-mac-app)
+*The Verge AI*
+
+Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content ba…
+
+### 🆕 [LFM2.5 Q4\_0 Checkpoints from Quantization-Aware Distillation](https://huggingface.co/blog/LiquidAI/qad)
 *Hugging Face Blog*
-
-### 🆕 [OpenAI institutes new safeguards after Hugging Face breach](https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/)
-*TechCrunch AI*
-
-The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.
-
-### 🆕 [Etched’s valuation doubles to $21B in a month](https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/)
-*TechCrunch AI*
-
-Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.
-
-### 🆕 [Firefox&#8217;s Smart Window promises a better AI browser](https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features)
-*The Verge AI*
-
-Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest t…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Better AI Prompts Turn Consumer Experiments Into Habits](https://www.pymnts.com/news/artificial-intelligence/2026/better-ai-prompts-turn-consumer-experiments-into-habits/)
+### 🆕 [Big Tech’s AI Gatekeepers Could Draw Regulatory Scrutiny](https://www.pymnts.com/news/artificial-intelligence/2026/big-techs-ai-gatekeepers-could-draw-regulatory-scrutiny/)
 *PYMNTS*
 
-Generative artificial intelligence is becoming a more useful tool for consumers not just because the technology is improving, but also because consumers are getting better at using it. The PYMNTS Intelligence report “Fro…
+Watch more: TechREG Talks With Anant Raut The legal architecture governing software rests on a useful assumption: However sophisticated the technology becomes, somewhere behind it sits a person or company responsible for…
 
-**Also relevant from today's threat feeds:**
+### 🆕 [Enterprise AI Finds Its Firmest Footing in Security and Treasury](https://www.pymnts.com/news/artificial-intelligence/2026/enterprise-ai-finds-its-firmest-footing-in-security-and-treasury/)
+*PYMNTS*
 
-- [CVE-2026-33824 — Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-33824) — *CISA KEV*
-- [CVE-2026-59310 — Broadcom VMware vCenter Path Traversal Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-59310) — *CISA KEV*
-- [CVE-2026-55040 — Microsoft SharePoint Weak Authentication Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-55040) — *CISA KEV*
+For all the attention paid to enterprise artificial intelligence strategy, adoption is not spreading evenly across the organization. According to findings shared in the August 2026 edition of The Enterprise AI Benchmark…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
-- [Same Cluster, 33 Points More Utilization: What Changed Was the Order](https://huggingface.co/blog/Dharma-AI/gpu-management-pt2) — *Hugging Face Blog*
-- [Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index](https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/) — *Simon Willison (LLMs)*
-- [We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility](https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/) — *Simon Willison (LLMs)*
-- [AI automation startup Relay shuts down, staff joins Google’s Chrome team](https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/) — *TechCrunch AI*
-- [Amazon, which started off selling books, is destroying rare texts to train AI](https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/) — *TechCrunch AI*
-- [Anthropic’s annualized revenue surges to $65B](https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/) — *TechCrunch AI*
-- [Groq raises $350M to fuel its pivot from AI chips to neocloud](https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/) — *TechCrunch AI*
-- [Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project](https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/) — *TechCrunch AI*
-- [16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets](https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html) — *The Hacker News*
-- [CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE](https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html) — *The Hacker News*
-- [Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects](https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html) — *The Hacker News*
-- [One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025](https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html) — *The Hacker News*
-- [SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers](https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html) — *The Hacker News*
-- [Microsoft starts removing WMIC tool used by cybercriminals](https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/) — *BleepingComputer*
-- [Microsoft tests faster Windows File Explorer, new context menu](https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/) — *BleepingComputer*
-- [Microsoft confirms outage affecting search in Microsoft 365 apps](https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/) — *BleepingComputer*
-- [CISA: Windows Task Host flaw now exploited by ransomware gangs](https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/) — *BleepingComputer*
-- [Hacker claims 3.6 million Azure account records stolen from major companies](https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/) — *BleepingComputer*
-- [CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog) — *CISA Advisories*
-- [Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS](https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos) — *Dark Reading*
-- [Video Call Exploit Chains Two Flaws in Unisoc Modems](https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems) — *Dark Reading*
-- ['Turf War' Between Claude Agents Leads to Self-Replicating Malware](https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware) — *Dark Reading*
-- [Adam Shostack Talks Hugging Face &amp; PHANTOM-B](https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b) — *Dark Reading*
-- [61% of Consumers Would Consider AI-Recommended Financing](https://www.pymnts.com/consumer-insights/2026/61percent-of-consumers-would-consider-ai-recommended-financing/) — *PYMNTS*
-- [Corporate America’s Top 1% Spend $7,400 Per Employee on AI](https://www.pymnts.com/news/artificial-intelligence/2026/corporate-americas-top-1-spend-7400-per-employee-on-ai/) — *PYMNTS*
-- [Enterprise AI Is Scaling Fastest Where Businesses Can Measure the Results](https://www.pymnts.com/news/artificial-intelligence/2026/enterprise-ai-is-scaling-fastest-where-businesses-can-measure-the-results/) — *PYMNTS*
-- [ChatGPT is getting a dedicated mode for teens](https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode) — *The Verge AI*
-- [Whisker’s AI-powered litter robot thinks my cats swapped bodies](https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review) — *The Verge AI*
-- [Google&#8217;s Pet Memory forgot who my cats are](https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review) — *The Verge AI*
-- [Apple&#8217;s camera-equipped AirPods appear in leaked video](https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak) — *The Verge AI*
-- [Elon Musk made flying even worse so Palantir could profit](https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir) — *The Verge AI*
-- [Announcing the 2026 Wiz Partner Alliance Award Winners](https://www.wiz.io/blog/2026-partner-award-winners) — *Wiz Security Blog*
-- [Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug) — *Wiz Security Blog*
+- [How Much Memory Does Your Agent Actually Need?](https://huggingface.co/blog/ibm-research/altk-evolve-hmm) — *Hugging Face Blog*
+- [Mojo🔥 is now open source](https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/) — *Simon Willison (LLMs)*
+- [Cursor capitalizes on GitHub frustration, launches rival hosting platform](https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/) — *TechCrunch AI*
+- [Etched’s valuation doubles to $21B in a month](https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/) — *TechCrunch AI*
+- [OpenAI institutes new safeguards after Hugging Face breach](https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/) — *TechCrunch AI*
+- [AI isn’t close to curing cancer. This startup says it knows what it will take.](https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/) — *TechCrunch AI*
+- [Relativity Networks raises $22 million to bring a faster kind of fiber to data centers](https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/) — *TechCrunch AI*
+- [Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data](https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html) — *The Hacker News*
+- [Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation](https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html) — *The Hacker News*
+- [Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps](https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html) — *The Hacker News*
+- [Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure](https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html) — *The Hacker News*
+- [StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data](https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html) — *The Hacker News*
+- [Microsoft fixes known issue causing Windows Defender crashes](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/) — *BleepingComputer*
+- [Windows 11 24H2 Home and Pro reach end of support in 2 months](https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/) — *BleepingComputer*
+- [Critical RCE flaw in Windows IKE Extension now actively exploited](https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/) — *BleepingComputer*
+- [CISA: Medusa ransomware hit over 500 critical infrastructure orgs](https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/) — *BleepingComputer*
+- [Comcast turns your Xfinity WiFi into a home motion detector](https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/) — *BleepingComputer*
+- [CISA Adds Four Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
+- [CISA Malcolm](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01) — *CISA Advisories*
+- [Siemens Simcenter Nastran](https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02) — *CISA Advisories*
+- [Critical GitLab Zero-Click Flaw Poses Mitigation Challenges](https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges) — *Dark Reading*
+- [Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud](https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud) — *Dark Reading*
+- [CISOs Break Their Silence in 'Declassified' Docuseries](https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries) — *Dark Reading*
+- [China-Linked Hacker Shows AI Capabilities in APAC Attack](https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack) — *Dark Reading*
+- ['CoSnitch' Attack Tricked Copilot into Mapping Out Architecture](https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture) — *Dark Reading*
+- [Better AI Prompts Turn Consumer Experiments Into Habits](https://www.pymnts.com/news/artificial-intelligence/2026/better-ai-prompts-turn-consumer-experiments-into-habits/) — *PYMNTS*
+- [Firefox&#8217;s Smart Window promises a better AI browser](https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features) — *The Verge AI*
+- [OpenAI lays out new security changes after its AI hacked Hugging Face](https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack) — *The Verge AI*
+- [Nvidia’s new financial strategy does not compute](https://www.theverge.com/ai-artificial-intelligence/981668/nvidias-goldman-blackrock-gpu-compute-asset) — *The Verge AI*
+- [Robin Williams’ Instagram account brought back to fight ‘AI abuse’](https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai) — *The Verge AI*
+- [How to Spot and Stop Rogue Device Joins](https://www.wiz.io/blog/detecting-entra-device-registration-abuse) — *Wiz Security Blog*
