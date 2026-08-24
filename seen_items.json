@@ -272,6 +272,24 @@
   "source": "Simon Willison (LLMs)",
   "title": "More than just code review"
  },
+ "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Anthropic\u2019s best AI model struggles to attract users as cheaper tools thrive"
+ },
+ "https://simonwillison.net/2026/Aug/23/drew-breunig/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Quoting Drew Breunig"
+ },
+ "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Your executable is a SQLite database"
+ },
  "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -938,6 +956,30 @@
   "source": "TechCrunch AI",
   "title": "OpenAI says California should strengthen its AI safety bill"
  },
+ "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "TechCrunch AI",
+  "title": "Flock CEO calls for \u2018compromise\u2019 as surveillance company faces growing backlash"
+ },
+ "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "TechCrunch AI",
+  "title": "Is it legal to train AI models on copyrighted books? It\u2019s complicated"
+ },
+ "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "TechCrunch AI",
+  "title": "Linkdaze\u2019s smart calendar is built to run a household, not just track a schedule"
+ },
+ "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/": {
+  "category": "ai",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "TechCrunch AI",
+  "title": "Who\u2019s behind the new \u2018stealth model\u2019 Ox Alpha?"
+ },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -1093,6 +1135,12 @@
   "seen": "2026-08-18T12:37:10.771300+00:00",
   "source": "The Hacker News",
   "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects"
+ },
+ "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "The Hacker News",
+  "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account"
  },
  "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html": {
   "category": "security",
@@ -1307,6 +1355,12 @@
   "source": "The Hacker News",
   "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause"
  },
+ "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "The Hacker News",
+  "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor"
+ },
  "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html": {
   "category": "security",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -1367,6 +1421,12 @@
   "source": "The Hacker News",
   "title": "Shipping 10\u201350\u00d7 More Code? Watch This Webinar on Securing AI-Speed Development"
  },
+ "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "The Hacker News",
+  "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt"
+ },
  "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html": {
   "category": "security",
   "seen": "2026-08-10T12:59:02.114469+00:00",
@@ -1385,6 +1445,12 @@
   "source": "The Hacker News",
   "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware"
  },
+ "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "The Hacker News",
+  "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk"
+ },
  "https://thehackernews.com/2026/08/thermo-fisher-patches-flaw-that-could.html": {
   "category": "security",
   "seen": "2026-08-04T15:02:28.279418+00:00",
@@ -1402,6 +1468,12 @@
   "seen": "2026-08-20T12:39:40.633047+00:00",
   "source": "The Hacker News",
   "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud"
+ },
+ "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "The Hacker News",
+  "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit"
  },
  "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html": {
   "category": "security",
@@ -1454,6 +1526,12 @@
   "source": "BleepingComputer",
   "title": "Hackers leverage new Microsoft SharePoint exploit in attacks"
  },
+ "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "BleepingComputer",
+  "title": "Microsoft: August updates break printing, PDF export in WPF apps"
+ },
  "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/": {
   "category": "security",
   "seen": "2026-08-20T12:39:40.633047+00:00",
@@ -1483,6 +1561,12 @@
   "seen": "2026-08-22T12:30:47.708477+00:00",
   "source": "BleepingComputer",
   "title": "Microsoft rolls out Classic Outlook theme for New Outlook users"
+ },
+ "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "BleepingComputer",
+  "title": "Microsoft shares temporary fix for Windows 11 gaming issues"
  },
  "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/": {
   "category": "security",
@@ -1561,6 +1645,12 @@
   "seen": "2026-08-21T12:38:39.566959+00:00",
   "source": "BleepingComputer",
   "title": "CISA orders feds to patch actively exploited TrueConf Server flaws"
+ },
+ "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "BleepingComputer",
+  "title": "CISA orders urgent patching of actively exploited Zimbra flaw"
  },
  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/": {
   "category": "security",
@@ -1933,6 +2023,12 @@
   "seen": "2026-08-15T12:29:33.192010+00:00",
   "source": "BleepingComputer",
   "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI"
+ },
+ "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/": {
+  "category": "security",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "BleepingComputer",
+  "title": "ToxicPanda Android malware uses VPN permissions to block Google Play"
  },
  "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/": {
   "category": "security",
@@ -2528,6 +2624,12 @@
   "source": "PYMNTS",
   "title": "States Put Big Tech\u2019s AI Advantage Under New Scrutiny"
  },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-become-the-api-economys-biggest-new-customers/": {
+  "category": "financial",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "PYMNTS",
+  "title": "AI Agents Become the API Economy\u2019s Biggest New Customers"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/ai-connects-b2b-firms-3-biggest-challenges-goods-contracts-and-cash/": {
   "category": "financial",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -2641,6 +2743,12 @@
   "seen": "2026-08-10T12:59:02.114469+00:00",
   "source": "PYMNTS",
   "title": "How AI Agents Are Automating Expense Reports and Saving Travelers Time"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/hugging-face-considers-13-billion-sale-of-its-ai-platform/": {
+  "category": "financial",
+  "seen": "2026-08-24T12:40:54.231170+00:00",
+  "source": "PYMNTS",
+  "title": "Hugging Face Considers $13 Billion Sale of Its AI Platform"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/legal-departments-move-from-testing-ai-to-governing-it/": {
   "category": "financial",
