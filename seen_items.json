@@ -344,6 +344,12 @@
   "source": "Simon Willison (LLMs)",
   "title": "Breaking Claude Code Opus 5 Auto Mode"
  },
+ "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/": {
+  "category": "ai",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Just a rumour of a bug is enough to find a security exploit these days"
+ },
  "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -1154,6 +1160,12 @@
   "source": "TechCrunch AI",
   "title": "Open-weight AI companies are the Valley\u2019s hottest acquisition targets"
  },
+ "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/": {
+  "category": "ai",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "TechCrunch AI",
+  "title": "Nvidia\u2019s AI advantage is moving beyond the GPU"
+ },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -1300,6 +1312,12 @@
   "seen": "2026-08-25T12:39:36.823632+00:00",
   "source": "The Hacker News",
   "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access"
+ },
+ "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html": {
+  "category": "security",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "The Hacker News",
+  "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network"
  },
  "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html": {
   "category": "security",
@@ -1946,6 +1964,12 @@
   "source": "BleepingComputer",
   "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins"
  },
+ "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/": {
+  "category": "security",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "BleepingComputer",
+  "title": "Brave browser adds email aliases to help users evade tracking"
+ },
  "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/": {
   "category": "security",
   "seen": "2026-08-06T13:58:10.176721+00:00",
@@ -2251,6 +2275,12 @@
   "seen": "2026-08-15T12:29:33.192010+00:00",
   "source": "BleepingComputer",
   "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks"
+ },
+ "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/": {
+  "category": "security",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "BleepingComputer",
+  "title": "McKesson discloses breach after ShinyHunters claims patient data theft"
  },
  "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/": {
   "category": "security",
@@ -3029,6 +3059,18 @@
   "source": "Dark Reading",
   "title": "15 TP-Link Bugs Expose Risks in Zero-Trust Provisioning"
  },
+ "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026": {
+  "category": "security",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "Dark Reading",
+  "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise"
+ },
+ "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026": {
+  "category": "security",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "Dark Reading",
+  "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI"
+ },
  "https://www.darkreading.com/ics-ot-security/multistate-water-system-attacks-widen-iran-suspected": {
   "category": "security",
   "seen": "2026-08-11T12:55:13.462978+00:00",
@@ -3176,6 +3218,12 @@
   "source": "PYMNTS",
   "title": "Apple Cuts Vision Pro Roles to Focus on Smart Glasses Push"
  },
+ "https://www.pymnts.com/blockchain/bitcoin/2026/genius-group-targets-bitcoin-treasury-rebuild-5-months-after-selling-off/": {
+  "category": "financial",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "PYMNTS",
+  "title": "Genius Group Targets Bitcoin Treasury Rebuild 5 Months After Selling Off"
+ },
  "https://www.pymnts.com/checkout-conversion/2026/visa-says-payment-choice-keeps-high-value-shoppers-at-checkout/": {
   "category": "financial",
   "seen": "2026-08-17T12:35:52.817815+00:00",
@@ -3211,6 +3259,12 @@
   "seen": "2026-08-26T12:43:08.432092+00:00",
   "source": "PYMNTS",
   "title": "Banks Adopt AI and Stablecoins Faster Than Compliance Can Keep Up"
+ },
+ "https://www.pymnts.com/cybersecurity/2026/malware-has-branding-department-toxicpanda-is-latest-star/": {
+  "category": "financial",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "PYMNTS",
+  "title": "Malware Has a Branding Department and ToxicPanda Is Its Latest Star"
  },
  "https://www.pymnts.com/cybersecurity/2026/wall-streets-new-cybersecurity-threat-starts-with-a-phone-call/": {
   "category": "financial",
@@ -3862,6 +3916,12 @@
   "seen": "2026-08-19T12:38:07.669166+00:00",
   "source": "The Verge AI",
   "title": "Robin Williams\u2019 Instagram account brought back to fight \u2018AI abuse\u2019"
+ },
+ "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai": {
+  "category": "ai",
+  "seen": "2026-08-29T16:08:43.156439+00:00",
+  "source": "The Verge AI",
+  "title": "Musicians-turned-detectives are hunting for AI grifters"
  },
  "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot": {
   "category": "ai",
