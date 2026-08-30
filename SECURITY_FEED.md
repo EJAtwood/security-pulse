@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-08-29 16:08 UTC
+**Generated:** 2026-08-30 15:58 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,64 +7,84 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI](https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026)
-*Dark Reading*
-
-### 🆕 [[Virtual Event] Building a Secure AI Strategy for the Enterprise](https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026)
-*Dark Reading*
-
-### 🆕 [Brave browser adds email aliases to help users evade tracking](https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/)
+### 🆕 [FulcrumSec claims Manchester Airports hack, theft of 86 GB of data](https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/)
 *BleepingComputer*
 
-The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]
+FulcrumSec claims it stole 86 GB of data from Manchester Airports Group. BleepingComputer validated one traveller's record, while samples revealed detailed customer, booking, and travel information beyond what MAG initia…
 
-### 🆕 [McKesson discloses breach after ShinyHunters claims patient data theft](https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/)
+### 🆕 [Anthropic warns infostealer malware is hijacking Claude sessions to drain usage](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/)
 *BleepingComputer*
 
-Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it…
+Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]
 
-### 🆕 [Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html)
+### 🆕 [Chrome Web Store extensions caught stealing crypto, browser data](https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/)
+*BleepingComputer*
+
+Multiple extensions for Google Chrome and Microsoft Edge delivered a malware framework that deployed modules to steal cryptocurrency, sensitive data, and browser history, as well as inject ClickFix lures. [...]
+
+### 🆕 [TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor](https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html)
 *The Hacker News*
 
-Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the extortionists' demands. The…
+Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. "While traditional ClickFix campaigns direct vic…
+
+### 🆕 [Anthropic is cutting Claude Code's current weekly limits by 17%](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/)
+*BleepingComputer*
+
+Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]
+
+### 🆕 [Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE](https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html)
+*The Hacker News*
+
+Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/)
-*TechCrunch AI*
-
-The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.
-
-### 🆕 [Musicians-turned-detectives are hunting for AI grifters](https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai)
+### 🆕 [Texas Governor Abbott blocks funding for more Flock cameras](https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras)
 *The Verge AI*
 
-As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of h…
+As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state s…
 
-### 🆕 [Just a rumour of a bug is enough to find a security exploit these days](https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/)
+### 🆕 [Caterpillar is bringing to AI deployment what it learned from automating mining](https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/)
+*TechCrunch AI*
+
+Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.
+
+### 🆕 [Introducing Hy4 Preview](https://simonwillison.net/2026/Aug/29/hy4/)
 *Simon Willison (LLMs)*
 
-Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he repo…
+Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face. This is a big size inc…
 
----
+### 🆕 [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)
+*TechCrunch AI*
 
-## 🏦 Financial Sector Watch
+This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.
 
-### 🆕 [Malware Has a Branding Department and ToxicPanda Is Its Latest Star](https://www.pymnts.com/cybersecurity/2026/malware-has-branding-department-toxicpanda-is-latest-star/)
-*PYMNTS*
+### 🆕 [Sony Music Publishing and Warner Chappell are suing Anthropic](https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright)
+*The Verge AI*
 
-ToxicPanda sounds like an energy drink formulated for people who regard sleep as a character flaw. It’s actually an Android banking Trojan capable of taking over phones, stealing financial credentials and initiating unau…
+Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for "tens of thousands" copyrighted works. The companies are as…
 
-### 🆕 [Genius Group Targets Bitcoin Treasury Rebuild 5 Months After Selling Off](https://www.pymnts.com/blockchain/bitcoin/2026/genius-group-targets-bitcoin-treasury-rebuild-5-months-after-selling-off/)
-*PYMNTS*
+### 🆕 [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/)
+*TechCrunch AI*
 
-Genius Group, a company that operates a bitcoin and artificial intelligence (AI) dual treasury strategy alongside its core education business, plans to acquire $827 million in bitcoin treasury and $800 million in AI trea…
+Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a "discovery" science to an "engineering" one, why…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Just a rumour of a bug is enough to find a security exploit these days](https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/) — *Simon Willison (LLMs)*
+- [Nvidia’s AI advantage is moving beyond the GPU](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/) — *TechCrunch AI*
+- [Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network](https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html) — *The Hacker News*
+- [Brave browser adds email aliases to help users evade tracking](https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/) — *BleepingComputer*
+- [McKesson discloses breach after ShinyHunters claims patient data theft](https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/) — *BleepingComputer*
+- [[Virtual Event] Building a Secure AI Strategy for the Enterprise](https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026) — *Dark Reading*
+- [[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI](https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026) — *Dark Reading*
+- [Genius Group Targets Bitcoin Treasury Rebuild 5 Months After Selling Off](https://www.pymnts.com/blockchain/bitcoin/2026/genius-group-targets-bitcoin-treasury-rebuild-5-months-after-selling-off/) — *PYMNTS*
+- [Malware Has a Branding Department and ToxicPanda Is Its Latest Star](https://www.pymnts.com/cybersecurity/2026/malware-has-branding-department-toxicpanda-is-latest-star/) — *PYMNTS*
+- [Musicians-turned-detectives are hunting for AI grifters](https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai) — *The Verge AI*
 - [The Open ASR Leaderboard Adds Its First Global South Language](https://huggingface.co/blog/open-asr-leaderboard-global-south) — *Hugging Face Blog*
 - [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/) — *Simon Willison (LLMs)*
 - [An Anthropic researcher just gave us a peek at self-improving AI](https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/) — *TechCrunch AI*
@@ -93,39 +113,3 @@ Genius Group, a company that operates a bitcoin and artificial intelligence (AI)
 - [USD.AI Secures $100 Million Credit Facility From Bullish to Power AI Buildout](https://www.pymnts.com/news/investment-tracker/2026/usd-ai-secures-100-million-credit-facility-from-bullish-to-power-ai-buildout/) — *PYMNTS*
 - [Anthropic was illegally blacklisted by the Trump administration, court rules](https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling) — *The Verge AI*
 - [Trump’s EPA wants to let data centers hide their air pollution](https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit) — *The Verge AI*
-- [Qwen3.8-Flash-Next](https://simonwillison.net/2026/Aug/26/qwen38-flash-next/) — *Simon Willison (LLMs)*
-- [AI’s memory crunch is coming for Android apps](https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/) — *TechCrunch AI*
-- [Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google](https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/) — *TechCrunch AI*
-- [Google’s AI Mode can now track flight prices, help book hotels, and more](https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/) — *TechCrunch AI*
-- [Hugging Face is selling a cute $399 open source duck robot, Microduck](https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/) — *TechCrunch AI*
-- [OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI](https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/) — *TechCrunch AI*
-- [Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers](https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html) — *The Hacker News*
-- [Learn How to Build Security Operations Ready for AI-Powered Attacks](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html) — *The Hacker News*
-- [Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE](https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html) — *The Hacker News*
-- [OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face](https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html) — *The Hacker News*
-- [ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories](https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html) — *The Hacker News*
-- [Android 17 adds ECH support to make web browsing harder to track](https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/) — *BleepingComputer*
-- [How Threat Research and MDR Help SMBs Build a Defensive Edge](https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/) — *BleepingComputer*
-- [Manchester Airports Group says hackers stole travelers' data](https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/) — *BleepingComputer*
-- [Nearly 700 rogue AI agents coordinated in the Hugging Face attack](https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/) — *BleepingComputer*
-- [PaperCut warns of NG, MF flaw exploited in zero-day attacks](https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/) — *BleepingComputer*
-- [CISA Adds Three Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/08/27/cisa-adds-three-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
-- [Mitsubishi Electric Multiple FA Products (Update D)](https://www.cisa.gov/news-events/ics-advisories/icsa-25-128-03) — *CISA Advisories*
-- [Mitsubishi Electric CNC Series (Update A)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-078-05) — *CISA Advisories*
-- [Xiiaozet LK100W](https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-01) — *CISA Advisories*
-- [Rockwell Automation OTTO Fleet Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-239-03) — *CISA Advisories*
-- ['HTTP Terminator' Hunts for Novel Desync Attacks](https://www.darkreading.com/application-security/http-terminator-hunts-novel-desync-attacks) — *Dark Reading*
-- [Dark Caracal Adds New Malware to Cyber Espionage Arsenal](https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal) — *Dark Reading*
-- [Russian Hackers Phish EU Officials Over Messaging Apps](https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps) — *Dark Reading*
-- [Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026](https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026) — *Dark Reading*
-- [Chinese Routers Sold Worldwide Contain Backdoors](https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors) — *Dark Reading*
-- [Apple Cuts 150 Siri and Vision Pro Jobs Amid Greater AI Focus](https://www.pymnts.com/apple/2026/apple-cuts-150-siri-vision-pro-jobs-amid-greater-ai-focus/) — *PYMNTS*
-- [TD Bank Unlocks $141 Million in AI Value Months Ahead of Schedule](https://www.pymnts.com/earnings/2026/td-bank-unlocks-141-million-dollars-ai-value-months-ahead-schedule/) — *PYMNTS*
-- [Plaud is launching AI earbuds](https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability) — *The Verge AI*
-- [Jensen Huang says Nvidia achieved AGI, again — not that it matters](https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi) — *The Verge AI*
-- [Hugging Face’s new robot is an adorable rollerskating duck](https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot) — *The Verge AI*
-- [OpenAI&#8217;s executive exodus has one big winner](https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus) — *The Verge AI*
-- [Google’s AI note-taking app now allows you to interact with books](https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books) — *The Verge AI*
-- [Inside 90 days of attacks on AI infrastructure](https://www.wiz.io/blog/ai-infrastructure-honeypot) — *Wiz Security Blog*
-- [From Concept to Context Engine: How Wiz Built AI-Powered Data Discovery](https://www.wiz.io/blog/bucket-scanner-to-context-engine) — *Wiz Security Blog*
-- [Version Control DFIR: a Cheatsheet to GitHub, GitLab, Bitbucket, and Azure DevOps](https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops) — *Wiz Security Blog*

@@ -350,6 +350,12 @@
   "source": "Simon Willison (LLMs)",
   "title": "Just a rumour of a bug is enough to find a security exploit these days"
  },
+ "https://simonwillison.net/2026/Aug/29/hy4/": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "Introducing Hy4 Preview"
+ },
  "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
  },
@@ -1166,6 +1172,24 @@
   "source": "TechCrunch AI",
   "title": "Nvidia\u2019s AI advantage is moving beyond the GPU"
  },
+ "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "TechCrunch AI",
+  "title": "Sony Music, Warner sue Anthropic, alleging a \u201cbrazen campaign\u201d of intellectual property theft"
+ },
+ "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "TechCrunch AI",
+  "title": "\u201cWe\u2019re not doing 30 bets a year\u201d: Vijay Pande on betting small after running $4 billion at a16z"
+ },
+ "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "TechCrunch AI",
+  "title": "Caterpillar is bringing to AI deployment what it learned from automating mining"
+ },
  "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/": {
   "category": "ai",
   "seen": "2026-08-08T12:39:20.228555+00:00",
@@ -1423,6 +1447,12 @@
  },
  "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html": {
   "seen": "2026-08-04T14:24:01.816799+00:00"
+ },
+ "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "The Hacker News",
+  "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE"
  },
  "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html": {
   "category": "security",
@@ -1751,6 +1781,12 @@
   "source": "The Hacker News",
   "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware"
  },
+ "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "The Hacker News",
+  "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor"
+ },
  "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html": {
   "category": "security",
   "seen": "2026-08-24T12:40:54.231170+00:00",
@@ -1819,6 +1855,18 @@
   "seen": "2026-08-14T12:57:14.995037+00:00",
   "source": "BleepingComputer",
   "title": "Apple sends new \u2018Threat Notification\u2019 alerts over mercenary spyware attacks"
+ },
+ "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "BleepingComputer",
+  "title": "Anthropic is cutting Claude Code's current weekly limits by 17%"
+ },
+ "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "BleepingComputer",
+  "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage"
  },
  "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/": {
   "category": "security",
@@ -1976,6 +2024,12 @@
   "source": "BleepingComputer",
   "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks"
  },
+ "https://www.bleepingcomputer.com/news/security/chrome-web-store-extensions-caught-stealing-crypto-browser-data/": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "BleepingComputer",
+  "title": "Chrome Web Store extensions caught stealing crypto, browser data"
+ },
  "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/": {
   "category": "security",
   "seen": "2026-08-19T12:38:07.669166+00:00",
@@ -2107,6 +2161,12 @@
   "seen": "2026-08-17T12:35:52.817815+00:00",
   "source": "BleepingComputer",
   "title": "French tax authority data breach affects 678,000 individuals"
+ },
+ "https://www.bleepingcomputer.com/news/security/fulcrumsec-claims-manchester-airports-hack-theft-of-86-gb-of-data/": {
+  "category": "security",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "BleepingComputer",
+  "title": "FulcrumSec claims Manchester Airports hack, theft of 86 GB of data"
  },
  "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/": {
   "category": "security",
@@ -3880,6 +3940,18 @@
   "seen": "2026-08-28T21:41:37.822154+00:00",
   "source": "The Verge AI",
   "title": "Trump\u2019s EPA wants to let data centers hide their air pollution"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "The Verge AI",
+  "title": "Sony Music Publishing and Warner Chappell are suing Anthropic"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras": {
+  "category": "ai",
+  "seen": "2026-08-30T15:58:15.400094+00:00",
+  "source": "The Verge AI",
+  "title": "Texas Governor Abbott blocks funding for more Flock cameras"
  },
  "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion": {
   "category": "ai",
