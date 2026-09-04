@@ -1,235 +1,194 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-03 15:43 UTC
+**Generated:** 2026-09-04 15:41 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
-## 🔴 Known Exploited Vulnerabilities (CISA KEV)
-
-### 🆕 [CVE-2026-59822](https://nvd.nist.gov/vuln/detail/CVE-2026-59822) — BerriAI LiteLLM Improper Authentication Vulnerability
-*BerriAI LiteLLM · Added 2026-09-02*
-
-BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.
-
-### 🆕 [CVE-2026-48710](https://nvd.nist.gov/vuln/detail/CVE-2026-48710) — Kludex Starlette HTTP Request/Response Smuggling Vulnerability
-*Kludex Starlette · Added 2026-09-02*
-
-Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depe…
-
-### 🆕 [CVE-2026-49869](https://nvd.nist.gov/vuln/detail/CVE-2026-49869) — Kestra OSS OS Command Injection Vulnerability
-*Kestra Kestra OSS · Added 2026-09-02*
-
-Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.
-
-### 🆕 [CVE-2026-82329](https://nvd.nist.gov/vuln/detail/CVE-2026-82329) — JFrog Artifactory Improper Authentication Vulnerability
-*JFrog Artifactory · Added 2026-09-02*
-
-JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges.
-
-### 🆕 [CVE-2026-9586](https://nvd.nist.gov/vuln/detail/CVE-2026-9586) — Sangoma Switchvox SQL Injection Vulnerability
-*Sangoma Switchvox · Added 2026-09-02*
-
-Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operatio…
-
-### 🆕 🏦 [CVE-2026-83548](https://nvd.nist.gov/vuln/detail/CVE-2026-83548) — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability
-*SonicWall SMA1000 Appliances · Added 2026-09-02*
-
-SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.
-
-### 🆕 🏦 [CVE-2026-83549](https://nvd.nist.gov/vuln/detail/CVE-2026-83549) — SonicWall SMA1000 Appliances OS Command Injection Vulnerability
-*SonicWall SMA1000 Appliances · Added 2026-09-02*
-
-SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.
-
----
-
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Microsoft: KB5120998 mouse reset bug affects only non-English PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/)
+### 🆕 [Critical Citrix NetScaler auth bypass now leveraged in attacks](https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/)
 *BleepingComputer*
 
-Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]
+Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]
 
-### 🆕 [OpenAI confirms ChatGPT is down ahead of 'Astra' model launch](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/)
+### 🆕 [New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic](https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html)
+*The Hacker News*
+
+A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected…
+
+### 🆕 [Microsoft says some users can’t open the Teams desktop client](https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/)
 *BleepingComputer*
 
-ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]
+Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]
 
-### 🆕 [Anthropic confirms Claude is down, multiple models affected](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/)
+### 🆕 [39 New Methods That Compromise Passkey Authentication](https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/)
 *BleepingComputer*
 
-Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]
+Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credenti…
 
-### 🆕 [Critical Elementor Pro flaw exploited to take over WordPress sites](https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/)
+### 🆕 [New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/)
 *BleepingComputer*
 
-A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]
+An anonymous security researcher who uses the "Nightmare Eclipse" handle released a CrowdStrike Falcon zero-day exploit named "FalconFlank" that lets attackers escalate privileges on up-to-date Windows systems. [...]
 
-### 🆕 [AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours](https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours)
+### 🆕 [AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?](https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready)
 *Dark Reading*
 
-The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.
+A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.
 
-### 🆕 [Your Employee’s Password Appeared in an Infostealer Log. Now What?](https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/)
+### 🆕 [Exchange Online outage causes email delays, 'Server busy' errors](https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/)
 *BleepingComputer*
 
-Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is…
+Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]
 
-### 🆕 [Preparing for the Post-Quantum Era: A Call to Action](https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action)
-*CISA Advisories*
+### 🆕 [Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws](https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html)
+*The Hacker News*
 
-CISA and the Group of Seven (G7) Cyber Security Working Group released Preparing for the Post-Quantum Era: A Call to Action highlighting the urgent need for organizations and governments to begin transitioning to post-qu…
+Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) -…
 
-### 🆕 ['Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems](https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems)
+### 🆕 [Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws](https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html)
+*The Hacker News*
+
+Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0.…
+
+### 🆕 [Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day](https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html)
+*The Hacker News*
+
+Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), h…
+
+### 🆕 [GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests](https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html)
+*The Hacker News*
+
+OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the "world's most intelligent and aligned model." The development comes days after the artificial intelligence (AI) company said the model had rea…
+
+### 🆕 [Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams](https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams)
 *Dark Reading*
 
-Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.
+Threat actors behind the "Phantom Deal" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.
 
-### 🆕 [US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html)
-*The Hacker News*
-
-An RMM phishing campaign initially associated with Canadian targeting due to its use of Canada Revenue Agency (CRA) tax forms as lures has turned out to be part of a broader campaign spanning 46 countries. Around 45% of…
-
-### 🆕 [Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks](https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html)
-*The Hacker News*
-
-Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter Team today, the attac…
-
-### 🆕 [Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means](https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html)
-*The Hacker News*
-
-In early August, GitGuardian researchers found that a recent Shai-Hulud infostealer worm variant had evolved to scan for credentials across 469 locations across developer environments, Continuous Integration/Continuous D…
-
-### 🆕 [Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone](https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html)
-*The Hacker News*
-
-The iPhone belonging to a member of Serbia's student protest movement was infected with NSO Group's Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. "Our analysi…
-
-### 🆕 [Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon](https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html)
-*The Hacker News*
-
-The security researcher known as Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has dropped a new zero-day dubbed FalconFlank, a privilege escalation flaw impacting Crowdstrike Falcon. "Falc…
-
-### 🆕 [How Developers Prevent Production Risk at the Source](https://www.wiz.io/blog/prevent-production-risk-at-code-stage)
-*Wiz Security Blog*
-
-Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across eve…
-
-### 🆕 [AI’s Vulnerability Surge May Be More Manageable Than First Feared](https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared)
+### 🆕 [What We Missed: Did ShinyHunters 'Breach' ReliaQuest?](https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest)
 *Dark Reading*
 
-New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.
-
-### 🆕 [SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE](https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce)
-*Dark Reading*
-
-The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.
-
-### 🆕 [AI Gives Cybercriminals a Dangerous Time Advantage](https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage)
-*Dark Reading*
-
-Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.
+In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated m…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [ChatGPT, Grok, and Claude all went down at the same time](https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down)
-*The Verge AI*
-
-OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are all experiencing issues. At around 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there are cur…
-
-### 🆕 [Google’s latest AI weather model gives you no excuse to forget your umbrella](https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/)
+### 🆕 [Google’s Gemini Spark can now manage your Google Photos library](https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/)
 *TechCrunch AI*
 
-Scientists at Google Deepmind and Google Research released a new artificial intelligence model for weather forecasting today that sees our changing atmosphere more clearly and predicts its behavior more often. WeatherNex…
+Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.
 
-### 🆕 [Google says its AI weather model is getting better](https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update)
-*The Verge AI*
-
-Google is rolling out an updated AI weather model that's supposed to be more accurate, especially when it comes to predicting rain and snowfall. In the announcement today, the company says it's now able to make forecasts…
-
-### 🆕 [NeoMME: an efficient Multimodal-native and Multilingual Encoder](https://huggingface.co/blog/Hcompany/neomme)
-*Hugging Face Blog*
-
-### 🆕 [Nvidia confirms it will buy Hugging Face for $12.9 billion](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/)
+### 🆕 [Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event](https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/)
 *TechCrunch AI*
 
-Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.
+Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.
 
-### 🆕 [Nvidia is buying Hugging Face for almost $13 billion](https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal)
+### 🆕 [Rogue OpenAI agents appear to have organized another attack using a German wiki](https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki)
 *The Verge AI*
 
-Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging…
+A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepare…
 
-### 🆕 [Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps](https://huggingface.co/blog/grpo-with-trl-ifstruct)
-*Hugging Face Blog*
-
-### 🆕 [Give Your Coding Agents a Memory You Own](https://huggingface.co/blog/funes)
-*Hugging Face Blog*
-
-### 🆕 [Training a coding model to paint watercolours with TRL and OpenEnv](https://huggingface.co/blog/train-to-paint-with-code)
-*Hugging Face Blog*
-
-### 🆕 [The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/)
-*TechCrunch AI*
-
-The Builders Stage is returning to TechCrunch Disrupt, bringing together founders, startup operators, and investors for practical conversations on what it takes to build and scale.
-
-### 🆕 [Palo Alto Networks paid $500M for Thrive-backed Console, sources say](https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/)
-*TechCrunch AI*
-
-The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.
-
-### 🆕 [TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals](https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/)
-*TechCrunch AI*
-
-On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.
-
-### 🆕 [Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more](https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash)
+### 🆕 [Instagram’s AI detection is a mess (again)](https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion)
 *The Verge AI*
 
-Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model "works harder" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and "calling to…
+Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone haywire. They say M…
 
-### 🆕 [Amazon’s AI assistant can now spot fake emails from the company](https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails)
+### 🆕 [Why AI food looks like that](https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that)
 *The Verge AI*
 
-Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you ca…
+There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens fro…
 
-### 🆕 [llm-gemini 0.34](https://simonwillison.net/2026/Sep/2/llm-gemini/)
+### 🆕 [Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers](https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers)
+*The Verge AI*
+
+Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith…
+
+### 🆕 [Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users](https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout)
+*The Verge AI*
+
+Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a "messy rollout" after paying users expecting access to the new frontier model were left waiting. The company…
+
+### 🆕 [August newsletter is out](https://simonwillison.net/2026/Sep/4/august-newsletter/)
 *Simon Willison (LLMs)*
 
-Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash, with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan. #13…
+The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: We got more details on OpenAl's accidental cyberattacks One-s…
+
+### 🆕 [The sameness problem behind those unappetizing AI-generated menus](https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/)
+*TechCrunch AI*
+
+While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.
+
+### 🆕 [Crusoe reportedly raises $3B at a  $30B valuation](https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/)
+*TechCrunch AI*
+
+The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.
+
+### 🆕 [GPT‑6 Astra](https://simonwillison.net/2026/Sep/3/gpt6-astra/)
+*Simon Willison (LLMs)*
+
+GPT‑6 Astra GPT-6 Astra is "rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API a…
+
+### 🆕 [Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation](https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/)
+*TechCrunch AI*
+
+The high-profile startup's annual revenue run rate stands at over $100 million.
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [DOJ Sides With OpenAI Against the NY Times in High-Stakes Copyright Case](https://www.pymnts.com/legal/2026/doj-sides-with-openai-against-the-ny-times-in-high-stakes-copyright-case/)
+### 🆕 [FBI Investigates Possible Breach of Millions of American IDs](https://www.pymnts.com/cybersecurity/identity-theft/2026/fbi-investigates-possible-breach-of-millions-of-american-ids/)
 *PYMNTS*
 
-On the eve of Chinese President Xi Jinping’s visit to Washington, where artificial intelligence governance and competition will be on the agenda, the Trump administration on Tuesday (Sept. 1) jumped into one of the highe…
+The FBI is investigating a possible breach that may have exposed scans of millions of American drivers’ licenses, according to Bloomberg News. A bureau spokesperson confirmed the investigation on Thursday. The news lands…
 
-### 🆕 [How 153 Million Stolen IDs Could Supercharge 5 Enterprise Fraud Attacks](https://www.pymnts.com/cybersecurity/identity-theft/2026/how-153-million-stolen-identities-could-supercharge-5-enterprise-fraud-attacks/)
+### 🆕 [800 AI Agents Now Run GE Appliances’ Factory Floor](https://www.pymnts.com/news/artificial-intelligence/2026/800-ai-agents-now-run-ge-appliances-factory-floor/)
 *PYMNTS*
 
-There’s a potentially massive driver’s license breach now under FBI investigation. The most consequential impact of the breach isn’t simply its size. It’s what may have been stolen. Criminals are claiming on the dark web…
-
-### 🆕 [Nasdaq Verafin Takes the Fraud Fight to the Dark Web](https://www.pymnts.com/cybersecurity/fraud-prevention/2026/nasdaq-verafin-takes-the-fraud-fight-to-the-dark-web/)
-*PYMNTS*
-
-Banks often don’t see a fraud scheme until money has left the account, and then it’s too late. A stolen check, compromised card or banking credential may already have circulated among criminals, giving fraud teams little…
-
-**Also relevant from today's threat feeds:**
-
-- [CVE-2026-83548 — SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-83548) — *CISA KEV*
-- [CVE-2026-83549 — SonicWall SMA1000 Appliances OS Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-83549) — *CISA KEV*
+GE Appliances has deployed more than 800 artificial intelligence agents across its manufacturing, logistics and supply chain operations, using Google Cloud’s Gemini Enterprise, the company said in its announcement. “AI i…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [NeoMME: an efficient Multimodal-native and Multilingual Encoder](https://huggingface.co/blog/Hcompany/neomme) — *Hugging Face Blog*
+- [Give Your Coding Agents a Memory You Own](https://huggingface.co/blog/funes) — *Hugging Face Blog*
+- [Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps](https://huggingface.co/blog/grpo-with-trl-ifstruct) — *Hugging Face Blog*
+- [Training a coding model to paint watercolours with TRL and OpenEnv](https://huggingface.co/blog/train-to-paint-with-code) — *Hugging Face Blog*
+- [llm-gemini 0.34](https://simonwillison.net/2026/Sep/2/llm-gemini/) — *Simon Willison (LLMs)*
+- [Palo Alto Networks paid $500M for Thrive-backed Console, sources say](https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/) — *TechCrunch AI*
+- [TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals](https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/) — *TechCrunch AI*
+- [The Builders Stage brings practical strategies for scaling startups to TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/02/the-builders-stage-brings-practical-strategies-for-scaling-startups-to-techcrunch-disrupt-2026/) — *TechCrunch AI*
+- [Google’s latest AI weather model gives you no excuse to forget your umbrella](https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/) — *TechCrunch AI*
+- [Nvidia confirms it will buy Hugging Face for $12.9 billion](https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/) — *TechCrunch AI*
+- [Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks](https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html) — *The Hacker News*
+- [Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone](https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html) — *The Hacker News*
+- [Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon](https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html) — *The Hacker News*
+- [Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means](https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html) — *The Hacker News*
+- [US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries](https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html) — *The Hacker News*
+- [Anthropic confirms Claude is down, multiple models affected](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/) — *BleepingComputer*
+- [OpenAI confirms ChatGPT is down ahead of 'Astra' model launch](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/) — *BleepingComputer*
+- [Microsoft: KB5120998 mouse reset bug affects only non-English PCs](https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/) — *BleepingComputer*
+- [Critical Elementor Pro flaw exploited to take over WordPress sites](https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/) — *BleepingComputer*
+- [Your Employee’s Password Appeared in an Infostealer Log. Now What?](https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/) — *BleepingComputer*
+- [Preparing for the Post-Quantum Era: A Call to Action](https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action) — *CISA Advisories*
+- [AI’s Vulnerability Surge May Be More Manageable Than First Feared](https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared) — *Dark Reading*
+- [AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours](https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours) — *Dark Reading*
+- [AI Gives Cybercriminals a Dangerous Time Advantage](https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage) — *Dark Reading*
+- ['Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems](https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems) — *Dark Reading*
+- [SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE](https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce) — *Dark Reading*
+- [Nasdaq Verafin Takes the Fraud Fight to the Dark Web](https://www.pymnts.com/cybersecurity/fraud-prevention/2026/nasdaq-verafin-takes-the-fraud-fight-to-the-dark-web/) — *PYMNTS*
+- [How 153 Million Stolen IDs Could Supercharge 5 Enterprise Fraud Attacks](https://www.pymnts.com/cybersecurity/identity-theft/2026/how-153-million-stolen-identities-could-supercharge-5-enterprise-fraud-attacks/) — *PYMNTS*
+- [DOJ Sides With OpenAI Against the NY Times in High-Stakes Copyright Case](https://www.pymnts.com/legal/2026/doj-sides-with-openai-against-the-ny-times-in-high-stakes-copyright-case/) — *PYMNTS*
+- [Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more](https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash) — *The Verge AI*
+- [ChatGPT, Grok, and Claude all went down at the same time](https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down) — *The Verge AI*
+- [Nvidia is buying Hugging Face for almost $13 billion](https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal) — *The Verge AI*
+- [Amazon’s AI assistant can now spot fake emails from the company](https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails) — *The Verge AI*
+- [Google says its AI weather model is getting better](https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update) — *The Verge AI*
+- [How Developers Prevent Production Risk at the Source](https://www.wiz.io/blog/prevent-production-risk-at-code-stage) — *Wiz Security Blog*
 - [BenchMIRT: What are LLM benchmarks actually measuring?](https://huggingface.co/blog/allenai/benchmirt) — *Hugging Face Blog*
 - [Real-Time Intelligence with IBM Time Series Models on Confluent](https://huggingface.co/blog/ibm-research/real-time-intelligence) — *Hugging Face Blog*
 - [Claude Fable 5.1 made me a really nice animated pelican](https://simonwillison.net/2026/Sep/1/claude-fable-5-1/) — *Simon Willison (LLMs)*
@@ -267,30 +226,3 @@ Banks often don’t see a fraud scheme until money has left the account, and the
 - [NYC bans AI use for students until they reach high school](https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban) — *The Verge AI*
 - [Google needs Hollywood more than the studios need AI](https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai) — *The Verge AI*
 - [Google is sending MrBeast into the wilderness, armed with AI](https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit) — *The Verge AI*
-- [Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI](https://huggingface.co/blog/webgpu-kernels) — *Hugging Face Blog*
-- [Quoting Andrew Digby](https://simonwillison.net/2026/Aug/31/andrew-digby/) — *Simon Willison (LLMs)*
-- [Introducing wrapture](https://simonwillison.net/2026/Aug/31/introducing-wrapture/) — *Simon Willison (LLMs)*
-- [Python 3.15.0 candidate 2 is here!](https://simonwillison.net/2026/Sep/1/python-315-rc-2/) — *Simon Willison (LLMs)*
-- [Apple shares ‘shocking evidence’ against former employee accused of stealing company data for OpenAI](https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/) — *TechCrunch AI*
-- [The Pentagon now has its own version of ChatGPT and Grok](https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/) — *TechCrunch AI*
-- [AIR raises $50M to help companies vet the skills and add-ons AI agents use](https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/) — *TechCrunch AI*
-- [Amazon Alexa can now alert you when something new might tempt you to shop](https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/) — *TechCrunch AI*
-- [Fambot introduces an ‘AI chief of staff’ for families](https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/) — *TechCrunch AI*
-- [13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds](https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html) — *The Hacker News*
-- [Attackers Steal METR API Key and Consume AI Credits Worth About $600,000](https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html) — *The Hacker News*
-- [Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests](https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html) — *The Hacker News*
-- [Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis](https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html) — *The Hacker News*
-- [Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones](https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html) — *The Hacker News*
-- [Five Venezuelans plead guilty to ATM jackpotting attacks in US](https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/) — *BleepingComputer*
-- [Hackers push malicious Virtualizor update in BGP hijacking attack](https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/) — *BleepingComputer*
-- [Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks](https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/) — *BleepingComputer*
-- [Novocure data breach affects more than 1,400 cancer patients](https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/) — *BleepingComputer*
-- [Why Even the Best Edge Security Still Misses High-Risk Sessions](https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/) — *BleepingComputer*
-- [The Guardrails Debate: Security Researcher Changes His Mind](https://www.darkreading.com/cyber-risk/the-guardrails-debate-security-researcher-changes-his-mind) — *Dark Reading*
-- [Anthropic Users Hit by Infostealer Attacks, Session Thefts](https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts) — *Dark Reading*
-- [ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain](https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain) — *Dark Reading*
-- ['TerminalFix' Campaign Weaponizes PowerShell for Enterprise Attacks](https://www.darkreading.com/threat-intelligence/terminalfix-campaign-weaponizes-powershell-enterprise-attacks) — *Dark Reading*
-- [Amazon Pharmacy and Solv Team on Faster Drug Delivery](https://www.pymnts.com/healthcare/prescriptions/2026/amazon-pharmacy-solv-team-faster-drug-delivery/) — *PYMNTS*
-- [Congress Weighs Public Stake in AI’s Potential Wealth Boom](https://www.pymnts.com/news/artificial-intelligence/2026/congress-weighs-public-stake-ai-potential-wealth-boom/) — *PYMNTS*
-- [Petwealth Uses AI to Turn Pet Lab Results Into Action](https://www.pymnts.com/news/artificial-intelligence/2026/petwealth-uses-ai-to-turn-pet-lab-results-into-action/) — *PYMNTS*
-- [Introducing Continuous Vulnerability Assessment: Real-Time Defense for the AI Threat Era](https://www.wiz.io/blog/introducing-cva) — *Wiz Security Blog*
