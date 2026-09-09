@@ -1,142 +1,230 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-08 15:55 UTC
+**Generated:** 2026-09-09 15:51 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
+## 🔴 Known Exploited Vulnerabilities (CISA KEV)
+
+### 🆕 [CVE-2026-75650](https://nvd.nist.gov/vuln/detail/CVE-2026-75650) — Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability
+*Adobe Commerce and Magento · Added 2026-09-08*
+
+Adobe Commerce and Magento Open Source contain an improper neutralization of special elements used in a template engine vulnerability that could allow an attacker to execute arbitrary code.
+
+### 🆕 [CVE-2026-81963](https://nvd.nist.gov/vuln/detail/CVE-2026-81963) — Microsoft Windows Link Following Vulnerability
+*Microsoft Windows · Added 2026-09-08*
+
+Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.
+
+### 🆕 [CVE-2026-86218](https://nvd.nist.gov/vuln/detail/CVE-2026-86218) — N-able N-central Static Code Injection Vulnerability
+*N-able N-central · Added 2026-09-08*
+
+N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.
+
+### 🆕 [CVE-2026-85880](https://nvd.nist.gov/vuln/detail/CVE-2026-85880) — Microsoft Windows Heap-Based Buffer Overflow Vulnerability
+*Microsoft Windows · Added 2026-09-08*
+
+Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.
+
+---
+
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [August updates trigger 0xc0000409 errors on Windows Server 2016](https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/)
+### 🆕 [Veradigm warns of patient data breach after ransomware gang claims attack](https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/)
 *BleepingComputer*
 
-Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]
+Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' personal data. [...]
 
-### 🆕 [SAP warns of maximum severity 'OVERPASS' kernel vulnerability](https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/)
+### 🆕 [Identity-Based AI Attack Threatens Security of Enterprise Data](https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data)
+*Dark Reading*
+
+"Workflow identity hijacking" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.
+
+### 🆕 [Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA](https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html)
+*The Hacker News*
+
+Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create "stolen keys" that grant illicit access to tools from model providers like Google, Anthropic, and others. Inf…
+
+### 🆕 [MFA's Weakest Link: Account Recovery Is the New Attack Path](https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/)
 *BleepingComputer*
 
-SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]
+MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service de…
 
-### 🆕 [Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC](https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html)
+### 🆕 [Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE](https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html)
 *The Hacker News*
 
-Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain tha…
+A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint too…
 
-### 🆕 [OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/)
+### 🆕 [DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval](https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html)
+*The Hacker News*
+
+A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands insid…
+
+### 🆕 [Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets](https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html)
+*The Hacker News*
+
+Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub…
+
+### 🆕 [Over 36,000 exposed Plex servers vulnerable to recent flaws](https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/)
 *BleepingComputer*
 
-OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the "Critical level" for cybersecurity capabilities. [...]
+Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]
 
-### 🆕 [ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account](https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html)
+### 🆕 [U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok](https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html)
 *The Hacker News*
 
-Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the c…
+U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting "systematic extraction" of proprietary functionalities and capabilities of American frontier mode…
 
-### 🆕 [Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours](https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html)
-*The Hacker News*
-
-Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a larg…
-
-### 🆕 [Adobe fixes critical Magento zero-day exploited to backdoor servers](https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/)
+### 🆕 [Man gets 15 years for extorting women with AI-generated porn videos](https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/)
 *BleepingComputer*
 
-Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]
+An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]
 
-### 🆕 [Webinar: The forgotten Google Workspace access that can lead to a breach](https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/)
+### 🆕 [New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access](https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/)
 *BleepingComputer*
 
-Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security…
+An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named "ShieldCrash" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. […
 
-### 🆕 [WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls](https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html)
-*The Hacker News*
+### 🆕 [Patch Tuesday Sets Another Record With 974 CVEs](https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves)
+*Dark Reading*
 
-Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or tou…
+Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.
 
-### 🆕 [What It Took to Reach 1 Billion Build Manifests](https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html)
-*The Hacker News*
+### 🆕 [Attackers Use Multi-Hop Google Redirects for Phishing Campaign](https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign)
+*Dark Reading*
 
-In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those ar…
+Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.
+
+### 🆕 [OpenAI Agents Took Over Wiki Site Before Hugging Face Attack](https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack)
+*Dark Reading*
+
+Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack."
+
+### 🆕 [ClickFix Campaigns Abuse Legitimate Services for Persistent Access](https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access)
+*Dark Reading*
+
+Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic](https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom)
+### 🆕 [ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’](https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/)
+*TechCrunch AI*
+
+AI companies have been talking about superintelligent AI like it’s inevitable, but recent safety incidents like OpenAI’s Hugging Face breach are demonstrating the potential dangers of deploying AI systems that are more c…
+
+### 🆕 [IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license](https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series)
 *Hugging Face Blog*
 
-### 🆕 [Mistral raises €3B as sovereign AI becomes big business](https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/)
+### 🆕 [Viral AI assistant Instinct now has its own email address](https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/)
 *TechCrunch AI*
 
-The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.
+Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.
 
-### 🆕 [Google’s Atlas of the human genome could pave the way for new treatments](https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas)
-*The Verge AI*
-
-Google DeepMind has unveiled an AI tool that its scientists claim could help unravel the mysteries of the human genome and transform our understanding of biology, accelerating scientific research and ultimately paving th…
-
-### 🆕 [Adobe is trying to make its AI generators idiot-proof in Premiere](https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere)
-*The Verge AI*
-
-Adobe is overhauling how editors interact with AI in its Premiere professional video editing software. Its new Generative Media tool makes it easier to generate video, sound effects, music, and soundscapes without ever l…
-
-### 🆕 [llm 0.35](https://simonwillison.net/2026/Sep/7/llm/)
-*Simon Willison (LLMs)*
-
-Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra. Tags: openai, llm, gpt-6-astra
-
-### 🆕 [Creepy crawlies](https://simonwillison.net/2026/Sep/7/creepy-crawlies/)
-*Simon Willison (LLMs)*
-
-Creepy crawlies Konstantin Ryabitsev discusses how bad the "background radiation" of abusive crawlers has become from the perspective of git.kernel.org, the official Git repository for the Linux kernel: TL;DR: we spend m…
-
-### 🆕 [Quoting Jakub Pachocki](https://simonwillison.net/2026/Sep/7/jakub-pachocki/)
-*Simon Willison (LLMs)*
-
-The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secur…
-
-### 🆕 [Opaque recurrence, and other AI terms that you should probably know](https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/)
+### 🆕 [‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI](https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/)
 *TechCrunch AI*
 
-The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.
+Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.
 
-### 🆕 [Video compressor](https://simonwillison.net/2026/Sep/7/video-compressor/)
+### 🆕 [Shipt becomes the latest delivery app with an AI shopping assistant](https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/)
+*TechCrunch AI*
+
+Users can ask the assistant to do things like "Create a cart for my Saturday tailgate for 25 people and include some brunch items," or "Build a cart for easy school lunches and after-school snacks," Shipt says.
+
+### 🆕 [AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?](https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/)
+*TechCrunch AI*
+
+Falling token costs, cheaper models, and less spend per employee—AI adoption isn't playing out the way hyperscalers hoped.
+
+### 🆕 [Amazon Prime Video’s new AI tech matches lips to dubbed audio](https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing)
+*The Verge AI*
+
+Amazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with "human-dubbed" audio. The feature is only available with the English dub of the German series Maxton Hall for now, but Prime…
+
+### 🆕 [Students who use AI generally score worse at school](https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa)
+*The Verge AI*
+
+Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain type…
+
+### 🆕 [Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;](https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans)
+*The Verge AI*
+
+A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence "could kill all humans" by the end of the decade, just hours after a colleague resigned over fears the AI lab a…
+
+### 🆕 [Quoting Terence Tao](https://simonwillison.net/2026/Sep/9/terence-tao/)
 *Simon Willison (LLMs)*
 
-Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code fo…
+I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that ev…
 
-### 🆕 [Mercator ↔ Equal Earth](https://simonwillison.net/2026/Sep/7/equal-earth/)
+### 🆕 [On the Navier–Stokes Millennium Prize Problem](https://simonwillison.net/2026/Sep/8/on-navier-stokes/)
 *Simon Willison (LLMs)*
 
-Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Eq…
+On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize P…
+
+### 🆕 [Introducing ChatGPT Images 2.5](https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/)
+*Simon Willison (LLMs)*
+
+Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used "more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API". This latest release improves their instruction-f…
+
+### 🆕 [Drama swirls around OpenAI’s legendary mathematical milestone](https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution)
+*The Verge AI*
+
+OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered…
+
+### 🆕 [ChatGPT Sketch turns your bad drawings into detailed AI images](https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch)
+*The Verge AI*
+
+OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Mistral Raises $3.5 Billion for AI Research in Record EU Funding Round](https://www.pymnts.com/news/artificial-intelligence/2026/mistral-raises-3-billion-dollars-ai-research-record-european-union-funding-round/)
+### 🆕 [Mastercard Expands Agentic Suite to Help Merchants Scale AI Shopping](https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-expands-agentic-suite-to-help-merchants-scale-ai-shopping/)
 *PYMNTS*
 
-France-based artificial intelligence startup Mistral raised a record 3 billion euros (about $3.5 billion) in funding, according to a Tuesday (Sept. 8) company blog post. The company’s Series D is the largest equity fundr…
+Mastercard is expanding one agentic AI offering for merchants while introducing another. The payments giant on Wednesday (Sept. 9) announced it had updated its Mastercard Agent Suite for Merchants, which lets businesses…
 
-### 🆕 [How Pinterest Built an AI Engine Users Actually Trust](https://www.pymnts.com/news/artificial-intelligence/2026/how-pinterest-built-ai-engine-users-actually-trust/)
+### 🆕 [Kapital Lands $125 Million to Scale AI-Powered Business Platform](https://www.pymnts.com/news/investment-tracker/2026/kapital-lands-125-million-dollars-scale-ai-powered-business-platform/)
 *PYMNTS*
 
-Pinterest is best known as a place where people go to find ideas, from home décor to weeknight dinners. Behind that simple experience sits one of the most complex artificial intelligence systems in social media. Pinteres…
+Kapital, a financial institution providing access to business capital across Mexico, Colombia, Spain and the United States, secured $125 million in new financing, the company said in a Wednesday (Sept. 9) press release.…
 
-### 🆕 [Google Helps Accenture Embed AI Engineers With Customers](https://www.pymnts.com/news/artificial-intelligence/2026/google-helps-accenture-embed-ai-engineers-with-customers/)
+### 🆕 [Banks Turn Card Replacement Into a Single AI Workflow](https://www.pymnts.com/news/artificial-intelligence/2026/banks-turn-card-replacement-into-a-single-ai-workflow/)
 *PYMNTS*
 
-Google has reportedly teamed with Accenture to help customers deploy Google Cloud’s agentic artificial intelligence platform. That’s according to a report Tuesday (Sept. 8) from the Wall Street Journal (WSJ), which calls…
-
-### 🆕 [Anthropic Scuttles Plans to Acquire AI Company Decart](https://www.pymnts.com/news/acquiring/2026/anthropic-scuttles-plans-to-acquire-ai-company-decart/)
-*PYMNTS*
-
-Anthropic has reportedly walked away from a $6 billion deal to acquire AI startup Decart. That’s according to a report late Monday (Sept. 7) by Bloomberg News, citing sources familiar with the matter. Anthropic had been…
+Banks have spent the past several years asking whether artificial intelligence can make better decisions. The more important question is becoming whether their infrastructure can execute those decisions. While 52% of ban…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic](https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom) — *Hugging Face Blog*
+- [Creepy crawlies](https://simonwillison.net/2026/Sep/7/creepy-crawlies/) — *Simon Willison (LLMs)*
+- [Mercator ↔ Equal Earth](https://simonwillison.net/2026/Sep/7/equal-earth/) — *Simon Willison (LLMs)*
+- [Quoting Jakub Pachocki](https://simonwillison.net/2026/Sep/7/jakub-pachocki/) — *Simon Willison (LLMs)*
+- [llm 0.35](https://simonwillison.net/2026/Sep/7/llm/) — *Simon Willison (LLMs)*
+- [Video compressor](https://simonwillison.net/2026/Sep/7/video-compressor/) — *Simon Willison (LLMs)*
+- [Opaque recurrence, and other AI terms that you should probably know](https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/) — *TechCrunch AI*
+- [Mistral raises €3B as sovereign AI becomes big business](https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/) — *TechCrunch AI*
+- [Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours](https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html) — *The Hacker News*
+- [ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account](https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html) — *The Hacker News*
+- [Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC](https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html) — *The Hacker News*
+- [WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls](https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html) — *The Hacker News*
+- [What It Took to Reach 1 Billion Build Manifests](https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html) — *The Hacker News*
+- [OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/) — *BleepingComputer*
+- [August updates trigger 0xc0000409 errors on Windows Server 2016](https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/) — *BleepingComputer*
+- [Adobe fixes critical Magento zero-day exploited to backdoor servers](https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/) — *BleepingComputer*
+- [SAP warns of maximum severity 'OVERPASS' kernel vulnerability](https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/) — *BleepingComputer*
+- [Webinar: The forgotten Google Workspace access that can lead to a breach](https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/) — *BleepingComputer*
+- [Anthropic Scuttles Plans to Acquire AI Company Decart](https://www.pymnts.com/news/acquiring/2026/anthropic-scuttles-plans-to-acquire-ai-company-decart/) — *PYMNTS*
+- [Google Helps Accenture Embed AI Engineers With Customers](https://www.pymnts.com/news/artificial-intelligence/2026/google-helps-accenture-embed-ai-engineers-with-customers/) — *PYMNTS*
+- [How Pinterest Built an AI Engine Users Actually Trust](https://www.pymnts.com/news/artificial-intelligence/2026/how-pinterest-built-ai-engine-users-actually-trust/) — *PYMNTS*
+- [Mistral Raises $3.5 Billion for AI Research in Record EU Funding Round](https://www.pymnts.com/news/artificial-intelligence/2026/mistral-raises-3-billion-dollars-ai-research-record-european-union-funding-round/) — *PYMNTS*
+- [Google’s Atlas of the human genome could pave the way for new treatments](https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas) — *The Verge AI*
+- [Adobe is trying to make its AI generators idiot-proof in Premiere](https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere) — *The Verge AI*
 - [Research acceleration: The view inside OpenAI](https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/) — *Simon Willison (LLMs)*
 - [Authors push back as publishers and agents make claims on Anthropic settlement](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/) — *TechCrunch AI*
 - [Travis Kalanick’s Atoms might be getting into the robotaxi business](https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/) — *TechCrunch AI*
