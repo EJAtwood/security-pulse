@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-15 16:09 UTC
+**Generated:** 2026-09-16 16:02 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,199 +7,205 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 🏦 [CVE-2026-76461](https://nvd.nist.gov/vuln/detail/CVE-2026-76461) — Cisco Secure Email Gateway SQL Injection Vulnerability
-*Cisco Secure Email Gateway · Added 2026-09-14*
+### 🆕 [CVE-2026-58704](https://nvd.nist.gov/vuln/detail/CVE-2026-58704) — Google Pixel Improper Authorization Vulnerability
+*Google Pixel · Added 2026-09-16*
 
-Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
+Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [BambooToken Malware Uses MQTT to Control Windows and Linux Systems](https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of a multi-platform campaign that uses the Message Queueing Telemetry Transport (MQTT) protocol as a communication channel to control Windows and Linux systems. The emergi…
-
-### 🆕 [BambooToken malware controls Windows and Linux systems via MQTT](https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/)
+### 🆕 [The true cost of a ransomware attack, with and without BCDR](https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/)
 *BleepingComputer*
 
-A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) protocol to communicate with Windows and Linux systems. [...]
+The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can re…
 
-### 🆕 [Hackers target WordPress sites via third-party WooCommerce plugin](https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/)
-*BleepingComputer*
-
-Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdoor. [...]
-
-### 🆕 [What Zero-Day Response Should Be in the Post-Mythos Era](https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/)
-*BleepingComputer*
-
-AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus Security explains how exploitability validation, security control test…
-
-### 🆕 [Investing Together: Wiz Defend and Google Security Operations](https://www.wiz.io/blog/wiz-defend-and-google-security-operations)
-*Wiz Security Blog*
-
-Continuing to deepen the integration between Wiz Defend and Google Security Operations, helping teams work faster wherever they choose to investigate
-
-### 🆕 [CISA: Critical VMware RCE flaw now exploited by ransomware gangs](https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/)
-*BleepingComputer*
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploiting a critical VMware vCenter vulnerability patched in July. [...]
-
-### 🆕 [Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers](https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies)
-*CISA Advisories*
-
-Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access to…
-
-### 🆕 [Digital Watchdog VMAX DVR and NVR Product Lineups](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use…
-
-### 🆕 [mySCADA myPRO Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem. The following versions…
-
-### 🆕 [Schneider Electric SCADAPack x70 Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04)
-*CISA Advisories*
-
-View CSAF Summary Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that…
-
-### 🆕 [Siemens Teamcenter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07)
-*CISA Advisories*
-
-View CSAF Summary A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's sess…
-
-### 🆕 [Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds](https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html)
+### 🆕 [Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories](https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html)
 *The Hacker News*
 
-With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled human operators can mov…
+Mandiant says an attacker hijacked an active AI coding-assistant session at an unnamed software-as-a-service provider and later spread Shai-Hulud across about 100 internal code repositories. Before the repository spread,…
 
-### 🆕 [Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point](https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html)
+### 🆕 [Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix](https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html)
 *The Hacker News*
 
-Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM rule fire on this partic…
+Parallels Desktop for Mac has a flaw that lets an ordinary local account run code as root, the highest level of access on a Mac, software company JFrog said this week. The attack needs code already running on the machine…
 
-### 🆕 [Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers](https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite development servers t…
-
-### 🆕 [Suspected Black Axe gang leaders face cybercrime charges in the US](https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/)
+### 🆕 [Microsoft says Copilot buttons still missing in classic Outlook](https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/)
 *BleepingComputer*
 
-Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradited to the United States to face wire fraud and money laundering charg…
+Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Windows users. [...]
 
-### 🆕 [LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server](https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html)
+### 🆕 [Webinar: What happens in the first hours of a Google Workspace breach](https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/)
+*BleepingComputer*
+
+The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show which early response decisions can limit the impact and which can make…
+
+### 🆕 [CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog)
+*CISA Advisories*
+
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-58704 Google Pixel Improper Authorization Vulnerability This type of vulnerabi…
+
+### 🆕 [N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security](https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html)
 *The Hacker News*
 
-A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14. On such servers, man…
+N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat actors access to val…
 
-### 🆕 ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink)
+### 🆕 [Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation](https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html)
+*The Hacker News*
+
+Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a privilege escalation flaw.…
+
+### 🆕 [Threat Intelligence Alone Won't Close the Exploitation Gap](https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html)
+*The Hacker News*
+
+A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged the alert. Attackers a…
+
+### 🆕 [Critical ScreenConnect flaw now actively exploited in attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/)
+*BleepingComputer*
+
+Attackers now exploit a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
+
+### 🆕 [Windows Server 2022 reaches end of mainstream support next month](https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/)
+*BleepingComputer*
+
+Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support until October 2031. [...]
+
+### 🆕 [Cyber Op Targets South Korean Media &amp; Automotive Sectors](https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive)
 *Dark Reading*
 
-The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.
+A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.
 
-### 🆕 [Maximum Severity GitLab Flaw Puts Supply Chains at Risk](https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk)
+### 🆕 [Microsoft Issues Emergency Fixes After Massive Patch Tuesday](https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday)
 *Dark Reading*
 
-CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.
+You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.
+
+### 🆕 [Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident](https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk)
+*Dark Reading*
+
+The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Huggin…
+
+### 🆕 [VectraRAT Can Hack Windows Enterprises for $250 per Month](https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises)
+*Dark Reading*
+
+The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Your Agent Aced the Task. Will It Do It Again?](https://huggingface.co/blog/ibm-research/altk-evolve-consistency)
-*Hugging Face Blog*
-
-### 🆕 [OpenAI, Anthropic, Google have been in talks on AI safety for weeks](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/)
+### 🆕 [Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/)
 *TechCrunch AI*
 
-OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.
+The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.
 
-### 🆕 [AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round](https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/)
-*TechCrunch AI*
-
-Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.
-
-### 🆕 [Meta&#8217;s new One subscriptions put a price on social media and AI](https://www.theverge.com/tech/995453/meta-one-subscriptions-ai)
+### 🆕 🏦 [The sexy AI-powered dating app scams are here](https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams)
 *The Verge AI*
 
-Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earl…
+Security researcher Matthew "Zigula" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sa…
 
-### 🆕 [Former TikTok execs built an app that uses AI to teach you how to pose for a photo](https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/)
+### 🆕 [Threads’ new features let podcasters promote shows and reach listeners](https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/)
 *TechCrunch AI*
 
-Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.
+Threads is rolling out new tools for podcasters, including profile cards, episode links, transcripts, guest tags, posting reminders, and audience insights, as Meta looks to make the X rival a bigger hub for podcast promo…
 
-### 🆕 [Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/)
+### 🆕 [Next wave of VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 revealed](https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/)
 *TechCrunch AI*
 
-Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock Robotics. Register…
+Meet the next five top-tier investors judging the Startup Battlefield 200 contenders live at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 and don't miss a moment of the ultimate startup pitch…
 
-### 🆕 [4 days left to exhibit at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/15/4-days-left-to-exhibit-at-techcrunch-disrupt-2026/)
+### 🆕 [3 days left to exhibit: Get your brand in front of VCs and high-value leads at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/)
 *TechCrunch AI*
 
-Last day to exhibit at Disrupt is Sept 18. 4 days left. Get your startup in front of 10,000+ founders, investors, operators and tech leaders October 13–15.
+Last day to book your exhibit table at Disrupt is September 18. Three days left. Get your startup in front of 10,000+ founders, investors, operators, and tech leaders on October 13–15.
 
-### 🆕 [This doorbell camera lets a human security guard watch your front door](https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs)
+### 🆕 [SK Hynix reportedly in talks with Intel to build memory chips in US](https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/)
+*TechCrunch AI*
+
+SK Hynix told TechCrunch the company hasn't finalized any plans or arrangements yet.
+
+### 🆕 [A brief history of AI executives calling for regulation](https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation)
 *The Verge AI*
 
-DIY home security company SimpliSafe is bringing its AI-powered proactive security feature to the front door. The new SimpliSafe Video Doorbell Series 2 launches today for $199.99 and works with the company's Active Guar…
+Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario…
 
-### 🆕 [Is Big Tech’s AI slowdown a safety pact or a cartel?](https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel)
+### 🆕 [AI and data centers are incredibly unpopular in every poll](https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september)
 *The Verge AI*
 
-When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive…
+Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support…
 
-### 🆕 [What execs and politicians are saying about slowing down AI development](https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei)
-*The Verge AI*
-
-Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled "We Must Pace the Frontier" detailing why AI development should be slowed down. Other AI leaders and…
-
-### 🆕 [The contagion of fear](https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/)
+### 🆕 [Gemini Live audio](https://simonwillison.net/2026/Sep/15/gemini-live/)
 *Simon Willison (LLMs)*
 
-The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI "could kill us all by the end of the decade". Bryan shares a story…
-
-### 🆕 [What blog posts influenced your thinking the most?](https://simonwillison.net/2026/Sep/14/influences/)
-*Simon Willison (LLMs)*
-
-My comment on What blog posts influenced your thinking the most? — Lobste.rs.An early Joel Spolsky one for me was The Law of Leaky Abstractions. I read that near the start of my career and it's encouraged me to always be…
-
-### 🆕 [Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world](https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit)
-*The Verge AI*
-
-Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-In Summit. It's not the first time Huang has taken a call from the president during work, but this time he put…
+Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Agentic Payments Are Growing, but Most x402 Payments Aren’t From AI Agents](https://www.pymnts.com/news/artificial-intelligence/2026/agentic-payments-are-growing-most-x402-payments-are-not-from-ai-agents/)
+### 🆕 [NIST Push Could Give Banks a Common Test for AI Vendors](https://www.pymnts.com/news/artificial-intelligence/2026/nist-push-could-give-banks-ommon-test-ai-vendors/)
 *PYMNTS*
 
-The emerging infrastructure for autonomous artificial intelligence agents to spend money online may be developing faster than the agents themselves. A new analysis by blockchain intelligence company TRM Labs found that o…
+A federal standards effort reaching a key deadline Wednesday (Sept. 16) could help banks answer a practical challenge that has complicated artificial intelligence adoption. What evidence should an AI vendor have to provi…
 
-### 🆕 [Companies Can Delegate to AI Agents but Can’t Delegate Accountability](https://www.pymnts.com/news/artificial-intelligence/2026/companies-can-delegate-to-ai-agents-but-cant-delegate-accountability/)
+### 🆕 [Google Debuts Agentic Tools to Prep Retailers for Holidays](https://www.pymnts.com/google/2026/google-debuts-agentic-tools-to-prep-retailers-for-holidays/)
 *PYMNTS*
 
-Watch more: Digital Shift With Amir Wain of i2c Companies have embraced generative artificial intelligence, examining where software could help employees. The truly agentic enterprise must examine what happens when the s…
+Google is unveiling agentic artificial intelligence commerce updates for merchants ahead of this year’s holiday shopping season. “Finding the perfect holiday gift has always taken thought and research, and today’s shoppe…
 
-### 🆕 [AI Makes the Holiday Shopping List but Who Gets the Sale?](https://www.pymnts.com/news/artificial-intelligence/2026/ai-makes-the-holiday-shopping-list-but-who-gets-the-sale/)
+### 🆕 [Revolut Faces Extortion Threats Following Email Scam](https://www.pymnts.com/cybersecurity/2026/revolut-faces-extortion-threats-following-email-scam/)
 *PYMNTS*
 
-AI can find the sweater, compare prices and read hundreds of reviews before a shopper finishes a cup of coffee. Getting that sweater through checkout is where the trip gets complicated. “Will the 2026 Shopping Season Go…
+Last week, Revolut revealed that customer data had been exposed in an email scam. Now, the U.K. FinTech is dealing with extortion threats from a hacker claiming to have perpetrated the breach, the Wall Street Journal (WS…
+
+### 🆕 [OpenAI Eyes $1.2 Trillion Valuation in Pre-IPO Funding Round](https://www.pymnts.com/news/artificial-intelligence/2026/openai-eyes-1-2-trillion-valuation-in-pre-ipo-funding-round/)
+*PYMNTS*
+
+OpenAI is reportedly weighing a funding round at a $1.2 trillion valuation before going public. The artificial intelligence (AI) startup has held early discussions with investors about a private funding round ahead of it…
 
 **Also relevant from today's threat feeds:**
 
-- [CVE-2026-76461 — Cisco Secure Email Gateway SQL Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-76461) — *CISA KEV*
+- [The sexy AI-powered dating app scams are here](https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams) — *The Verge AI*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Your Agent Aced the Task. Will It Do It Again?](https://huggingface.co/blog/ibm-research/altk-evolve-consistency) — *Hugging Face Blog*
+- [What blog posts influenced your thinking the most?](https://simonwillison.net/2026/Sep/14/influences/) — *Simon Willison (LLMs)*
+- [The contagion of fear](https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/) — *Simon Willison (LLMs)*
+- [4 days left to exhibit at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/15/4-days-left-to-exhibit-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
+- [AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round](https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/) — *TechCrunch AI*
+- [Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
+- [Former TikTok execs built an app that uses AI to teach you how to pose for a photo](https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo/) — *TechCrunch AI*
+- [OpenAI, Anthropic, Google have been in talks on AI safety for weeks](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/) — *TechCrunch AI*
+- [Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point](https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html) — *The Hacker News*
+- [BambooToken Malware Uses MQTT to Control Windows and Linux Systems](https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html) — *The Hacker News*
+- [Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds](https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html) — *The Hacker News*
+- [LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server](https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html) — *The Hacker News*
+- [Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers](https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html) — *The Hacker News*
+- [BambooToken malware controls Windows and Linux systems via MQTT](https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/) — *BleepingComputer*
+- [Suspected Black Axe gang leaders face cybercrime charges in the US](https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/) — *BleepingComputer*
+- [CISA: Critical VMware RCE flaw now exploited by ransomware gangs](https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/) — *BleepingComputer*
+- [Hackers target WordPress sites via third-party WooCommerce plugin](https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/) — *BleepingComputer*
+- [What Zero-Day Response Should Be in the Post-Mythos Era](https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/) — *BleepingComputer*
+- [Digital Watchdog VMAX DVR and NVR Product Lineups](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01) — *CISA Advisories*
+- [mySCADA myPRO Manager](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03) — *CISA Advisories*
+- [Schneider Electric SCADAPack x70 Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04) — *CISA Advisories*
+- [Siemens Teamcenter](https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07) — *CISA Advisories*
+- [Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers](https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies) — *CISA Advisories*
+- [Maximum Severity GitLab Flaw Puts Supply Chains at Risk](https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk) — *Dark Reading*
+- ['Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink](https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink) — *Dark Reading*
+- [Agentic Payments Are Growing, but Most x402 Payments Aren’t From AI Agents](https://www.pymnts.com/news/artificial-intelligence/2026/agentic-payments-are-growing-most-x402-payments-are-not-from-ai-agents/) — *PYMNTS*
+- [AI Makes the Holiday Shopping List but Who Gets the Sale?](https://www.pymnts.com/news/artificial-intelligence/2026/ai-makes-the-holiday-shopping-list-but-who-gets-the-sale/) — *PYMNTS*
+- [Companies Can Delegate to AI Agents but Can’t Delegate Accountability](https://www.pymnts.com/news/artificial-intelligence/2026/companies-can-delegate-to-ai-agents-but-cant-delegate-accountability/) — *PYMNTS*
+- [What execs and politicians are saying about slowing down AI development](https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei) — *The Verge AI*
+- [Is Big Tech’s AI slowdown a safety pact or a cartel?](https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel) — *The Verge AI*
+- [Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world](https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit) — *The Verge AI*
+- [This doorbell camera lets a human security guard watch your front door](https://www.theverge.com/tech/995365/simplisafe-video-doorbell-series-2-virtual-guard-price-specs) — *The Verge AI*
+- [Meta&#8217;s new One subscriptions put a price on social media and AI](https://www.theverge.com/tech/995453/meta-one-subscriptions-ai) — *The Verge AI*
+- [Investing Together: Wiz Defend and Google Security Operations](https://www.wiz.io/blog/wiz-defend-and-google-security-operations) — *Wiz Security Blog*
 - [shot-scraper 1.12](https://simonwillison.net/2026/Sep/13/shot-scraper/) — *Simon Willison (LLMs)*
 - [commit-rewriter 0.1](https://simonwillison.net/2026/Sep/14/commit-rewriter/) — *Simon Willison (LLMs)*
 - [Quoting Laurie Voss](https://simonwillison.net/2026/Sep/14/laurie-voss/) — *Simon Willison (LLMs)*
