@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-20 15:21 UTC
+**Generated:** 2026-09-21 17:48 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,134 +7,163 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Malicious npm packages evade install-script defenses at runtime](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/)
+### 🆕 [Google fined €403 million over location data privacy violations](https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/)
 *BleepingComputer*
 
-An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than in installation scrip…
+Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]
 
-### 🆕 [Researchers escape OpenAI Codex sandbox to run commands on host](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/)
+### 🆕 [Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents](https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents)
+*Dark Reading*
+
+The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.
+
+### 🆕 [Microsoft fixes broken Excel copy and paste for all Office users](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/)
 *BleepingComputer*
 
-Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]
+Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]
+
+### 🆕 [⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks](https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html)
+*The Hacker News*
+
+A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back…
+
+### 🆕 [TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data](https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html)
+*The Hacker News*
+
+Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor "automatically harvests and…
+
+### 🆕 [FBI's CJIS v6.1: What Security Teams Need to Know.](https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/)
+*BleepingComputer*
+
+The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more continuous security assessment. Specops explains what changed and how agenc…
+
+### 🆕 [Microsoft reminds admins to migrate Entra ID users to passkeys](https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/)
+*BleepingComputer*
+
+Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS first-factor sign-in starting in February 2027. [...]
+
+### 🆕 [Microsoft: September updates break File History backup feature](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/)
+*BleepingComputer*
+
+Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 security updates. [...]
+
+### 🆕 [ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure](https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html)
+*The Hacker News*
+
+Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. "ChainScript has appeared under multiple build names, including ComponentTask33, Update…
+
+### 🆕 [Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors](https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html)
+*The Hacker News*
+
+The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [6 days left to get ahead at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/)
+### 🆕 [With Tabby, a former accountant is using AI to make accountants obsolete](https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/)
 *TechCrunch AI*
 
-Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.
+Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.
 
-### 🆕 [Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems](https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure)
+### 🆕 [Where will the next breakout startup come from? Benchmark’s full partnership weighs in at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/)
+*TechCrunch AI*
+
+Where will the next breakout startup come from? Benchmark’s full partnership weighs in on the main stage at TechCrunch Disrupt 2026. Save up to $200 before September 25 at 11:59 p.m. PT. Register now.
+
+### 🆕 [Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini](https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/)
+*TechCrunch AI*
+
+Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.
+
+### 🆕 [From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/)
+*TechCrunch AI*
+
+From first users to billions: Google’s Robby Stein joins TechCrunch Disrupt 2026. Lean in on this Builders Stage session. Save up to $200 before September 25.
+
+### 🆕 [Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/)
+*TechCrunch AI*
+
+Meet the next wave of VCs judging the Startup Battlefield 200 contenders on the main stage at TechCrunch Disrupt 2026. Register by September 25 at 11:59 p.m. PT, to save up to $200 and to get a front-row seat to one of t…
+
+### 🆕 [Can John Ternus find Apple’s next big thing?](https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone)
 *The Verge AI*
 
-Before recent high-profile hacks raised the specter of AI possibly "killing all humans," our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. "We were always prey. We were jus…
+Today, I’m talking with Mark Gurman, who is the world’s best-sourced Apple reporter — both as Bloomberg’s chief Apple correspondent and the host of the upcoming podcast Power On. Earlier this month, Apple hosted its annu…
 
-### 🆕 [Meta’s Muse is creepy, but maybe not for the reasons you think](https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy)
+### 🆕 [Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem](https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an)
+*Hugging Face Blog*
+
+### 🆕 [iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement](https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement)
 *The Verge AI*
 
-Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes. But for all its smarts, Muse doesn't actual…
+Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone…
 
-### 🆕 [Flock reportedly tries to shrink workforce with employee buyouts](https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/)
-*TechCrunch AI*
+### 🆕 [UN says AI safeguards can’t wait for certainty](https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle)
+*The Verge AI*
 
-Without buyouts, Flock would "almost certainly" need to lay off staff.
+Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging…
 
-### 🆕 [Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force](https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/)
-*TechCrunch AI*
+### 🆕 [Amazon blocks Meta’s Muse AI agent](https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping)
+*The Verge AI*
 
-Trump claimed, without evidence, that the AI backlash is a Democratic hoax.
+Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that "continued access by an unauthorized AI agent vi…
 
-### 🆕 [datasette-auth-github 1.0](https://simonwillison.net/2026/Sep/19/datasette-auth-github/)
+### 🆕 [tokenizers v1: encode, decode and scaling, measured](https://huggingface.co/blog/tokenizers-v1)
+*Hugging Face Blog*
+
+### 🆕 [Quoting voxium](https://simonwillison.net/2026/Sep/20/voxium/)
 *Simon Willison (LLMs)*
 
-Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cook…
+It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobo…
 
-### 🆕 [Google’s Gemini is the latest AI model to hack other companies](https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/)
-*TechCrunch AI*
-
-Google said Gemini had "acted appropriately" by ending each hack immediately.
-
-### 🆕 [California Sea Lion, Brandt's Cormorant](https://simonwillison.net/2026/Sep/19/sighting-401567341/)
+### 🆕 [llm-keys-ui 0.1](https://simonwillison.net/2026/Sep/20/llm-keys-ui/)
 *Simon Willison (LLMs)*
 
-California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, USI only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife
+Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack o…
 
-### 🆕 [Gemini went rogue, hacked three companies, and Google hid it](https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack)
+### 🆕 [No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown](https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown)
 *The Verge AI*
 
-In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cyberse…
+The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning,…
 
-### 🆕 [Petlibro’s new AI-powered feeder is a game changer for multi-cat homes](https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/)
-*TechCrunch AI*
+---
 
-Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an ext…
+## 🏦 Financial Sector Watch
+
+### 🆕 [Mastercard Helps Danske Bank With Denmark-First Agentic Transaction](https://www.pymnts.com/news/payments-innovation/2026/mastercard-helps-danske-bank-with-denmark-first-agentic-transaction/)
+*PYMNTS*
+
+Mastercard said it has helped Denmark’s Danske Bank reach an agentic payments milestone. Using Mastercard’s Agent Pay, Danske was able to complete a transaction in which an artificial intelligence (AI) agent made both th…
+
+### 🆕 [Bank of America Bankrolls AI Ventures After Initial Skepticism](https://www.pymnts.com/news/artificial-intelligence/2026/bank-of-america-bankrolls-ai-ventures-after-initial-skepticism/)
+*PYMNTS*
+
+Bank of America is ramping up investments in artificial intelligence ventures after initially being skeptical of the industry’s prospects, Bloomberg reported Monday (Sept. 21). Until last year, Bank of America had been w…
+
+### 🆕 [Urban Institute Urges Guardrails as Governments Experiment With Agentic AI](https://www.pymnts.com/news/artificial-intelligence/2026/urban-institute-urges-guardrails-as-governments-experiment-with-agentic-ai/)
+*PYMNTS*
+
+State and local governments are beginning to experiment with artificial intelligence (AI) systems capable of taking actions on their own. According to new guidance issued by the Urban Institute, making sure governance st…
+
+### 🆕 [Amazon Bars Meta’s Muse AI Agent From eCommerce Marketplace](https://www.pymnts.com/news/artificial-intelligence/2026/amazon-bars-meta-muse-ai-agent-from-ecommerce-marketplace/)
+*PYMNTS*
+
+Amazon blocked Meta’s new personal artificial intelligence agent, Muse, from its eCommerce site, GeekWire reported Sunday (Sept. 20). Meta never informed Amazon that its Muse agent would access the online marketplace, th…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
-- [Gemini Hacked Three Companies in First Known Breakout by Google’s AI](https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/) — *Simon Willison (LLMs)*
-- [Note on 18th September 2026](https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/) — *Simon Willison (LLMs)*
-- [Quoting Thariq Shihipar](https://simonwillison.net/2026/Sep/18/thariq-shihipar/) — *Simon Willison (LLMs)*
-- [A startup that builds other startups raised $100M and is all-in on physical AI](https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/) — *TechCrunch AI*
-- [India forces caller-ID apps to feed spam reports to telcos](https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/) — *TechCrunch AI*
-- [Tilly Norwood’s press tour is going about as well as you’d expect for an AI](https://techcrunch.com/2026/09/18/tilly-norwoods-press-tour-is-going-about-as-well-as-youd-expect-for-an-ai/) — *TechCrunch AI*
-- [AI safety conversations have gotten unbelievable](https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/) — *TechCrunch AI*
-- [Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking](https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/) — *TechCrunch AI*
-- [Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html) — *The Hacker News*
-- [Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild](https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html) — *The Hacker News*
-- [Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up](https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html) — *The Hacker News*
-- [Identity Visibility in 2026: The Foundation of Identity Security](https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html) — *The Hacker News*
-- [SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE](https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html) — *The Hacker News*
-- [BragJack attacks hijack AI browser agents through malicious extensions](https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/) — *BleepingComputer*
-- [Calling viral AI actress Tilly Norwood? Agree to a face scan first](https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/) — *BleepingComputer*
-- [Gyazo server flaw exploited to steal 23.6 million user records](https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/) — *BleepingComputer*
-- [North Korean WaterPlum hackers infected 30,000 devices worldwide](https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/) — *BleepingComputer*
-- [ShinyHunters hacks Clop leak site, threatens to extort ransomware gang](https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/) — *BleepingComputer*
-- [EY Survey Finds Autonomous AI Implementation Outpaces Oversight](https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight) — *Dark Reading*
-- [Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks](https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks) — *Dark Reading*
-- [Cisco Zero-Day Highlights API Endpoint Authentication Issues](https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues) — *Dark Reading*
-- [MFA Won't Save You From OAuth Consent Abuse](https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse) — *Dark Reading*
-- [California Governor Mobilizes Expert Panel to Strengthen AI Safety Laws](https://www.pymnts.com/news/artificial-intelligence/2026/california-governor-mobilizes-expert-panel-strengthen-ai-safety-laws/) — *PYMNTS*
-- [Chewy Puts a $50 Million Price Tag on AI Productivity](https://www.pymnts.com/news/artificial-intelligence/2026/chewy-puts-50-million-dollar-price-tag-ai-productivity/) — *PYMNTS*
-- [OpenAI Targets Legal Tech Market With Astra for Law](https://www.pymnts.com/news/artificial-intelligence/2026/openai-targets-legal-tech-market-with-astra-for-law/) — *PYMNTS*
-- [OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web](https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero) — *The Verge AI*
-- [The AI regulation smackdown isn’t over](https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over) — *The Verge AI*
-- [Does AI need an antitrust exemption so it doesn&#8217;t kill everyone????](https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition) — *The Verge AI*
-- [Gavin Newsom is pushing for an AI kill switch](https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch) — *The Verge AI*
-- [Virginia governor creates an AI task force and moves to restrain data centers](https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force) — *The Verge AI*
-- [Self-generated prompt injections in compaction summaries](https://simonwillison.net/2026/Sep/17/compaction-summaries/) — *Simon Willison (LLMs)*
-- [How To Write With An LLM](https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/) — *Simon Willison (LLMs)*
-- [Be alert: targeted attacks on prominent Rustaceans](https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/) — *Simon Willison (LLMs)*
-- [The Creative Spirit of Who Framed Roger Rabbit](https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/) — *Simon Willison (LLMs)*
-- [Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’](https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/) — *TechCrunch AI*
-- [The clock is ticking: Final 24 hours to exhibit at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/18/final-24-hours-to-exhibit-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
-- [Meta’s Muse hits Mac, letting the AI take actions on your computer](https://techcrunch.com/2026/09/18/metas-muse-hits-mac-letting-the-ai-take-actions-on-your-computer/) — *TechCrunch AI*
-- [Researchers used Anthropic’s Claude to hack into OpenAI](https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/) — *TechCrunch AI*
-- [Robinhood’s Abhishek Fatehpuria on winning the modern financial consumer at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/18/robinhoods-abhishek-fatehpuria-on-winning-the-modern-financial-consumer-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
-- [An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.](https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html) — *The Hacker News*
-- [Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer](https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html) — *The Hacker News*
-- [Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation](https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html) — *The Hacker News*
-- [Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents](https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html) — *The Hacker News*
-- [WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage](https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html) — *The Hacker News*
-- [Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer](https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/) — *BleepingComputer*
-- [Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts](https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/) — *BleepingComputer*
-- [Microsoft Teams will let admins block custom file extensions](https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/) — *BleepingComputer*
-- [Secure enterprise sharing with access reviews for Microsoft 365](https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/) — *BleepingComputer*
-- [Webinar: Which Google Workspace security controls actually matter?](https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/) — *BleepingComputer*
-- [CISA Adds Two Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/09/18/cisa-adds-two-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
-- [CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus](https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus) — *Dark Reading*
-- [AI Agent Breaches Spanish Organization, Modifies Personal Data](https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data) — *Dark Reading*
-- [China's FamousSparrow APT Spies on US Politics in Latin America](https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america) — *Dark Reading*
-- [[Virtual Event] Cybersecurity Outlook 2027](https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027) — *Dark Reading*
-- [AI Agents Become the Next Payments Customer](https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-become-the-next-payments-customer/) — *PYMNTS*
-- [Is the Enterprise Insurance Market Agentic AI’s Hidden Ceiling?](https://www.pymnts.com/news/artificial-intelligence/2026/is-the-enterprise-insurance-market-agentic-ais-hidden-ceiling/) — *PYMNTS*
-- [State Regulators Give Banks an AI Exam Playbook as Federal Gap Persists](https://www.pymnts.com/news/artificial-intelligence/2026/state-regulators-give-banks-an-ai-exam-playbook-as-federal-gap-persists/) — *PYMNTS*
-- [Apollo Backs AI Hardware Startups to Win Future Infrastructure Financing](https://www.pymnts.com/startups/2026/apollo-backs-ai-hardware-startups-to-win-future-infrastructure-financing/) — *PYMNTS*
-- [The AI Superintelligence Slowdown](https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic) — *The Verge AI*
-- [Claude Code relaunches Projects to manage multiple AI agents in the cloud](https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects) — *The Verge AI*
-- [Security researchers used Claude to help them hack into OpenAI](https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist) — *The Verge AI*
-- [Flash floods can strike without warning — this new technology could change that](https://www.theverge.com/science/997083/flash-flood-warning-tacls-satellite-machine-learning) — *The Verge AI*
-- [Exploring the new AWS Sign Up experience](https://www.wiz.io/blog/exploring-the-new-aws-sign-up-experience) — *Wiz Security Blog*
+- [datasette-auth-github 1.0](https://simonwillison.net/2026/Sep/19/datasette-auth-github/) — *Simon Willison (LLMs)*
+- [California Sea Lion, Brandt's Cormorant](https://simonwillison.net/2026/Sep/19/sighting-401567341/) — *Simon Willison (LLMs)*
+- [Flock reportedly tries to shrink workforce with employee buyouts](https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/) — *TechCrunch AI*
+- [Google’s Gemini is the latest AI model to hack other companies](https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/) — *TechCrunch AI*
+- [Petlibro’s new AI-powered feeder is a game changer for multi-cat homes](https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/) — *TechCrunch AI*
+- [Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force](https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/) — *TechCrunch AI*
+- [6 days left to get ahead at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
+- [Malicious npm packages evade install-script defenses at runtime](https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/) — *BleepingComputer*
+- [Researchers escape OpenAI Codex sandbox to run commands on host](https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/) — *BleepingComputer*
+- [Gemini went rogue, hacked three companies, and Google hid it](https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack) — *The Verge AI*
+- [Meta’s Muse is creepy, but maybe not for the reasons you think](https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy) — *The Verge AI*
+- [Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems](https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure) — *The Verge AI*
