@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-22 16:12 UTC
+**Generated:** 2026-09-23 16:01 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,202 +7,256 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 [CVE-2026-7273](https://nvd.nist.gov/vuln/detail/CVE-2026-7273) — Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability
-*Zyxel GS1900 Series Switches · Added 2026-09-21*
+### 🆕 [CVE-2026-93952](https://nvd.nist.gov/vuln/detail/CVE-2026-93952) — Arista VeloCloud Orchestrator Improper Input Validation Vulnerability
+*Arista VeloCloud Orchestrator · Added 2026-09-22*
 
-Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.
+Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the…
+
+### 🆕 🏦 [CVE-2026-94127](https://nvd.nist.gov/vuln/detail/CVE-2026-94127) — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability
+*F5 BIG-IP APM · Added 2026-09-22*
+
+F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.
+
+### 🆕 🏦 [CVE-2026-93616](https://nvd.nist.gov/vuln/detail/CVE-2026-93616) — Check Point Multiple Products Path Traversal Vulnerability
+*Check Point Multiple Products · Added 2026-09-22*
+
+Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitr…
+
+### 🆕 🏦 [CVE-2026-85102](https://nvd.nist.gov/vuln/detail/CVE-2026-85102) — Check Point Multiple Products Improper Certificate Validation Vulnerability
+*Check Point Multiple Products · Added 2026-09-22*
+
+Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code…
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts](https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/)
-*BleepingComputer*
-
-The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]
-
-### 🆕 [Webinar tomorrow: Inside real-world Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/)
-*BleepingComputer*
-
-Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Learn which security co…
-
-### 🆕 [D-Link warns of max severity zero-day bug in DIR-822A routers](https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/)
-*BleepingComputer*
-
-D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]
-
-### 🆕 [AI Agents Are Rewriting the Rules of Lateral Movement](https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html)
-*The Hacker News*
-
-Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has? A…
-
-### 🆕 [New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups](https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html)
-*The Hacker News*
-
-Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2026-93952, may allow…
-
-### 🆕 [Growing the WIN AI Ecosystem with Agent Integrations](https://www.wiz.io/blog/wiz-mcp-agent-integrations)
-*Wiz Security Blog*
-
-WINning AI with AI: How the Wiz MCP for WIN partners accelerates a connected ecosystem
-
-### 🆕 [Siemens Industrial Edge Management](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06)
-*CISA Advisories*
-
-View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user credentials without comp…
-
-### 🆕 [OpenPLC Runtime v3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to hijack session cookies and issue state-changing requests as an operator which would allow the attacker to control the programmabl…
-
-### 🆕 [lwIP (Lightweight IP)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system. The following versions of lwIP (Lightw…
-
-### 🆕 [Siemens WTV676 and WTV776](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08)
-*CISA Advisories*
-
-View CSAF Summary The products listed below contain a denial of service vulnerability that could allow an attacker to force the devices into protection mode under certain conditions. This disables remote connectivity fun…
-
-### 🆕 [Siemens SIPLUS and SIMATIC Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04)
-*CISA Advisories*
-
-View CSAF Summary Multiple Siemens products are vulnerable to the "Copy Fail" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is pre…
-
-### 🆕 [More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds](https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle)
+### 🆕 [UAE, Saudi Arabia Face Onslaught of Increasingly Complex Cyberattacks](https://www.darkreading.com/threat-intelligence/uae-saudi-arabia-face-onslaught-of-increasingly-sophisticated-automated-cyberattacks)
 *Dark Reading*
 
-Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.
+The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.
 
-### 🆕 🏦 [DORA Year Two: Can Your SOC Actually See the Attack?](https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html)
-*The Hacker News*
+### 🆕 [Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign](https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign)
+*Dark Reading*
 
-When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance…
+Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.
 
-### 🆕 [New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory](https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html)
-*The Hacker News*
-
-A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The bug, tracked as CVE…
-
-### 🆕 [SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE](https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html)
-*The Hacker News*
-
-A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today…
-
-### 🆕 [New Windows Defender zero-day blocks Microsoft antivirus updates](https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/)
+### 🆕 [InfraTrust report warns network management systems under attack](https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/)
 *BleepingComputer*
 
-Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]
+Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]
 
-### 🆕 [CISA orders feds to patch Zyxel flaw exploited for data theft](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/)
+### 🆕 [This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move](https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html)
+*The Hacker News*
+
+A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, sav…
+
+### 🆕 [How One Kubernetes YAML Can Hand Over a GCP Organization](https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/)
 *BleepingComputer*
 
-​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]
+A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused…
 
-### 🆕 [How AI Agents Can Trigger Runaway Costs for Enterprises](https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs)
+### 🆕 [Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI](https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html)
+*The Hacker News*
+
+Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Window…
+
+### 🆕 [Arista patches actively exploited VeloCloud Orchestrator zero-day](https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/)
+*BleepingComputer*
+
+Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]
+
+### 🆕 [New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control](https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html)
+*The Hacker News*
+
+A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take "full control of the server," the company said on September 22. A second bug in the WP Toolkit plugin, use…
+
+### 🆕 [545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent](https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html)
+*The Hacker News*
+
+Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a lis…
+
+### 🆕 [Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests](https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html)
+*The Hacker News*
+
+Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5.5, per Anthropic, i…
+
+### 🆕 [Microsoft: September Windows updates break Always On VPN connections](https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/)
+*BleepingComputer*
+
+Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]
+
+### 🆕 [Ryuk ransomware member sentenced to 24 months in prison](https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/)
+*BleepingComputer*
+
+An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]
+
+### 🆕 [Relays Are Masking Chinese Access to Frontier AI Models in the US](https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models)
 *Dark Reading*
 
-Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.
+More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.
 
-### 🆕 [ShinyHunters Hacked Clop. Now What About Clop's Victims?](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims)
+### 🆕 [How the CISO-CMO Alliance Builds Trust Before Crisis Strikes](https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis)
 *Dark Reading*
 
-ShinyHunters defaced Clop's Dark Web site and claims to have stolen victim data, potentially exposing organizations that paid ransoms to renewed extortion attempts.
+Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impac…
 
-### 🆕 [Cybercriminals Are Hiding New Malware in Torrents for Popular Films](https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films)
+### 🆕 [Microsoft Disrupts EvilTokens Device Code Phishing Service](https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service)
 *Dark Reading*
 
-Victims have been identified in Africa, including in Kenya and Uganda.
+Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Trump says US is officially renaming AI ‘super intelligence’](https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence)
+### 🆕 [YouTube Music gets more conversational with new AI features](https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features/)
+*TechCrunch AI*
+
+YouTube is adding new AI-powered features to YouTube Music that aim to make it easier for listeners to discover music, explore artists, and find podcasts they may otherwise miss. Announced at this year’s Made On YouTube…
+
+### 🆕 [StrictlyVC at TechCrunch Disrupt 2026: Inside the changing rules of venture capital](https://techcrunch.com/2026/09/23/strictlyvc-at-techcrunch-disrupt-2026-inside-the-changing-rules-of-venture-capital/)
+*TechCrunch AI*
+
+StrictlyVC joins TechCrunch Disrupt 2026 to discuss the changing VC landscape thanks to AI. Get your Investor Pass to join this exclusive session. Save $200 before September 25, 11:59 p.m. PT.
+
+### 🆕 [YouTube will let you build your own algorithm with AI](https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/)
+*TechCrunch AI*
+
+YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.
+
+### 🆕 [YouTube releases new AI features for creators within its Studio app](https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/)
+*TechCrunch AI*
+
+YouTube is adding new features to generate ideas and monitor the performance of thumbnails.
+
+### 🆕 [YouTube is building AI creator tools that do almost everything for them](https://www.theverge.com/tech/999140/made-on-youtube-creator-tools-ai-thumbnails-tests)
 *The Verge AI*
 
-In a speech Tuesday morning at the UN General Assembly, Donald Trump railed against Iran, "globalists," and transgender people while also claiming that the US is now "officially" renaming artificial intelligence to "supe…
+Part of the job of a content creator is to figure out how to get their work in front of the most people. Cracking - or fighting - the algorithm has historically been a frustration for creators, but YouTube is increasingl…
 
-### 🆕 [Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda](https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/)
+### 🆕 [3 days left to save up to $200 and make impactful connections at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/23/3-days-left-to-save-up-to-200-and-make-impactful-connections-at-techcrunch-disrupt-2026/)
 *TechCrunch AI*
 
-At TechCrunch Disrupt 2026, five sessions across the AI Stage and Real World AI Stage cover AI safety, featuring leaders from Anthropic, NVIDIA, AWS, Waabi, and more. Register now to save up to $200 before Sept 25.
+3 days to save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second. Make impactful connections with 10,000+ tech leaders. Last day to save is September 25, 11:59 p.m. PT. Register here.
 
-### 🆕 [AstroForge is putting AI in command of its next spacecraft](https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/)
-*TechCrunch AI*
-
-Autonomy-1 will have a small, transformer-based AI model taking charge of a space probe.
-
-### 🆕 [TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage](https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/)
-*TechCrunch AI*
-
-Hello Robot CEO and co-founder Aaron Edsinger will bring Stretch 4 for a live demo on the Real World AI Stage at TechCrunch Disrupt 2026. Register before September 25 to save up to $200, plus get a second pass at 50% off…
-
-### 🆕 [Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/)
-*TechCrunch AI*
-
-We have reopened our exhibitor program for 1 more week. Book your exhibit table by September 30 at 11:59 p.m. PT and showcase your startup in front of 10,000+ founders, investors, and tech leaders at SF's Moscone West fr…
-
-### 🆕 [4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/)
-*TechCrunch AI*
-
-Save up to $200 on your TechCrunch Disrupt 2026 pass, plus 50% off a second pass before prices increase on September 25 at 11:59 p.m. PT. Register today.
-
-### 🆕 [Meta patches Muse exploit that let attackers control the AI agent](https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent)
-*The Verge AI*
-
-Meta has issued a patch for its Muse macOS app following the discovery of a zero-day vulnerability that could allow someone to take control of the AI agent. The bug found by security researcher Patrick Wardle utilized an…
-
-### 🆕 [Transformers now runs llama.cpp quants](https://huggingface.co/blog/transformers-llama-cpp-quants)
+### 🆕 [**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**](https://huggingface.co/blog/nvidia/nemotron-diarization)
 *Hugging Face Blog*
 
-### 🆕 [Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community](https://huggingface.co/blog/omlx)
-*Hugging Face Blog*
-
-### 🆕 [Jev introduces a new shape of LLM - System One, aka Decision Models](https://simonwillison.net/2026/Sep/21/jev/)
-*Simon Willison (LLMs)*
-
-Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling "System One models" (I'm with Maggie Appleton, I think "decision models" is a better name for these). Jev is an int…
-
-### 🆕 [Cloudflare Python Workers are now generally available](https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/)
-*Simon Willison (LLMs)*
-
-Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: "Python is now a first-class, fully suppor…
-
-### 🆕 [California tightens rules on AI data center energy and water use](https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills)
+### 🆕 [OpenAI nabs key Patreon execs ahead of upcoming announcement](https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam)
 *The Verge AI*
 
-California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California…
+OpenAI has hired three former Patreon execs to anchor its product strategy for creators. After starting the creator subscription platform 13 years ago, cofounder and technology chief Sam Yam announced on X that he's join…
+
+### 🆕 [SF October 14th: A Birds of a Feather Session on Agentic Engineering](https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/)
+*Simon Willison (LLMs)*
+
+SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things wit…
+
+### 🆕 [OpenAI wants to consult elite mathematicians about how to not fumble again](https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel)
+*The Verge AI*
+
+After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a ne…
+
+### 🆕 [Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war](https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/)
+*Simon Willison (LLMs)*
+
+Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a…
+
+### 🆕 [Rabbit’s new AI agent doesn’t need an R1 to run](https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3)
+*The Verge AI*
+
+Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 "agentic operating system"…
+
+### 🆕 [llm 0.36](https://simonwillison.net/2026/Sep/22/llm/)
+*Simon Willison (LLMs)*
+
+Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna. #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises ll…
+
+### 🆕 [Quoting @therealcornpop](https://simonwillison.net/2026/Sep/22/therealcornpop/)
+*Simon Willison (LLMs)*
+
+Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of "it's not X, it's Y", or the rule of three, or the really weird bro…
+
+### 🆕 [llm-anthropic 0.29](https://simonwillison.net/2026/Sep/22/llm-anthropic/)
+*Simon Willison (LLMs)*
+
+Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5: llm -m claude-opus-5.5 "prompt goes here" Tags: llm, anthropic
+
+### 🆕 [Andreessen Horowitz is launching an ‘academy’ with no homework and partnerships with Palantir, Google, and Meta](https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy)
+*The Verge AI*
+
+Venture capital firm Andreessen Horowitz (a16z) is creating an "academy" positioned as a pipeline for young people to build or join a Silicon Valley startup. The "Horowitz Andreessen Academy" will launch with 10 partners…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Jamie Dimon Expects AI Hyperscalers to Spend $1 Trillion Next Year](https://www.pymnts.com/news/artificial-intelligence/2026/jamie-dimon-expects-ai-hyperscalers-to-spend-1-trillion-next-year/)
+### 🆕 [New York’s AI Safety Law Puts Banks’ Vendor Plans to the Test](https://www.pymnts.com/news/artificial-intelligence/2026/new-yorks-ai-safety-law-puts-banks-vendor-plans-to-the-test/)
 *PYMNTS*
 
-Artificial intelligence hyperscalers could spend $1 trillion next year, JPMorganChase Chairman and CEO Jamie Dimon told CNBC in an interview posted Monday (Sept. 21). That figure would be up from the $700 billion the hyp…
+New York is giving the largest artificial intelligence (AI) model developers a compliance calendar. Starting in November, the state will direct them to register under its RAISE Act. In January, requirements for public sa…
 
-### 🆕 [Banks Say Consumers Unsure AI Agents Are on Their Side](https://www.pymnts.com/news/artificial-intelligence/2026/banks-say-consumers-unsure-ai-agents-are-on-their-side/)
+### 🆕 [Agentic AI Could Make Net 30 Obsolete](https://www.pymnts.com/news/b2b-payments/2026/agentic-ai-could-make-net-30-obsolete/)
 *PYMNTS*
 
-A group of global banks has issued a warning about safety risks tied to agentic commerce. That warning came as part of a set of principles published Tuesday (Sept. 22) by six banks — ASB Bank, Bank of America, Capital On…
+It’s the year 2026, and net-30 terms still dominate the corporate landscape. Companies have digitized invoices, automated accounts payable, connected bank accounts through APIs, and built future-proof, sophisticated cash…
 
-### 🆕 [Visa Says Small Merchants Could Move Faster on AI Shopping](https://www.pymnts.com/smbs/2026/visa-says-small-merchants-could-move-faster-on-ai-shopping/)
+### 🆕 [Ema Secures $77 Million to Scale AI Agents Across Enterprises](https://www.pymnts.com/news/artificial-intelligence/2026/ema-secures-77-million-to-scale-ai-agents-across-enterprises/)
 *PYMNTS*
 
-Watch more: Need to Know With Visa’s Sara Craven Small merchants are preparing for a customer who may find them through artificial intelligence before ever visiting their website, app or store. They aren’t particularly r…
+Ema raised $77 million in a Series B funding round to expand its AI Employee platform that delivers autonomous artificial intelligence agents to perform work in human resources (HR), information technology (IT) and finan…
+
+### 🆕 [Amazon’s Seller AI Graduates From Chatbot to Operating System](https://www.pymnts.com/news/artificial-intelligence/2026/amazon-seller-ai-graduates-from-chatbot-operating-system/)
+*PYMNTS*
+
+Amazon’s next artificial intelligence push for merchants is less about giving sellers better answers than reducing how often they need to ask questions at all. Mary Beth Westmoreland, vice president, Worldwide Selling Pa…
 
 **Also relevant from today's threat feeds:**
 
-- [DORA Year Two: Can Your SOC Actually See the Attack?](https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html) — *The Hacker News*
+- [CVE-2026-94127 — F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-94127) — *CISA KEV*
+- [CVE-2026-93616 — Check Point Multiple Products Path Traversal Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-93616) — *CISA KEV*
+- [CVE-2026-85102 — Check Point Multiple Products Improper Certificate Validation Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-85102) — *CISA KEV*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community](https://huggingface.co/blog/omlx) — *Hugging Face Blog*
+- [Transformers now runs llama.cpp quants](https://huggingface.co/blog/transformers-llama-cpp-quants) — *Hugging Face Blog*
+- [Cloudflare Python Workers are now generally available](https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/) — *Simon Willison (LLMs)*
+- [Jev introduces a new shape of LLM - System One, aka Decision Models](https://simonwillison.net/2026/Sep/21/jev/) — *Simon Willison (LLMs)*
+- [4 days to save up to $200: Reason 2 of 5 to be at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/) — *TechCrunch AI*
+- [AstroForge is putting AI in command of its next spacecraft](https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/) — *TechCrunch AI*
+- [Exhibit tables added: One last chance to showcase your startup at TechCrunch Disrupt 2026](https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/) — *TechCrunch AI*
+- [Five AI safety sessions every founder should have on their TechCrunch Disrupt 2026 agenda](https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/) — *TechCrunch AI*
+- [TechCrunch Disrupt 2026: Aaron Edsinger brings Hello Robot’s Stretch 4 to life onstage](https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/) — *TechCrunch AI*
+- [AI Agents Are Rewriting the Rules of Lateral Movement](https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html) — *The Hacker News*
+- [DORA Year Two: Can Your SOC Actually See the Attack?](https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html) — *The Hacker News*
+- [New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups](https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html) — *The Hacker News*
+- [New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory](https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html) — *The Hacker News*
+- [SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE](https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html) — *The Hacker News*
+- [CISA orders feds to patch Zyxel flaw exploited for data theft](https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/) — *BleepingComputer*
+- [D-Link warns of max severity zero-day bug in DIR-822A routers](https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/) — *BleepingComputer*
+- [EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts](https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/) — *BleepingComputer*
+- [New Windows Defender zero-day blocks Microsoft antivirus updates](https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/) — *BleepingComputer*
+- [Webinar tomorrow: Inside real-world Google Workspace breaches](https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/) — *BleepingComputer*
+- [lwIP (Lightweight IP)](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02) — *CISA Advisories*
+- [Siemens SIPLUS and SIMATIC Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04) — *CISA Advisories*
+- [Siemens Industrial Edge Management](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06) — *CISA Advisories*
+- [Siemens WTV676 and WTV776](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-08) — *CISA Advisories*
+- [OpenPLC Runtime v3](https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-09) — *CISA Advisories*
+- [How AI Agents Can Trigger Runaway Costs for Enterprises](https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs) — *Dark Reading*
+- [More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds](https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle) — *Dark Reading*
+- [Cybercriminals Are Hiding New Malware in Torrents for Popular Films](https://www.darkreading.com/cyberattacks-data-breaches/cybercriminals-hiding-new-malware-torrents-popular-films) — *Dark Reading*
+- [ShinyHunters Hacked Clop. Now What About Clop's Victims?](https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-hacked-clop-what-about-clops-victims) — *Dark Reading*
+- [Banks Say Consumers Unsure AI Agents Are on Their Side](https://www.pymnts.com/news/artificial-intelligence/2026/banks-say-consumers-unsure-ai-agents-are-on-their-side/) — *PYMNTS*
+- [Jamie Dimon Expects AI Hyperscalers to Spend $1 Trillion Next Year](https://www.pymnts.com/news/artificial-intelligence/2026/jamie-dimon-expects-ai-hyperscalers-to-spend-1-trillion-next-year/) — *PYMNTS*
+- [Visa Says Small Merchants Could Move Faster on AI Shopping](https://www.pymnts.com/smbs/2026/visa-says-small-merchants-could-move-faster-on-ai-shopping/) — *PYMNTS*
+- [California tightens rules on AI data center energy and water use](https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills) — *The Verge AI*
+- [Trump says US is officially renaming AI ‘super intelligence’](https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence) — *The Verge AI*
+- [Meta patches Muse exploit that let attackers control the AI agent](https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent) — *The Verge AI*
+- [Growing the WIN AI Ecosystem with Agent Integrations](https://www.wiz.io/blog/wiz-mcp-agent-integrations) — *Wiz Security Blog*
 - [Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem](https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an) — *Hugging Face Blog*
 - [tokenizers v1: encode, decode and scaling, measured](https://huggingface.co/blog/tokenizers-v1) — *Hugging Face Blog*
 - [llm-keys-ui 0.1](https://simonwillison.net/2026/Sep/20/llm-keys-ui/) — *Simon Willison (LLMs)*
