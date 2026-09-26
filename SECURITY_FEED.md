@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-09-25 16:26 UTC
+**Generated:** 2026-09-26 15:41 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,211 +7,175 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 [CVE-2026-67279](https://nvd.nist.gov/vuln/detail/CVE-2026-67279) — Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability
-*MikroTik RouterOS · Added 2026-09-25*
+### 🆕 [CVE-2026-87902](https://nvd.nist.gov/vuln/detail/CVE-2026-87902) — WordPress Core Remote File Inclusion Vulnerability
+*WordPress Core · Added 2026-09-25*
 
-Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthentica…
-
-### 🆕 🏦 [CVE-2026-65660](https://nvd.nist.gov/vuln/detail/CVE-2026-65660) — Microsoft SharePoint Code Injection Vulnerability
-*Microsoft SharePoint · Added 2026-09-25*
-
-Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.
-
-### 🆕 [CVE-2026-5430](https://nvd.nist.gov/vuln/detail/CVE-2026-5430) — WSO2 Multiple Products Path Traversal Vulnerability 
-*WSO2 Multiple Products · Added 2026-09-24*
-
-WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.
-
-### 🆕 [CVE-2026-71362](https://nvd.nist.gov/vuln/detail/CVE-2026-71362) — Adobe Commerce and Magento Incorrect Authorization Vulnerability 
-*Adobe Commerce and Magento · Added 2026-09-24*
-
-Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.
+WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote…
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/)
+### 🆕 [GitHub Actions re-enabled with Mini Shai-Hulud payload still active](https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/)
 *BleepingComputer*
 
-Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]
+Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]
 
-### 🆕 [OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/)
+### 🆕 [OpenAI's AI agents accidentally uploaded user-provided images to third-party sites](https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/)
 *BleepingComputer*
 
-OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]
+OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]
 
-### 🆕 [With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance](https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/)
+### 🆕 [Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells](https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html)
+*The Hacker News*
+
+Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involves the weaponization…
+
+### 🆕 [Zero Trust for AI Agents Starts With Fixing Zero Visibility](https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html)
+*The Hacker News*
+
+The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much producti…
+
+### 🆕 [Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link](https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html)
+*The Hacker News*
+
+Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of…
+
+### 🆕 [SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild](https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html)
+*The Hacker News*
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing eviden…
+
+### 🆕 [Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack](https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html)
+*The Hacker News*
+
+Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. "Kiteworks re…
+
+### 🆕 [Kiteworks urges 6-hour server shutdown over potential zero-day attacks](https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/)
 *BleepingComputer*
 
-AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the security gaps created…
+Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent…
 
-### 🆕 [Stopping IT Worker Scams Requires Revamped HR Process](https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process)
+### 🆕 [ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw](https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/)
+*BleepingComputer*
+
+The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unaut…
+
+### 🆕 [AI Sandbox Escapes: Why Forensic Readiness Matters More Than Containment](https://www.darkreading.com/cyberattacks-data-breaches/ai-sandbox-escapes-forensic-readiness)
 *Dark Reading*
 
-Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.
+When autonomous AI agents "escape the sandbox," the real story isn't rogue machines — it's the same access-control failures we've seen for decades.
 
-### 🆕 [Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware](https://thehackernews.com/2026/09/compromised-github-actions-came-back.html)
-*The Hacker News*
-
-Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign. The affected GitHu…
-
-### 🆕 [PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence](https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html)
-*The Hacker News*
-
-Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat Labs, continue to re…
-
-### 🆕 [Microsoft plans to deprecate Windows Deployment Services](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/)
+### 🆕 [Elementor WordPress flaw lets attackers create admin accounts](https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/)
 *BleepingComputer*
 
-Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]
+A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]
 
-### 🆕 [CISA Adds Two Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog)
-*CISA Advisories*
-
-CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-65660 Microsoft SharePoint Code Injection Vulnerability CVE-2026-67279 Mikro…
-
-### 🆕 [Rydox marketplace admin pleads guilty, faces 22 years in prison](https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/)
-*BleepingComputer*
-
-A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]
-
-### 🆕 [The SOC Doesn't Need to Start Over with Every Alert](https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html)
-*The Hacker News*
-
-Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like th…
-
-### 🆕 [Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise](https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html)
-*The Hacker News*
-
-Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. "At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized tr…
-
-### 🆕 [Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild](https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html)
-*The Hacker News*
-
-The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authe…
-
-### 🆕 [Russia's Hybrid Cyber-Physical War in Europe Heats Up](https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe)
+### 🆕 [What We Missed: Google Gemini Joins the AI Escape Party](https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party)
 *Dark Reading*
 
-A storm is raging in the form of cyber sabotage, disinformation, and drone attacks on European nations, particularly those that provide material support to Ukraine.
-
-### 🆕 ['Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing](https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing)
-*Dark Reading*
-
-Agentic AI can smuggle arbitrary instructions from the Web, across multiple apps, into trusted internal communications channels.
-
-### 🆕 [SectopRAT Returns, Hiding Inside a Legitimate Application](https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application)
-*Dark Reading*
-
-The latest activity from the remote access Trojan (RAT) shows why organizations should monitor the behavior of applications rather than blindly trusting them, experts say.
-
-### 🆕 [Wiz Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026](https://www.wiz.io/blog/forrester-wave-for-proactive-security-2026)
-*Wiz Security Blog*
-
-Forrester’s Proactive Security Platforms evaluation rated Wiz with top scores across eight areas, reflecting our commitment to securing the AI era
+In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Meta is putting its muscle behind Muse as the AI app takes off](https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/)
+### 🆕 [I created an interactive digital avatar of myself — and you can talk to it](https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/)
 *TechCrunch AI*
 
-Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agents's promotion across its own apps and beyond.
+After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.
 
-### 🆕 [Sony and UMG are suing Suno again](https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music)
+### 🆕 [Can Cloudflare CEO Matthew Prince save the web from AI?](https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising)
 *The Verge AI*
 
-Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves t…
+Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought…
 
-### 🆕 [For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts](https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/)
+### 🆕 [At Meta Connect, the company’s smart glasses were everywhere](https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/)
 *TechCrunch AI*
 
-The latest unauthorized agent swarms were discovered by researchers.
+The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.
 
-### 🆕 [Anthropic’s founders seek voting control ahead of IPO](https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/)
+### 🆕 [Crusoe abandons $1.25B plan to use Boom turbines at AI data centers](https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/)
 *TechCrunch AI*
 
-Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.
+Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.
 
-### 🆕 [One company is at the center of a wave of rogue AI attacks](https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google)
-*The Verge AI*
-
-In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Goo…
-
-### 🆕 [TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware](https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/)
+### 🆕 [Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge](https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/)
 *TechCrunch AI*
 
-At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development Save up to $200 on your pass before…
+AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.
 
-### 🆕 [Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass](https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/)
+### 🆕 [Meta opens early access program for new Muse features](https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/)
 *TechCrunch AI*
 
-Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.
+Anyone interested in joining has to ask Muse to put them on the list.
 
-### 🆕 [Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test](https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review)
-*The Verge AI*
-
-A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, g…
-
-### 🆕 [Microsoft thinks its new Copilot ‘super app’ will be as influential as Office](https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot)
-*The Verge AI*
-
-After teasing its new Copilot "super app" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of t…
-
-### 🆕 [Northern Gannet, Great Blue Heron, California Brown Pelican](https://simonwillison.net/2026/Sep/25/sighting-403293902/)
+### 🆕 [Quoting John Gruber](https://simonwillison.net/2026/Sep/25/john-gruber/)
 *Simon Willison (LLMs)*
 
-Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CANew 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that si…
+Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-ins…
 
-### 🆕 [Note on 24th September 2026](https://simonwillison.net/2026/Sep/24/harder/)
-*Simon Willison (LLMs)*
-
-The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary dis…
-
-### 🆕 [commit-rewriter 0.2](https://simonwillison.net/2026/Sep/24/commit-rewriter/)
-*Simon Willison (LLMs)*
-
-Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git
-
-### 🆕 [Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face](https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face)
+### 🆕 [Meta makes the Muse filesystem even more accessible](https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem)
 *The Verge AI*
 
-Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The "Live Avatar" will lip-sync and show different facial expressions during co…
-
-### 🆕 [datasette 1.0a41](https://simonwillison.net/2026/Sep/24/datasette/)
-*Simon Willison (LLMs)*
-
-Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugi…
+Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Goldman Sachs Projects Big Tech AI Infrastructure Spending to Hit $1.2 Trillion in 2027](https://www.pymnts.com/big-tech/2026/goldman-sachs-projects-big-tech-ai-infrastructure-spending-to-hit-1-2-trillion-in-2027/)
+### 🆕 [Doctors Stop Typing as AI Takes Over the Chart](https://www.pymnts.com/news/artificial-intelligence/2026/doctors-stop-typing-as-ai-takes-over-the-chart/)
 *PYMNTS*
 
-Artificial intelligence infrastructure spending by the five largest U.S. hyperscalers will reach $1.2 trillion in 2027, up from $800 billion this year, Goldman Sachs Group strategists said, according to a Friday (Sept. 2…
+University Hospital at Downstate is piloting an ambient artificial intelligence (AI) scribe with 50 physicians across family medicine, internal medicine, cardiology and the emergency department. The tool has drafted note…
 
-### 🆕 [Why Building AI Agents Is No Longer the Hardest Part of Agentic Commerce](https://www.pymnts.com/commerce/ecommerce/2026/why-building-ai-agents-is-no-longer-the-hardest-part-of-agentic-commerce/)
+### 🆕 [Bitget Suffers Year’s Largest Crypto Hack as Losses Top $387 Million](https://www.pymnts.com/cryptocurrency/2026/bitget-suffers-years-largest-crypto-hack-as-losses-top-387-million/)
 *PYMNTS*
 
-Watch more: The Agentic Experience With Mastercard’s Sabrina Therani Agentic commerce is becoming an infrastructure race. The biggest agentic constraint today is not whether AI can shop but whether the systems surroundin…
+Cryptocurrency exchange Bitget said in a Friday (Sept. 25) post on X that assets equivalent to about $387.5 million were stolen in an attack the company announced Thursday (Sept. 24). In its earlier report, in a Thursday…
 
-### 🆕 [Digital Freelancers Find More Work and New Pressure on Pay](https://www.pymnts.com/consumer-insights/2026/digital-freelancers-find-more-work-and-new-pressure-on-pay/)
+### 🆕 [Oura’s IPO Puts AI-Powered Healthcare on the Ticker](https://www.pymnts.com/healthcare/2026/ouras-ipo-puts-ai-powered-healthcare-on-the-ticker/)
 *PYMNTS*
 
-AI can produce a first draft. Someone still has to make the finished work worth paying for. The September 2026 edition of The Wage to Wallet Index is a collaboration between PYMNTS Intelligence and WorkWhile. Digital fre…
-
-**Also relevant from today's threat feeds:**
-
-- [CVE-2026-65660 — Microsoft SharePoint Code Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-65660) — *CISA KEV*
+https://www.samsung.com/us/Oura is preparing to launch an initial public offering (IPO) on Nasdaq next week with a pitch that reaches past the smart ring it is known for. The company has spent the past year turning the s…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [commit-rewriter 0.2](https://simonwillison.net/2026/Sep/24/commit-rewriter/) — *Simon Willison (LLMs)*
+- [datasette 1.0a41](https://simonwillison.net/2026/Sep/24/datasette/) — *Simon Willison (LLMs)*
+- [Note on 24th September 2026](https://simonwillison.net/2026/Sep/24/harder/) — *Simon Willison (LLMs)*
+- [Northern Gannet, Great Blue Heron, California Brown Pelican](https://simonwillison.net/2026/Sep/25/sighting-403293902/) — *Simon Willison (LLMs)*
+- [Anthropic’s founders seek voting control ahead of IPO](https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/) — *TechCrunch AI*
+- [Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass](https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/) — *TechCrunch AI*
+- [For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts](https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/) — *TechCrunch AI*
+- [Meta is putting its muscle behind Muse as the AI app takes off](https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/) — *TechCrunch AI*
+- [TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware](https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/) — *TechCrunch AI*
+- [Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise](https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html) — *The Hacker News*
+- [Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware](https://thehackernews.com/2026/09/compromised-github-actions-came-back.html) — *The Hacker News*
+- [PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence](https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html) — *The Hacker News*
+- [Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild](https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html) — *The Hacker News*
+- [The SOC Doesn't Need to Start Over with Every Alert](https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html) — *The Hacker News*
+- [Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/) — *BleepingComputer*
+- [OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex](https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/) — *BleepingComputer*
+- [Microsoft plans to deprecate Windows Deployment Services](https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/) — *BleepingComputer*
+- [Rydox marketplace admin pleads guilty, faces 22 years in prison](https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/) — *BleepingComputer*
+- [With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance](https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/) — *BleepingComputer*
+- [CISA Adds Two Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/09/25/cisa-adds-two-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
+- ['Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing](https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing) — *Dark Reading*
+- [Stopping IT Worker Scams Requires Revamped HR Process](https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process) — *Dark Reading*
+- [SectopRAT Returns, Hiding Inside a Legitimate Application](https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application) — *Dark Reading*
+- [Russia's Hybrid Cyber-Physical War in Europe Heats Up](https://www.darkreading.com/physical-security/russia-hybrid-cyber-physical-war-europe) — *Dark Reading*
+- [Goldman Sachs Projects Big Tech AI Infrastructure Spending to Hit $1.2 Trillion in 2027](https://www.pymnts.com/big-tech/2026/goldman-sachs-projects-big-tech-ai-infrastructure-spending-to-hit-1-2-trillion-in-2027/) — *PYMNTS*
+- [Why Building AI Agents Is No Longer the Hardest Part of Agentic Commerce](https://www.pymnts.com/commerce/ecommerce/2026/why-building-ai-agents-is-no-longer-the-hardest-part-of-agentic-commerce/) — *PYMNTS*
+- [Digital Freelancers Find More Work and New Pressure on Pay](https://www.pymnts.com/consumer-insights/2026/digital-freelancers-find-more-work-and-new-pressure-on-pay/) — *PYMNTS*
+- [One company is at the center of a wave of rogue AI attacks](https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google) — *The Verge AI*
+- [Sony and UMG are suing Suno again](https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music) — *The Verge AI*
+- [Microsoft thinks its new Copilot ‘super app’ will be as influential as Office](https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot) — *The Verge AI*
+- [Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test](https://www.theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review) — *The Verge AI*
+- [Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face](https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face) — *The Verge AI*
+- [Wiz Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026](https://www.wiz.io/blog/forrester-wave-for-proactive-security-2026) — *Wiz Security Blog*
 - [Accelerating vision-language models with LFM2.5-VL-DSpark](https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark) — *Hugging Face Blog*
 - [How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows](https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp) — *Hugging Face Blog*
 - [Gemini 3.8 TTS Playground](https://simonwillison.net/2026/Sep/23/gemini-tts-playground/) — *Simon Willison (LLMs)*
