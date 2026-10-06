@@ -1,138 +1,214 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-10-04 16:22 UTC
+**Generated:** 2026-10-06 17:51 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
+## 🔴 Known Exploited Vulnerabilities (CISA KEV)
+
+### 🆕 🏦 [CVE-2026-88779](https://nvd.nist.gov/vuln/detail/CVE-2026-88779) — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability
+*Citrix NetScaler · Added 2026-10-04*
+
+Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.
+
+---
+
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Anthropic asks Claude users to share voice data for AI model training](https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/)
+### 🆕 [Atlassian warns of critical file-access flaw in Jira, Confluence](https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/)
 *BleepingComputer*
 
-Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]
+Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple self-hosted Data Center products, including Confluence, Jira, and Bitbuck…
 
-### 🆕 [ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members](https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html)
+### 🆕 ['BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates](https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates)
+*Dark Reading*
+
+Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.
+
+### 🆕 [ASOS confirms data breach after “HACKED” in-app notifications](https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/)
+*BleepingComputer*
+
+UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to have stolen customer data from the company's Snowflake environment. [..…
+
+### 🆕 [Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes](https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/)
+*BleepingComputer*
+
+A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor authentication (MFA) codes through browser-in-browser attacks. [...]
+
+### 🆕 [How to secure RMM software: 8 controls MSPs should test](https://www.bleepingcomputer.com/news/security/how-to-secure-rmm-software-8-controls-msps-should-test/)
+*BleepingComputer*
+
+RMM platforms give MSPs privileged access across customer environments, making their security controls critical to limiting risk. Acronis outlines eight controls MSPs should test when evaluating RMM software, from patchi…
+
+### 🆕 [Introducing Wiz AI SAST: Application Security that Understands Your Code and Your Infrastructure](https://www.wiz.io/blog/introducing-wiz-ai-sast)
+*Wiz Security Blog*
+
+Find, validate, and fix complex business logic flaws with an AI code scanner backed by Wiz Research, operationalized within your existing security program.
+
+### 🆕 [Hitachi Energy REB500](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05)
+*CISA Advisories*
+
+View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) a…
+
+### 🆕 [Hitachi Energy Asset Suite](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03)
+*CISA Advisories*
+
+View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause co…
+
+### 🆕 [Johnson Controls EasyIO FG](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-01)
+*CISA Advisories*
+
+View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain full unauthorized access to the device. The following versions of Johnson Controls EasyIO FG are affected: EasyIO FG firm…
+
+### 🆕 [Hitachi Energy SOI](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04)
+*CISA Advisories*
+
+View CSAF Summary Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out var…
+
+### 🆕 [Savannah lwIP SMTP client](https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02)
+*CISA Advisories*
+
+View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Savannah lwIP SMTP client are…
+
+### 🆕 [LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings](https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html)
 *The Hacker News*
 
-A suspected member of the ShinyHunters digital extortion group, who goes by the online alias "Rey," has been allegedly detained by authorities in Jordan, Reuters reported, citing three people familiar with the matter. Re…
+A malicious spreadsheet can make LibreOffice and Apache OpenOffice run an attacker's code as soon as the file is opened, security researchers have shown. There is no warning first, of the kind either program shows before…
 
-### 🆕 [China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing](https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html)
+### 🆕 [Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits](https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/)
+*BleepingComputer*
+
+The Wikimedia Foundation says rogue OpenAI agents made unauthorized Wikipedia edits and may have been partially responsible for a May outage. [...]
+
+### 🆕 [Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies](https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html)
 *The Hacker News*
 
-A new China-nexus cyber espionage group known as TA419 has been attributed to multiple credential phishing campaigns targeting artificial intelligence (AI) experts working for U.S. think tanks, universities, and legal se…
+The Wikimedia Foundation, which hosts Wikipedia, has confirmed that it has discovered activity by rogue OpenAI agents on its platforms, including unsuccessful efforts to compromise Etherpad, a public note-taking tool, an…
 
-### 🆕 [Google Gemini could soon get full access to your Mac’s files, apps and the web](https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/)
-*BleepingComputer*
+### 🆕 [Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers](https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html)
+*The Hacker News*
 
-Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every time. [...]
+In 2024, MCP (Model Context Protocol) set out to become the USB-C of AI: one standard for connecting models, agents, and IDEs to tools and data. The protocol delivered. Thousands of developers built servers, and enterpri…
 
-### 🆕 [ShinyHunters hacker reportedly detained in Jordan, aiding FBI](https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/)
-*BleepingComputer*
+### 🆕 [Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports](https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html)
+*The Hacker News*
 
-A suspected ShinyHunters hacking group member known online as "Rey" has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the extortion group. [...]
+Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the…
+
+### 🆕 [Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products](https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html)
+*The Hacker News*
+
+A critical flaw in 8 Atlassian Data Center products, which customers host themselves, allows an attacker with no login access to read specific files in each product's web application root directory. The attacker must alr…
+
+### 🆕 [ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes](https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes)
+*Dark Reading*
+
+The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.
+
+### 🆕 [What’s New in Wiz Service Catalog: Smarter Discovery, Governance, and Service-Level Context](https://www.wiz.io/blog/wiz-service-catalog-updates)
+*Wiz Security Blog*
+
+Build your Service Catalog faster, keep service context current, and give teams a clearer path from cloud risk to accountability
+
+### 🆕 [Chinese Hackers Impersonate US Officials for AI Cyber Espionage](https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage)
+*Dark Reading*
+
+An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Well, if AI said it, it must be true](https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true)
-*The Verge AI*
-
-New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has…
-
-### 🆕 [An AI couldn’t beat humans at StarCraft, so it decided to cheat](https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft)
-*The Verge AI*
-
-StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they could…
-
-### 🆕 [Trump unveils his new Super Intelligence Force](https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/)
+### 🆕 [Mirror Particle is building a ‘world model’ of human behavior](https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/)
 *TechCrunch AI*
 
-This new task force is Trump's latest response to the debate over AI safety.
+Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.
 
-### 🆕 [We're going to need default hard budget caps on pretty much everything](https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/)
+### 🆕 [We can’t just change the definition of ‘recording’](https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording)
+*The Verge AI*
+
+With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either re…
+
+### 🆕 [Anthropic is giving startups a free year of Claude Team and $1,000 in credits](https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/)
+*TechCrunch AI*
+
+"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone."
+
+### 🆕 [LibreOffice says ‘no AI’ is now a software feature](https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/)
+*TechCrunch AI*
+
+The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.
+
+### 🆕 [Scrimshaw Jukebox](https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/)
 *Simon Willison (LLMs)*
 
-Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps. I'm talking about the feature of pay-by-usage services and APIs that lets you say…
+Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this: I want you to write some computer game music for me. First design simple text based format for the music and build an artif…
 
-### 🆕 [The Agent Said It Was Done. The Database Disagreed.](https://huggingface.co/blog/microsoft/thinkingbox)
+### 🆕 [Mistral’s new 1T model aims to leapfrog closed and open rivals](https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/)
+*TechCrunch AI*
+
+French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.
+
+### 🆕 [Pinterest’s AI now turns beauty Pins into action plans](https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/)
+*TechCrunch AI*
+
+Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.
+
+### 🆕 [Google is about to remove free access to Gemini Flash and Pro](https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only)
+*The Verge AI*
+
+Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google…
+
+### 🆕 [Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end](https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end)
+*The Verge AI*
+
+An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but "lalala" on repeat for minutes at a time, often in the middle of conversations with users…
+
+### 🆕 [Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance](https://huggingface.co/blog/tiiuae/falcon-emirati)
 *Hugging Face Blog*
 
-### 🆕 [September sponsors-only newsletter](https://simonwillison.net/2026/Oct/3/newsletter/)
+### 🆕 [Quoting Felix Rieseberg](https://simonwillison.net/2026/Oct/5/felix-rieseberg/)
 *Simon Willison (LLMs)*
 
-I just sent the September edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: More Fable class models A pricing war 3D graphics, Blender,…
+The "old" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just…
 
-### 🆕 [Amazon responds to data center backlash, says it no longer uses NDAs](https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/)
-*TechCrunch AI*
-
-The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.
-
-### 🆕 [Capcom is preparing for a ‘future where we create games together with AI’](https://www.theverge.com/games/1004418/capcom-ai-game-development)
+### 🆕 [Gemini Call for Me might tell your mom you&#8217;re running late](https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors)
 *The Verge AI*
 
-Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouth…
+Google may be expanding its "Call for Me" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a "Gemini Calling" introductory screen in an APK tear…
 
-### 🆕 [OpenAI safety employee resigns, claiming the company’s ‘culture is broken’](https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/)
-*TechCrunch AI*
+### 🆕 [This startup is issuing AI-generated acne prescriptions](https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions)
+*The Verge AI*
 
-By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.
+People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze a…
 
 ---
 
-## 📚 Earlier Articles (last 48h)
+## 🏦 Financial Sector Watch
 
-- [Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents](https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/) — *TechCrunch AI*
-- [Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass](https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/) — *TechCrunch AI*
-- [Meta wants your next gadget to be Muse-infused](https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/) — *TechCrunch AI*
-- [Sean Parker is rebuilding Stability AI around music](https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/) — *TechCrunch AI*
-- [All the AI agents that can live in your text messages](https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/) — *TechCrunch AI*
-- [Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign](https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html) — *The Hacker News*
-- [GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers](https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html) — *The Hacker News*
-- [MI5 Says China’s MSS Funded Research Involving 100+ U.K.-Linked Academics](https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html) — *The Hacker News*
-- [The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations](https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html) — *The Hacker News*
-- [Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware](https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html) — *The Hacker News*
-- [Danish university DTU breach exposes data of up to 200,000 people](https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/) — *BleepingComputer*
-- [Frontline Education breach exposes school district employee data](https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/) — *BleepingComputer*
-- [Warlock ransomware breach SharePoint in water, telecom operator attacks](https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/) — *BleepingComputer*
-- [RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail](https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail) — *Dark Reading*
-- [Liberate’s AI Agents Take Over the Insurance Night Shift](https://www.pymnts.com/insurance/2026/liberates-ai-agents-take-over-the-insurance-night-shift/) — *PYMNTS*
-- [AWS Launches AI Agent to Audit Customer Cloud Environments](https://www.pymnts.com/news/artificial-intelligence/2026/aws-launches-ai-agent-to-audit-customer-cloud-environments/) — *PYMNTS*
-- [EMVCo Framework Targets Consumer Intent in Agentic Payments](https://www.pymnts.com/news/artificial-intelligence/2026/emvco-framework-targets-consumer-intent-agentic-payments/) — *PYMNTS*
-- [OpenAI Hires Former White House Cyber Official as Regulators Probe AI Dangers](https://www.pymnts.com/news/artificial-intelligence/2026/openai-hires-former-white-house-cyber-official-regulators-probe-ai-dangers/) — *PYMNTS*
-- [OpenAI’s Dot agent is enterprise software that can also order your dinner](https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent) — *The Verge AI*
-- [An OpenAI safety employee has quit and is sounding the alarm](https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm) — *The Verge AI*
-- [Splice CEO Kakul Srivastava thinks AI emails are killing conversations](https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview) — *The Verge AI*
-- [Apple will limit Mac disk access as AI agents ‘substantially’ increase risk](https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents) — *The Verge AI*
-- [Meta open sources code to let you make Muse AI gadgets](https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link) — *The Verge AI*
-- [AutoSynthData: Generating Training Data for Enterprise Agents](https://huggingface.co/blog/ServiceNow-AI/autosynthdata) — *Hugging Face Blog*
-- [Open-sourcing AstaBrief, the fast report-generation model in Asta](https://huggingface.co/blog/allenai/astabrief) — *Hugging Face Blog*
-- [Circuit Breaker Labs hopes to make AI safer for your kids (and you)](https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/) — *TechCrunch AI*
-- [Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders](https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/) — *TechCrunch AI*
-- [Pope Leo XIV is not a fan of AI-generated art](https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/) — *TechCrunch AI*
-- [TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/) — *TechCrunch AI*
-- [TechCrunch Disrupt 2026: Clay’s Kareem Amin on the rise of the GTM engineer](https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/) — *TechCrunch AI*
-- [Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools](https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html) — *The Hacker News*
-- [Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes](https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html) — *The Hacker News*
-- [OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling](https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html) — *The Hacker News*
-- [Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report](https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html) — *The Hacker News*
-- [GitLab warns of critical RCE vulnerability in AI Gateway service](https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/) — *BleepingComputer*
-- [Microsoft’s X account hacked in crypto pump-and-dump scheme](https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/) — *BleepingComputer*
-- [Dell asks admins to patch max severity CSM flaws as soon as possible](https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/) — *BleepingComputer*
-- [The EDR blind spot: 3 ways browser attacks evade endpoint telemetry](https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/) — *BleepingComputer*
-- [US sanctions Tren de Aragua gang members in ATM hacks crackdown](https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/) — *BleepingComputer*
-- [Is Your Organization Ready for 2027's AI Accountability Era?](https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-) — *Dark Reading*
-- [Kiteworks &amp; Citrix Incidents Show Challenges of Zero-Day Response](https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response) — *Dark Reading*
-- [SWIFT Banking &amp; Government Middleware Enables RCE](https://www.darkreading.com/cybersecurity-operations/swift-banking-govt-middleware-rce) — *Dark Reading*
-- [Vulnerability Backlogs Are an Ownership Problem](https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem) — *Dark Reading*
-- [Is It Fair to Blame 'Rogue' AI for Security Failures?](https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures) — *Dark Reading*
-- [Anthropic IPO Filing Outlines Government Action Risks for Commercial Ecosystem](https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-ipo-filing-outlines-government-action-risks-for-commercial-ecosystem/) — *PYMNTS*
-- [Maryland Gov. Wes Moore Tees Up State Leaders’ AI Regulation Plan](https://www.pymnts.com/news/artificial-intelligence/2026/maryland-governor-wes-moore-tees-up-state-leaders-ai-regulation-plan/) — *PYMNTS*
-- [Smart Shopping Agents Still Need Someone to Vouch for Them](https://www.pymnts.com/news/artificial-intelligence/2026/smart-shopping-agents-still-need-someone-to-vouch-for-them/) — *PYMNTS*
-- [AI Could End Finance’s Point-and-Click Era](https://www.pymnts.com/news/b2b-payments/2026/ai-could-end-finances-point-and-click-era/) — *PYMNTS*
-- [Google’s new Guided Vision feature can help you read the fine print](https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision) — *The Verge AI*
-- [AI music maker Suno now generates spoken words](https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability) — *The Verge AI*
-- [AI hallucinations are making entitled customers even worse](https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents) — *The Verge AI*
-- [If a data center is camouflaged in the woods, will anyone hate it?](https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry) — *The Verge AI*
-- [Amazon writes scary blog warning communities not to block data centers](https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning) — *The Verge AI*
+### 🆕 [Trump AI Task Force Faces Pressure to Move Beyond Voluntary Guardrails](https://www.pymnts.com/news/artificial-intelligence/2026/trump-ai-task-force-faces-pressure-move-beyond-voluntary-guardrails/)
+*PYMNTS*
+
+The President Donald Trump administration’s new artificial intelligence task force is coming under pressure to demonstrate that it can address powerful AI systems without relying solely on the industry to police itself.…
+
+### 🆕 [Toast Deploys AI Labor Management Tools for Restaurateurs](https://www.pymnts.com/restaurant-technology/2026/toast-deploys-ai-labor-management-tools-for-restaurateurs/)
+*PYMNTS*
+
+Toast has added a new labor management solution to its global technology platform for restaurant and retail operators, the company said in a Tuesday (Oct. 6) press release. The new Toast IQ Team includes a sales forecast…
+
+### 🆕 [AI CEOs Could Be Held Liable For Rogue Model Actions](https://www.pymnts.com/news/artificial-intelligence/2026/ai-ceos-could-be-held-liable-for-rogue-model-actions/)
+*PYMNTS*
+
+Insurance companies are reportedly anticipating multimillion-dollar claims related to so-called “rogue” artificial intelligence (AI) agents. That’s according to a report Tuesday (Oct. 6) by the Financial Times (FT), whic…
+
+### 🆕 [How CFOs Are Building Approval Controls Finance Agents Can’t Break](https://www.pymnts.com/news/artificial-intelligence/2026/how-chief-financial-officers-are-building-approval-controls-finance-agents-cannot-break/)
+*PYMNTS*
+
+The biggest financial risk from an artificial intelligence agent won’t come from it making numbers up. It will likely come from an agent that does exactly what it has permission to do. As enterprises connect AI agents to…
+
+**Also relevant from today's threat feeds:**
+
+- [CVE-2026-88779 — Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-88779) — *CISA KEV*
+
+---
