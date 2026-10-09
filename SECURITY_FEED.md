@@ -1,227 +1,235 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-10-08 18:22 UTC
+**Generated:** 2026-10-09 17:55 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
-## 🔴 Known Exploited Vulnerabilities (CISA KEV)
-
-### 🆕 [CVE-2015-5477](https://nvd.nist.gov/vuln/detail/CVE-2015-5477) —  ISC BIND Data Processing Errors Vulnerability
-*ISC BIND · Added 2026-10-08*
-
-ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.
-
-### 🆕 [CVE-2016-3081](https://nvd.nist.gov/vuln/detail/CVE-2016-3081) — Apache Struts Command Injection Vulnerability
-*Apache Struts · Added 2026-10-08*
-
-Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.
-
-### 🆕 [CVE-2023-22894](https://nvd.nist.gov/vuln/detail/CVE-2023-22894) — Strapi Cleartext Storage of Sensitive Information Vulnerability
-*Strapi Strapi · Added 2026-10-08*
-
-Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL)…
-
-### 🆕 [CVE-2021-3199](https://nvd.nist.gov/vuln/detail/CVE-2021-3199) — ONLYOFFICE Docs Server Path Traversal Vulnerability
-*ONLYOFFICE Docs · Added 2026-10-08*
-
-ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.
-
-### 🆕 [CVE-2015-3306](https://nvd.nist.gov/vuln/detail/CVE-2015-3306) — ProFTPD Improper Access Control Vulnerability
-*ProFTPD ProFTPD · Added 2026-10-08*
-
-ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.
-
----
-
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift](https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift)
+### 🆕 [What We Missed: FBI Strikes Back at ShinyHunters](https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack)
 *Dark Reading*
 
-Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.
+In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.
 
-### 🆕 [FakeGit malware campaign returns with 17,610 malicious GitHub repos](https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/)
+### 🆕 [Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto](https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/)
 *BleepingComputer*
 
-More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to push the StealC infostealer. [...]
+Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells and cryptocurrency miners. [...]
 
-### 🆕 [Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks](https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html)
+### 🆕 [FBI arrests another suspected ShinyHunters hacker after agency breach](https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/)
+*BleepingComputer*
+
+The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Director Kash Patel announced Friday. [...]
+
+### 🆕 [P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands](https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html)
 *The Hacker News*
 
-Attackers behind a string of personal data leaks at Japanese organizations have abused APIs for mobile apps and targeted known software flaws, the JPCERT Coordination Center (JPCERT/CC) said. The Tokyo-based center, whic…
+Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. "Compared with the variants we usually observe, P7 reduces its on-device footprint, ad…
 
-### 🆕 [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html)
-*The Hacker News*
-
-The Russia-aligned threat actor known as UAC-0099 has been attributed to a previously undocumented .NET infostealer and remote access trojan (RAT) codenamed ASHVEIN. According to TrendAI, the malware has been put to use…
-
-### 🆕 [Cisco warns of critical flaws allowing Nexus switch takeover](https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/)
-*BleepingComputer*
-
-Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run arbitrary code with root privileges on Nexus switches. [...]
-
-### 🆕 [ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms](https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of a targeted campaign aimed at South Korean financial organizations that used an artificial intelligence (AI) pen testing tool named ARTEX to carry out the attacks. The a…
-
-### 🆕 [OAuth grants pile up faster than you can review them. Here's how to keep up.](https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/)
-*BleepingComputer*
-
-OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review them. As the recent Klue breach showed, attackers are taking notice and…
-
-### 🆕 [Uranium crypto exchange hacker convicted for stealing $53 million](https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/)
-*BleepingComputer*
-
-A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021. [...]
-
-### 🆕 [Microsoft Teams to get support for third-party deepfake detection tools](https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/)
-*BleepingComputer*
-
-Microsoft will soon introduce support for third-party deepfake detection solutions and impersonation protection in Teams meetings. [...]
-
-### 🆕 [Satel Netco Design](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary scripts in a user's browser, consume excessive system resources, enumerate files, create or modify files, an…
-
-### 🆕 [Grid Protection Alliance openPDC and openHistorian](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02)
-*CISA Advisories*
-
-View CSAF Summary The following versions of Grid Protection Alliance openPDC and openHistorian are affected: openPDC <2.9.477, <2.9.482 (CVE-2026-104629, CVE-2026-100730, CVE-2026-105281, CVE-2026-85479, CVE-2026-101022)…
-
-### 🆕 [Red Lion Controls N-Tron 700 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuratio…
-
-### 🆕 [Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a)
-*CISA Advisories*
-
-Advisory at a Glance Title Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data Original Publication October 8, 2026 Executive Summary Chinese government-link…
-
-### 🆕 [Writing the Next Chapter](https://www.darkreading.com/cybersecurity-operations/writing-next-chapter)
+### 🆕 [Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too](https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too)
 *Dark Reading*
 
-Dark Reading is about to begin a new decade in its storied history, and we have some breaking news of our own to share.
+Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.
 
-### 🆕 🏦 [Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html)
+### 🆕 [Germany arrests alleged core Qilin ransomware member after extradition](https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/)
+*BleepingComputer*
+
+Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier this month. [...]
+
+### 🆕 [How to keep AI agents within their permissions](https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/)
+*BleepingComputer*
+
+AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prevent. Token Security explains how organizations can enforce agent-speci…
+
+### 🆕 [TP-Link Sued by Four More U.S. States Over Router Security and China Ties](https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html)
 *The Hacker News*
 
-Phishing kits are no longer limited to copying a familiar login page and waiting for a victim to enter credentials. Attackers are increasingly building filtering, session management, and traffic controls into the infrast…
+Four more U.S. states sued router maker TP-Link Systems on October 6, bringing the total to five, with Texas filing a suit in February. Florida, Iowa, Montana and Nebraska allege the California company misled buyers abou…
 
-### 🆕 [16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html)
+### 🆕 [Social Engineering AI Agents: The New BEC for 2026](https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026)
+*Dark Reading*
+
+As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.
+
+### 🆕 [Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access](https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html)
 *The Hacker News*
 
-Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. "The extensions masquerade as wallet po…
+Security researchers have published a full working exploit for a pre-authentication remote code execution flaw in AnyDesk Linux that gives attackers root access before anyone approves the connection. AnyDesk patched the…
 
-### 🆕 [Australian Gov't Weighs Mandatory AI Incident Reporting](https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting)
+### 🆕 [Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects](https://thehackernews.com/2026/10/anthropic-launches-free-ai.html)
+*The Hacker News*
+
+Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). "It's an opt-in service informed by our experience using Claude t…
+
+### 🆕 [Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge](https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html)
+*The Hacker News*
+
+Threat actors have been observed exploiting two recently disclosed flaws in the AhsayCBS backup utility to seize control of affected devices and deploy web shells and XMRig cryptocurrency miners. Details of the flaws are…
+
+### 🆕 [Max severity SonicWall SMA1000 flaw now exploited in attacks](https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/)
+*BleepingComputer*
+
+Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago. [...]
+
+### 🆕 ['AgentCorruption' Puts AWS Environments At Risk With Single Prompt](https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt)
 *Dark Reading*
 
-In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.
+A now-patched vulnerability in AWS Bedrock AgentCore could've allowed an attacker to use one AI chatbot to take over an organization's entire fleet.
 
-### 🆕 [Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives](https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives)
+### 🆕 [Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting](https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting)
 *Dark Reading*
 
-The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.
-
-### 🆕 [Anthropic Gives Vetted Defenders Fewer Claude Guardrails](https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails)
-*Dark Reading*
-
-Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.
+The first cybercriminal to ever make the FBI's "10 Most Wanted Fugitives" list allegedly infused Tren de Aragua's violent criminal operations with cash.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Ben Affleck is an AI nerd, and the internet is impressed](https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/)
+### 🆕 [Amazon and others are done keeping data center deals secret. Is it enough to build trust?](https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/)
 *TechCrunch AI*
 
-Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a…
+Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, w…
 
-### 🆕 [Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months](https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/)
+### 🆕 🏦 [Amazon drops data center NDAs, and AI agents want your credit card](https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/)
 *TechCrunch AI*
 
-The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.
+Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, w…
 
-### 🆕 [OpenAI’s revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/)
+### 🆕 [Danu Robotics’ fight to build a better recycling robot](https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/)
 *TechCrunch AI*
 
-It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.
+For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.
 
-### 🆕 [Google brings agentic AI to Gemini, starting with businesses](https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/)
+### 🆕 [We can’t help treating AI like it’s human. But should we?](https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/)
 *TechCrunch AI*
 
-Google is turning Gemini into an AI agent that can plan, execute tasks, and work across business apps and systems. The agent can delegate work to subagents, use multiple AI models, and even gets its own workplace identit…
+"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us," Dr. Sherry Turkle writes. "And we are wired to care for it in return."
 
-### 🆕 [Anthropic changes usage policy to ban model abuse and election interference](https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/)
+### 🆕 [a16z’s Olivia Moore on the state of consumer AI](https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/)
 *TechCrunch AI*
 
-Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference,…
+Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.
 
-### 🆕 [USA Today becomes the latest publisher to sue OpenAI](https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit)
-*The Verge AI*
+### 🆕 [Impactful scheduling for GPU clusters](https://huggingface.co/blog/allenai/impactful-scheduling)
+*Hugging Face Blog*
 
-USA Today Co., along with the several local newspapers it owns, is suing OpenAI over claims that the company copied "hundreds of thousands" of articles to train its AI models, as reported earlier by Reuters. In a filing…
-
-### 🆕 [SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute](https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson)
-*The Verge AI*
-
-If Elon Musk and SpaceXAI were going to back any Linux distro, it seems obvious they'd back Omarchy. Today it was announced that SpaceXAI would be joining the Omacom Foundation, which oversees Omarchy, as a Founding Corp…
-
-### 🆕 [Anthropic bans ‘abusive or cruel behavior’ toward Claude](https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude)
-*The Verge AI*
-
-Anthropic is making changes to its usage policy for the first time in over a year to reflect new and high-risk cases of misuse - including election interference, weapons development, surveillance, and health and financia…
-
-### 🆕 [Google’s AI note-taking app transcribes your meetings completely offline](https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline)
-*The Verge AI*
-
-Google has released an experimental note-taking app that can transcribe meetings and audio files entirely offline, as reported earlier by TechCrunch. The app, called Google AI Edge Foresight, is free to use and runs on m…
-
-### 🆕 [Google is launching a one-stop Gemini agent for your work tasks](https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise)
-*The Verge AI*
-
-Google is launching a "universal" Gemini AI agent that can work across apps and devices in the background. The tool, announced as part of the Gemini at Work event on Thursday, will be available within the Gemini Enterpri…
-
-### 🆕 [Quoting Ben Affleck](https://simonwillison.net/2026/Oct/7/ben-affleck/)
+### 🆕 [Quoting Matthew Green](https://simonwillison.net/2026/Oct/9/matthew-green/)
 *Simon Willison (LLMs)*
 
-I've always been kind of into computers since I was young. And then when film started to move from analog film to digital, I became more interested in that aspect of it. And the visual effects workflow for many years has…
+Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence…
 
-### 🆕 [Claude Haiku 5.5](https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/)
+### 🆕 [Trump’s attempt to rename AI is looking awfully artificial](https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding)
+*The Verge AI*
+
+President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like "Little Marco" and "Crooked Hillary"; he changed "fake news" from a phrase descri…
+
+### 🆕 [Instinct was the buzziest AI agent around — can it survive Muse?](https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots)
+*The Verge AI*
+
+Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly be…
+
+### 🆕 [A new feature for my blog, built using my voice](https://simonwillison.net/2026/Oct/9/built-using-my-voice/)
 *Simon Willison (LLMs)*
 
-As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million input…
+I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almos…
+
+### 🆕 [OpenAI doubles down on decision to fire three AI safety researchers](https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers)
+*The Verge AI*
+
+OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed "a significant breach of trust." In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak…
+
+### 🆕 [ttok 1.0](https://simonwillison.net/2026/Oct/9/ttok/)
+*Simon Willison (LLMs)*
+
+Release: ttok 1.0 I released ttok 0.4, ran uv tool upgrade ttok, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead!…
+
+### 🆕 [ttok 0.4](https://simonwillison.net/2026/Oct/8/ttok/)
+*Simon Willison (LLMs)*
+
+Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list-…
+
+### 🆕 [Anthropic launches free AI security scans for open-source projects](https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner)
+*The Verge AI*
+
+Anthropic's offering to help open-source projects track down security vulnerabilities with a new service called OSS Scanner. It says open-source projects that opt-in will get "thorough, periodic security scans by our str…
+
+### 🆕 [Quoting Carson Gross](https://simonwillison.net/2026/Oct/8/carson-gross/)
+*Simon Willison (LLMs)*
+
+Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve probl…
+
+### 🆕 [California is trying to shut down robot vs. human cage matches](https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human)
+*The Verge AI*
+
+The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits](https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/)
+### 🆕 [Bending Spoons Deploys AI to Overhaul Acquired Software Companies](https://www.pymnts.com/news/artificial-intelligence/2026/bending-spoons-deploys-ai-to-overhaul-acquired-software-companies/)
 *PYMNTS*
 
-JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence…
+Artificial intelligence has been valuable to Bending Spoons, a company that buys digital businesses and then increases their revenue per customer, CEO Luca Ferrari told Bloomberg in a report published Friday (Oct. 9). Be…
 
-### 🆕 [Google Cloud Targets Enterprise Market With Universal Agent for Work](https://www.pymnts.com/news/artificial-intelligence/2026/google-cloud-targets-enterprise-market-with-universal-agent-work/)
+### 🆕 [Banks Put AI Agents Through Performance Reviews](https://www.pymnts.com/news/artificial-intelligence/2026/banks-put-ai-agents-through-performance-reviews/)
 *PYMNTS*
 
-Google Cloud announced a universal artificial intelligence agent for work called Gemini agent that will be joined by industry-specific agents for financial services, legal, government, healthcare and retail, the company…
+A fund manager in Hong Kong emails BNY at 2 a.m. New York time about a transfer that hasn’t settled. A software agent can read it, pull the records and draft a reply. A human manager reviews the draft before it goes out,…
 
-### 🆕 [Push for Mandatory AI Safety Rules Gains Momentum in Washington](https://www.pymnts.com/news/artificial-intelligence/2026/mandatory-ai-safety-rules-push-gains-momentum-washington/)
+### 🆕 [Automation and AI Move Deeper Into Payment Exceptions](https://www.pymnts.com/news/payments-innovation/2026/automation-and-ai-move-deeper-into-payment-exceptions/)
 *PYMNTS*
 
-Sen. Maria Cantwell of Washington, the ranking member on the Commerce, Science and Transportation Committee, unveiled a framework Wednesday (Oct. 7) for regulating frontier artificial intelligence in a possible preview o…
+Much of payment processing already happens without an employee touching the transaction. The “hands-on” interactions come when payments fail to clear, or transactions trigger fraud reviews. In other cases requiring manua…
+
+### 🆕 [AI Agents Can Make Cross-Border Payments Faster, But Not Fix Why They Fail](https://www.pymnts.com/news/cross-border-payments/2026/ai-agents-can-make-cross-border-payments-faster-but-not-fix-why-they-fail/)
+*PYMNTS*
+
+Moving money across borders may be one of the last steps in an international payment. Getting the money ready to move can take considerably longer. Before a multinational company pays an overseas supplier, its finance te…
 
 **Also relevant from today's threat feeds:**
 
-- [Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html) — *The Hacker News*
+- [Amazon drops data center NDAs, and AI agents want your credit card](https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/) — *TechCrunch AI*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Quoting Ben Affleck](https://simonwillison.net/2026/Oct/7/ben-affleck/) — *Simon Willison (LLMs)*
+- [Claude Haiku 5.5](https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/) — *Simon Willison (LLMs)*
+- [Anthropic changes usage policy to ban model abuse and election interference](https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/) — *TechCrunch AI*
+- [Ben Affleck is an AI nerd, and the internet is impressed](https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/) — *TechCrunch AI*
+- [Google brings agentic AI to Gemini, starting with businesses](https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/) — *TechCrunch AI*
+- [OpenAI’s revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/) — *TechCrunch AI*
+- [Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months](https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/) — *TechCrunch AI*
+- [16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases](https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html) — *The Hacker News*
+- [ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms](https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html) — *The Hacker News*
+- [Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks](https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html) — *The Hacker News*
+- [UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML](https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html) — *The Hacker News*
+- [Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia](https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html) — *The Hacker News*
+- [Cisco warns of critical flaws allowing Nexus switch takeover](https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/) — *BleepingComputer*
+- [FakeGit malware campaign returns with 17,610 malicious GitHub repos](https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/) — *BleepingComputer*
+- [Microsoft Teams to get support for third-party deepfake detection tools](https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/) — *BleepingComputer*
+- [OAuth grants pile up faster than you can review them. Here's how to keep up.](https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/) — *BleepingComputer*
+- [Uranium crypto exchange hacker convicted for stealing $53 million](https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/) — *BleepingComputer*
+- [Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a) — *CISA Advisories*
+- [Red Lion Controls N-Tron 700 Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01) — *CISA Advisories*
+- [Grid Protection Alliance openPDC and openHistorian](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02) — *CISA Advisories*
+- [Satel Netco Design](https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03) — *CISA Advisories*
+- [Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives](https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives) — *Dark Reading*
+- [Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift](https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift) — *Dark Reading*
+- [Australian Gov't Weighs Mandatory AI Incident Reporting](https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting) — *Dark Reading*
+- [Writing the Next Chapter](https://www.darkreading.com/cybersecurity-operations/writing-next-chapter) — *Dark Reading*
+- [Anthropic Gives Vetted Defenders Fewer Claude Guardrails](https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails) — *Dark Reading*
+- [AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits](https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/) — *PYMNTS*
+- [Google Cloud Targets Enterprise Market With Universal Agent for Work](https://www.pymnts.com/news/artificial-intelligence/2026/google-cloud-targets-enterprise-market-with-universal-agent-work/) — *PYMNTS*
+- [Push for Mandatory AI Safety Rules Gains Momentum in Washington](https://www.pymnts.com/news/artificial-intelligence/2026/mandatory-ai-safety-rules-push-gains-momentum-washington/) — *PYMNTS*
+- [Anthropic bans ‘abusive or cruel behavior’ toward Claude](https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude) — *The Verge AI*
+- [USA Today becomes the latest publisher to sue OpenAI](https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit) — *The Verge AI*
+- [Google is launching a one-stop Gemini agent for your work tasks](https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise) — *The Verge AI*
+- [Google’s AI note-taking app transcribes your meetings completely offline](https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline) — *The Verge AI*
+- [SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute](https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson) — *The Verge AI*
 - [Multimodal open d1 decision models for the edge](https://huggingface.co/blog/LiquidAI/open-d1) — *Hugging Face Blog*
 - [One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO](https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026) — *Hugging Face Blog*
 - [llm-openai-decisions 0.1a0](https://simonwillison.net/2026/Oct/6/llm-openai-decisions/) — *Simon Willison (LLMs)*
