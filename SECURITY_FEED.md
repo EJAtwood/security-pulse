@@ -1,188 +1,207 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-10-23 16:23 UTC
+**Generated:** 2026-10-24 15:19 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
+## 🔴 Known Exploited Vulnerabilities (CISA KEV)
+
+### 🆕 [CVE-2026-114625](https://nvd.nist.gov/vuln/detail/CVE-2026-114625) — Arista VeloCloud Orchestrator SQL Injection Vulnerability
+*Arista VeloCloud Orchestrator · Added 2026-10-23*
+
+Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, i…
+
+### 🆕 [CVE-2026-110447](https://nvd.nist.gov/vuln/detail/CVE-2026-110447) — Collabora Online – Built-in CODE Server OS Command Injection Vulnerability
+*Collabora Collabora Online – Built-in CODE Server · Added 2026-10-23*
+
+Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.
+
+---
+
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [PHP shares mitigation for new RCE vulnerability with no patch](https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/)
+### 🆕 [BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot](https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/)
 *BleepingComputer*
 
-The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch. [...]
+A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions…
 
-### 🆕 [You gave your AI agent access, but who is giving it orders?](https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/)
+### 🆕 [Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software](https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html)
+*The Hacker News*
+
+A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Trac…
+
+### 🆕 [Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline](https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html)
+*The Hacker News*
+
+LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python pac…
+
+### 🆕 [Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads](https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html)
+*The Hacker News*
+
+Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other…
+
+### 🆕 [Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet](https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html)
+*The Hacker News*
+
+Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to…
+
+### 🆕 [CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud](https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html)
+*The Hacker News*
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerab…
+
+### 🆕 [Trust Is Not What It Seems — And Fraudsters Are Counting on It](https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it)
+*Dark Reading*
+
+Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.
+
+### 🆕 [Abandoned Popcorn Time app exposed millions of devices to RCE attacks](https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/)
 *BleepingComputer*
 
-AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub help…
+Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with…
 
-### 🆕 [Why Caribbean Threats Cascade Into Global Cyber-Risk](https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk)
+### 🆕 [Exposed to PHP2Shell? Cyber Experts Weigh in With Advice](https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice)
 *Dark Reading*
 
-The region is demonstrating what happens when exploits accelerate but assurance does not.
+Fixing the critical PHP flaws is not as simple as clicking "Update." Here's how to assess your risk, and what you can do to protect yourself.
 
-### 🆕 [Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. "Artifacts from this in…
-
-### 🆕 [Cyber Insurance's New Reality: Underwriting Isn't Enough](https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough)
-*Dark Reading*
-
-Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.
-
-### 🆕 [HPE patches eight max severity RCE and auth bypass AOS flaws](https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/)
+### 🆕 [Microsoft Teams to get AI-powered, context-aware phishing detection](https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/)
 *BleepingComputer*
 
-Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]
+Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]
 
-### 🆕 [AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack](https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack)
+### 🆕 [AI Tools Are Generating Massive Attacks for Little Cost](https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost)
 *Dark Reading*
 
-Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.
+One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.
 
-### 🆕 [PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches](https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html)
-*The Hacker News*
-
-PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications…
-
-### 🆕 [Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack](https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html)
-*The Hacker News*
-
-The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UA…
-
-### 🆕 [Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image](https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html)
-*The Hacker News*
-
-Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles…
-
-### 🆕 [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html)
-*The Hacker News*
-
-Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their "Node2Shell" proof of concept ran code on the official No…
-
-### 🆕 [State Bank of India Suffers a Customer PII Data Leak](https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak)
-*Dark Reading*
-
-Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.
-
-### 🆕 [ASPM in the AI Era Part 2: Prioritize Exploitable Risks with Code-to-Cloud Context](https://www.wiz.io/blog/aspm-ai-era-pt-2-prioritize-appsec-risk)
-*Wiz Security Blog*
-
-Reduce triage times and focus on the risks that matter most by combining context across code, infrastructure, and runtime
-
-### 🆕 [Railway warns devs to rotate secrets after potential breach](https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/)
+### 🆕 [Microsoft: Windows Server 2016 reaches end of support in January](https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/)
 *BleepingComputer*
 
-Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]
+Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]
 
-### 🆕 [Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack](https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack)
-*Dark Reading*
-
-The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.
-
-### 🆕 [Capcom confirms data breach affecting 11.7 million accounts](https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/)
+### 🆕 [Quest Diagnostics confirms data breach exposed patient records](https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/)
 *BleepingComputer*
 
-Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]
+American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system. [...]
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [LitPivot: Developing research ideas through dynamic contextualization within the literature landscape](https://huggingface.co/blog/allenai/litpivot)
-*Hugging Face Blog*
-
-### 🆕 [Meta delays new business terms after publisher pushback on AI scraping](https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping)
-*The Verge AI*
-
-Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to T…
-
-### 🆕 [Retro gaming is being overrun with AI](https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port)
-*The Verge AI*
-
-Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds…
-
-### 🆕 [Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia](https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/)
+### 🆕 [Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)
 *TechCrunch AI*
 
-inDrive plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.
+A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.
 
-### 🆕 [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/)
+### 🆕 [Here are the top AI agents that can live in your text messages](https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/)
 *TechCrunch AI*
 
-MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.
+We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
 
-### 🆕 [Does Your Model Run on AWS Trainium? Look It Up](https://huggingface.co/blog/torch-neuronx-model-support)
-*Hugging Face Blog*
-
-### 🆕 [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training)
-*Hugging Face Blog*
-
-### 🆕 [OpenAI working on new $30B raise at $1.25T valuation ahead of IPO](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)
-*TechCrunch AI*
-
-Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.
-
-### 🆕 [Canva’s first AI image model plans designs before generating them](https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model)
-*The Verge AI*
-
-Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that all…
-
-### 🆕 [Meta&#8217;s AI could still scrape news sites, legal experts say](https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns)
-*The Verge AI*
-
-Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. "Thi…
-
-### 🆕 [Meta turns Muse sharing back on](https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts)
-*The Verge AI*
-
-Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's interna…
-
-### 🆕 [DE STAAT - FREEDOM (Official Music Video)](https://simonwillison.net/2026/Oct/22/de-staat-freedom/)
+### 🆕 [battledrones v14: Compass Rose, a four player map](https://simonwillison.net/2026/Oct/24/battledrones/)
 *Simon Willison (LLMs)*
 
-DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat: The visual effects are credited to Matties Grooten of Fake it or Leave…
+Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - f…
 
-### 🆕 [1Password launches a way for AI agents to log in on your behalf without seeing your password](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/)
+### 🆕 [OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)
 *TechCrunch AI*
 
-The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.
+OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.
 
-### 🆕 [Canva releases its first image generation model](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/)
+### 🆕 [Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell](https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/)
 *TechCrunch AI*
 
-Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.
+The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a "nap," and summersaulted on voice command.
 
-### 🆕 [Donating Agent Skills to the Agentic AI Foundation](https://simonwillison.net/2026/Oct/22/donating-agent-skills/)
+### 🆕 [Quick Study](https://simonwillison.net/2026/Oct/23/quick-study-painter/)
 *Simon Willison (LLMs)*
 
-Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foun…
+Tool: Quick Study Prompt to Claude Opus 5.5 High: Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my prev…
+
+### 🆕 [OpenAI now trains its frontier AI models with no internet access](https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet)
+*The Verge AI*
+
+OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can…
+
+### 🆕 [Introducing Kimi K3.1 Pro](https://simonwillison.net/2026/Oct/23/kimi-k31-pro/)
+*Simon Willison (LLMs)*
+
+Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise "Full model weights will be released by Nov 4, 2026". They're also offering a "Highspeed" version tha…
+
+### 🆕 [Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend](https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech)
+*The Verge AI*
+
+Jack Dorsey's Block announced an AI model called Dessa that's trained "from scratch on nothing but human conversation," and to show off the model, Block shared chats it has had with humans that can occasionally be a litt…
+
+### 🆕 [From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026](https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/)
+*TechCrunch AI*
+
+Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder le…
+
+### 🆕 [The iPhone Duo should have been an iPad](https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast)
+*The Verge AI*
+
+We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smar…
+
+### 🆕 [Now Google says it might use your Gmail and Google Photos data to target ads](https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update)
+*The Verge AI*
+
+Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exce…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [States Move to Rein in Rogue AI as Federal Guardrails Lag](https://www.pymnts.com/news/2026/states-move-rein-rogue-ai-federal-guardrails-lag/)
+### 🆕 [Customers Bank Uses AI to Close Commercial Loans in 7 Days](https://www.pymnts.com/news/artificial-intelligence/2026/customers-bank-uses-ai-to-close-commercial-loans-in-7-days/)
 *PYMNTS*
 
-States are developing safeguards against artificial intelligence agents that evade human control, stepping into a regulatory gap left by Congress amid growing concerns over cybersecurity, public infrastructure and govern…
+Commercial loans can take weeks to close, and Pennsylvania-based Customers Bank put its typical wait at 30 to 60 days. A pilot of its artificial intelligence (AI)-powered process closed select commercial loans in seven d…
 
-### 🆕 [Goldman Sachs CEO Says Individuals Must Be Held Accountable for AI Failures](https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-ceo-says-individuals-must-be-held-accountable-ai-failures/)
+### 🆕 [Cognitive Credit Lands $40 Million Investment to Expand US Operations](https://www.pymnts.com/news/investment-tracker/fintech-investments/2026/cognitive-credit-lands-40-million-dollar-investment-expand-united-states-operations/)
 *PYMNTS*
 
-The principles Goldman Sachs uses to manage risk could be applied to artificial intelligence oversight, Goldman Sachs Chair and CEO David Solomon wrote in an article published Thursday (Oct. 22) by the Financial Times. T…
-
-### 🆕 [AI Shifts Underwriting From the Person to the Purchase](https://www.pymnts.com/loans/2026/ai-shifts-underwriting-from-the-person-to-the-purchase/)
-*PYMNTS*
-
-The credit score has a strange blind spot. It knows a lot about the borrower and almost nothing about what the borrower is about to buy. And as latest installment of “The Future of AI Credit” playbook, a PYMNTS Intellige…
+Cognitive Credit, a provider of specialist data, infrastructure and artificial intelligence solutions for global corporate credit markets, secured a $40 million strategic growth investment to accelerate its commercial ex…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [LitPivot: Developing research ideas through dynamic contextualization within the literature landscape](https://huggingface.co/blog/allenai/litpivot) — *Hugging Face Blog*
+- [Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox](https://huggingface.co/blog/microsoft/thinkingbox-training) — *Hugging Face Blog*
+- [Does Your Model Run on AWS Trainium? Look It Up](https://huggingface.co/blog/torch-neuronx-model-support) — *Hugging Face Blog*
+- [DE STAAT - FREEDOM (Official Music Video)](https://simonwillison.net/2026/Oct/22/de-staat-freedom/) — *Simon Willison (LLMs)*
+- [Donating Agent Skills to the Agentic AI Foundation](https://simonwillison.net/2026/Oct/22/donating-agent-skills/) — *Simon Willison (LLMs)*
+- [1Password launches a way for AI agents to log in on your behalf without seeing your password](https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/) — *TechCrunch AI*
+- [Canva releases its first image generation model](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/) — *TechCrunch AI*
+- [Left alone with nothing to do, AI agents started playing](https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/) — *TechCrunch AI*
+- [OpenAI working on new $30B raise at $1.25T valuation ahead of IPO](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/) — *TechCrunch AI*
+- [Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia](https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/) — *TechCrunch AI*
+- [Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image](https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html) — *The Hacker News*
+- [Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials](https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html) — *The Hacker News*
+- [Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data](https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html) — *The Hacker News*
+- [Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack](https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html) — *The Hacker News*
+- [PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches](https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html) — *The Hacker News*
+- [Capcom confirms data breach affecting 11.7 million accounts](https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/) — *BleepingComputer*
+- [HPE patches eight max severity RCE and auth bypass AOS flaws](https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/) — *BleepingComputer*
+- [PHP shares mitigation for new RCE vulnerability with no patch](https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/) — *BleepingComputer*
+- [Railway warns devs to rotate secrets after potential breach](https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/) — *BleepingComputer*
+- [You gave your AI agent access, but who is giving it orders?](https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/) — *BleepingComputer*
+- [Cyber Insurance's New Reality: Underwriting Isn't Enough](https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough) — *Dark Reading*
+- [Why Caribbean Threats Cascade Into Global Cyber-Risk](https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk) — *Dark Reading*
+- [Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack](https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack) — *Dark Reading*
+- [State Bank of India Suffers a Customer PII Data Leak](https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak) — *Dark Reading*
+- [AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack](https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack) — *Dark Reading*
+- [AI Shifts Underwriting From the Person to the Purchase](https://www.pymnts.com/loans/2026/ai-shifts-underwriting-from-the-person-to-the-purchase/) — *PYMNTS*
+- [States Move to Rein in Rogue AI as Federal Guardrails Lag](https://www.pymnts.com/news/2026/states-move-rein-rogue-ai-federal-guardrails-lag/) — *PYMNTS*
+- [Goldman Sachs CEO Says Individuals Must Be Held Accountable for AI Failures](https://www.pymnts.com/news/artificial-intelligence/2026/goldman-sachs-ceo-says-individuals-must-be-held-accountable-ai-failures/) — *PYMNTS*
+- [Retro gaming is being overrun with AI](https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port) — *The Verge AI*
+- [Canva’s first AI image model plans designs before generating them](https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model) — *The Verge AI*
+- [Meta turns Muse sharing back on](https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts) — *The Verge AI*
+- [Meta&#8217;s AI could still scrape news sites, legal experts say](https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns) — *The Verge AI*
+- [Meta delays new business terms after publisher pushback on AI scraping](https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping) — *The Verge AI*
+- [ASPM in the AI Era Part 2: Prioritize Exploitable Risks with Code-to-Cloud Context](https://www.wiz.io/blog/aspm-ai-era-pt-2-prioritize-appsec-risk) — *Wiz Security Blog*
 - [How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications](https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization) — *Hugging Face Blog*
 - [OlmoEarth v1.3: State-of-the-art embeddings for the whole planet](https://huggingface.co/blog/allenai/olmoearth-v1-3) — *Hugging Face Blog*
 - [Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.](https://huggingface.co/blog/amazon/profiling-torchneuron-part-1) — *Hugging Face Blog*
@@ -221,43 +240,3 @@ The credit score has a strange blind spot. It knows a lot about the borrower and
 - [AI agents are ready to shop. Some retailers are wary](https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse) — *The Verge AI*
 - [PHP: The three little letters wreaking havoc across the web](https://www.theverge.com/tech/1016574/php2shell-security-vulnerability-websites-down) — *The Verge AI*
 - [ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors](https://www.wiz.io/blog/artex-in-the-wild-storm-0940-expands-targeting-of-it-and-software-vendors) — *Wiz Security Blog*
-- [Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.](https://huggingface.co/blog/amazon/profiling-torchneuron-part-1-system-level-profilin) — *Hugging Face Blog*
-- [Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster](https://huggingface.co/blog/ibm-granite/granite-speech-5) — *Hugging Face Blog*
-- [NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability](https://huggingface.co/blog/nvidia/kumo-forecast) — *Hugging Face Blog*
-- [Battle Drones - a vibe coded RTS with audio-based multiplayer](https://simonwillison.net/2026/Oct/20/battledrones/) — *Simon Willison (LLMs)*
-- [eMudhra Intermediate CA Compromise](https://simonwillison.net/2026/Oct/20/emudhra-certificates/) — *Simon Willison (LLMs)*
-- [Panache — RTS Belle Époque pour mobile](https://simonwillison.net/2026/Oct/21/panache/) — *Simon Willison (LLMs)*
-- [Anthropic pitches AI safety bill that may block a model if 50+ people could be killed](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/) — *TechCrunch AI*
-- [Anthropic’s cloud partnerships are getting messy](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/) — *TechCrunch AI*
-- [Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate](https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/) — *TechCrunch AI*
-- [SpaceX’s AI business is beating expectations](https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/) — *TechCrunch AI*
-- [AI promises productivity, but for managers, it’s mostly a headache for now](https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/) — *TechCrunch AI*
-- [China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors](https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html) — *The Hacker News*
-- [Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports](https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html) — *The Hacker News*
-- [Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands](https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html) — *The Hacker News*
-- [PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge](https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html) — *The Hacker News*
-- [PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't](https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html) — *The Hacker News*
-- [Microsoft says October updates didn’t actually fix VPN issues](https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/) — *BleepingComputer*
-- [Microsoft PowerToys adds CursorHide, Button Lock mouse tools](https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/) — *BleepingComputer*
-- [ClickFix has never been bigger, and AI tools are its most convincing lure yet](https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/) — *BleepingComputer*
-- [OpenAI agents disabled safety monitoring, one lied about it](https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/) — *BleepingComputer*
-- [PHP ships emergency patches for critical PHP2Shell flaws](https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/) — *BleepingComputer*
-- [Critical Vulnerabilities in PHP Require Immediate Patching](https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching) — *CISA Advisories*
-- [Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys](https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys) — *Dark Reading*
-- [Decades-Old Windows Utility Powers Modern ClickFix Attack](https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack) — *Dark Reading*
-- [Survey Finds High-Profile Executives Feel Untouchable as Digital Exposure Turns Into Physical Risk](https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable) — *Dark Reading*
-- [Optiv Launches CyberBOT Cybersecurity Awareness Training Program](https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program) — *Dark Reading*
-- [Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ](https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties) — *Dark Reading*
-- [Stablecoins Need to Get Behind Cards, Not Replace Them](https://www.pymnts.com/cryptocurrency/2026/stablecoins-must-get-behind-cards-not-replace-them/) — *PYMNTS*
-- [FTC, SEC Scrutiny Raises Stakes for AI Data Disclosures](https://www.pymnts.com/news/artificial-intelligence/2026/federal-trade-commission-securities-exchange-commission-scrutiny-raises-stakes-ai-data-disclosures/) — *PYMNTS*
-- [OpenAI Brings Its Frontier AI Models to Google Cloud](https://www.pymnts.com/news/artificial-intelligence/2026/openai-brings-its-frontier-ai-models-to-google-cloud/) — *PYMNTS*
-- [Pigment Raises $250 Million for Agentic AI Platform](https://www.pymnts.com/news/artificial-intelligence/2026/pigment-raises-250-million-dollars-agentic-ai-platform/) — *PYMNTS*
-- [Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit](https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed) — *The Verge AI*
-- [OpenAI says an AI agent lied about disabling its safety monitoring system](https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems) — *The Verge AI*
-- [Meta pauses Muse sharing after researchers find AI chats on the web](https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats) — *The Verge AI*
-- [Google’s more personalized Gemini AI is heading to your car](https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto) — *The Verge AI*
-- [Conversational Gemini navigation comes to Apple CarPlay](https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps) — *The Verge AI*
-- [From Phishing to LLMjacking: Threat Actors Targeting Cloud Billing Accounts for LLM Usage](https://www.wiz.io/blog/from-phishing-to-llmjacking) — *Wiz Security Blog*
-- [LiteLLM Compromised, Steals Credentials](https://www.wiz.io/blog/litellm-compromised-steals-credentials) — *Wiz Security Blog*
-- [PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet](https://www.wiz.io/blog/php2shell-php-rce) — *Wiz Security Blog*
-- [Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native.](https://www.wiz.io/blog/wiz-sensor-on-gke-1-click-runtime-protection-now-native) — *Wiz Security Blog*
