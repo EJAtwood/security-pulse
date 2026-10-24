@@ -41,6 +41,12 @@ feeds:
     category: security
     enabled: false
 
+  ichi:
+    name: "ICHI – Internet Cyber Health Index"
+    url: "https://ichi.global/api/alerts"
+    category: security
+    enabled: true
+
   # --- AI news & model releases ---
   techcrunch_ai:
     name: "TechCrunch AI"
