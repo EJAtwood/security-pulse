@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-10-29 17:58 UTC
+**Generated:** 2026-10-30 17:40 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,223 +7,242 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 🏦 [CVE-2026-41709](https://nvd.nist.gov/vuln/detail/CVE-2026-41709) — Broadcom VMWare ESX Insufficient Logging Vulnerability
-*Broadcom VMware ESX · Added 2026-10-28*
+### 🆕 🏦 [CVE-2026-118527](https://nvd.nist.gov/vuln/detail/CVE-2026-118527) — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability
+*Ivanti Connect Secure · Added 2026-10-30*
 
-Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.
+Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can…
 
-### 🆕 [CVE-2026-46300](https://nvd.nist.gov/vuln/detail/CVE-2026-46300) — Linux Kernel Missing Initialization of a Variable Vulnerability
-*Linux Kernel · Added 2026-10-28*
+### 🆕 🏦 [CVE-2026-111357](https://nvd.nist.gov/vuln/detail/CVE-2026-111357) — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability
+*Ivanti Connect Secure · Added 2026-10-30*
 
-Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ES…
+Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-11…
+
+### 🆕 [CVE-2026-97229](https://nvd.nist.gov/vuln/detail/CVE-2026-97229) — GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability
+*GitLab Community Edition and Enterprise Edition · Added 2026-10-29*
+
+GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a C…
+
+### 🆕 🏦 [CVE-2026-76418](https://nvd.nist.gov/vuln/detail/CVE-2026-76418) — Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability
+*Cisco Secure Firewall ASA Software and Cisco Secure FTD Software · Added 2026-10-29*
+
+Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, r…
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Chrome extensions with 13.4 million installs caught hijacking searches](https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/)
+### 🆕 [Trezor warns of suspected crypto-theft implant in hardware wallet](https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/)
 *BleepingComputer*
 
-A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Ya…
+Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]
 
-### 🆕 [Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions](https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html)
-*The Hacker News*
-
-A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthro…
-
-### 🆕 [Threat Modeling With 4 Simple Questions on a White Board](https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions)
+### 🆕 [L’Italia è afflitta da vulnerabilità informatiche, senza una causa chiara](https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian)
 *Dark Reading*
 
-A four-question exercise that CISOs can use to create a threat model that promises results, without a big spend.
+I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.
 
-### 🆕 [Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners](https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html)
+### 🆕 [TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them](https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html)
 *The Hacker News*
 
-Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The…
+TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer…
 
-### 🆕 [Microsoft fixes Remote Desktop failures caused by recent Windows updates](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/)
+### 🆕 [Malicious Claude Code extension on Cursor planted SSH backdoors](https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/)
 *BleepingComputer*
 
-Microsoft has resolved a known issue that prevents non-admin users from connecting to devices via Remote Desktop when the "Administrator protection" security feature is enabled. [...]
+A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to ins…
 
-### 🆕 [The Rise of Agentic Attacks: What They Look Like, and Where They're Headed](https://www.wiz.io/blog/the-rise-of-agentic-attacks)
+### 🆕 [Undead Software Projects Continue to Raise Security Risks](https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks)
+*Dark Reading*
+
+A security firm patched a decade-old app to prevent the takeover of millions of machines, highlighting that abandoned domains remain a boon to attackers.
+
+### 🆕 [WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours](https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html)
+*The Hacker News*
+
+Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of re…
+
+### 🆕 [SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone](https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/)
+*BleepingComputer*
+
+Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how th…
+
+### 🆕 [CISA says max severity GitLab flaw now exploited in the wild](https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/)
+*BleepingComputer*
+
+Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]
+
+### 🆕 [Key Takeaways: AI Threat Readiness Survey Report 2026](https://www.wiz.io/blog/ai-threat-readiness-survey-report-2026)
 *Wiz Security Blog*
 
-AI agents are changing how attackers operate. Explore real-world cases of agentic attacks, learn how to identify their fingerprints, and discover what they mean for the future of cybersecurity.
+Key benchmark findings on shadow AI, orchestration risks, and the imperative for an AI-against-AI defensive model.
 
-### 🆕 [3 Ways AI Agents Already Operate in Your Browser](https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/)
-*BleepingComputer*
-
-AI agents can control authenticated browsers, interact with corporate applications, and access sensitive data while appearing to act as legitimate employees. Keep Aware examines three ways agents operate inside browsers…
-
-### 🆕 [CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/)
-*BleepingComputer*
-
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. [.…
-
-### 🆕 [Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities](https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html)
+### 🆕 [Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis](https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html)
 *The Hacker News*
 
-Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. "It shows significant gains across coding and agentic tasks as well as…
+A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. I…
 
-### 🆕 [Windows 11 KB5127936 update released with 41 changes and fixes](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/)
+### 🆕 [Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving](https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html)
+*The Hacker News*
+
+The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their…
+
+### 🆕 [Microsoft finally fixes VPN issues caused by September updates](https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/)
 *BleepingComputer*
 
-Microsoft released the KB5127936 preview cumulative update for Windows 11 versions 25H2 and 26H2, with 41 changes, including File Explorer and Cloud rebuild improvements. [...]
+Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]
 
-### 🆕 [Hitachi Energy CoreTec Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03)
-*CISA Advisories*
-
-View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result…
-
-### 🆕 [Siemens Mendix SAML Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01)
-*CISA Advisories*
-
-View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated au…
-
-### 🆕 [Hitachi Energy TRO600 series products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02)
-*CISA Advisories*
-
-View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carr…
-
-### 🆕 [Webinar: How to Build AI Threat Readiness Into Your Security Operations](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html)
+### 🆕 [Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison](https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html)
 *The Hacker News*
 
-Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate expl…
+Ahmad Umar Agha, a Syrian Electronic Army hacker known online as "Th3Pr0," has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The co…
 
-### 🆕 [Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls](https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html)
-*The Hacker News*
-
-A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account.…
-
-### 🆕 [Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes](https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes)
+### 🆕 [As Russia's Cyberwar Evolves, Belarus Steps Forward](https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward)
 *Dark Reading*
 
-The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.
+The "FrostyNeighbor" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.
 
-### 🆕 [Cyber Vulnerabilities Besiege Italy, Absent Clear Cause](https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy)
+### 🆕 [Anthropic-Themed Phishing Emails Bypass Top Security Tools](https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools)
 *Dark Reading*
 
-Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.
+Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.
 
-### 🆕 [GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub](https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github)
+### 🆕 [Rethinking Cybersecurity Awareness in the AI Era](https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era)
 *Dark Reading*
 
-The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.
+This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern ris…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Granola crunches up a dictation feature to compete with Wispr](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/)
+### 🆕 [Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru](https://www.theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru)
+*The Verge AI*
+
+Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore "experiences that r…
+
+### 🆕 [Google’s first data center satellite is online and writing poetry](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/)
 *TechCrunch AI*
 
-Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.
+The first TPU in space is a running a Google DeepMind Gemma 4 model and writing cheesy poetry.
 
-### 🆕 [Building a multiplayer game world with autonomous Fable-class models](https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/)
+### 🆕 [Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’](https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/)
+*TechCrunch AI*
+
+The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.
+
+### 🆕 [Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’](https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai)
+*The Verge AI*
+
+Pope Leo XIV says AI systems should be "disarmed," adding that humans "have the responsibility to guide, change and, when necessary, reject its applications." In Friday's Papal Address, Pope Leo encourages United Nations…
+
+### 🆕 [Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate](https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/)
+*TechCrunch AI*
+
+At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-s…
+
+### 🆕 [DoorDash said it’s only received ‘several hundred’ orders from AI agents](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/)
+*TechCrunch AI*
+
+DoorDash said that it is open to working with third-party agent makers.
+
+### 🆕 [Silicon Valley wants you to invest in miracles](https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles)
+*The Verge AI*
+
+Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, "pose catastrophic…
+
+### 🆕 [Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop](https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview)
+*The Verge AI*
+
+After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stoppi…
+
+### 🆕 [5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026](https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/)
+*TechCrunch AI*
+
+5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.
+
+### 🆕 [Maine’s data center revolt will decide who controls the Senate](https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers)
+*The Verge AI*
+
+Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. "I'm terrified," a man shouted. "AI data centers are destroyi…
+
+### 🆕 [API credits benefit for eligible ChatGPT subscriptions](https://simonwillison.net/2026/Oct/29/api-credits/)
 *Simon Willison (LLMs)*
 
-How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of wha…
-
-### 🆕 [US investigated Chinese spy plot aimed at Nvidia CEO](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/)
-*TechCrunch AI*
-
-A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.
-
-### 🆕 [Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction](https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/)
-*TechCrunch AI*
-
-Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the Un…
-
-### 🆕 [Microsoft’s AI future has fewer jobs](https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad)
-*The Verge AI*
-
-To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's wo…
-
-### 🆕 [The NYT Cooking app is testing AI recipe modifications](https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool)
-*The Verge AI*
-
-The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature,…
-
-### 🆕 [Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/)
-*TechCrunch AI*
-
-On Thursday, AI app Wabi, now describing itself as a "personal agent," said it has raised $55 million at a $1.25 billion valuation.
-
-### 🆕 [Quoting Ben Hylak](https://simonwillison.net/2026/Oct/29/ben-hylak/)
-*Simon Willison (LLMs)*
-
-every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us ver…
-
-### 🆕 [Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)
-*TechCrunch AI*
-
-Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.
-
-### 🆕 [Anthropic is asking Wall Street to believe in AGI](https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview)
-*The Verge AI*
-
-Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthrop…
-
-### 🆕 [Granite Switch 4.1.1 — Update models like you update software](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1)
-*Hugging Face Blog*
-
-### 🆕 [Anthropic’s business plan: Build God or die trying](https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive)
-*The Verge AI*
-
-The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build…
-
-### 🆕 [AI has come for Arizona’s water](https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc)
-*The Verge AI*
-
-A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The…
-
-### 🆕 [Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready](https://huggingface.co/blog/announcing-project-protostar)
-*Hugging Face Blog*
-
-### 🆕 [Welcome Le Chonk: Mistral Large 4 on Hugging Face](https://huggingface.co/blog/mistral-large4)
-*Hugging Face Blog*
-
-### 🆕 [Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms](https://huggingface.co/blog/anydecisionmodel)
-*Hugging Face Blog*
-
-### 🆕 [Quoting Ted Sanders](https://simonwillison.net/2026/Oct/28/ted-sanders/)
-*Simon Willison (LLMs)*
-
-In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the varia…
+API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivale…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Mastercard Backs Tokenized Card Payments for Agentic Commerce](https://www.pymnts.com/earnings/2026/mastercard-backs-tokenized-card-payments-agentic-commerce/)
+### 🆕 [Florida Takes Unlikely Lead Role in State Push to Regulate AI](https://www.pymnts.com/news/artificial-intelligence/2026/florida-takes-unlikely-lead-role-in-state-push-to-regulate-ai/)
 *PYMNTS*
 
-Mastercard wants artificial intelligence shopping agents to use tokenized versions of consumers’ chosen cards, preserving the payment preferences, rewards and controls attached to those accounts. During Mastercard’s thir…
+Florida is emerging as an aggressive regulator of artificial intelligence (AI) and major technology platforms, using litigation, child protection requirements and proposed safeguards to challenge the federal government’s…
 
-### 🆕 [Walmart and Home Depot Set the Rules for AI Shoppers](https://www.pymnts.com/commerce/ecommerce/2026/walmart-and-home-depot-set-the-rules-for-ai-shoppers/)
+### 🆕 [Deutsche Bank Warns AI Stock Selloff Threatens Dollar Safe-Haven Status](https://www.pymnts.com/economy/2026/deutsche-bank-warns-ai-stock-selloff-threatens-dollar-safe-haven-status/)
 *PYMNTS*
 
-An artificial intelligence (AI) agent can now put groceries in a cart and pay for them, and the retailer on the other end decides whether the agent gets in, what it can see and who pays when the order is wrong. Walmart i…
+The current artificial intelligence (AI)-driven market correction could impact the dollar’s status as a haven asset, Deutsche Bank’s global head of FX strategy, George Saravelos, said in a Friday (Oct. 30) note to client…
 
-### 🆕 [UBS Employees Run 12,700 AI Agents as Bank Automation Accelerates](https://www.pymnts.com/news/banking/2026/ubs-employees-run-12700-ai-agents-as-bank-automation-accelerates/)
+### 🆕 [New York Bill Would Raise AI Safety Regulations](https://www.pymnts.com/news/artificial-intelligence/2026/new-york-bill-would-raise-ai-safety-regulations/)
 *PYMNTS*
 
-UBS employees are using more than 12,700 personal artificial intelligence agents in their daily activities, the bank said in a press release outlining its third quarter results. These AI tools include ones used for softw…
+One year after passing the landmark RAISE Act, a pair of New York lawmakers want the state to double down. State Sen. Andrew Gounardes of Brooklyn and Assemblymember Jordan Wright of Harlem introduced a bill on Thursday…
 
-### 🆕 [CFTC’s Selig Sees Role for Compute Futures, Rules for AI Trading Agents](https://www.pymnts.com/news/artificial-intelligence/2026/cftcs-selig-sees-role-for-compute-futures-rules-for-ai-trading-agents/)
+### 🆕 [Unilever and Nestlé Put AI to Work Between Orders and Payments](https://www.pymnts.com/news/b2b-payments/2026/unilever-and-nestle-put-ai-to-work-between-orders-and-payments/)
 *PYMNTS*
 
-Commodity Futures Trading Commission (CFTC) Chairman Michael Selig outlined a potential role for derivatives markets in financing the artificial intelligence (AI) economy, arguing that businesses will need tools to hedge…
+Artificial intelligence agents are processing purchase orders and preparing collections work as businesses automate more of the steps between a B2B sale and payment. PYMNTS Intelligence research with JPMorgan finds surve…
 
 **Also relevant from today's threat feeds:**
 
-- [CVE-2026-41709 — Broadcom VMWare ESX Insufficient Logging Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-41709) — *CISA KEV*
+- [CVE-2026-118527 — Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-118527) — *CISA KEV*
+- [CVE-2026-111357 — Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-111357) — *CISA KEV*
+- [CVE-2026-76418 — Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-76418) — *CISA KEV*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready](https://huggingface.co/blog/announcing-project-protostar) — *Hugging Face Blog*
+- [Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms](https://huggingface.co/blog/anydecisionmodel) — *Hugging Face Blog*
+- [Granite Switch 4.1.1 — Update models like you update software](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1) — *Hugging Face Blog*
+- [Welcome Le Chonk: Mistral Large 4 on Hugging Face](https://huggingface.co/blog/mistral-large4) — *Hugging Face Blog*
+- [Quoting Ted Sanders](https://simonwillison.net/2026/Oct/28/ted-sanders/) — *Simon Willison (LLMs)*
+- [Quoting Ben Hylak](https://simonwillison.net/2026/Oct/29/ben-hylak/) — *Simon Willison (LLMs)*
+- [Building a multiplayer game world with autonomous Fable-class models](https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/) — *Simon Willison (LLMs)*
+- [Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction](https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/) — *TechCrunch AI*
+- [Granola crunches up a dictation feature to compete with Wispr](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/) — *TechCrunch AI*
+- [Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/) — *TechCrunch AI*
+- [US investigated Chinese spy plot aimed at Nvidia CEO](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/) — *TechCrunch AI*
+- [Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/) — *TechCrunch AI*
+- [Webinar: How to Build AI Threat Readiness Into Your Security Operations](https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html) — *The Hacker News*
+- [Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners](https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html) — *The Hacker News*
+- [Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities](https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html) — *The Hacker News*
+- [Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions](https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html) — *The Hacker News*
+- [Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls](https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html) — *The Hacker News*
+- [Microsoft fixes Remote Desktop failures caused by recent Windows updates](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/) — *BleepingComputer*
+- [Windows 11 KB5127936 update released with 41 changes and fixes](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/) — *BleepingComputer*
+- [3 Ways AI Agents Already Operate in Your Browser](https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/) — *BleepingComputer*
+- [Chrome extensions with 13.4 million installs caught hijacking searches](https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/) — *BleepingComputer*
+- [CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks](https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/) — *BleepingComputer*
+- [Siemens Mendix SAML Module](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01) — *CISA Advisories*
+- [Hitachi Energy TRO600 series products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02) — *CISA Advisories*
+- [Hitachi Energy CoreTec Product](https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03) — *CISA Advisories*
+- [GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub](https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github) — *Dark Reading*
+- [Threat Modeling With 4 Simple Questions on a White Board](https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions) — *Dark Reading*
+- [Cyber Vulnerabilities Besiege Italy, Absent Clear Cause](https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy) — *Dark Reading*
+- [Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes](https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes) — *Dark Reading*
+- [Walmart and Home Depot Set the Rules for AI Shoppers](https://www.pymnts.com/commerce/ecommerce/2026/walmart-and-home-depot-set-the-rules-for-ai-shoppers/) — *PYMNTS*
+- [Mastercard Backs Tokenized Card Payments for Agentic Commerce](https://www.pymnts.com/earnings/2026/mastercard-backs-tokenized-card-payments-agentic-commerce/) — *PYMNTS*
+- [CFTC’s Selig Sees Role for Compute Futures, Rules for AI Trading Agents](https://www.pymnts.com/news/artificial-intelligence/2026/cftcs-selig-sees-role-for-compute-futures-rules-for-ai-trading-agents/) — *PYMNTS*
+- [UBS Employees Run 12,700 AI Agents as Bank Automation Accelerates](https://www.pymnts.com/news/banking/2026/ubs-employees-run-12700-ai-agents-as-bank-automation-accelerates/) — *PYMNTS*
+- [Anthropic’s business plan: Build God or die trying](https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive) — *The Verge AI*
+- [The NYT Cooking app is testing AI recipe modifications](https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool) — *The Verge AI*
+- [AI has come for Arizona’s water](https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc) — *The Verge AI*
+- [Anthropic is asking Wall Street to believe in AGI](https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview) — *The Verge AI*
+- [Microsoft’s AI future has fewer jobs](https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad) — *The Verge AI*
+- [The Rise of Agentic Attacks: What They Look Like, and Where They're Headed](https://www.wiz.io/blog/the-rise-of-agentic-attacks) — *Wiz Security Blog*
 - [NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt](https://huggingface.co/blog/nvidia/nemotron-transcribe-granary) — *Hugging Face Blog*
 - [Game Boy Color on My Conference Badge](https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/) — *Simon Willison (LLMs)*
 - [GitHub Octoverse 2026](https://simonwillison.net/2026/Oct/28/github-octoverse-2026/) — *Simon Willison (LLMs)*
