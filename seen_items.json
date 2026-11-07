@@ -1415,6 +1415,12 @@
   "source": "TechCrunch AI",
   "title": "OpenAI released a new cybersecurity model. Is that enough?"
  },
+ "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "TechCrunch AI",
+  "title": "Crusoe sells troubled Wyoming data center project to Google"
+ },
  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/": {
   "category": "ai",
   "seen": "2026-11-06T18:50:00.575955+00:00",
@@ -1426,6 +1432,12 @@
   "seen": "2026-11-06T18:50:00.575955+00:00",
   "source": "TechCrunch AI",
   "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent"
+ },
+ "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "TechCrunch AI",
+  "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation"
  },
  "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/": {
   "category": "ai",
@@ -2147,6 +2159,12 @@
   "source": "The Hacker News",
   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
  },
+ "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Hacker News",
+  "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub"
+ },
  "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html": {
   "category": "security",
   "seen": "2026-11-02T21:21:05.308594+00:00",
@@ -2573,6 +2591,12 @@
   "source": "BleepingComputer",
   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
  },
+ "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "BleepingComputer",
+  "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands"
+ },
  "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/": {
   "category": "security",
   "seen": "2026-10-10T16:54:02.569016+00:00",
@@ -2765,6 +2789,12 @@
   "source": "BleepingComputer",
   "title": "CISA says max severity GitLab flaw now exploited in the wild"
  },
+ "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "BleepingComputer",
+  "title": "Hackers pull off $133 million French bank heist via service provider"
+ },
  "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/": {
   "category": "security",
   "seen": "2026-10-14T16:26:22.725111+00:00",
@@ -2897,6 +2927,12 @@
   "source": "BleepingComputer",
   "title": "OpenAI\u2019s GPT-6 Astra silently obstructed safety research tasks"
  },
+ "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "BleepingComputer",
+  "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs"
+ },
  "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/": {
   "category": "security",
   "seen": "2026-10-19T18:16:53.438772+00:00",
@@ -2962,6 +2998,18 @@
   "seen": "2026-10-31T16:45:32.344468+00:00",
   "source": "BleepingComputer",
   "title": "Reddit to lock content behind logins to fight scrapers"
+ },
+ "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "BleepingComputer",
+  "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox"
+ },
+ "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "BleepingComputer",
+  "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks"
  },
  "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/": {
   "category": "security",
@@ -3605,6 +3653,12 @@
   "source": "Dark Reading",
   "title": "UAE Transitions 50% of Gov't Services to Agentic AI"
  },
+ "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy": {
+  "category": "security",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "Dark Reading",
+  "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes"
+ },
  "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk": {
   "category": "security",
   "seen": "2026-11-06T18:50:00.575955+00:00",
@@ -4019,6 +4073,12 @@
   "source": "PYMNTS",
   "title": "Big Banks Won\u2019t Let Outside AI Agents Move Money"
  },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/bmo-turns-to-agentic-ai-to-resolve-card-issues/": {
+  "category": "financial",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "PYMNTS",
+  "title": "BMO Turns to Agentic AI to Resolve Card Issues"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/california-puts-15-minute-clock-ai-customer-service-handoffs/": {
   "category": "financial",
   "seen": "2026-10-28T17:51:02.325861+00:00",
@@ -4187,11 +4247,23 @@
   "source": "PYMNTS",
   "title": "Samsung Warns AI Memory Shortage Will Worsen Through 2027"
  },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/sysco-counts-ai-routing-bidding-500-million-dollars-savings/": {
+  "category": "financial",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "PYMNTS",
+  "title": "Sysco Counts on AI Routing and Bidding for $500 Million in Savings"
+ },
  "https://www.pymnts.com/news/artificial-intelligence/2026/taco-bell-says-ai-helps-workers-live-mas-quit-less/": {
   "category": "financial",
   "seen": "2026-10-17T14:53:32.014047+00:00",
   "source": "PYMNTS",
   "title": "Taco Bell Says AI Helps Workers Live M\u00e1s, Quit Less"
+ },
+ "https://www.pymnts.com/news/artificial-intelligence/2026/tech-giants-ration-premium-ai-as-company-budgets-hold/": {
+  "category": "financial",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "PYMNTS",
+  "title": "Tech Giants Ration Premium AI as Company Budgets Hold"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/the-100-million-cfos-playbook-for-onboarding-ai-agents/": {
   "category": "financial",
@@ -4673,6 +4745,24 @@
   "source": "The Verge AI",
   "title": "AI is the new dating dealbreaker"
  },
+ "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Verge AI",
+  "title": "Why a new report on Anthropic automating AI development is alarming researchers"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Verge AI",
+  "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO"
+ },
+ "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Verge AI",
+  "title": "The US let Nvidia sell chips to an empty office in China"
+ },
  "https://www.theverge.com/column/1017983/google-ai-search-online-publishing": {
   "category": "ai",
   "seen": "2026-10-25T15:29:17.871530+00:00",
@@ -4792,6 +4882,12 @@
   "seen": "2026-11-06T18:50:00.575955+00:00",
   "source": "The Verge AI",
   "title": "Big Tech lost big in the 2026 election"
+ },
+ "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Verge AI",
+  "title": "AI broke the cybersecurity world. What\u2019s next?"
  },
  "https://www.theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding": {
   "category": "ai",
@@ -5093,6 +5189,12 @@
   "source": "The Verge AI",
   "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now"
  },
+ "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review": {
+  "category": "ai",
+  "seen": "2026-11-07T17:22:24.983425+00:00",
+  "source": "The Verge AI",
+  "title": "NYT Cooking\u2019s AI assistant saved my weeknight chicken, but almost ruined my cake"
+ },
  "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps": {
   "category": "ai",
   "seen": "2026-10-21T16:32:41.556418+00:00",
@@ -5284,6 +5386,9 @@
  },
  "kev:CVE-2026-119977": {
   "seen": "2026-11-04T19:17:36.320726+00:00"
+ },
+ "kev:CVE-2026-19868": {
+  "seen": "2026-11-07T17:22:24.983425+00:00"
  },
  "kev:CVE-2026-21589": {
   "seen": "2026-10-16T16:00:32.390027+00:00"
