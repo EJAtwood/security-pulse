@@ -323,6 +323,12 @@
   "source": "Simon Willison (LLMs)",
   "title": "Quoting Nilay Patel"
  },
+ "https://simonwillison.net/2026/Nov/7/link-rel-next/": {
+  "category": "ai",
+  "seen": "2026-11-08T17:33:40.928263+00:00",
+  "source": "Simon Willison (LLMs)",
+  "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages"
+ },
  "https://simonwillison.net/2026/Oct/10/python-actions/": {
   "category": "ai",
   "seen": "2026-10-11T17:16:26.516938+00:00",
@@ -569,18 +575,6 @@
   "source": "Simon Willison (LLMs)",
   "title": "How We Took Over ChatGPT Accounts"
  },
- "https://simonwillison.net/2026/Oct/7/ben-affleck/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Simon Willison (LLMs)",
-  "title": "Quoting Ben Affleck"
- },
- "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Simon Willison (LLMs)",
-  "title": "Claude Haiku 5.5"
- },
  "https://simonwillison.net/2026/Oct/8/carson-gross/": {
   "category": "ai",
   "seen": "2026-10-09T17:55:17.368134+00:00",
@@ -616,36 +610,6 @@
   "seen": "2026-10-09T17:55:17.368134+00:00",
   "source": "Simon Willison (LLMs)",
   "title": "ttok 1.0"
- },
- "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "TechCrunch AI",
-  "title": "Anthropic changes usage policy to ban model abuse and election interference"
- },
- "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "TechCrunch AI",
-  "title": "Ben Affleck is an AI nerd, and the internet is impressed"
- },
- "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "TechCrunch AI",
-  "title": "Google brings agentic AI to Gemini, starting with businesses"
- },
- "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "TechCrunch AI",
-  "title": "OpenAI\u2019s revenue is reportedly $20 billion less than previously projected"
- },
- "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "TechCrunch AI",
-  "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months"
  },
  "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/": {
   "category": "ai",
@@ -1445,6 +1409,18 @@
   "source": "TechCrunch AI",
   "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO"
  },
+ "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/": {
+  "category": "ai",
+  "seen": "2026-11-08T17:33:40.928263+00:00",
+  "source": "TechCrunch AI",
+  "title": "After the midterms, things are looking rocky for Elon Musk and data centers"
+ },
+ "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/": {
+  "category": "ai",
+  "seen": "2026-11-08T17:33:40.928263+00:00",
+  "source": "TechCrunch AI",
+  "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo"
+ },
  "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/": {
   "category": "ai",
   "seen": "2026-10-09T17:55:17.368134+00:00",
@@ -1493,12 +1469,6 @@
   "source": "The Hacker News",
   "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations"
  },
- "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Hacker News",
-  "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases"
- },
  "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html": {
   "category": "security",
   "seen": "2026-10-31T16:45:32.344468+00:00",
@@ -1534,12 +1504,6 @@
   "seen": "2026-10-27T17:23:58.346461+00:00",
   "source": "The Hacker News",
   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
- },
- "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Hacker News",
-  "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms"
  },
  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html": {
   "category": "security",
@@ -1817,12 +1781,6 @@
   "source": "The Hacker News",
   "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown"
  },
- "https://thehackernews.com/2026/10/japan-sees-sharp-rise-in-web-data-leaks.html": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Hacker News",
-  "title": "Japan Sees Sharp Rise in Web Data Leaks Amid Mobile API Abuse and Metabase Attacks"
- },
  "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html": {
   "category": "security",
   "seen": "2026-10-27T17:23:58.346461+00:00",
@@ -2051,12 +2009,6 @@
   "source": "The Hacker News",
   "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
  },
- "https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Hacker News",
-  "title": "UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML"
- },
  "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html": {
   "category": "security",
   "seen": "2026-10-17T14:53:32.014047+00:00",
@@ -2068,12 +2020,6 @@
   "seen": "2026-10-23T16:23:41.875719+00:00",
   "source": "The Hacker News",
   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches"
- },
- "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Hacker News",
-  "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia"
  },
  "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html": {
   "category": "security",
@@ -2543,12 +2489,6 @@
   "source": "BleepingComputer",
   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks"
  },
- "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "BleepingComputer",
-  "title": "Cisco warns of critical flaws allowing Nexus switch takeover"
- },
  "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/": {
   "category": "security",
   "seen": "2026-10-20T16:17:34.790649+00:00",
@@ -2674,12 +2614,6 @@
   "seen": "2026-11-06T18:50:00.575955+00:00",
   "source": "BleepingComputer",
   "title": "Fake security tools on GitHub push backdoors and infostealers"
- },
- "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "BleepingComputer",
-  "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos"
  },
  "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/": {
   "category": "security",
@@ -2831,6 +2765,12 @@
   "source": "BleepingComputer",
   "title": "Inside the Underground Market for Know Your Client Services"
  },
+ "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/": {
+  "category": "security",
+  "seen": "2026-11-08T17:33:40.928263+00:00",
+  "source": "BleepingComputer",
+  "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers"
+ },
  "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/": {
   "category": "security",
   "seen": "2026-10-15T16:14:15.530102+00:00",
@@ -2867,12 +2807,6 @@
   "source": "BleepingComputer",
   "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks"
  },
- "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "BleepingComputer",
-  "title": "Microsoft Teams to get support for third-party deepfake detection tools"
- },
  "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/": {
   "category": "security",
   "seen": "2026-11-04T19:17:36.320726+00:00",
@@ -2908,12 +2842,6 @@
   "seen": "2026-10-12T20:51:14.378732+00:00",
   "source": "BleepingComputer",
   "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing"
- },
- "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "BleepingComputer",
-  "title": "OAuth grants pile up faster than you can review them. Here's how to keep up."
  },
  "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/": {
   "category": "security",
@@ -3077,12 +3005,6 @@
   "source": "BleepingComputer",
   "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto"
  },
- "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "BleepingComputer",
-  "title": "Uranium crypto exchange hacker convicted for stealing $53 million"
- },
  "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/": {
   "category": "security",
   "seen": "2026-11-06T18:50:00.575955+00:00",
@@ -3136,30 +3058,6 @@
   "seen": "2026-10-21T16:32:41.556418+00:00",
   "source": "CISA Advisories",
   "title": "Critical Vulnerabilities in PHP Require Immediate Patching"
- },
- "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "CISA Advisories",
-  "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data"
- },
- "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "CISA Advisories",
-  "title": "Red Lion Controls N-Tron 700 Series"
- },
- "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-02": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "CISA Advisories",
-  "title": "Grid Protection Alliance openPDC and openHistorian"
- },
- "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-03": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "CISA Advisories",
-  "title": "Satel Netco Design"
  },
  "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02": {
   "category": "security",
@@ -3353,12 +3251,6 @@
   "source": "Dark Reading",
   "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots"
  },
- "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Dark Reading",
-  "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives"
- },
  "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough": {
   "category": "security",
   "seen": "2026-10-23T16:23:41.875719+00:00",
@@ -3515,12 +3407,6 @@
   "source": "Dark Reading",
   "title": "Russian Influence Operation Widely Targeting Latin America"
  },
- "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Dark Reading",
-  "title": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift"
- },
  "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak": {
   "category": "security",
   "seen": "2026-10-23T16:23:41.875719+00:00",
@@ -3592,12 +3478,6 @@
   "seen": "2026-10-24T15:19:42.847516+00:00",
   "source": "Dark Reading",
   "title": "AI Tools Are Generating Massive Attacks for Little Cost"
- },
- "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Dark Reading",
-  "title": "Australian Gov't Weighs Mandatory AI Incident Reporting"
  },
  "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down": {
   "category": "security",
@@ -3676,12 +3556,6 @@
   "seen": "2026-10-15T16:14:15.530102+00:00",
   "source": "Dark Reading",
   "title": "Vulnerability Management Isn't About the Score \u2014 It's About How It Applies to You"
- },
- "https://www.darkreading.com/cybersecurity-operations/writing-next-chapter": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Dark Reading",
-  "title": "Writing the Next Chapter"
  },
  "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack": {
   "category": "security",
@@ -3820,12 +3694,6 @@
   "seen": "2026-10-15T16:14:15.530102+00:00",
   "source": "Dark Reading",
   "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat"
- },
- "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails": {
-  "category": "security",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "Dark Reading",
-  "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails"
  },
  "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience": {
   "category": "security",
@@ -3982,12 +3850,6 @@
   "seen": "2026-10-16T16:00:32.390027+00:00",
   "source": "PYMNTS",
   "title": "Agentic Payments Are About to Break the Meaning of an Authorized Transaction"
- },
- "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/": {
-  "category": "financial",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "PYMNTS",
-  "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/ai-becomes-part-united-kingdom-financial-supervision/": {
   "category": "financial",
@@ -4151,23 +4013,11 @@
   "source": "PYMNTS",
   "title": "Goldman Sachs CEO Says Individuals Must Be Held Accountable for AI Failures"
  },
- "https://www.pymnts.com/news/artificial-intelligence/2026/google-cloud-targets-enterprise-market-with-universal-agent-work/": {
-  "category": "financial",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "PYMNTS",
-  "title": "Google Cloud Targets Enterprise Market With Universal Agent for Work"
- },
  "https://www.pymnts.com/news/artificial-intelligence/2026/google-offers-gemini-agent-to-government-workers/": {
   "category": "financial",
   "seen": "2026-10-20T16:17:34.790649+00:00",
   "source": "PYMNTS",
   "title": "Google Offers Gemini Agent to Government Workers"
- },
- "https://www.pymnts.com/news/artificial-intelligence/2026/mandatory-ai-safety-rules-push-gains-momentum-washington/": {
-  "category": "financial",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "PYMNTS",
-  "title": "Push for Mandatory AI Safety Rules Gains Momentum in Washington"
  },
  "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-debuts-tool-to-help-ai-agents-purchase-digital-services/": {
   "category": "financial",
@@ -4420,18 +4270,6 @@
   "seen": "2026-10-14T16:26:22.725111+00:00",
   "source": "PYMNTS",
   "title": "Square Launches Voice AI-Equipped Kiosk to Tackle QSR Staffing Shortages"
- },
- "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Verge AI",
-  "title": "Anthropic bans \u2018abusive or cruel behavior\u2019 toward Claude"
- },
- "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Verge AI",
-  "title": "USA Today becomes the latest publisher to sue OpenAI"
  },
  "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress": {
   "category": "ai",
@@ -4763,6 +4601,12 @@
   "source": "The Verge AI",
   "title": "The US let Nvidia sell chips to an empty office in China"
  },
+ "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": {
+  "category": "ai",
+  "seen": "2026-11-08T17:33:40.928263+00:00",
+  "source": "The Verge AI",
+  "title": "Elvis and Eminem rights holders are suing Suno"
+ },
  "https://www.theverge.com/column/1017983/google-ai-search-online-publishing": {
   "category": "ai",
   "seen": "2026-10-25T15:29:17.871530+00:00",
@@ -4948,24 +4792,6 @@
   "seen": "2026-11-03T18:59:17.992401+00:00",
   "source": "The Verge AI",
   "title": "Netflix will show you themed recommendations through a new \u2018AI Discover\u2019 tab"
- },
- "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Verge AI",
-  "title": "Google is launching a one-stop Gemini agent for your work tasks"
- },
- "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Verge AI",
-  "title": "Google\u2019s AI note-taking app transcribes your meetings completely offline"
- },
- "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson": {
-  "category": "ai",
-  "seen": "2026-10-08T18:22:14.340567+00:00",
-  "source": "The Verge AI",
-  "title": "SpaceXAI backs Omarchy, the controversial Linux distro, with $1.5 million in compute"
  },
  "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots": {
   "category": "ai",
@@ -5320,21 +5146,6 @@
   "seen": "2026-10-21T16:32:41.556418+00:00",
   "source": "Wiz Security Blog",
   "title": "Wiz Sensor on GKE. 1-Click Runtime Protection, Now Native."
- },
- "kev:CVE-2015-3306": {
-  "seen": "2026-10-08T18:22:14.340567+00:00"
- },
- "kev:CVE-2015-5477": {
-  "seen": "2026-10-08T18:22:14.340567+00:00"
- },
- "kev:CVE-2016-3081": {
-  "seen": "2026-10-08T18:22:14.340567+00:00"
- },
- "kev:CVE-2021-3199": {
-  "seen": "2026-10-08T18:22:14.340567+00:00"
- },
- "kev:CVE-2023-22894": {
-  "seen": "2026-10-08T18:22:14.340567+00:00"
  },
  "kev:CVE-2024-27834": {
   "seen": "2026-11-05T19:26:45.771011+00:00"
