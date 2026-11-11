@@ -1,195 +1,258 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-11-10 19:15 UTC
+**Generated:** 2026-11-11 19:12 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
+## 🔴 Known Exploited Vulnerabilities (CISA KEV)
+
+### 🆕 [CVE-2026-124194](https://nvd.nist.gov/vuln/detail/CVE-2026-124194) — Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability
+*Microsoft Office · Added 2026-11-10*
+
+Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.
+
+### 🆕 [CVE-2026-111793](https://nvd.nist.gov/vuln/detail/CVE-2026-111793) — Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability
+*Openwave Messaging Limited Webtop Media Transcoder · Added 2026-11-10*
+
+Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experien…
+
+### 🆕 🏦 [CVE-2026-20320](https://nvd.nist.gov/vuln/detail/CVE-2026-20320) — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability
+*Cisco BroadWorks · Added 2026-11-10*
+
+Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.
+
+### 🆕 [CVE-2026-111560](https://nvd.nist.gov/vuln/detail/CVE-2026-111560) — Barracuda Networks Multiple Products OS Command Injection Vulnerability
+*Barracuda Networks Multiple Products · Added 2026-11-10*
+
+Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command in…
+
+### 🆕 [CVE-2026-116606](https://nvd.nist.gov/vuln/detail/CVE-2026-116606) — Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability
+*Barracuda Networks Barracuda Email Security Gateway (ESG) · Added 2026-11-10*
+
+Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compat…
+
+### 🆕 [CVE-2026-125350](https://nvd.nist.gov/vuln/detail/CVE-2026-125350) — Google Chromium Use-After-Free Vulnerability
+*Google Chromium · Added 2026-11-10*
+
+Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web brows…
+
+---
+
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day](https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/)
+### 🆕 [Maersk confirms data breach as WhiteArmor ransomware demands $5 million](https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/)
 *BleepingComputer*
 
-Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]
+Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]
 
-### 🆕 [AI Coding Agents Leak Thousands of Secrets to GitHub](https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github)
+### 🆕 [Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation](https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html)
+*The Hacker News*
+
+Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are liste…
+
+### 🆕 [AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html)
+*The Hacker News*
+
+Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally int…
+
+### 🆕 [Hackers use AntiFox AI agents in AWS credential-theft attacks](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/)
+*BleepingComputer*
+
+Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]
+
+### 🆕 [eBPF Rootkits: Why Underground Actors Are Taking Notice](https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/)
+*BleepingComputer*
+
+Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are…
+
+### 🆕 [Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits](https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html)
+*The Hacker News*
+
+Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identifi…
+
+### 🆕 [N-able releases security hotfixes for zero-day vulnerabilities](https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/)
+*BleepingComputer*
+
+N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environmen…
+
+### 🆕 [Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords](https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html)
+*The Hacker News*
+
+Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at S…
+
+### 🆕 [We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.](https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html)
+*The Hacker News*
+
+We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. T…
+
+### 🆕 [Microsoft fixes audio issues caused by September security updates](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/)
+*BleepingComputer*
+
+Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]
+
+### 🆕 [November Patch Tuesday: An Overflowing Cornucopia of CVEs](https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves)
 *Dark Reading*
 
-A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations.
+Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.
 
-### 🆕 [Windows 11 KB5132061 & KB5131087 cumulative updates released](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/)
-*BleepingComputer*
-
-Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]
-
-### 🆕 [Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers](https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/)
-*BleepingComputer*
-
-A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]
-
-### 🆕 [How to Evaluate AI Agent Cybersecurity Capabilities](https://www.wiz.io/blog/cyber-model-arena-ai-benchmark)
-*Wiz Security Blog*
-
-A tutorial for building a benchmark for offensive agents, based on how we built the Wiz Cyber Model Arena
-
-### 🆕 [Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor](https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves the…
-
-### 🆕 [Binance warns of iOS flaw that could leak crypto wallet secrets](https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/)
-*BleepingComputer*
-
-Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login…
-
-### 🆕 [Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America](https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html)
-*The Hacker News*
-
-The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that sha…
-
-### 🆕 [Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights](https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html)
-*The Hacker News*
-
-Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, dataset…
-
-### 🆕 [Ransomware recovery is now a client retention metric](https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/)
-*BleepingComputer*
-
-Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these…
-
-### 🆕 [Wiz and ISMAP: Building the Foundation for Japan's Public Sector](https://www.wiz.io/blog/wiz-and-ismap-for-japan-public-sector)
-*Wiz Security Blog*
-
-A transparent look at our gap assessment, our ISO alignment, and our plan to earn a spot on Japan's government cloud service list
-
-### 🆕 [AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier](https://www.darkreading.com/application-security/ai-reverse-engineering-apps)
+### 🆕 [Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon](https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon)
 *Dark Reading*
 
-Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.
+Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.
 
-### 🆕 [Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed](https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html)
-*The Hacker News*
+### 🆕 [F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them](https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them)
+*Dark Reading*
 
-An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance wa…
+New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.
 
-### 🆕 [Beyond the Alert: The Case for Rich Network Data](https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html)
-*The Hacker News*
+### 🆕 [Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer](https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer)
+*Dark Reading*
 
-At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prev…
+Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.
+
+### 🆕 [How to Assess OT Incident Response Preparedness](https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness)
+*Dark Reading*
+
+Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [PSI is trying to make a business out of AI-driven scientific discovery](https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/)
-*TechCrunch AI*
-
-PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.
-
-### 🆕 [OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/)
-*TechCrunch AI*
-
-OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.
-
-### 🆕 [ChatGPT is getting verified AI ‘Business Agents’](https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub)
-*The Verge AI*
-
-ChatGPT is going to let you chat with verified "Business Agents" that represent a brand to help you with things like comparison shopping. The feature, available first to "eligible" e-commerce and online service businesse…
-
-### 🆕 [The indie game community is in disarray over AI and Big Walk](https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai)
-*The Verge AI*
-
-Some Independent Games Festival (IGF) jurors published a statement yesterday saying they would not vote for games that use generative AI in "any capacity." Soon after, the developer of indie hit Big Walk has published a…
-
-### 🆕 [Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)
-*TechCrunch AI*
-
-As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figur…
-
-### 🆕 [Anthropic has its own AI-powered office suite now](https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now)
-*The Verge AI*
-
-For years, Anthropic has been known for its focus on enterprise and coding tools that attract high-flying corporate clients, inspiring competing frontier labs - like OpenAI, SpaceXSI, and Meta - to copy its strategies. E…
-
-### 🆕 [Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline](https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
-*TechCrunch AI*
-
-The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.
-
-### 🆕 [eBay appears to have shut the door on third-party AI agents](https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping)
-*The Verge AI*
-
-eBay appears to have blocked AI agents, including Meta's Muse, from browsing on the platform - the latest speed bump in the AI agent race. A reader tells The Verge that for several weeks he's had his Muse agent browse an…
-
-### 🆕 [Google releases Gemini 4 Carbon with agent ‘swarm’ feature](https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout)
-*The Verge AI*
-
-Google is rolling out its latest AI model, Gemini 4 Carbon, to the general public after releasing it to a select group of "cybersecurity defenders" two weeks ago. Google claims Carbon is its "strongest model" yet, and ca…
-
-### 🆕 [Google broadens its AI hardware portfolio with two new specialized chips](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/)
-*TechCrunch AI*
-
-Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.
-
-### 🆕 [Introducing Our Smallest, Most Efficient Model: Muse Ember](https://simonwillison.net/2026/Nov/10/muse-ember/)
+### 🆕 [Browse tools.simonwillison.net by tag](https://simonwillison.net/2026/Nov/11/tools-tags/)
 *Simon Willison (LLMs)*
 
-Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed…
+Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it…
 
-### 🆕 [Quoting Prompting Claude Fable 5.2](https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/)
+### 🆕 [llm 0.37.2](https://simonwillison.net/2026/Nov/11/llm/)
 *Simon Willison (LLMs)*
 
-Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someon…
+Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w. LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endp…
 
-### 🆕 [Yonkers Rises](https://simonwillison.net/2026/Nov/10/yonkers-rises/)
+### 🆕 [Is Jensen Huang’s bad behavior more commonplace than it seems?](https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/)
+*TechCrunch AI*
+
+“There are a lot of senior people in the industry that know this is happening, and are effectively condoning it,” an investment intel consultant said.
+
+### 🆕 [OpenAI’s quarterly revenue reportedly crosses $10B for the first time](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/)
+*TechCrunch AI*
+
+Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.
+
+### 🆕 [Google’s Tabletop AI experiment lets you build custom collaboration apps](https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability)
+*The Verge AI*
+
+Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with wor…
+
+### 🆕 [Anthropic's IPO roadshow video](https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/)
 *Simon Willison (LLMs)*
 
-Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skil…
+Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on "Approach to compute" w…
 
-### 🆕 [Pay for Hugging Face Hub with your Google Cloud Account](https://huggingface.co/blog/hub-gcp-marketplace)
+### 🆕 [Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/)
+*TechCrunch AI*
+
+With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' new…
+
+### 🆕 [Google’s AlphaGenome 2 zooms in on the cellular roots of disease](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model)
+*The Verge AI*
+
+Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem that could hold imp…
+
+### 🆕 [Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads](https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/)
+*TechCrunch AI*
+
+Like the end-to-end models trained to drive cars, AI agents are probabilistic systems operating in unpredictable environments.
+
+### 🆕 [Adobe’s AI experiments let you walk around in photos and interview your characters](https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai)
+*The Verge AI*
+
+Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing, and the latest of those tools are being announced today: they can transform image…
+
+### 🆕 [Nvidia’s crisis has corporate governance experts reaching for the popcorn](https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/)
+*TechCrunch AI*
+
+The governance experts we talked to say nobody has seen anything like what's unfolding right now.
+
+### 🆕 [BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model](https://huggingface.co/blog/qvac/botpsy)
 *Hugging Face Blog*
 
-### 🆕 [Decision Models in Hugging Face](https://huggingface.co/blog/decision)
+### 🆕 [Token Pooling-Aware Training for Multi-Vector Embedding Models](https://huggingface.co/blog/token-pooling)
 *Hugging Face Blog*
 
-### 🆕 [llm-anthropic 0.31](https://simonwillison.net/2026/Nov/9/llm-anthropic/)
+### 🆕 [llm-gemini 0.36](https://simonwillison.net/2026/Nov/10/llm-gemini/)
 *Simon Willison (LLMs)*
 
-Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis. Anthropic say it "solved two open problems in the physics of black holes", so cle…
+Release: llm-gemini 0.36 Gemini 4 Carbon was announced two weeks ago for "a subset of cyber defenders", but today it's available to everyone else. This is Google's best ever Gemini, priced at $2/million input and $10/mil…
 
-### 🆕 [Locating the source of a mysterious beep with Claude](https://simonwillison.net/2026/Nov/9/mysterious-beeps/)
-*Simon Willison (LLMs)*
+### 🆕 [The US is winning the AI race. Jensen Huang could have blown it](https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy)
+*The Verge AI*
 
-Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the…
+As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy wi…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Lame Duck Congress Faces Deadline on Cybersecurity and AI Safety Bills](https://www.pymnts.com/legal/2026/lame-duck-congress-faces-deadline-on-cybersecurity-and-ai-safety-bills/)
+### 🆕 [ByteDance Builds Assistant to Take on US AI Labs](https://www.pymnts.com/news/artificial-intelligence/2026/bytedance-builds-assistant-rival-united-states-ai-labs/)
 *PYMNTS*
 
-The U.S. Congress returns this week with expiring cybersecurity authorities and unfinished artificial intelligence (AI) safety bills competing for a shrinking legislative window, after last week’s midterm elections resha…
+ByteDance is developing an artificial intelligence agent similar to Meta’s Muse, Bloomberg reported Wednesday (Nov. 11). The effort by the Chinese tech giant could close the gap with AI labs in the United States in the c…
 
-### 🆕 [Fiserv’s Clover Adds AI Tools to Help Small Businesses Reach eCommerce Shoppers](https://www.pymnts.com/smbs/2026/fiservs-clover-adds-ai-tools-to-help-small-businesses-reach-ecommerce-shoppers/)
+### 🆕 [VerticalScope Turns 2 Billion Forum Posts Into AI Shopping Revenue](https://www.pymnts.com/news/artificial-intelligence/2026/verticalscope-turns-2-billion-forum-posts-into-ai-shopping-revenue/)
 *PYMNTS*
 
-Fiserv is bringing artificial intelligence (AI)-powered eCommerce capabilities to Clover, giving small businesses a faster way to establish an online presence and compete for customers increasingly using AI tools to disc…
+VerticalScope is using artificial intelligence (AI) to turn conversations across more than 1,200 online communities into shopping revenue, as declining search traffic puts pressure on its traditional advertising business…
 
-### 🆕 [Google Debuts Gemini AI Agent for Healthcare Operations](https://www.pymnts.com/news/artificial-intelligence/2026/google-debuts-gemini-ai-agent-healthcare-operations/)
+### 🆕 [OCC Gives Bank Examiners a New Playbook for Reviewing AI](https://www.pymnts.com/news/artificial-intelligence/2026/occ-gives-bank-examiners-new-playbook-reviewing-ai/)
 *PYMNTS*
 
-Google Cloud introduced an agentic artificial intelligence solution designed for healthcare operations, according to a Tuesday (Nov. 10) press release. Gemini for healthcare is designed to “unify the disparate clinical,…
+Banks are handing more work to artificial intelligence. Some AI tools now handle business activities like credit decisioning, customer service and fraud detection. That raises a simple question: Who makes sure these syst…
 
-### 🆕 [EU Draft Law Links AI Shopping Agents’ Autonomy to Commercial Incentives](https://www.pymnts.com/news/artificial-intelligence/2026/eu-draft-law-links-ai-shopping-agents-autonomy-to-commercial-incentives/)
-*PYMNTS*
+**Also relevant from today's threat feeds:**
 
-A leaked draft of the European Union’s Digital Fairness Act could make an artificial intelligence (AI) shopping agent’s commercial incentives determine how autonomously it is permitted to act. As written, the proposed la…
+- [CVE-2026-20320 — Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-20320) — *CISA KEV*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Decision Models in Hugging Face](https://huggingface.co/blog/decision) — *Hugging Face Blog*
+- [Pay for Hugging Face Hub with your Google Cloud Account](https://huggingface.co/blog/hub-gcp-marketplace) — *Hugging Face Blog*
+- [Introducing Our Smallest, Most Efficient Model: Muse Ember](https://simonwillison.net/2026/Nov/10/muse-ember/) — *Simon Willison (LLMs)*
+- [Quoting Prompting Claude Fable 5.2](https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/) — *Simon Willison (LLMs)*
+- [Yonkers Rises](https://simonwillison.net/2026/Nov/10/yonkers-rises/) — *Simon Willison (LLMs)*
+- [llm-anthropic 0.31](https://simonwillison.net/2026/Nov/9/llm-anthropic/) — *Simon Willison (LLMs)*
+- [Locating the source of a mysterious beep with Claude](https://simonwillison.net/2026/Nov/9/mysterious-beeps/) — *Simon Willison (LLMs)*
+- [Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/) — *TechCrunch AI*
+- [Google broadens its AI hardware portfolio with two new specialized chips](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/) — *TechCrunch AI*
+- [Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline](https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/) — *TechCrunch AI*
+- [OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/) — *TechCrunch AI*
+- [PSI is trying to make a business out of AI-driven scientific discovery](https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/) — *TechCrunch AI*
+- [Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor](https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html) — *The Hacker News*
+- [Beyond the Alert: The Case for Rich Network Data](https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html) — *The Hacker News*
+- [Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed](https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html) — *The Hacker News*
+- [Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America](https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html) — *The Hacker News*
+- [Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights](https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html) — *The Hacker News*
+- [Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day](https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/) — *BleepingComputer*
+- [Windows 11 KB5132061 & KB5131087 cumulative updates released](https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/) — *BleepingComputer*
+- [Binance warns of iOS flaw that could leak crypto wallet secrets](https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/) — *BleepingComputer*
+- [Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers](https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/) — *BleepingComputer*
+- [Ransomware recovery is now a client retention metric](https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/) — *BleepingComputer*
+- [AI Makes Reverse Engineering Mainstream Software &amp; Malware Far Easier](https://www.darkreading.com/application-security/ai-reverse-engineering-apps) — *Dark Reading*
+- [AI Coding Agents Leak Thousands of Secrets to GitHub](https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github) — *Dark Reading*
+- [Lame Duck Congress Faces Deadline on Cybersecurity and AI Safety Bills](https://www.pymnts.com/legal/2026/lame-duck-congress-faces-deadline-on-cybersecurity-and-ai-safety-bills/) — *PYMNTS*
+- [EU Draft Law Links AI Shopping Agents’ Autonomy to Commercial Incentives](https://www.pymnts.com/news/artificial-intelligence/2026/eu-draft-law-links-ai-shopping-agents-autonomy-to-commercial-incentives/) — *PYMNTS*
+- [Google Debuts Gemini AI Agent for Healthcare Operations](https://www.pymnts.com/news/artificial-intelligence/2026/google-debuts-gemini-ai-agent-healthcare-operations/) — *PYMNTS*
+- [Fiserv’s Clover Adds AI Tools to Help Small Businesses Reach eCommerce Shoppers](https://www.pymnts.com/smbs/2026/fiservs-clover-adds-ai-tools-to-help-small-businesses-reach-ecommerce-shoppers/) — *PYMNTS*
+- [ChatGPT is getting verified AI ‘Business Agents’](https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub) — *The Verge AI*
+- [Anthropic has its own AI-powered office suite now](https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now) — *The Verge AI*
+- [Google releases Gemini 4 Carbon with agent ‘swarm’ feature](https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout) — *The Verge AI*
+- [The indie game community is in disarray over AI and Big Walk](https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai) — *The Verge AI*
+- [eBay appears to have shut the door on third-party AI agents](https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping) — *The Verge AI*
+- [How to Evaluate AI Agent Cybersecurity Capabilities](https://www.wiz.io/blog/cyber-model-arena-ai-benchmark) — *Wiz Security Blog*
+- [Wiz and ISMAP: Building the Foundation for Japan's Public Sector](https://www.wiz.io/blog/wiz-and-ismap-for-japan-public-sector) — *Wiz Security Blog*
 - [Your Experts Have Partners. There's HOPE for Keeping Them Together](https://huggingface.co/blog/amazon/higher-order-pruning-experts) — *Hugging Face Blog*
 - [Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan) — *Hugging Face Blog*
 - [parse_number() as a SQLite extension: C vs Rust](https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/) — *Simon Willison (LLMs)*
