@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-11-14 17:37 UTC
+**Generated:** 2026-11-15 18:26 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,113 +7,73 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Cursor confirms security breach led to malicious Claude Code extension](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/)
+### 🆕 [TSMC employee data breach linked to cloud provider](https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/)
 *BleepingComputer*
 
-Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]
+Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]
 
-### 🆕 [US disrupts North Korean campaign behind $400 million crypto theft](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/)
-*BleepingComputer*
-
-The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]
-
-### 🆕 [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html)
+### 🆕 [Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html)
 *The Hacker News*
 
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities…
+Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that…
 
-### 🆕 [ArcticRAT Cybercrime Gang Profiles Victim Finances With AI](https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai)
-*Dark Reading*
+### 🆕 [Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html)
+*The Hacker News*
 
-The Android malware has expanded from focusing on crypto theft to full device control, and the attackers have added advanced analysis of stolen information.
-
-### 🆕 [Trezor confirms crypto-stealing implants in three wallets, releases fix](https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/)
-*BleepingComputer*
-
-Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send th…
+The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. "An attacker ob…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
+### 🆕 [An overview of Jensen Huang’s messy days](https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation)
+*The Verge AI*
+
+This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepba…
+
+### 🆕 [Where was Nvidia’s security team?](https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/)
 *TechCrunch AI*
 
-From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at the AI projects that shut down or missed expectations.
+Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intellig…
 
-### 🆕 [Asian governments react to Nvidia CEO Jensen Huang’s exit](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/)
-*TechCrunch AI*
-
-Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.
-
-### 🆕 [The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview)
-*The Verge AI*
-
-Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known fi…
-
-### 🆕 [Jensen Huang and the decline of the visionary showman founder CEO](https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo)
-*The Verge AI*
-
-On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers a…
-
-### 🆕 [Amazon has a plan to index the world’s online shopping data](https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search)
-*The Verge AI*
-
-Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, cal…
-
-### 🆕 [datasette-cluster-map 0.19](https://simonwillison.net/2026/Nov/13/datasette-cluster-map/)
+### 🆕 [datasette-llm 0.1a11](https://simonwillison.net/2026/Nov/14/datasette-llm/)
 *Simon Willison (LLMs)*
 
-Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are reque…
+Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you…
 
-### 🆕 [Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/)
+### 🆕 [Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/)
 *TechCrunch AI*
 
-Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.
+The petition had attracted more than 115,000 signatures as of Saturday afternoon.
 
-### 🆕 [datasette-leaflet 0.3](https://simonwillison.net/2026/Nov/13/datasette-leaflet/)
+### 🆕 [datasette-vega 0.7](https://simonwillison.net/2026/Nov/14/datasette-vega/)
 *Simon Willison (LLMs)*
 
-Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header. Datasette table pages used the Referrer-Policy: no-referrer HTTP header, cau…
-
-### 🆕 [ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you](https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet)
-*The Verge AI*
-
-After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US…
-
-### 🆕 [AI agent startup LangChain hits $3B valuation](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/)
-*TechCrunch AI*
-
-LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.
-
----
-
-## 🏦 Financial Sector Watch
-
-### 🆕 [China’s Singles’ Day Sells Robots, AI Credits and a Little Help Around the House](https://www.pymnts.com/news/retail/2026/china-singles-day-sells-robots-ai-credits-help-around-house/)
-*PYMNTS*
-
-The real Ning Zetao showed up on a shopping livestream to flex his muscles. So did his artificial intelligence double. The former world champion swimmer was one of six celebrities and creators whose digital likenesses to…
-
-### 🆕 [OpenAI Gives AI Agents a Wallet While Blocking Them From Seeing the Card](https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/)
-*PYMNTS*
-
-OpenAI has introduced a ChatGPT Wallet that lets agents pay without access to users’ card details, requires a security check for every purchase, and preserves existing card rewards and protections, the company said in a…
-
-### 🆕 [Costco Trusts AI to Reorder Drugs. Most Retailers Won’t](https://www.pymnts.com/news/retail/2026/costco-trusts-ai-to-reorder-drugs-most-retailers-wont/)
-*PYMNTS*
-
-A pharmacy that runs out of a drug loses the prescription. A pharmacy that overpays a supplier loses the margin. Costco put artificial intelligence (AI) on both problems. The warehouse retailer’s pharmacy inventory syste…
-
-### 🆕 [AI Law Firm Crosby Bids for Weil Gotshal’s Name and Data](https://www.pymnts.com/news/artificial-intelligence/2026/ai-law-firm-crosby-bids-for-weil-gotshals-name-and-data/)
-*PYMNTS*
-
-A two-year-old an AI-native law firm startup is making a bid for the name and internal data of a 95-year-old Wall Street law firm. Crosby made the offer for the trademark, brand and some internal data of Weil, Gotshal &…
+Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite) against data in a table or custom query. The last release was in July 2018! I finally bumped it fo…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [datasette-cluster-map 0.19](https://simonwillison.net/2026/Nov/13/datasette-cluster-map/) — *Simon Willison (LLMs)*
+- [datasette-leaflet 0.3](https://simonwillison.net/2026/Nov/13/datasette-leaflet/) — *Simon Willison (LLMs)*
+- [AI agent startup LangChain hits $3B valuation](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/) — *TechCrunch AI*
+- [Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/) — *TechCrunch AI*
+- [Asian governments react to Nvidia CEO Jensen Huang’s exit](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/) — *TechCrunch AI*
+- [The AI graveyard: a running list of projects and startups that didn’t make it](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/) — *TechCrunch AI*
+- [Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection](https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html) — *The Hacker News*
+- [Trezor confirms crypto-stealing implants in three wallets, releases fix](https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/) — *BleepingComputer*
+- [Cursor confirms security breach led to malicious Claude Code extension](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) — *BleepingComputer*
+- [US disrupts North Korean campaign behind $400 million crypto theft](https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/) — *BleepingComputer*
+- [ArcticRAT Cybercrime Gang Profiles Victim Finances With AI](https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai) — *Dark Reading*
+- [AI Law Firm Crosby Bids for Weil Gotshal’s Name and Data](https://www.pymnts.com/news/artificial-intelligence/2026/ai-law-firm-crosby-bids-for-weil-gotshals-name-and-data/) — *PYMNTS*
+- [OpenAI Gives AI Agents a Wallet While Blocking Them From Seeing the Card](https://www.pymnts.com/news/artificial-intelligence/2026/openai-gives-ai-agents-a-wallet-while-blocking-them-from-seeing-the-card/) — *PYMNTS*
+- [China’s Singles’ Day Sells Robots, AI Credits and a Little Help Around the House](https://www.pymnts.com/news/retail/2026/china-singles-day-sells-robots-ai-credits-help-around-house/) — *PYMNTS*
+- [Costco Trusts AI to Reorder Drugs. Most Retailers Won’t](https://www.pymnts.com/news/retail/2026/costco-trusts-ai-to-reorder-drugs-most-retailers-wont/) — *PYMNTS*
+- [ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you](https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet) — *The Verge AI*
+- [The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview) — *The Verge AI*
+- [Amazon has a plan to index the world’s online shopping data](https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search) — *The Verge AI*
+- [Jensen Huang and the decline of the visionary showman founder CEO](https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo) — *The Verge AI*
 - [XYBench: Helping with the problem behind the question](https://huggingface.co/blog/allenai/xybench) — *Hugging Face Blog*
 - [llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem](https://huggingface.co/blog/ggml-org/llama-cpp-v1) — *Hugging Face Blog*
 - [Build a Robot Pick-and-Place Simulation with SimReady Assets](https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place) — *Hugging Face Blog*
@@ -147,43 +107,3 @@ A two-year-old an AI-native law firm startup is making a bid for the name and in
 - [Claude’s Duet agent is a little neurotic and surprisingly helpful](https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on) — *The Verge AI*
 - [What&#8217;s really at stake in the Jensen Huang saga](https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast) — *The Verge AI*
 - [The Green Agent POV: Formulating the Fix for an Internet-Facing Container with Sensitive Data Access](https://www.wiz.io/blog/inside-green-agent-investigation) — *Wiz Security Blog*
-- [The Definitive Fine-Tuning Guide for 3D Generation Models](https://huggingface.co/blog/3d-lora-finetuning) — *Hugging Face Blog*
-- [LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B](https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite) — *Hugging Face Blog*
-- [aws-emulator](https://simonwillison.net/2026/Nov/11/aws-emulator/) — *Simon Willison (LLMs)*
-- [Gemini Decisions API](https://simonwillison.net/2026/Nov/11/gemini-decisions-api/) — *Simon Willison (LLMs)*
-- [Google’s latest Search upgrade promises better answers to your most complicated questions](https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/) — *TechCrunch AI*
-- [Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/) — *TechCrunch AI*
-- [Jensen Huang’s exit puts Nvidia’s support for open source in question](https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/) — *TechCrunch AI*
-- [Nectar launches an AI agent to automate creator discovery and outreach for brands](https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/) — *TechCrunch AI*
-- [United Airlines blocks AI agents from booking flights, citing cybersecurity risks](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/) — *TechCrunch AI*
-- [Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html) — *The Hacker News*
-- [Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry](https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html) — *The Hacker News*
-- [New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access](https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html) — *The Hacker News*
-- [ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories](https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html) — *The Hacker News*
-- [Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them](https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html) — *The Hacker News*
-- [Apache HTTP Server patches critical HTTP/2 remote code execution flaw](https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/) — *BleepingComputer*
-- [Apify rotates API tokens, prompts 2FA resets after breach](https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/) — *BleepingComputer*
-- [New Windows SignDrop zero-day gives hackers SYSTEM privileges](https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/) — *BleepingComputer*
-- [Police dismantle Gootloader, CastleRAT, StealC malware infrastructure](https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/) — *BleepingComputer*
-- [Your Endpoint Management Platform Could Be Your Biggest Security Risk](https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/) — *BleepingComputer*
-- [Siemens Building Automation and Energy Products](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01) — *CISA Advisories*
-- [Siemens Desigo, Gridscale](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02) — *CISA Advisories*
-- [Siemens Industrial Edge Management](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03) — *CISA Advisories*
-- [Siemens RUGGEDCOM APE1808](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04) — *CISA Advisories*
-- [Siemens RUGGEDCOM APE1808](https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05) — *CISA Advisories*
-- [Attackers Say 'Hello' to a Different Scale of Cloud Attack](https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack) — *Dark Reading*
-- [AI Raises the Stakes for Cyber Resilience](https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience) — *Dark Reading*
-- [Inside an AI Attack Against a US Retailer](https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer) — *Dark Reading*
-- [Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise](https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches) — *Dark Reading*
-- [Chinese AI Project Scouts Spies in Taiwan Chip Industry](https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry) — *Dark Reading*
-- [California Turns Legal AI Guidance Into Binding Rules](https://www.pymnts.com/news/artificial-intelligence/2026/california-turns-legal-ai-guidance-into-binding-rules/) — *PYMNTS*
-- [DOJ AI Task Force Puts Business Users in Enforcement Spotlight](https://www.pymnts.com/news/artificial-intelligence/2026/doj-ai-task-force-puts-business-users-enforcement-spotlight/) — *PYMNTS*
-- [Square Expands Agentic AI Tools to Give Sellers More Control Over Business Operations](https://www.pymnts.com/news/artificial-intelligence/2026/square-expands-agentic-ai-tools-give-sellers-more-control-over-business-operations/) — *PYMNTS*
-- [United Blocks AI Agents as Airbnb and OpenAI Build Their Own](https://www.pymnts.com/transportation/travel-payments/2026/united-blocks-ai-agents-as-airbnb-and-openai-build-their-own/) — *PYMNTS*
-- [AI chatbots are recommending fake retail websites, study finds](https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations) — *The Verge AI*
-- [The Jensen Huang scandal is hardly over](https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling) — *The Verge AI*
-- [Oh, Palantir is ‘progressive’ now, is it?](https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video) — *The Verge AI*
-- [More game developers are starting to use generative AI](https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs) — *The Verge AI*
-- [Jensen Huang is out. What did China want from him?](https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump) — *The Verge AI*
-- [ASPM in the AI Era Part 3: Fixing Risk at the Speed of Code](https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed) — *Wiz Security Blog*
-- [Critical RCE Vulnerability in Apache HTTP Server: Everything You Need To Know](https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability) — *Wiz Security Blog*
