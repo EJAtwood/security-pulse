@@ -1,231 +1,150 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-11-20 19:34 UTC
+**Generated:** 2026-11-21 18:39 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
 ---
 
-## 🔴 Known Exploited Vulnerabilities (CISA KEV)
-
-### 🆕 [CVE-2026-129448](https://nvd.nist.gov/vuln/detail/CVE-2026-129448) — Apache Roller Deserialization of Untrusted Data Vulnerability
-*Apache Roller · Added 2026-11-20*
-
-Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authent…
-
-### 🆕 🏦 [CVE-2026-123890](https://nvd.nist.gov/vuln/detail/CVE-2026-123890) — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability
-*Broadcom VMware vCenter · Added 2026-11-20*
-
-Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and g…
-
-### 🆕 [CVE-2025-42884](https://nvd.nist.gov/vuln/detail/CVE-2025-42884) — SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability
-*SAP NetWeaver · Added 2026-11-20*
-
-SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment propert…
-
-### 🆕 🏦 [CVE-2026-76466](https://nvd.nist.gov/vuln/detail/CVE-2026-76466) — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability
-*Cisco Expressway Series · Added 2026-11-20*
-
-Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database ser…
-
----
-
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Bell Canada says 'agentic' hacker stole enterprise customer data](https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/)
+### 🆕 [Microsoft Entra Connect Health flaw exploited to steal tenant data](https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/)
 *BleepingComputer*
 
-Bell Canada has confirmed that an "agentic" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications c…
+Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant conf…
 
-### 🆕 [In Security, Words Matter as Much as Tools, Maybe More](https://www.darkreading.com/cybersecurity-operations/security-words-matter)
-*Dark Reading*
-
-From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.
-
-### 🆕 [WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams](https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html)
-*The Hacker News*
-
-Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871,…
-
-### 🆕 [Hackers use autonomous AI tool Cairn to find zero-day, take over server](https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/)
+### 🆕 [BADBOX botnet returns with record-breaking 40 billion daily ad requests](https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/)
 *BleepingComputer*
 
-Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]
+The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]
 
-### 🆕 [What We Missed: Nvidia CEO Scandal Rocks AI Industry](https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry)
-*Dark Reading*
-
-In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Jensen Huang's resignation from Nvidia to Microsoft's recent cloud outage.
-
-### 🆕 [Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control](https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html)
-*The Hacker News*
-
-Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile…
-
-### 🆕 [Vendor data breach exposes Chase, Visa, Mastercard customer info](https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/)
+### 🆕 [FBI reportedly hacked again, this time targeting nationwide police database](https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/)
 *BleepingComputer*
 
-J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]
+FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal…
 
-### 🆕 [Still tracking company passwords in spreadsheets? You’re flying blind.](https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/)
-*BleepingComputer*
-
-Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management…
-
-### 🆕 [N-able says recent security breach led to major service outage](https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/)
-*BleepingComputer*
-
-N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]
-
-### 🆕 [Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html)
+### 🆕 [A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats](https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html)
 *The Hacker News*
 
-A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can incl…
+A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach…
 
-### 🆕 [CISA Adds Four Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog)
-*CISA Advisories*
-
-CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Que…
-
-### 🆕 [The Path to AI Autonomy in the SOC](https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html)
+### 🆕 [GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys](https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html)
 *The Hacker News*
 
-Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously…
+A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used…
 
-### 🆕 [SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws](https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html)
+### 🆕 [Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access](https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html)
 *The Hacker News*
 
-SonicWall has urged all customers still running Generation 6 firewalls to retire and replace them immediately and stop exposing the devices on the internet edge, citing security risks fueled by AI-assisted attacks. "Atta…
+Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence sa…
 
-### 🆕 [Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering](https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering)
+### 🆕 [Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS](https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html)
+*The Hacker News*
+
+Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is "incomplete." The f…
+
+### 🆕 [Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge](https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html)
+*The Hacker News*
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KE…
+
+### 🆕 [China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day](https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day)
 *Dark Reading*
 
-Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.
-
-### 🆕 [phpAfterShell and Critical PHP RCE Vulnerabilities: Everything You Need To Know](https://www.wiz.io/blog/phpaftershell-critical-php-rce-vulnerabilities-cve-2026-126714)
-*Wiz Security Blog*
-
-Detect and mitigate phpAfterShell, and additional critical vulnerabilities from PHP's November release that may enable remote code execution.
-
-### 🆕 [Second Norwegian Energy Company Breached in 2 Days](https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached)
-*Dark Reading*
-
-No specific link has been drawn between the two incidents, though they certainly sing the same notes.
-
-### 🆕 [Critical PHP Flaws Allow Code Execution, but Don't Panic 'PHP2Shell'-Style](https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell)
-*Dark Reading*
-
-November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration.
+During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [AI claimed a solution to the 167 year-old Riemann Hypothesis — and a human did, too](https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/)
+### 🆕 [Here are the top AI agents that can live in your text messages](https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/)
 *TechCrunch AI*
 
-Mathematicians are having their minds blown by the latest AI-driven result—and there's a competing human solution, too.
+We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.
 
-### 🆕 [Quoting Ravi Vakil](https://simonwillison.net/2026/Nov/20/ravi-vakil/)
-*Simon Willison (LLMs)*
-
-Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking go…
-
-### 🆕 [Trump threatens ‘tremendous tax’ for moving AI data centers outside the US](https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax)
-*The Verge AI*
-
-President Donald Trump promised to put a "tremendous tax" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. "…
-
-### 🆕 [Chips can survive the space environment — can their financing?](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/)
+### 🆕 [Is selling an AI version of your face to this microdrama startup the future of Hollywood?](https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/)
 *TechCrunch AI*
 
-Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?
+An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.
 
-### 🆕 [Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem)
+### 🆕 [Can Anthropic afford to put safety first?](https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure)
 *The Verge AI*
 
-Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's…
+Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last T…
 
-### 🆕 [Quoting Levent Alpöge](https://simonwillison.net/2026/Nov/20/levent-alpoge/)
-*Simon Willison (LLMs)*
+### 🆕 [Chess.com’s next move is a new hub for classic games, from mahjong to sudoku](https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai)
+*The Verge AI*
 
-I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time,…
+Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku,…
 
-### 🆕 [The fallout from Nvidia’s Jensen Huang scandal continues](https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/)
+### 🆕 [Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.](https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/)
 *TechCrunch AI*
 
-In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, t…
-
-### 🆕 [The week everything fell apart](https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast)
-*The Verge AI*
-
-There was a dayslong Outlook outage. A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working. Even iCloud couldn't stay up and running. This week, it felt like the technologic…
-
-### 🆕 [Six AI-powered gadgets that could make your home office smarter](https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/)
-*TechCrunch AI*
-
-From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.
-
-### 🆕 [Signal is blocking Gemini and Siri AI from reading your screen](https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app)
-*The Verge AI*
-
-Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems tha…
-
-### 🆕 [Token fraud is here and it’s BAD (YouTube)](https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/)
-*Simon Willison (LLMs)*
-
-Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD, an AI platform that helps product managers "turn an idea into a spec". The product has been live since the GPT-4 era, and Claire has been building it in…
-
-### 🆕 [Apple may be developing its own AI agent that runs your Mac](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/)
-*TechCrunch AI*
-
-The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.
-
-### 🆕 [Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale)
-*Hugging Face Blog*
-
-### 🆕 [Apple is hiring engineers to build its own AI agent](https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing)
-*The Verge AI*
-
-Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted b…
-
-### 🆕 [PostgreSQL 19 Released](https://simonwillison.net/2026/Nov/19/postgresql-19/)
-*Simon Willison (LLMs)*
-
-PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the…
+Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Japan’s Top Insurers See Cyber Claims More Than Double Amid AI Hacking Surge](https://www.pymnts.com/cybersecurity/2026/japans-top-insurers-see-cyber-claims-more-than-double-amid-ai-hacking-surge/)
+### 🆕 [Paysafe Enlists Altimetrik to Boost System Reliability](https://www.pymnts.com/partnerships/2026/paysafe-enlists-altimetrik-to-boost-system-reliability/)
 *PYMNTS*
 
-Two of Japan’s largest property insurers said Thursday (Nov. 19) that they have seen cyber insurance claims more than double, Bloomberg reported Friday (Nov. 20). During earnings briefings, Tokio Marine Holdings said it…
+Global payments platform Paysafe has tapped Altimetrik, an artificial intelligence (AI) engineering company, to modernize and scale its technology, the companies said in a Wednesday (Nov. 18) press release. Altimetrik wi…
 
-### 🆕 [AI Copyright Rulings Put Data Governance on the Institutional Agenda](https://www.pymnts.com/news/artificial-intelligence/2026/ai-copyright-rulings-put-data-governance-on-the-institutional-agenda/)
+### 🆕 [NextEra’s AI Saves Florida Customers $20 Million](https://www.pymnts.com/news/artificial-intelligence/2026/nexteras-ai-saves-florida-customers-20-million/)
 *PYMNTS*
 
-A university that subscribes to a research journal may give faculty access to its articles. Feeding years of those articles into an artificial intelligence (AI)-powered knowledge system raises a different question about…
+A power company makes the same costly decisions every hour. It picks which plants to run, how much fuel to burn and which ones to shut down for repairs. NextEra Energy now uses artificial intelligence (AI) to make those…
 
-### 🆕 [Ex-Alibaba AI Chief Junyang Lin Drives Startup Pragmatik Labs to $5 Billion Valuation](https://www.pymnts.com/news/investment-tracker/2026/ex-alibaba-ai-chief-junyang-lin-drives-startup-pragmatik-labs-to-5-billion-valuation/)
+### 🆕 [Citi Cautions Customers Against Using Third-Party AI Agents](https://www.pymnts.com/news/artificial-intelligence/2026/citi-cautions-customers-against-using-third-party-ai-agents/)
 *PYMNTS*
 
-Pragmatik Labs, a Shanghai-based artificial intelligence (AI) startup launched over the summer by the former AI chief of Alibaba Group Holding, Junyang Lin, closed new funding at a valuation of $5 billion, Bloomberg repo…
+Citi updated its online user agreement to caution customers against using third-party artificial intelligence agents with the bank’s online and mobile platforms and to tell them that they are responsible for the actions…
 
-### 🆕 [New York Creates AI Enforcement Unit as States Step Up Oversight](https://www.pymnts.com/news/artificial-intelligence/2026/new-york-creates-ai-enforcement-unit-as-states-step-up-oversight/)
+### 🆕 [AI Vendors Ditch Seat Licenses for Per-Agent Pricing](https://www.pymnts.com/news/artificial-intelligence/2026/ai-vendors-ditch-seat-licenses-per-agent-pricing/)
 *PYMNTS*
 
-New York Attorney General Letitia James has created a dedicated artificial intelligence (AI) enforcement unit to police model developers, chatbot operators and other businesses whose use of AI may violate state law. The…
-
-**Also relevant from today's threat feeds:**
-
-- [CVE-2026-123890 — VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-123890) — *CISA KEV*
-- [CVE-2026-76466 — Cisco Expressway Series Use of Hard-coded Credentials Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-76466) — *CISA KEV*
+Companies have long paid for software by the employee and, more recently, by usage. WhiteMatter, Nestack and Dataiku now bill them by the artificial intelligence agent. WhiteMatter, a San Francisco startup formerly calle…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost](https://huggingface.co/blog/harness-adapters-at-scale) — *Hugging Face Blog*
+- [PostgreSQL 19 Released](https://simonwillison.net/2026/Nov/19/postgresql-19/) — *Simon Willison (LLMs)*
+- [Quoting Levent Alpöge](https://simonwillison.net/2026/Nov/20/levent-alpoge/) — *Simon Willison (LLMs)*
+- [Quoting Ravi Vakil](https://simonwillison.net/2026/Nov/20/ravi-vakil/) — *Simon Willison (LLMs)*
+- [Token fraud is here and it’s BAD (YouTube)](https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/) — *Simon Willison (LLMs)*
+- [Apple may be developing its own AI agent that runs your Mac](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/) — *TechCrunch AI*
+- [Six AI-powered gadgets that could make your home office smarter](https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/) — *TechCrunch AI*
+- [AI claimed a solution to the 167 year-old Riemann Hypothesis — and a human did, too](https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/) — *TechCrunch AI*
+- [Chips can survive the space environment — can their financing?](https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/) — *TechCrunch AI*
+- [The fallout from Nvidia’s Jensen Huang scandal continues](https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/) — *TechCrunch AI*
+- [Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control](https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html) — *The Hacker News*
+- [Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts](https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html) — *The Hacker News*
+- [SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws](https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html) — *The Hacker News*
+- [The Path to AI Autonomy in the SOC](https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html) — *The Hacker News*
+- [WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams](https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html) — *The Hacker News*
+- [N-able says recent security breach led to major service outage](https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/) — *BleepingComputer*
+- [Bell Canada says 'agentic' hacker stole enterprise customer data](https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/) — *BleepingComputer*
+- [Hackers use autonomous AI tool Cairn to find zero-day, take over server](https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/) — *BleepingComputer*
+- [Still tracking company passwords in spreadsheets? You’re flying blind.](https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/) — *BleepingComputer*
+- [Vendor data breach exposes Chase, Visa, Mastercard customer info](https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/) — *BleepingComputer*
+- [CISA Adds Four Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog) — *CISA Advisories*
+- [Critical PHP Flaws Allow Code Execution, but Don't Panic 'PHP2Shell'-Style](https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell) — *Dark Reading*
+- [Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering](https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering) — *Dark Reading*
+- [What We Missed: Nvidia CEO Scandal Rocks AI Industry](https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry) — *Dark Reading*
+- [Second Norwegian Energy Company Breached in 2 Days](https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached) — *Dark Reading*
+- [In Security, Words Matter as Much as Tools, Maybe More](https://www.darkreading.com/cybersecurity-operations/security-words-matter) — *Dark Reading*
+- [Japan’s Top Insurers See Cyber Claims More Than Double Amid AI Hacking Surge](https://www.pymnts.com/cybersecurity/2026/japans-top-insurers-see-cyber-claims-more-than-double-amid-ai-hacking-surge/) — *PYMNTS*
+- [AI Copyright Rulings Put Data Governance on the Institutional Agenda](https://www.pymnts.com/news/artificial-intelligence/2026/ai-copyright-rulings-put-data-governance-on-the-institutional-agenda/) — *PYMNTS*
+- [New York Creates AI Enforcement Unit as States Step Up Oversight](https://www.pymnts.com/news/artificial-intelligence/2026/new-york-creates-ai-enforcement-unit-as-states-step-up-oversight/) — *PYMNTS*
+- [Ex-Alibaba AI Chief Junyang Lin Drives Startup Pragmatik Labs to $5 Billion Valuation](https://www.pymnts.com/news/investment-tracker/2026/ex-alibaba-ai-chief-junyang-lin-drives-startup-pragmatik-labs-to-5-billion-valuation/) — *PYMNTS*
+- [Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem) — *The Verge AI*
+- [Signal is blocking Gemini and Siri AI from reading your screen](https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app) — *The Verge AI*
+- [The week everything fell apart](https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast) — *The Verge AI*
+- [Trump threatens ‘tremendous tax’ for moving AI data centers outside the US](https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax) — *The Verge AI*
+- [Apple is hiring engineers to build its own AI agent](https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing) — *The Verge AI*
+- [phpAfterShell and Critical PHP RCE Vulnerabilities: Everything You Need To Know](https://www.wiz.io/blog/phpaftershell-critical-php-rce-vulnerabilities-cve-2026-126714) — *Wiz Security Blog*
 - [llm-gemini 0.38](https://simonwillison.net/2026/Nov/18/llm-gemini/) — *Simon Willison (LLMs)*
 - [Anthropic hits Nasdaq exchanges at $111, 33% above IPO price](https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/) — *TechCrunch AI*
 - [Anthropic’s IPO could deliver $156 billion to charity](https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/) — *TechCrunch AI*
@@ -259,43 +178,3 @@ New York Attorney General Letitia James has created a dedicated artificial intel
 - [ChatGPT can transcribe as you speak now with Live Dictation](https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation) — *The Verge AI*
 - [I let Apple’s always-listening AI summarize my life for two weeks](https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on) — *The Verge AI*
 - [Gemini on Mac can now use your computer](https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use) — *The Verge AI*
-- [Why your fine-tuning job takes longer than the FLOPs say](https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time) — *Hugging Face Blog*
-- [DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency](https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin) — *Hugging Face Blog*
-- [Time-Series Models in the Streamhouse: A New Frontier and Use Cases](https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse) — *Hugging Face Blog*
-- [180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers](https://huggingface.co/blog/moe-expert-streaming) — *Hugging Face Blog*
-- [Rumble-2-Flash: an open 0.5B speech model for 40+ languages](https://huggingface.co/blog/rumble-2-flash) — *Hugging Face Blog*
-- [External sandboxes for coding agents](https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/) — *Simon Willison (LLMs)*
-- [GPT‑6.2 Astra and GPT‑6.2 Sol](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/) — *Simon Willison (LLMs)*
-- [Quoting Daniel Stenberg](https://simonwillison.net/2026/Nov/18/daniel-stenberg/) — *Simon Willison (LLMs)*
-- [The PSF end-of-year fundraiser](https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/) — *Simon Willison (LLMs)*
-- [Google’s AI feature in Search gets its own incognito mode](https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/) — *TechCrunch AI*
-- [More banks say customers using AI agents are on their own — even if they get hacked](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/) — *TechCrunch AI*
-- [Nvidia clarifies when it will — and won’t — keep financing neoclouds](https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/) — *TechCrunch AI*
-- [OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’](https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/) — *TechCrunch AI*
-- [Sam Altman warns against a future where AI, not humans, calls the shots](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/) — *TechCrunch AI*
-- [10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers](https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html) — *The Hacker News*
-- [Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required](https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html) — *The Hacker News*
-- [New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks](https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html) — *The Hacker News*
-- [F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE](https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html) — *The Hacker News*
-- [New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html) — *The Hacker News*
-- [Apache warns of Roller RCE vulnerability exploited in attacks](https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/) — *BleepingComputer*
-- [Data breach impacts 40 Irish credit unions in reported IT provider hack](https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/) — *BleepingComputer*
-- [Dizigom illegal streaming service with 21M monthly visits shuts down](https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/) — *BleepingComputer*
-- [From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters](https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/) — *BleepingComputer*
-- [Microsoft’s Agent Framework PyPI package compromised to steal credentials](https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/) — *BleepingComputer*
-- [Optimizely Malware Attacks Highlight Third-Party Vendor Risks](https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks) — *Dark Reading*
-- ['TheMailer' Phishing Kit Puts AI in the Driver's Seat](https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat) — *Dark Reading*
-- [Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem](https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem) — *Dark Reading*
-- [Major Brazilian Signature Apps Enable RCE &amp; Fraud](https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud) — *Dark Reading*
-- [Fed’s AI Warning Puts Banks’ Credit Denials Under Scrutiny](https://www.pymnts.com/news/artificial-intelligence/2026/federal-reserve-michael-barr-ai-warning-puts-bank-credit-denials-under-scrutiny/) — *PYMNTS*
-- [OpenAI’s Agents Broke Out, and California Sent the Bill](https://www.pymnts.com/news/artificial-intelligence/2026/openais-agents-broke-out-and-california-sent-the-bill/) — *PYMNTS*
-- [When AI Agents Break the Rules, Who Pays?](https://www.pymnts.com/news/artificial-intelligence/2026/when-ai-agents-break-rules-who-pays/) — *PYMNTS*
-- [Humyn Labs Raises $47 Million to Teach Robots to Work Like People](https://www.pymnts.com/news/investment-tracker/2026/humyn-labs-raises-47-million-to-teach-robots-to-work-like-people/) — *PYMNTS*
-- [What is Nvidia without AI’s sugar daddy in charge?](https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition) — *The Verge AI*
-- [Trump’s latest land grab is an AI hub in the Philippines](https://www.theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica) — *The Verge AI*
-- [Tech lawsuits defined 2026 — and lawmakers want more](https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act) — *The Verge AI*
-- [What’s next for Nvidia? Whatever doesn’t rock the mind-bogglingly profitable boat](https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang) — *The Verge AI*
-- [Disney’s new Star Wars animatronics interact with guests using AI](https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai) — *The Verge AI*
-- [CVE-2026-114938 OpenJDK RCE (Java4Shell): Everything You Need to Know](https://www.wiz.io/blog/cve-2026-114938-rce-java4shell-openjdk) — *Wiz Security Blog*
-- [Microsoft agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines](https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi) — *Wiz Security Blog*
-- [Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities) — *Wiz Security Blog*
