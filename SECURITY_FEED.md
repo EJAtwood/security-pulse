@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-11-24 21:52 UTC
+**Generated:** 2026-11-25 20:59 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,210 +7,250 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 [CVE-2026-132224](https://nvd.nist.gov/vuln/detail/CVE-2026-132224) — Optimizely Web Experimentation External Control of Critical State Data Vulnerability
-*Optimizely Web Experimentation · Added 2026-11-24*
+### 🆕 🏦 [CVE-2026-103406](https://nvd.nist.gov/vuln/detail/CVE-2026-103406) — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability
+*Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router · Added 2026-11-25*
 
-Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploi…
+Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt mi…
 
-### 🆕 [CVE-2026-131914](https://nvd.nist.gov/vuln/detail/CVE-2026-131914) — Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability
-*Idunno AntiCsrf · Added 2026-11-24*
+### 🆕 [CVE-2026-133469](https://nvd.nist.gov/vuln/detail/CVE-2026-133469) — Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability
+*Vates Xen Orchestra · Added 2026-11-25*
 
-Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-servi…
+Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted au…
 
-### 🆕 [CVE-2026-132165](https://nvd.nist.gov/vuln/detail/CVE-2026-132165) — Drupal Core Remote Code Execution Vulnerability
-*Drupal Core · Added 2026-11-24*
+### 🆕 [CVE-2025-41450](https://nvd.nist.gov/vuln/detail/CVE-2025-41450) — Danfoss AK-SM 800A Series Improper Authentication Vulnerability
+*Danfoss AK-SM 800A Series · Added 2026-11-25*
 
-Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install…
+Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.
+
+### 🆕 [CVE-2023-25914](https://nvd.nist.gov/vuln/detail/CVE-2023-25914) — Danfoss AK-SM 800A Series Path Traversal Vulnerability
+*Danfoss AK-SM 800A Series · Added 2026-11-25*
+
+Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.
+
+### 🆕 [CVE-2023-25915](https://nvd.nist.gov/vuln/detail/CVE-2023-25915) — Danfoss AK-SM 800A Series Improper Input Validation Vulnerability
+*Danfoss AK-SM 800A Series · Added 2026-11-25*
+
+Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.
+
+### 🆕 [CVE-2026-133324](https://nvd.nist.gov/vuln/detail/CVE-2026-133324) — Mitel MiCollab Not Failing Securely Vulnerability
+*Mitel MiCollab · Added 2026-11-25*
+
+Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.
+
+### 🆕 [CVE-2026-133275](https://nvd.nist.gov/vuln/detail/CVE-2026-133275) — Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability
+*Mitel MiCollab · Added 2026-11-25*
+
+Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to uploa…
+
+### 🆕 [CVE-2026-133311](https://nvd.nist.gov/vuln/detail/CVE-2026-133311) — Mitel MiCollab Weak Authentication Vulnerability
+*Mitel MiCollab · Added 2026-11-25*
+
+Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random ident…
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [Rackspace shuts down Spot cloud platform after security breach](https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/)
+### 🆕 [Italy and Switzerland warn of autonomous AI-driven cyberattacks](https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/)
 *BleepingComputer*
 
-Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and dow…
+Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]
 
-### 🆕 ['God Mode' Flaws Could Wreak Border-Control Havoc](https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc)
+### 🆕 [CISA warns of critical unpatched flaw in Danfoss refrigeration controllers](https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/)
+*BleepingComputer*
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lig…
+
+### 🆕 [Attackers Target .NET Developers With Poisoned Job Assessments](https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments)
 *Dark Reading*
 
-Attackers could have disrupted traveler entry into Nigeria, Ethiopia, Zambia, Sri Lanka, Fiji, and Ghana via several vulnerabilities in their online visa and immigration systems.
+Researchers discovered 13 malicious NuGet packages as part of a fake recruitment campaign that spreads malware and gives attackers access to developers' machines.
 
-### 🆕 [New Inception extortion gang launches large-scale vishing campaign](https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/)
+### 🆕 [It's a Bot World. We're Just Living in It](https://www.darkreading.com/cyber-risk/bot-world-just-living)
+*Dark Reading*
+
+Bot detection has become a losing game. Security teams need to limit privileged access for humans and their machine counterparts equally.
+
+### 🆕 [More Pentests Without More Pentesters: Where AI Safely Helps](https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/)
 *BleepingComputer*
 
-A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]
+Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagement…
 
-### 🆕 [Turnitin discloses cyberattack affecting customer-facing systems](https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/)
+### 🆕 [Cyber Insurers See New Divide: AI Defense 'Haves' &amp; 'Have Nots'](https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide)
+*Dark Reading*
+
+Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the current model unsustainabl…
+
+### 🆕 [InfraTrust warns of exploited supply chain flaws in network appliances](https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/)
 *BleepingComputer*
 
-Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]
+Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than c…
 
-### 🆕 [“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event](https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways)
+### 🆕 [Inside Agentic Offensive Frameworks: Intent IDs](https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn)
 *Wiz Security Blog*
 
-Key highlights from government leaders, industry experts, and the Wiz FedRAMP team from our November 12th event on modernizing vulnerability management to meet FedRAMP’s new requirements.
+Intent IDs (iNNNN) from agentic offensive frameworks like ARTEX and Cairn are leaking into victim logs. We break down how these counters work in code, how defenders can use them to pace and deconflict attacker activity,…
 
-### 🆕 [Radware discloses breach exposing customer cloud access keys](https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/)
+### 🆕 [Latin America Sees Cyberattacks on Ports, Pipelines &amp; Manufacturing](https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing)
+*Dark Reading*
+
+From the Port of Santos in Brazil to a pipeline in Argentina, cyberattacks are increasingly affecting industrial systems throughout the region.
+
+### 🆕 [Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains](https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html)
+*The Hacker News*
+
+Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-…
+
+### 🆕 [U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion](https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html)
+*The Hacker News*
+
+The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in "unauthorized access to a limited subset of its systems," the bureau said on Tuesday.…
+
+### 🆕 [Credential Remediation Is Slow When You Don’t Know What Will Break](https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html)
+*The Hacker News*
+
+TL;DR More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.…
+
+### 🆕 [Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation](https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html)
+*The Hacker News*
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by No…
+
+### 🆕 [Microsoft fixes Microsoft 365 bug blocking access to Office apps](https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/)
 *BleepingComputer*
 
-Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left e…
+Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]
 
-### 🆕 [Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html)
+### 🆕 [Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail](https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html)
 *The Hacker News*
 
-A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a back…
+A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tue…
 
-### 🆕 [ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof](https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/)
-*BleepingComputer*
+### 🆕 [Satellites Have a Ground-Level Cybersecurity Problem](https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem)
+*Dark Reading*
 
-The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]
-
-### 🆕 [VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html)
-*The Hacker News*
-
-Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical…
-
-### 🆕 [Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html)
-*The Hacker News*
-
-A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The…
-
-### 🆕 [Powering the OpenAI Daybreak Defense Factory with Wiz Security Intelligence](https://www.wiz.io/blog/wiz-openai-codex-integration)
-*Wiz Security Blog*
-
-Bringing cloud security intelligence to AI-driven vulnerability investigation and code remediation.
-
-### 🆕 [Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html)
-*The Hacker News*
-
-A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up…
-
-### 🆕 [2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk](https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html)
-*The Hacker News*
-
-What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through fast…
-
-### 🆕 [Schneider Electric EcoStruxure Power Build Rapsody software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02)
-*CISA Advisories*
-
-View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extens…
-
-### 🆕 [Danfoss AK-SM 8xxA Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5…
-
-### 🆕 [AutomationDirect C-More EA9 Programming Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01)
-*CISA Advisories*
-
-View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convince…
+Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/)
+### 🆕 [OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)
 *TechCrunch AI*
 
-The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.
+OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.
 
-### 🆕 [Even the best AI agents struggle with everyday life](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/)
+### 🆕 [Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it](https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/)
 *TechCrunch AI*
 
-As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.
+Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.
 
-### 🆕 [Walmart teams up with Meta to bring Black Friday deals to AI agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/)
+### 🆕 [Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/)
 *TechCrunch AI*
 
-Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.
+Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.
 
-### 🆕 [Maple raises $5.3M to build AI products that protect your data, even from itself](https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/)
-*TechCrunch AI*
-
-The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.
-
-### 🆕 [Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology)
-*The Verge AI*
-
-Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job…
-
-### 🆕 [Anthropic shares fall below IPO price, a worrying sign for AI startups](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/)
-*TechCrunch AI*
-
-Anthropic’s post-IPO slump could put pressure on AI startup valuations.
-
-### 🆕 [David Fincher is being dragged for suspected use of AI in his latest film](https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive)
-*The Verge AI*
-
-Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether gen…
-
-### 🆕 [Tidal will start banning AI-generated music next month](https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban)
-*The Verge AI*
-
-Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tid…
-
-### 🆕 [GPT 6.2 Astra Solves a Historical Mystery](https://simonwillison.net/2026/Nov/24/astra-historical-mystery/)
-*Simon Willison (LLMs)*
-
-GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to aut…
-
-### 🆕 [Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance)
+### 🆕 [Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents)
 *Hugging Face Blog*
 
-### 🆕 [Jensen Huang deepfakes are the hot new AI slop](https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes)
+### 🆕 [Want to buy your kid an AI toy this Christmas? Not in New York](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/)
+*TechCrunch AI*
+
+New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.
+
+### 🆕 [FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space](https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers)
 *The Verge AI*
 
-Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jack…
+In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's "Starmind" initiative. With several others also pursuing t…
 
-### 🆕 [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features)
+### 🆕 [Character.AI’s plan to auction off users’ private chats challenged by state AGs](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/)
+*TechCrunch AI*
+
+The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.
+
+### 🆕 [Nothing offers a full look at its AI earbuds and charging case](https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal)
 *The Verge AI*
 
-The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI "in ways that may not be apparent to users." In an email seen by The Verge…
+Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize yo…
 
-### 🆕 [datasette-charts 0.2a0](https://simonwillison.net/2026/Nov/24/datasette-charts/)
+### 🆕 [Amazon is reportedly in talks to end Muse AI shopping block](https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions)
+*The Verge AI*
+
+Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of prod…
+
+### 🆕 [Has vibe coding made open source the new normal for synths?](https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware)
+*The Verge AI*
+
+The emergence of powerful vibe-coding agents and tools like Reverse Engineer Anything has caused chaos in the music gear world, leaving companies scrambling to figure out how to respond. While some, like Roland, have rem…
+
+### 🆕 [An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga)
+*Hugging Face Blog*
+
+### 🆕 [Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000](https://huggingface.co/blog/inkling-2-mini-inference-hillclimb)
+*Hugging Face Blog*
+
+### 🆕 [Three LLM inflection points in twelve months](https://simonwillison.net/2026/Nov/24/llm-inflection-points/)
 *Simon Willison (LLMs)*
 
-Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using…
-
-### 🆕 [datasette-agent 0.7a1](https://simonwillison.net/2026/Nov/24/datasette-agent/)
-*Simon Willison (LLMs)*
-
-Release: datasette-agent 0.7a1 A small improvement to Datasette Agent: chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashe…
-
-### 🆕 [GLM-5.4: Toward Generalized Coding with Our First Loop Transformer](https://simonwillison.net/2026/Nov/23/glm-54/)
-*Simon Willison (LLMs)*
-
-GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a s…
+I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve mo…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [Etsy Rewrites AI Training Terms After Sellers Close Shops](https://www.pymnts.com/news/artificial-intelligence/2026/etsy-rewrites-ai-training-terms-after-sellers-close-shops/)
+### 🆕 [BNY and Microsoft Let AI Agents Haggle Over Treasurys](https://www.pymnts.com/news/artificial-intelligence/2026/bny-and-microsoft-let-ai-agents-haggle-over-treasurys/)
 *PYMNTS*
 
-Etsy sellers upload photos, artwork and descriptions so shoppers can find and buy what they make. Last month, Etsy published terms that give it and its partners the right to use that material to train artificial intellig…
+BNY and Microsoft put artificial intelligence agents on both sides of a U.S. Treasury bill trade and let them negotiate the price. BNY, a global financial services company with $63.4 trillion in assets under custody or a…
 
-### 🆕 [Freightos Looks to Weave Payments Into Freight Transactions](https://www.pymnts.com/earnings/2026/freightos-looks-to-weave-payments-into-freight-transactions/)
+### 🆕 [Startups Raise $515 Million to Build AI Agents Their Own Internet](https://www.pymnts.com/news/artificial-intelligence/2026/startups-raise-515-million-to-build-ai-agents-their-own-internet/)
 *PYMNTS*
 
-Freightos is betting that AI and deeper integration of digital payments can help modernize the traditionally paper-heavy air cargo industry. The logistics technology company outlined these plans Wednesday (Nov. 24) as it…
+The internet was built for people. Its search engines, browsers and phone lines assume a person is on the other end, reading a screen at human speed. Artificial intelligence (AI) agents are now the web’s newest users, an…
 
-### 🆕 [Banks Explore Ways to Verify Customers Without Starting Over](https://www.pymnts.com/authentication/2026/banks-explore-ways-verify-customers-without-starting-over/)
-*PYMNTS*
+**Also relevant from today's threat feeds:**
 
-A customer who uses a mobile driver’s license to open one account can present the same credential to another financial institution that accepts it. The second institution now has a way to verify the information directly…
-
-### 🆕 [Zoom Focuses on AI-Driven Automation Amid Enterprise Growth](https://www.pymnts.com/earnings/2026/zoom-focuses-on-ai-driven-automation-amid-enterprise-growth/)
-*PYMNTS*
-
-Zoom continues to expand beyond its video-conferencing roots, aiming to transform how businesses and financial institutions automate daily workflows through artificial intelligence (AI). The cloud platform reported quart…
+- [CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-103406) — *CISA KEV*
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance) — *Hugging Face Blog*
+- [GLM-5.4: Toward Generalized Coding with Our First Loop Transformer](https://simonwillison.net/2026/Nov/23/glm-54/) — *Simon Willison (LLMs)*
+- [GPT 6.2 Astra Solves a Historical Mystery](https://simonwillison.net/2026/Nov/24/astra-historical-mystery/) — *Simon Willison (LLMs)*
+- [datasette-agent 0.7a1](https://simonwillison.net/2026/Nov/24/datasette-agent/) — *Simon Willison (LLMs)*
+- [datasette-charts 0.2a0](https://simonwillison.net/2026/Nov/24/datasette-charts/) — *Simon Willison (LLMs)*
+- [Anthropic shares fall below IPO price, a worrying sign for AI startups](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/) — *TechCrunch AI*
+- [Even the best AI agents struggle with everyday life](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/) — *TechCrunch AI*
+- [In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/) — *TechCrunch AI*
+- [Maple raises $5.3M to build AI products that protect your data, even from itself](https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/) — *TechCrunch AI*
+- [Walmart teams up with Meta to bring Black Friday deals to AI agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) — *TechCrunch AI*
+- [2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk](https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html) — *The Hacker News*
+- [Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html) — *The Hacker News*
+- [Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html) — *The Hacker News*
+- [Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html) — *The Hacker News*
+- [VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html) — *The Hacker News*
+- [New Inception extortion gang launches large-scale vishing campaign](https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/) — *BleepingComputer*
+- [Rackspace shuts down Spot cloud platform after security breach](https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/) — *BleepingComputer*
+- [Radware discloses breach exposing customer cloud access keys](https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/) — *BleepingComputer*
+- [ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof](https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/) — *BleepingComputer*
+- [Turnitin discloses cyberattack affecting customer-facing systems](https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/) — *BleepingComputer*
+- [AutomationDirect C-More EA9 Programming Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01) — *CISA Advisories*
+- [Schneider Electric EcoStruxure Power Build Rapsody software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02) — *CISA Advisories*
+- [Danfoss AK-SM 8xxA Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03) — *CISA Advisories*
+- ['God Mode' Flaws Could Wreak Border-Control Havoc](https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc) — *Dark Reading*
+- [Banks Explore Ways to Verify Customers Without Starting Over](https://www.pymnts.com/authentication/2026/banks-explore-ways-verify-customers-without-starting-over/) — *PYMNTS*
+- [Freightos Looks to Weave Payments Into Freight Transactions](https://www.pymnts.com/earnings/2026/freightos-looks-to-weave-payments-into-freight-transactions/) — *PYMNTS*
+- [Zoom Focuses on AI-Driven Automation Amid Enterprise Growth](https://www.pymnts.com/earnings/2026/zoom-focuses-on-ai-driven-automation-amid-enterprise-growth/) — *PYMNTS*
+- [Etsy Rewrites AI Training Terms After Sellers Close Shops](https://www.pymnts.com/news/artificial-intelligence/2026/etsy-rewrites-ai-training-terms-after-sellers-close-shops/) — *PYMNTS*
+- [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features) — *The Verge AI*
+- [Tidal will start banning AI-generated music next month](https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban) — *The Verge AI*
+- [David Fincher is being dragged for suspected use of AI in his latest film](https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive) — *The Verge AI*
+- [Jensen Huang deepfakes are the hot new AI slop](https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes) — *The Verge AI*
+- [Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology) — *The Verge AI*
+- [“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event](https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways) — *Wiz Security Blog*
+- [Powering the OpenAI Daybreak Defense Factory with Wiz Security Intelligence](https://www.wiz.io/blog/wiz-openai-codex-integration) — *Wiz Security Blog*
 - [How to build and maintain an agentic evaluation](https://huggingface.co/blog/agentic-evals) — *Hugging Face Blog*
 - [RoboTrack: Point tracking for real-world robotic manipulation](https://huggingface.co/blog/allenai/robotrack) — *Hugging Face Blog*
 - [Ladybird's first alpha release](https://simonwillison.net/2026/Nov/23/ladybird/) — *Simon Willison (LLMs)*
