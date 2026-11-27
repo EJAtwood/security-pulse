@@ -1,5 +1,5 @@
 # 🛡️ Security Pulse
-**Generated:** 2026-11-26 20:52 UTC
+**Generated:** 2026-11-27 20:38 UTC
 
 Daily vulnerability, threat, AI-model, and financial-sector news from multiple sources.
 
@@ -7,161 +7,147 @@ Daily vulnerability, threat, AI-model, and financial-sector news from multiple s
 
 ## 🔴 Known Exploited Vulnerabilities (CISA KEV)
 
-### 🆕 [CVE-2026-133303](https://nvd.nist.gov/vuln/detail/CVE-2026-133303) — Mitel MiCollab XML Injection Vulnerability
-*Mitel MiCollab · Added 2026-11-25*
+### 🆕 [CVE-2026-120705](https://nvd.nist.gov/vuln/detail/CVE-2026-120705) — OSGeo GeoServer XML Injection Vulnerability
+*OSGeo GeoServer · Added 2026-11-27*
 
-Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.
+OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a cra…
 
-### 🆕 [CVE-2026-133323](https://nvd.nist.gov/vuln/detail/CVE-2026-133323) — Mitel MiCollab OS Command Injection Vulnerability
-*Mitel MiCollab · Added 2026-11-25*
+### 🆕 [CVE-2026-129243](https://nvd.nist.gov/vuln/detail/CVE-2026-129243) — OSGeo GeoServer Incorrect Authorization Vulnerability
+*OSGeo GeoServer · Added 2026-11-27*
 
-Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to exec…
+GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service para…
+
+### 🆕 [CVE-2026-136716](https://nvd.nist.gov/vuln/detail/CVE-2026-136716) — Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability
+*Drupal Core · Added 2026-11-27*
+
+Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual o…
 
 ---
 
 ## 🛡️ Vulnerabilities & Threats
 
-### 🆕 [ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories](https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html)
-*The Hacker News*
-
-A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install o…
-
-### 🆕 [NordVPN Black Friday Deal: Get 78% off VPN plans in 2026](https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/)
+### 🆕 [pCloud confirms password manager hack after suspicious login alerts](https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/)
 *BleepingComputer*
 
-NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]
+The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]
 
-### 🆕 [Fake paid expert interviews impersonate brands to steal Google logins](https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/)
+### 🆕 [New Boston Scientific data breach exposes personal, medical info](https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/)
 *BleepingComputer*
 
-An ongoing phishing campaign dubbed "GoodGuys" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews a…
+Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]
 
-### 🆕 [Remus malware steals Gmail messages via fake Google Sheets extension](https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/)
+### 🆕 [Unpatched Cacti zero-day with public PoC gives remote code execution](https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/)
 *BleepingComputer*
 
-The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]
+A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]
 
-### 🆕 [North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware](https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html)
+### 🆕 [Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign](https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html)
 *The Hacker News*
 
-The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. "The loader hides…
+A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military ag…
 
-### 🆕 [SYS010 malware abuses browser management to spy on Gmail, Outlook](https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/)
-*BleepingComputer*
-
-A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and O…
-
-### 🆕 [Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls](https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html)
-*The Hacker News*
-
-Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to k…
-
-### 🆕 [1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html)
-*The Hacker News*
-
-Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer passw…
-
-### 🆕 [Cyprus Becomes Espionage Target for Iranian Hackers](https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers)
+### 🆕 [Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks](https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks)
 *Dark Reading*
 
-A previously undocumented Iranian threat group called "Volant Manticore" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.
+The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and automatically remediate threats across enterpr…
 
-### 🆕 [Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation](https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html)
-*The Hacker News*
-
-Drupal has warned of a new "highly critical" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case…
-
-### 🆕 [Introducing Wiz ADR: Strengthening Cloud and AI Detection and Response with Application Context](https://www.wiz.io/blog/introducing-wiz-adr)
-*Wiz Security Blog*
-
-See which functions in your code triggered a runtime alert, use agentic investigation to cut false positives, and automate response down to the exact file and line to fix.
-
-### 🆕 [A Feast for AI: What Wiz Agents are Thankful For](https://www.wiz.io/blog/what-wiz-agents-are-thankful-for)
-*Wiz Security Blog*
-
-Grab a slice of Data Pie and pull up a chair. Here’s how Wiz’s Red, Green, and Blue Agents celebrate a quieter, smarter security season.
-
-### 🆕 [Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks](https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/)
+### 🆕 [US Air Force cloud platform reportedly hacked in latest federal breach](https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/)
 *BleepingComputer*
 
-Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]
+Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]
+
+### 🆕 [Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs](https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/)
+*BleepingComputer*
+
+Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls, and…
+
+### 🆕 [CISA Adds Three Known Exploited Vulnerabilities to Catalog](https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog)
+*CISA Advisories*
+
+CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo G…
+
+### 🆕 [Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control](https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html)
+*The Hacker News*
+
+Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSe…
+
+### 🆕 [How to Keep Your Security Picture Current When Attackers Move at AI Speed](https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html)
+*The Hacker News*
+
+Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells alm…
+
+### 🆕 [Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware](https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html)
+*The Hacker News*
+
+Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website. "Evidence indicates that m…
+
+### 🆕 [Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators](https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html)
+*The Hacker News*
+
+Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the a…
 
 ---
 
 ## 🤖 AI News & Model Releases
 
-### 🆕 [Nvidia hits pause on chip shipments to Southeast Asia](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/)
-*TechCrunch AI*
-
-Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.
-
-### 🆕 [Grand Theft Auto VI proves why efficiency isn’t a virtue](https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/)
-*TechCrunch AI*
-
-On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.
-
-### 🆕 [Quoting Jack Despain Zhou](https://simonwillison.net/2026/Nov/26/jack-despain-zhou/)
-*Simon Willison (LLMs)*
-
-Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pit…
-
-### 🆕 [Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon](https://huggingface.co/blog/ggml-org/llamacpp-amd-bench)
-*Hugging Face Blog*
-
-### 🆕 [42 state AGs are trying to stop Character.AI from selling users’ chats](https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats)
+### 🆕 [Android’s DIY widgets are a bit of vibe-coding fun](https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini)
 *The Verge AI*
 
-A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs ac…
+Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around…
 
-### 🆕 [sqlite3_rsync: Database Remote-Copy Tool For SQLite](https://simonwillison.net/2026/Nov/26/sqlite3-rsync/)
-*Simon Willison (LLMs)*
-
-sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as "experimental" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025.…
-
-### 🆕 [The New York Times warns photographers not to update Photoshop over AI features](https://simonwillison.net/2026/Nov/26/hn-50651685/)
-*Simon Willison (LLMs)*
-
-My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News.I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough)…
-
-### 🆕 [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)
+### 🆕 [Taking Trainium3 to the Track: Generating Videos with LTX-2.5](https://huggingface.co/blog/video-trainium3)
 *Hugging Face Blog*
-
-### 🆕 [Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms)
-*Hugging Face Blog*
-
-### 🆕 [Quoting Scott Aaronson](https://simonwillison.net/2026/Nov/25/scott-aaronson/)
-*Simon Willison (LLMs)*
-
-It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenh…
-
-### 🆕 [S&P considers Nvidia credit downgrade over governance and ‘key man’ risks](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/)
-*TechCrunch AI*
-
-The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.
-
-### 🆕 [Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future](https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent)
-*The Verge AI*
-
-Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The…
 
 ---
 
 ## 🏦 Financial Sector Watch
 
-### 🆕 [78% of Firms With Multiple Payment Capabilities See Improved Conversion](https://www.pymnts.com/news/payments-innovation/2026/78-percent-of-firms-with-multiple-payment-capabilities-see-improved-conversion/)
+### 🆕 [Federal Bank Regulators Trade Strict Rulebooks for Loose Guardrails](https://www.pymnts.com/legal/bank-regulation/2026/federal-bank-regulators-trade-strict-rulebooks-for-loose-guardrails/)
 *PYMNTS*
 
-A shopper who hands a purchase to an artificial intelligence (AI) assistant also hands the merchant a new job at checkout: recognizing the customer behind the software. That’s the third key finding in “Connecting What’s…
+Federal banking regulators are shifting toward flexible guardrails rather than strict new rules. This move arrives as banks face rapid shifts in artificial intelligence (AI), digital assets and payment rails. For payment…
 
-### 🆕 [ElevenLabs Targets $33 Billion Valuation in Early 2027 Funding Round](https://www.pymnts.com/news/investment-tracker/2026/elevenlabs-targets-33-billion-valuation-in-early-2027-funding-round/)
+### 🆕 [AI Helps Merchants Stop Holiday Fraud Without Losing Good Customers](https://www.pymnts.com/cybersecurity/fraud-prevention/2026/ai-helps-merchants-stop-holiday-fraud-without-losing-good-customers/)
 *PYMNTS*
 
-ElevenLabs, a builder of artificial intelligence (AI) voice models and agents, plans to launch a funding round process in the first three months of 2027 at a target valuation of $33 billion, Bloomberg reported Wednesday…
+Somewhere between a retailer’s holiday advertising budget and its reported Cyber Monday sales sits a financial decision most shoppers never see. Whether accepting their money is worth the risk. Black Friday presents an u…
+
+### 🆕 [Small AI Models Give Banks a Way to Keep Sensitive Data In-House](https://www.pymnts.com/news/artificial-intelligence/2026/small-ai-models-give-banks-a-way-to-keep-sensitive-data-in-house/)
+*PYMNTS*
+
+After a month of frontier flagship launches, this week belonged to smaller models built to run on a desk instead of a data center. Thinking Machines, PrismML and Sarvam each shipped a model small enough for a laptop or a…
 
 ---
 
 ## 📚 Earlier Articles (last 48h)
 
+- [Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon](https://huggingface.co/blog/ggml-org/llamacpp-amd-bench) — *Hugging Face Blog*
+- [Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin) — *Hugging Face Blog*
+- [Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems](https://huggingface.co/blog/training-swarms) — *Hugging Face Blog*
+- [Quoting Scott Aaronson](https://simonwillison.net/2026/Nov/25/scott-aaronson/) — *Simon Willison (LLMs)*
+- [The New York Times warns photographers not to update Photoshop over AI features](https://simonwillison.net/2026/Nov/26/hn-50651685/) — *Simon Willison (LLMs)*
+- [Quoting Jack Despain Zhou](https://simonwillison.net/2026/Nov/26/jack-despain-zhou/) — *Simon Willison (LLMs)*
+- [sqlite3_rsync: Database Remote-Copy Tool For SQLite](https://simonwillison.net/2026/Nov/26/sqlite3-rsync/) — *Simon Willison (LLMs)*
+- [S&P considers Nvidia credit downgrade over governance and ‘key man’ risks](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/) — *TechCrunch AI*
+- [Grand Theft Auto VI proves why efficiency isn’t a virtue](https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/) — *TechCrunch AI*
+- [Nvidia hits pause on chip shipments to Southeast Asia](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/) — *TechCrunch AI*
+- [1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html) — *The Hacker News*
+- [Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation](https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html) — *The Hacker News*
+- [Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls](https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html) — *The Hacker News*
+- [North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware](https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html) — *The Hacker News*
+- [ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories](https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html) — *The Hacker News*
+- [Fake paid expert interviews impersonate brands to steal Google logins](https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/) — *BleepingComputer*
+- [NordVPN Black Friday Deal: Get 78% off VPN plans in 2026](https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/) — *BleepingComputer*
+- [Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks](https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/) — *BleepingComputer*
+- [Remus malware steals Gmail messages via fake Google Sheets extension](https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/) — *BleepingComputer*
+- [SYS010 malware abuses browser management to spy on Gmail, Outlook](https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/) — *BleepingComputer*
+- [Cyprus Becomes Espionage Target for Iranian Hackers](https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers) — *Dark Reading*
+- [ElevenLabs Targets $33 Billion Valuation in Early 2027 Funding Round](https://www.pymnts.com/news/investment-tracker/2026/elevenlabs-targets-33-billion-valuation-in-early-2027-funding-round/) — *PYMNTS*
+- [78% of Firms With Multiple Payment Capabilities See Improved Conversion](https://www.pymnts.com/news/payments-innovation/2026/78-percent-of-firms-with-multiple-payment-capabilities-see-improved-conversion/) — *PYMNTS*
+- [Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future](https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent) — *The Verge AI*
+- [42 state AGs are trying to stop Character.AI from selling users’ chats](https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats) — *The Verge AI*
+- [Introducing Wiz ADR: Strengthening Cloud and AI Detection and Response with Application Context](https://www.wiz.io/blog/introducing-wiz-adr) — *Wiz Security Blog*
+- [A Feast for AI: What Wiz Agents are Thankful For](https://www.wiz.io/blog/what-wiz-agents-are-thankful-for) — *Wiz Security Blog*
 - [Where scientists draw the line on AI agents](https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents) — *Hugging Face Blog*
 - [An Indic Voice Agent with CUGA](https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga) — *Hugging Face Blog*
 - [Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000](https://huggingface.co/blog/inkling-2-mini-inference-hillclimb) — *Hugging Face Blog*
@@ -193,38 +179,3 @@ ElevenLabs, a builder of artificial intelligence (AI) voice models and agents, p
 - [FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space](https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers) — *The Verge AI*
 - [Amazon is reportedly in talks to end Muse AI shopping block](https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions) — *The Verge AI*
 - [Inside Agentic Offensive Frameworks: Intent IDs](https://www.wiz.io/blog/agentic-offensive-frameworks-intent-ids-artex-cairn) — *Wiz Security Blog*
-- [Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton](https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance) — *Hugging Face Blog*
-- [GLM-5.4: Toward Generalized Coding with Our First Loop Transformer](https://simonwillison.net/2026/Nov/23/glm-54/) — *Simon Willison (LLMs)*
-- [GPT 6.2 Astra Solves a Historical Mystery](https://simonwillison.net/2026/Nov/24/astra-historical-mystery/) — *Simon Willison (LLMs)*
-- [datasette-agent 0.7a1](https://simonwillison.net/2026/Nov/24/datasette-agent/) — *Simon Willison (LLMs)*
-- [datasette-charts 0.2a0](https://simonwillison.net/2026/Nov/24/datasette-charts/) — *Simon Willison (LLMs)*
-- [Anthropic shares fall below IPO price, a worrying sign for AI startups](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/) — *TechCrunch AI*
-- [Even the best AI agents struggle with everyday life](https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/) — *TechCrunch AI*
-- [In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy](https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/) — *TechCrunch AI*
-- [Maple raises $5.3M to build AI products that protect your data, even from itself](https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/) — *TechCrunch AI*
-- [Walmart teams up with Meta to bring Black Friday deals to AI agent Muse](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/) — *TechCrunch AI*
-- [2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk](https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html) — *The Hacker News*
-- [Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity](https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html) — *The Hacker News*
-- [Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html) — *The Hacker News*
-- [Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site](https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html) — *The Hacker News*
-- [VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html) — *The Hacker News*
-- [New Inception extortion gang launches large-scale vishing campaign](https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/) — *BleepingComputer*
-- [Rackspace shuts down Spot cloud platform after security breach](https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/) — *BleepingComputer*
-- [Radware discloses breach exposing customer cloud access keys](https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/) — *BleepingComputer*
-- [ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof](https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/) — *BleepingComputer*
-- [Turnitin discloses cyberattack affecting customer-facing systems](https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/) — *BleepingComputer*
-- [AutomationDirect C-More EA9 Programming Software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01) — *CISA Advisories*
-- [Schneider Electric EcoStruxure Power Build Rapsody software](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02) — *CISA Advisories*
-- [Danfoss AK-SM 8xxA Series](https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03) — *CISA Advisories*
-- ['God Mode' Flaws Could Wreak Border-Control Havoc](https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc) — *Dark Reading*
-- [Banks Explore Ways to Verify Customers Without Starting Over](https://www.pymnts.com/authentication/2026/banks-explore-ways-verify-customers-without-starting-over/) — *PYMNTS*
-- [Freightos Looks to Weave Payments Into Freight Transactions](https://www.pymnts.com/earnings/2026/freightos-looks-to-weave-payments-into-freight-transactions/) — *PYMNTS*
-- [Zoom Focuses on AI-Driven Automation Amid Enterprise Growth](https://www.pymnts.com/earnings/2026/zoom-focuses-on-ai-driven-automation-amid-enterprise-growth/) — *PYMNTS*
-- [Etsy Rewrites AI Training Terms After Sellers Close Shops](https://www.pymnts.com/news/artificial-intelligence/2026/etsy-rewrites-ai-training-terms-after-sellers-close-shops/) — *PYMNTS*
-- [The New York Times warns photographers not to update Photoshop over AI features](https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features) — *The Verge AI*
-- [Tidal will start banning AI-generated music next month](https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban) — *The Verge AI*
-- [David Fincher is being dragged for suspected use of AI in his latest film](https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive) — *The Verge AI*
-- [Jensen Huang deepfakes are the hot new AI slop](https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes) — *The Verge AI*
-- [Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired](https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology) — *The Verge AI*
-- [“Do Good Security” and Other Lessons from Wiz’s FedRAMP VDR & VER Event](https://www.wiz.io/blog/fedramp-vdr-ver-event-key-takeaways) — *Wiz Security Blog*
-- [Powering the OpenAI Daybreak Defense Factory with Wiz Security Intelligence](https://www.wiz.io/blog/wiz-openai-codex-integration) — *Wiz Security Blog*
